@@ -36,7 +36,7 @@ $$
 
 0. Test for new site
 
-
+hdgukihsd ohsdkljhf kla
 <!-- -------1-1----------------- -->
 
 1. Let $f$ be a function from $\rn$ to $\rm$, and $A\subset \rn$ and $B\subset \rm$. Define $f^{-1}(B)=\set{a\in\rn}{f(a)\in B}$. Show that for any subsets $A_{1}, A_{2}$ of $\rn$ and $B_{1}, B_{2}$ of $\rm$.
