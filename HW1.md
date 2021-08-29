@@ -13,7 +13,6 @@ font-family: Georgia;
 </style>
 
 $$
-    %%一些我定的command%%
                 %粗體%
     \newcommand{\b}[1]{\mathbf{#1}}
                 %Real Number%
