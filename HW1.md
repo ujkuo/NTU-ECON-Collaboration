@@ -1,5 +1,8 @@
 # HW1
 
+[![hackmd-github-sync-badge](https://hackmd.io/I5CpqKyjQ-6MdT3L03N0mw/badge)](https://hackmd.io/I5CpqKyjQ-6MdT3L03N0mw)
+
+
 <style>
 p{
 line-height:1.7em;
@@ -10,7 +13,7 @@ font-family: Georgia;
 </style>
 
 $$
-    %一些我定的command%
+    %%一些我定的command%%
                 %粗體%
     \newcommand{\b}[1]{\mathbf{#1}}
                 %Real Number%
@@ -59,7 +62,7 @@ $$
    This is the ***choose-an-element*** method.
    ::: 
       :::warning
-   Notice that on the other direction,  $f\left(A_{1} \cap A_{2}\right) \supseteq f\left(A_{1}\right) \cap f\left(A_{2}\right)$, is not generally true. Consider $A_1=\{0\}, A_2=\{1\}$ and $f(x)=0$ for all $x\in \mathbb{R}$. We have LHS$=\emptyset$ but RHS$=\{0\}$.
+   Notice that the other direction,  $f\left(A_{1} \cap A_{2}\right) \supseteq f\left(A_{1}\right) \cap f\left(A_{2}\right)$, is not generally true. Consider $A_1=\{0\}, A_2=\{1\}$ and $f(x)=0$ for all $x\in \mathbb{R}$. We have LHS$=\emptyset$ but RHS$=\{0\}$.
    
    This can be observed in the proof at the last step ($\color{red}{{}^*\implies}$), where 
    $$
