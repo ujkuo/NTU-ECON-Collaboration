@@ -59,7 +59,7 @@ $$
    This is the ***choose-an-element*** method.
    ::: 
       :::warning
-   Notice that the other direction,  $f\left(A_{1} \cap A_{2}\right) \supseteq f\left(A_{1}\right) \cap f\left(A_{2}\right)$, is not generally true. Consider $A_1=\{0\}, A_2=\{1\}$ and $f(x)=0$ for all $x\in \mathbb{R}$. We have LHS$=\emptyset$ but RHS$=\{0\}$.
+   Notice that on the other direction,  $f\left(A_{1} \cap A_{2}\right) \supseteq f\left(A_{1}\right) \cap f\left(A_{2}\right)$, is not generally true. Consider $A_1=\{0\}, A_2=\{1\}$ and $f(x)=0$ for all $x\in \mathbb{R}$. We have LHS$=\emptyset$ but RHS$=\{0\}$.
    
    This can be observed in the proof at the last step ($\color{red}{{}^*\implies}$), where 
    $$
