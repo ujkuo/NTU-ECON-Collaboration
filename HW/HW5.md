@@ -1,6 +1,5 @@
 # HW5
 
-
 <style>
 p{
 line-height:1.7em;
@@ -212,12 +211,11 @@ $$\exists r > 0, \ \text{such that }B(x, r) \subset \bigcup_{i=I} G_i$$
 :::info
 (Sundram q27)
 solution by 邴國榮:
-Use $Theorem\ 5$:$$\text{A set}\ S \subset \rn \text{ is compact} \iff S \text{ is closed and bounded}$$ (a)
-$A \cup B=[-1,1]-\{0\}$ is not closed
-(b)
-$A+B=\set[:]{x+y}{x \in A, y \in B} = (-1,1)$ is not closed
-\(c\)
-$A \cap B = \phi$ is bounded
+Use $Theorem\ 5$:$$\text{A set}\ S \subset \rn \text{ is compact} \iff S \text{ is closed and bounded}$$ (a) $A \cup B=[-1,1]-\{0\}$ is not closed
+
+(b) $A+B=\set[:]{x+y}{x \in A, y \in B} = (-1,1)$ is not closed
+
+$(c)$ $A \cap B = \phi$ is bounded
 Since $\phi^c$ = $\mathbb{R}$ is open, means that $A \cap B$ is closed
 Thus, $\textbf{(a) and (b)}$ are not compact, but $\textbf{(c)}$ is
 :::
