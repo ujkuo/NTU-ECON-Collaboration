@@ -1,0 +1,446 @@
+
+00:00
+lastly we want to look at mixed strategy in ash equilibrium when players have a
+continuum of actions available and this is particularly important if there is no
+pure strategy in ash equilibrium such as in the three player hotel in game
+now to walk you through the ideas behind how we find these nash equilibria
+i want to start with an example that is simpler than the three-player hotel in
+game i want to start with a bertrand competition among two players
+in a bertrand competition two competing firms compete on prices
+rather than quantities and the typical example would be
+two gas stations now we've already argued through the hoteling model that
+gas stations always set up shop next to each other so the only thing that we
+consider when we go to a gas station given that they are at the same location
+is which one has the lower price and we will then go to whichever gas station
+
+00:01
+has a lower price and we will suppose that all the customers do that
+and there's a unit demand of customers and the caveat here is that each gas
+station has only enough capacity has only enough gas to serve two thirds of
+the demand now for simplest for simplicity of notation we'll assume that both
+gas stations have the same unit cost normalized to zero
+now the cost in reality is not zero but we could then simply replace
+the interval of prices that the players can choose by setting it to the um
+the cost the unit cost then the upper bound is standard unit cost plus some
+constant and the reason why there is an upper
+bound to the prices that the players can set
+is so that we have existence of a nash equilibrium from the from the unmasking
+
+00:02
+but in reality nobody is willing to pay an infinite
+amount right so there will be some upper
+bound where we just say well i don't use cars anymore so there's a natural upper
+bound where that exceeds the willingness to pay off customers
+now what do the payoffs look like in this example here well okay if
+both gas stations choose the same price they will each serve half of the
+customers so they get half times the price at which they sell the gas
+if they have a lower price they will get to serve two thirds of the demand which
+is their capacity at their price and if they choose the
+higher price they can serve one third of the demand and like i mentioned
+in this example we can apply the theorem by das gupta and masking because the
+sum of utilities is upper semicontinuous and the discontinued discontinuities in
+
+00:03
+each gas station's utility function are sufficiently nice for the theorem to
+apply now let's see first why there exists no pure strategy nash equilibrium
+so if we draw so if we fix a price set by the second gas station and
+then we draw the best or the utility function that
+the first gas station gets in any response we'll get these images here so
+if we choose the same price as the other gas station
+then we simply serve half the demand and so the utility rate will be half of the
+price that we choose if we choose anything less
+then we serve two thirds of the demand so here we have a slope
+two thirds and anything above we have a slope of one-third and we see that
+if we decide to sell one to sell at a price one
+then we'll always only serve one-third of demand but we'll always
+
+00:04
+earn the maximal price that we can earn so we will always get one third
+if we choose one and is that a best response well it depends if
+the other gas station chooses efficiently low price
+then we will this will be a best response but if they choose a higher
+price or a sufficiently high price then it would be a better response to
+undercut the price by the other company slightly
+so there was some threshold in between where choosing one
+is no longer a best response because there is a better response but no best
+response so if we look at the best response
+correspondence then we can figure out that the cutoff will be one half so
+for any price set by the competition below one
+half our best response will be one and if they set the price above one half
+
+00:05
+there's no best response now verifying consistency in this case is
+rather easy the only possible best response is one
+but if one of the companies sets their price equal to one the other one does
+not have the best response so there is no pure strategy nash equilibrium
+this means we want to look at mixed strategies now in this example
+the strategy space is an interval and in general if we have
+a an interval or a one-dimensional set of strategies available we can
+represent mixed strategies or distributions through a distribution function
+and so let me go a little bit in detail about
+distribution functions so we will have an easier time finding these mixed
+strategy nash equilibrium so in general a distribution function is
+a function with three properties it's always non-decreasing because
+
+00:06
+we will always measure the probability of a larger set right if x increases then
+this is a more likely event so it cannot decrease as x increases
+then it's right continuous right continuous means similar to upper
+semicontinuity or lower semi-continuity it means here that the limit point as we
+approach a discontinuity from the right is the same as the
+function value at that point the reason why it's right continuous is
+because we have a weak inequality here this means that at this point we include
+all the probability with which the random variable x takes exactly that value
+and then lastly the distribution function starts at zero
+so if you go sufficiently far to the left it will be zero and if it goes
+sufficiently far to the right it will be one
+now these two conditions together with monotonicity imply that any value in
+
+00:07
+between also has values between zero and one now if we look at a distribution
+function it might look something like this it must not be continuous or it
+it's possible that it's not continuous and at a discontinuity
+well what is a discontinuity the left limit here is the probability
+that x is strictly smaller than x the function value
+is the probability that it's less than or equal to x so the
+difference here is precisely the probability with which the random
+variable is equal to this value x and in terms of the distribution
+function we can write this probability as
+the difference between the distribution function which is the value here
+minus its left limit and we use this notation here f x minus
+to indicate the left limit at x and the left limit always exists because
+
+00:08
+we have monotonicity and we call it discontinuity in a
+distribution function an atom and an atom is precisely a point that can be
+reached or that can be realized with positive probability all
+the others are realized with probability 0 because if the left limit is equal to
+the function value then the probability with which x is
+equal to exactly one value will then be zero now there are two special cases of
+distribution functions which with which you are quite familiar the first one is
+continuous distribution functions which all admit a density function
+so the density function is essentially the derivative of the distribution
+function and we can use the density function to well compute
+the probability that a value is smaller equal than x simply by integrating it
+
+00:09
+from minus infinity to x or more usefully actually to compute the
+expected value of any function of the random variable x so we multiply
+each possible value that can be realized with its density with which the with
+which it is realized and so the interpretation of a density here is that
+in a continuous random variable each value has is realized with probability zero
+but the density function here shows us how the relative likelihood between two
+possible values changes so for example this cell here is twice as likely as
+this value here because the density is twice as high that's why in the
+expectation we value or we count we weigh this value here or the function
+at this point twice as high as whatever g of x the value takes at this point
+here now another special case that you're all familiar
+
+00:10
+with are discrete random variables as if we roll a die or we throw a coin or
+something like that and for discrete random variables we have a
+probability mass function so in that case there are a few
+possible outcomes that all have a positive probability like if we roll a
+die then the outcomes 1 through 6 are all possible with probability 1 6.
+and so here these green bars here indicate the probability mass functions
+and are precisely the probability with which this
+this value is realized which is the difference or this the size of the
+discontinuity of the distribution function now for those
+discrete random variables we can compute the expected value of g of x by
+again weighing each possible outcome with the probability with which it happens
+now which of the two should we use for mixed strategies
+
+00:11
+the answer unfortunately is neither because the mixed strategy is endogenous
+it's chosen by the players and so we cannot really restrict the players to
+choose a mixed strategy with a density or to
+choose a mixed strategy that that is discrete um
+since it's the player's free choice they could choose anything that is neither
+continuous nor nor discrete now this is different from
+if we have exogenous random events if we have exogenous random events in our
+model then we typically want to assume they have a density function because
+that will make the model nicer the reason why it's not okay to assume it for
+for the player's behavior is because it's endogenous and it's hard to verify
+whether it's satisfied in practice if somebody tells you oh and we assume
+that you will mix with a density function then
+how can you make sure that this is really a valid assumption whereas if it
+is for exogenous variables let's say the rainfall is distributed according to
+
+00:12
+this density then this is something we can test because we have data detested
+so in general the players will choose a mixed strategy will
+or a mixed strategy will have both components we'll have continuous
+components and discontinuous components but the good news is that
+general random variables are not that different from discrete or continuous so
+here we can look at the discontinuous part so we can look at all the values that
+happen with positive probability at all the atoms of the distribution function
+so here df are all discontinuities of f so those are all the atoms and atom x
+happens with probability p of x which is the size of the discontinuity
+then if we subtract the discontinuities from the distribution function what we
+
+00:13
+are left with is a continuous function which admits a density and
+so we can decompose any distribution function into a continuous part with a
+density and a discontinuous compound this continuous part with a probability
+mass function and if we compute the expected value of a
+random variable or a function of a random variable then well the way that
+we would write it down is we would write it as
+the integral over g of x times df of x so df here simply means
+the rate at which the prop at which the distribution function changes
+and the rate at which it changes is either the probability mass function if
+there is an atom or the density function if there is no atom and so
+really in general a distribution function is just given by a continuous
+and the discontinuous random variable we just add them both together
+now let's go back to our example and let's go back to
+
+00:14
+mixed strategies what does this mean for
+mixed strategies well we can decompose a mixed strategy into its atoms so those
+are those actions that are chosen with positive probability
+and then all the remaining actions which are chosen with probability zero
+but for those we can specify a density which tells us you know the relative
+likelihood with which the other actions are chosen so here
+this action here it looks like it's about two-thirds is chosen with probability
+forty percent and then with 60 some other outcome is chosen and the
+density specifies all the other outcomes are chosen with equal likelihood
+now what does the best response here look like of the
+first gas station well if we compute the expected utility then we'll
+get something like this and we see we still have a discontinuity and
+as a consequence the best response correspondence is still empty
+
+00:15
+this shouldn't come as a surprise because the whole problem here
+why pure strategy equilibrium did not exist this are these discontinuities and
+the discontinuities don't disappear if the distribu if the mixed strategy still
+has atoms because the the relevant part here is that if
+firm 2 chooses this value here with positive probability then there's always
+a positive value of undercutting so if we don't have a pure surge in ash
+equilibrium then most often we can only get a mixed nash equilibrium that is
+actually atomless so most often we will find
+a mixed nash equilibrium with a density function now
+i want to solve this example in two ways i want to solve this example first
+
+00:16
+without assuming anything about the distribution and see how we can
+find the equilibrium and then i want to start with some educated guess
+about what the equilibrium could look like and then verify that it is an
+equilibrium so first to simplify the notation or actually to make it
+tractable we want to look at symmetric nash equilibria why is this a good idea
+well if we have if both gas stations choose the same mixed strategy
+then we will have fewer degrees of freedom so we only have one
+distribution function to find instead of two so that's always a good starting
+point and then in a mixed strategy players have to be indifferent between
+all the possible values in the support between all the values that can be
+realized and so we want to use the indifference principle for any
+
+00:17
+point for any price in the support of the mixed strategy all right let's assume
+player 2 plays according to this mixed strategy f and
+we now want to use the indifference principle
+to find some condition on f and the difference principle tells us any price
+in the support has to yield the same utility to the first gas station
+so the first step here will be to calculate the expected utility so
+well we serve two thirds of the demand if we choose a lower price
+we serve half the demand if we choose the same price and a third of demand if
+we choose a larger price and now we can express these probabilities
+using the distribution function so this one here is that
+p2 is strictly larger than p1 so this is 1 minus the distribution function then
+
+00:18
+here we know that this is the size of the discontinuity at p1
+and then here this will be the probability that p2 is strictly
+smaller than p1 so this is the left limit of the distribution function
+right so one minus probability that's larger the size of the discontinuity the
+probability that it's equal and then the left limit the probability that it's
+strictly smaller than p one now we can combine some terms here so
+here we see we have two minus two thirds f plus one half f so this means that
+we're left with minus one sixth p f then also here we see we have one third
+the left limit minus one half times the left limit so we get um
+so it simplifies to these expressions now this is the expected uot for utility
+for any p1 in the support and we know that they all have to be the same
+so they all have to be equal to some constant and
+
+00:19
+to actually simplify this let's say this is a constant k
+third so we can multiply everything by three and get rid of some of these
+denominators then if we solve the resulting equation so
+k over 3 is equal to this we multiply both sides by 3
+and then solve for this expression here this is the quantity that we get
+now why do i solve for one half times the distribution function plus this left
+limit well because at any point that is not an atom
+i will get precisely the distribution function here on the left hand side
+because if there's no atom if there's no discontinuity then the left limit is
+equal to the function value so this is summarized here at the
+continuity point of the distribution function the distribution function has
+to take this value what about added discontinuity okay from
+
+00:20
+the previous slide at a discontinuity this has to be satisfied
+but then we can use the fact that at the left limit so as we approach
+this price p1 as we approach discontinuity from the left we approach
+it continuously because left limits exist so for all those points where we
+approach p1 we can use the form that we have already
+derived so we'll look at the limit as we come and approach p1 from the left
+but now this function here over which we take the limit is
+continuous so we take the limit by simply plugging in p1 and
+this is the expression that we obtain and it has the same solution
+so even at a discontinuity it has the same value in particular it does not
+have a discontinuity so this indeed an atomless distribution
+so we're almost there we know what the distribution function
+
+00:21
+looks like on its support but we don't know yet what the support is
+but we do know one thing about the support we know that at the upper end
+point so the largest possible price that players are willing to choose
+the distribution function is one so let's denote by p bar
+this largest point in the support the distribution function is 1
+which means that p bar has to be equal to k so that this
+term here is 1 and then 2 minus 1 is 1. so k is exactly equal to p bar
+let's plug this in in the expected utility so at p bar one
+well it's in the support so we will get k third that's how we chose
+k so this is p bar third now we have argued previously that
+we can always get one third if we choose one
+so if p bar was anything less than one then there would be a profitable
+
+00:22
+deviation to choose 1 instead right so we know that we can always get
+1 by choosing p1 and we can always get 1 3 by choosing price 1
+so it's not possible that p bar is smaller than 1 so p bar has to be one
+so we are mixing all the way up to the largest possible price
+so this means that k is also equal to one and so now we know the distribution
+function on its entire support we don't know yet what the lower bound
+of the support is well this function here will get smaller and smaller
+the smaller p1 gets and at some point it will become negative which is not
+possible so this means that the lower bound of the support must be where the
+function is zero and we can solve this to be one half and so
+the symmetric mixed strategy nash equilibrium takes the following value
+
+00:23
+here or the list of the following mixing probabilities and
+the expected utility is constant as it has to be in its entire support and then
+below it it's simply with slope two-thirds then what's the
+the mixing probability well if we want to display the density then
+we take the derivative and um it'll be the following one so we actually assign
+much more weight to two smaller prices and then decreases quadratically to um
+i think that's probably around 1 8. so not too bad we were able to find it it
+was a little bit tricky with the left limits and things like that
+so now let's think about a different way how we can solve it that might be
+
+00:24
+somewhat simpler and to do that let's compare the support here of the mixed nash
+equilibrium to some of the um pure strategy best responses um
+so here this is actually the wrong way so there are none if the pui is
+larger than one half so but from the pure strategy
+best response analysis we know that the only possible best response is one
+and one is indeed the upper limit of the support and then in the entire region
+where there is no um pure strategy best response is
+essentially where we have to mix so whenever there is no um
+no best response in pure strategies is where we find the mixed equilibrium and
+
+00:25
+we might have been able to guess this so we could have guessed that the
+distribution function is atomless because we argued that
+most likely it will be atomless because for any atom will still have a
+downward discontinuity and we could have guessed that the upper bound of the
+support is one because that's the only possible pure strategy best response
+so now if this was our guess how much faster would the derivation
+have been well let's see if we compute the expected utility
+well if it's atomless then one term will not appear which is
+where we choose the same price as our competitor because that
+happens with probability zero if it's atomless
+and also the left limit will not appear separately because if it's atomless the
+left limit is equal to the function value
+all right this equation is much simpler we can immediately solve it for fp and
+immediately get that this is the function value
+
+00:26
+and if we guess the upper bound of the support is one then again we plug in one
+here and we obtain k is one and we're done so verifying
+a mixed nash equilibrium can be very quick if we have a good idea what it
+could be and in many cases we have a good idea when there is no pure strategy
+nash equilibrium we have a guess that is animals and
+sometimes we have a guess about what the support could be
+so two approaches to finding strategy nash equilibria the first one
+was the one on slides 53-55 we start with the general
+distribution function we will see a difference principle for every pure
+action the support and then we have to characterize the distribution function
+separately for atoms and non-atoms and hopefully find that there are no atoms
+then we plug in an unknown upper bound of the support where the
+
+00:27
+distribution function is equal to one and then hopefully get some expression
+for distribution function now this approach here works
+only for very few examples i only know two examples for which it works so
+nicely one of them you've already seen the other one will be in in an
+assignment um the other approach works more generally the problem is that
+we need a good guess for it so guess the support justify
+that it could be atomless and then we simply use the indifference principle
+for this guest support and then we have to verify the end then
+it is in the international equilibrium and this approach works surprisingly
+well it sounds maybe you know guessing sounds not like a very
+good recipe but let's go back to the three vendors on the beach
+what could our best guess be well there's only one possible choice
+
+00:28
+where two players set up shop for which the best response correspondence of the
+third player is continuous and this is if the two players um play
+one fourth and three a one fourth and three quarters and
+so we could have a guess that this is the support moreover we can guess that
+that it will be atomless because the discontinuities were a big problem
+and so we can assume that the strategy admits a density function
+on this interval and then see if we can find a mixed generation equilibrium
+and the reason why here it's important to assume the density function or and not
+just the distribution function is because we can't calculate the expected
+utilities only from the distribution function without the density
+and it turns out that this is true it turns out that there is such a mixed
+
+00:29
+strategy nash equilibrium and if you want you can try to find it as practice
+good so this week we've looked at nash equilibria
+the most important solution concept in game theory but
+i didn't choose it as the main concept of this week's class
+and this shows how important really mutual best responses are so
+if players are rational and their conjectures are correct
+then they will play mutual best responses and we can find those
+by finding the best response correspondence for the different
+different players and then verifying consistency
+the reason why i think this is more important than nash equilibrium is
+because nash equilibrium is only one special case it's only
+the neutral best responses in a static game with complete information
+but all the other equilibria that we will look at will also be mutual best
+responses so the single most important concept in the
+entire class is finding these best response correspondences and verifying
+
+00:30
+the consistency now some other concepts that we've seen
+the indifference principle again and it can be useful in two ways
+it can be useful if we have a given strategy profile and we want to verify
+that it is an equilibrium and it can be very helpful to find mixed
+strategy in ash equilibrium in games where players have a continuum of actions
+now i want to emphasize what is the most important part about this week's class
+it's finding nash equilibria in finite games
+and when we have concave utilities this will be the case that happens way most
+by far the most frequently and it's the one that you absolutely need to know
+then even though this video here i spent a lot of time talking about make
+strategy nash equilibria it's really only relevant if you go for that a plus um
+yeah so really the most important parts are finding ash
+
+00:31
+equivalent if players have finitely many actions concrete utilities or a
+combination one player has finitely many the other one has concrete futilities
+good no questions about this video either but some additional literature
+a lot of this was about probability theory and so i thought i'll give you
+two references for probability klenke is a good introductory textbook
+and they just had a third edition last year
+and then callenberg is sort of the the reference work if you ever do research
+in probability that's the book you want to look at and again there was just a
+new edition this year and then the the other
+literatures or hotelings game again then shocket actually solved um
+the or found the mixture of gina clear in the hotel in game
+but the approach how to find it without guessing it is extremely difficult so
+
+00:32
+you can have a look at the paper if you want to see how he does it
+and then i took the example of the bertrand competition from lecture notes
+by azu osterglass good that's it for this week's videos and
+i'll see you on wednesday in class

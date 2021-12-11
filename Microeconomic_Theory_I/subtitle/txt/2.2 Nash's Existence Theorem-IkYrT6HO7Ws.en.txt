@@ -1,0 +1,278 @@
+
+00:00
+now that we have to find a nash equilibrium let's see how well does it
+do as a solution concept last week we have used three criteria to
+evaluate solution concepts namely we have looked at existence does it exist
+in any game it's predictive power does it reasonably
+narrow down set of all strategy profiles and lastly robustness is it robust to
+small mistakes or estimation errors of the player's payoffs
+and here i want to start with existence the good news is that a nash equilibrium
+always exists in mixed strategies at least if the players have finitely many
+strategies available and this result is due to nash in 1950.
+now i do want to spend some time going through this proof because one is the
+most fundamental solution concept and two because existence of all the future
+concepts that we will look at in the class can essentially be reduced to
+
+00:01
+existence of nash equilibrium the main motivation behind the proof is
+to go back at the very fundamental definition of a nash equilibrium namely
+that it's a mutual best response by the player we have already defined
+the best response correspondences of each players and now we define
+the mutual best response operator and is given by
+the direct product here of all the best response correspondences by the
+different players so what this means is the result here will again be
+well a strategy profile so this will be a set of strategy profiles where the
+first component is a best respond best response
+to the strategy profile by player one's opponents the second component will be a
+best response to player two's opponents and so on and a nash equilibrium is
+
+00:02
+well a mutual best response which means that sigma in natural room sigma is
+an element of b sigma because sigma 1 is the best response
+to player 1 bonus and so on so this means it's a fixed point of this operator b
+and the main idea will be to apply a suitable fixed point theorem
+now we will start by visualizing the proof for a two person two action game
+because we can easily draw the best response functions nicely and then we
+will try to see how could we generalize this to the end player
+and finitely many action game now let's start with brower's fixed point theorem
+this theorem is not directly related to nash equilibrium but it is the easiest
+fixed point theorem and kind of gives us the idea of
+how some other fixed point theorems work so what the theorem says is that if we
+have a function from 0 1 to 0 1 and if that function is continuous then
+
+00:03
+it must have a fixed point and the basic idea behind it is that if we
+draw any function here from from 0 1 2 0 1 then we must
+cross the diagonal once and at the diagonal um we must have a fixed point
+now let's discuss the assumption so the the continuity assumption i think is
+quite clear if we have a discontinuous function then we could jump across the
+diagonal and then we wouldn't have a fixed point
+there's a second assumption here which is about the domain and the domain here
+from zero one has three special properties namely
+it is closed it is bounded and is convexed to see why it has to be closed
+that we look at the open interval from 0
+1 then this function here would not have
+to have an intersection because it could always lie below the diagonal if zero
+was excluded then why the domain has to be bounded
+
+00:04
+well if it was unbounded then we could have
+a function that always lies above the diagonal let's say a parabola one plus x
+square would always lie above the diagonal and then convex means that the domain
+does not have any gaps and the reason why it's necessary is
+visualized here in this in this figure um if domain had a gap then
+the function would not have a fixed point or could not have a fixed point by
+definition so even one minus x would not have a fixed point if we elim or remove
+the center part where the fixed point would occur if we remove that from the
+domain but if all of those are satisfied and
+the function is continuous then it must have a fixed point now
+a best response correspondence is not a function it is a correspondence
+
+00:05
+which means it can have several values not just one so we need to
+extend this idea to correspondences so let's visualize this with two player
+games where both players have two actions where we know that we can parametrize
+the player's strategies with simply one variable let's say the probability
+that they choose the first of their actions and we've seen that a correspondence
+is the name mapping from 0 1 two zero one
+where as input it takes the probability or the strategy of
+player one's opponent so in this case y and it gives us back which values of x
+are best responses and only three cases can happen
+either player one prefers their first action their second action or player one
+is indifferent and if it is indifferent is precisely
+the case when the correspondence is not single valued
+and we have here a few of those cases so here is where the best response
+
+00:06
+correspondence is not single valued and the consequence if we now look at
+this graph is that they must always intersect the mutual best or the
+best response correspondences because they are sort of
+continuous in a sense that we can draw the graph without ever removing the
+paper from the pen and we just have to sort of formalize
+what a continuous correspondence is in this setting so
+we have to prevent two kinds two kinds of gaps we have to prevent horizontal
+gaps and vertical gaps horizontal gaps can happen if the best
+response correspondence is empty and if we ask them to be non-empty then
+horizontal gaps won't happen to prevent vertical gaps we need two
+conditions we need that the best response correspondence is convex so
+
+00:07
+this means that if any two strategies are best response that
+anything any convex combination of them is also a best response
+and the second condition that we need is that the graph
+of the best response correspondence is closed so the graph here is simply
+exactly what it says is how we draw we draw the graph it's the pair of all
+the inputs and all the outputs and the reason why we need both is that
+this is a case here where the best response corresponds is convex but there is a
+or a vertical gap because the graph is not closed conversely
+this now is one where the graph is closed so the endpoints are included but
+there is a vertical gap because the best response correspondence is not
+convex so for x equal to one half there's two best
+responses but anything in between is not the best response
+
+00:08
+and once we have both conditions then there are no more vertical gaps
+and so those will be the conditions under which a correspondence is sort of
+continuous and this brings us to kagutani's fixed
+point theorem which is the theorem we want to apply
+for or to establish existence of nash equilibrium
+and it's essentially a correspondence version of brower's fixed point theorem
+and it says that a correspondence does have a fixed point if
+the first condition if the domain is non-empty convex and compact subset of
+euclidean space so euclidean space here is rn then
+the correspondence is non-empty and convex for all values so those two together
+will give us this continuity of the best response correspondence
+actually those two sorry two and three the correspondence has a closed graph
+
+00:09
+and the first one is about the domain which is similar that we had in
+brower's fixed point theorem right that that the domain is non-empty convex and
+compact so there are no gaps in the domain
+and the proof of nash existence theorem will now be verifying these three
+conditions in our setting and then we can use cacutana's fixed point theorem to
+establish a fixed point of the best response or the mutual best response
+operator so let's first verify that the domain
+satisfies also all those conditions that we need
+so what is the domain well the domain is simply the set of all mixed strategy
+profiles and because we look at finite games here it means
+that the set of all mixed strategies by player i is
+
+00:10
+this simplex here right this triangle shaped form in rd
+so in particular it's on empty convex and compact and the product of
+all these non-empty convex and compact sets is then also convex and compact
+in particular because we take the finite product here it is also non-empty
+all right this tells us that the domain satisfies all
+the conditions that we need then let's now check that the graph of the
+best response are the mutual best response operator is closed
+to do that we need to approximate a limit point and then show that the limit
+itself is a best response so to set up the proof we find
+some strategy profile sigma we approximate it with a sequence of
+
+00:11
+strategy profiles such that along the sequence player i always best responds to
+[Music] the strategic profiles of his opponents
+and then we to show that it has a close graph we must show that um in the limit
+sigma i has to be a best response to the limit profile of player i's opponents
+and if we show this for every player i then it will also be true for the mutual
+best response operator so we show this by a contradiction we
+suppose that it's not true right that all of those are satisfied
+but that in the limit we don't get the best response
+now if we don't get the best response this means that there must be some
+better response so in particular some pure strategy that gives us a strictly
+higher payoff and let's denote the increase of payoff that the pure
+
+00:12
+strategy gives by epsilon now because the approximating sequence of strategy
+profiles converges there must exist some index k naught
+such that for any index larger than that for any k larger than that
+the distance in utilities or the difference in utilities is less
+than epsilon half and right this happens because the utilities are
+continuous in the strategy profile because how we take it's essentially an
+expectation but now this means that for any k above those we can't have a
+so sigma ik cannot be a best response because if in the limit it's
+worse by epsilon and along the approximating sequence we
+lose less than epsilon half then somewhere
+
+00:13
+along the approximating sequence it must already happen that
+strategy by player i is dominated by s i by at least epsilon half
+so this contradicts the assumption that along the sequence player i
+plays a best response so this means that the graph
+has to be closed because that's the only the only other option
+then lastly the last thing that remains is to show that
+the best response correspondences are convex and non-empty so for convexity
+let us rewrite the set of best responses as all those strategies by player i
+that attain the optimal or the maximum of expected utilities overall um of
+
+00:14
+player i strategies this means for any two best responses
+they have to attain exactly the same utility and will denote that by v i
+now to show convexity we take the convex
+combination of any two strategy profiles which defines a valid strategy profile
+because all of those so each strategy profile
+the probabilities attached to all the pure strategies they sum up to one
+and then if we weight them with these weights lambda and one minus
+lambda then the sum of them will still add up to one
+so if we look at the expected utility the expression that we will get is this
+and because this is a sum of a sum we can write this as two sums so lambda times
+the the sum over all pure strategies of these two terms and then plus one minus
+lambda times the sum over all pure strategies of these two terms
+
+00:15
+and what we obtain is then okay lambda times the utility and sigma i
+plus one minus lambda utility and sigma hat i and because both of those attain
+the same utility we get vi and so it has to be a best response
+this shows that it is convex and again because there's finitely many
+players and we've shown this for an arbitrary player it also means that the
+mutual best response operator is convex lastly we have to show that
+the best response response is non-empty again we show it by player by player
+now because there are finitely many strategies the
+maximum of player is utility over all pure strategies is certainly attained as
+the maximum over finitely many options and the maximum over the pure strategies
+has to be a best response because by the indifference principle
+if a mixed strategy is the best response then also all the pure strategies in
+
+00:16
+support are a best response so this means that at least one pure
+strategy has to be in the support namely the pure strategy
+or has to be a best response namely the pure strategy that maximizes player i's
+utility so this shows that the best response
+correspondence is not empty and we can apply
+the calculations fixed point theorem which tells us there is a fixed point
+and the fixed point of the mutual best response operator is precisely a nash
+equilibrium and this concludes the proof of existence now in addition to
+existence we wondered about predictive power
+are nash equilibria unique well we've already seen that they are not unique
+crossing the intersection had three possible nash equilibrium but i wouldn't
+necessarily say that this is a disadvantage
+it means that even infinitely rational individuals have freedom of joints and
+
+00:17
+several possible outcomes are consistent with rational behavior and
+and correct conjectures about the other players strategies
+the only thing that is important is that predictions are
+meaningful so this means that the solution set is sufficiently restrictive
+and we have seen that in the example with the intersection it
+was much much smaller than let's say the rationalizable strategies for which we
+obtained all the possible strategy profiles
+in particular the two solutions that we got are very meaningful it's those that
+we see in reality where one of the two crosses intersection and the
+other one waits now we will further refine nash equilibrium for
+the remainder of the class essentially starting next week where we
+think that in some situations certain nash equilibria are unreasonable
+and then we will try to narrow down the set of nash equilibria by imposing
+
+00:18
+additional restrictions and this is sort of the plan for the next six weeks
+the robustness the last criteria and we will find that nash equivalent are
+not robust so here is the example of a game where there are
+two pure strategy nash equilibria but one in weekly dominated strategies and
+weak dominance is not robust so if we look at
+a very small perturbation of payoffs here if we subtract epsilon from this
+outcome here then this is no longer a best response for player 2 and so
+tr is not a nash equilibrium in any approximation of the game so this means
+that this is not a robust nash equilibrium now that we've discussed these
+
+00:19
+properties how does nash equilibrium relate to the solution concepts that
+we've seen well it's definitely um definitely contains strict dominant
+strategy equilibria because yeah if every player has a strictly
+dominant strategy then this is the unique best response to anything the
+other players could play so this is the only possible match equilibrium so any
+strict dominance equilibrium is a nash equilibrium
+and also a nash equilibrium is definitely rationalizable because
+in the nash equilibrium conjectures are correct so this means that um
+that yeah it is the best response to a rationalizable conjecture because it is
+rationalized again by um the nash equilibrium itself yeah so
+
+00:20
+and this i guess this relation here of the solution concepts highlights again
+why nash equilibria are so popular we've seen that strict dominance is way too
+restrictive doesn't always exist rationalizability is very permissive and
+then nash equilibrium sort of hits the sweet spot in between where it always
+exists but is still quite restrictive so that we can narrow down the sort of all
+strategy profiles to a reasonable set that is much smaller good
+the proof of the existence theorem is again in all the game theory textbooks
+and of course again in nash's original paper so you can have a look at those if
+you would like

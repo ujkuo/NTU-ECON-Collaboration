@@ -1,0 +1,496 @@
+
+00:00
+so we are done with the first half of the game theory part of the course which
+was about games with complete information in which the players know
+each other's preferences over outcomes and the second half we will look at
+games with incomplete information or payoffs or players lack some
+payoff relevant information now a quick recap to where we stand in
+the course so we started here with or completed the topics on complete
+information specifically we have looked at the solution concepts here from
+rationalizability all the way to sub game perfection
+and now we'll do the same analysis for games within complete information so
+first in the static case and then in the dynamic case and before we get
+into the game theory into the strategic decision making in this video we will
+
+00:01
+simply look at how do we model incomplete information now
+what are a few settings of incomplete information well
+one of them that explains the concept quite intuitively is the game of poker
+so this was a an event this summer at the world series
+of poker where currently two of the best poker players were facing each other at
+the final table and in this case here we see that
+at the end adamo bet 3.4 million into the pot so essentially the size of
+the pot he doubled it and we see that adam has nothing
+he's nine and his two could don't connect at all with the board here
+and bonimo has the winning hand he has a pair of tens which is better than
+anything that adamo has but he doesn't know whether calling
+
+00:02
+would what he would end up winning because his incomplete information about
+adam's hand and the thing that bonomod tries to figure out this well he
+doesn't try to figure out do i have the better cars than adamo he
+just thinks okay what's the probability with which adamo has the better hand and
+how often do i need to win by making this call here in order for it to be
+profitable another situation where we have incomplete information is if we
+have car troubles and we bring our car to the mechanic and then the mechanic
+tells us that much more needs fixing than um what we thought it is so maybe the
+mechanic houses all you also need to replace your engine and that is going to
+be very expensive now what we don't know here is well we don't know
+if our car really needs those repairs because we don't know if the mechanic is
+
+00:03
+honest so we have incomplete information about two characteristics in this model
+and then we could consider startup where we try to
+start an improved e-commerce platform to compete with pc home one thing that i
+always miss here in taiwan is amazon and how convenient it is to find everything
+on amazon and i think well maybe somebody could
+start a an e-commerce platform that presents information in a bit
+more intuitive way i would say than pc home does and well
+what is the incomplete information that we have well
+if pc home is already innovating so let's say if by the time your startup is
+up and running pc home has an improved version then
+then it's going to be hard to make a profit because pc home has their user
+base already so in more economic terms what we really want to know is how much
+is pc homes cost to innovate if it's very cheap then they will innovate soon
+
+00:04
+and our startup is going to be futile now those are all
+situations of incomplete information how can we write those down formally
+well we have seen information sets already
+two nodes in an information set in the game tree meant that
+the player cannot distinguish between these two
+nodes and so we grouped them together in an information set and that's the same
+idea here so the unpaid the unknown payoff relevant
+state is called the state of nature and we use theta to denote the state of
+nature and there's a few possible cases that it can take so pc home
+pc homes cost to innovate could either be let's say high or it could be low
+and then we can group the information that we have about this
+
+00:05
+unknown state of the nature state of nature with information sets so essentially
+so essentially this is similar to information sets in a game tree except
+here that the tree is missing because we're just looking at a static setting
+yeah but we have information sets for both players
+then games with incomplete information we also call information sets types
+so here pc home would have a high cost type and a low cost type and
+we simply don't know whether the cost to innovate is high or low
+now so pc home knows its innovation cost
+so it has two types two information sets and we don't know pc homes innovation
+costs so we have one information set okay now
+this model is not quite sufficient to describe some interesting economic
+
+00:06
+applications such as the example of the mechanic so the mechanic
+what do we really want to know we want to know whether our car needs to repairs
+so theta n here means that we don't need the repairs in theta r means we need
+these expensive repairs now we can now our beliefs about this unknown
+quantity depend on whether the mechanic is honest or dishonest which is also
+information that we don't know but it doesn't affect our payoffs so
+what we do is we can encode both pieces of information in
+four different states of the world which
+contain all the possible combinations of the events so here in omega rh we do
+need extensive repairs anti-mechanic is honest about it uh here we do need the
+repairs but the mechanic is dishonest and so on
+now what do the players know here well the mechanic knows both the mechanic is
+both an expert about cars he knows whether we need the repairs or not and
+
+00:07
+he also knows that he's honest or not so he has four singleton information sets
+but we don't know anything so we have a single information set
+so this should be signal not singleton now
+those states omega are called states of the world because they completely
+describe the state of all unknown or all uncertain quantities in our model
+so similar to a node in a game tree describes everything that has happened
+in the game in a state of the world describes everything how it is
+in our model in our world and we denote by capital omega instead
+of all states of the world now a subset of the states of the world is called an
+event so for example the mechanic is honest would be an event because it's a
+
+00:08
+subset it's a subset of those two states the event that we need the extensive
+repairs is also an event and so on now if the state of the world describes
+completely describes all unknown or all uncertain quantities in our model then
+this means that if we have any uncertain quantity call it x
+let's say the mechanics honestly let's say it's x and it can take two values
+yes he's honest or no he's not and this uncertain quantity is
+completely determined by the state of the world so this means that
+x is a function of the states of the world right if it's
+a state of the world omega h then he's honest and if it's his little
+world omega d then he's dishonest so formally x is a function from the set of
+all states of the world to whatever outcome space x lies in so here
+
+00:09
+honest or dishonest so this means any uncertain quantity
+is simply a random variable so a map from omega to some outcome space is
+called a random variable and there's a quote by nassim nicholas
+taylor he's the author of black swan where he says that while in theory
+randomness is an intrinsic property in practice randomness is incomplete
+information and this is precisely what we are describing here so we don't know
+whether mechanic is honest which means the mechanics honesty from our point of
+view is a random variable whose outcome we haven't observed
+and this also applies to the state of nature right whether the car needs repairs
+from our point of view is random we simply haven't observed
+uh the outcome of it so also the state of nature we can describe as a
+map as a function from set of all states of the world to
+
+00:10
+the set of all states of nature we mentioned the reason why we introduce
+these states of the world is because they help correlate
+information or they help us correlate beliefs so if we have some beliefs about
+the honesty of the mechanic then when the mechanic tells us that we need repairs
+then we can use our beliefs about the mechanics honesty to infer
+our beliefs about the state of nature about whether we need
+those expensive repairs so suppose our prior beliefs are given
+in the following way that whenever we have car troubles then in
+ten percent of those we actually need the serious repairs that the mechanic is
+recommending and we suppose that 20 of all mechanics are dishonest
+now it's a reasonable assumption that the two events are independent and
+
+00:11
+so this means that if we describe the probability of each state of the world
+then we simply look at the product of the two so
+in two percent the product of 10 and 20 percent are
+we do need serious repair and the mechanic is dishonest and then
+in 10 times 80 percent the mechanic is honest but we do need two repairs
+and here we have um 20 of mechanics are dishonest and 90 of the time we don't
+need to repairs and then the remaining probability here where the mechanic is
+honest and we don't need serious repairs so this would describe
+the beliefs with which we go into the mechanics shop then
+maybe we have some conjecture about what the mechanic would do and suppose our
+conjecture right now is that the dishonest mechanic always recommends
+extensive repairs so the dishonest mechanic
+will always recommend extensive repairs on these two states and
+
+00:12
+the honest mechanic only recommends extensive repairs when we actually need it
+in terms of strategy we can write down the mechanic strategy in the following
+way so as we know a strategy is a map from information sets to available actions
+and so we say that okay only the honest mechanic the only way how we can get the
+recommendation for minor repairs if is the mechanic is honest and we don't need
+extensive repairs so we can write this down as follows tao12
+is mapped to minor repairs and any for any other type any other type will
+recommend extensive repairs now how do we update our information
+once we once we hear the recommendation let's denote by
+a1 the action that is realized from the mechanic
+
+00:13
+and if the mechanic says minor repairs then we know this can only have come from
+one type so we know the true state of the world is now the state where the
+mechanic is both honest and more importantly for us we don't need the repairs
+and if we hear extensive repairs then we don't know quite as much but we have
+been able to exclude this state from our considerations
+this means now we have two information sets because we have received different
+recommendations by the mechanic and now we want to update our beliefs
+using bayes rule so bayes rule as a quick reminder for
+those of you who have had probability or statistics a long time ago
+in bayes rule we can allows us to compute the conditional probability of
+an event x given event y as the ratio of the fact that both
+
+00:14
+events are true divided by the probability that y is true
+so how do we apply this in our setting look here we go into the mechanics shop
+with a prior p then we receive some information that
+the true state is in an information set tau i so let's say that we do or that
+after the recommendation of the mechanic and then we can update
+our beliefs about either an individual state of the world or an event
+using bayes rule so the event that we're interested in here is
+do we need those repairs and we call those posterior beliefs
+and we can write it p tau i for short in the same way as a strategy profile
+changes the distribution um the available information that we have
+changes the distribution over all possible states now note here that
+
+00:15
+when we use bayes rule we take the intersection of event y with our
+information set so this means that any event that does not intersect with our
+information set we have to attach probability zero to it and this makes
+sense because this means that we the information that we have if we have
+information set tau i is we know everything outside the information set
+is impossible and if y only lies outside we know y is
+impossible and so we will attach probability zero to such an event
+so in our example of the mechanic we have our prior beliefs and now we
+want to update and find the posterior how likely is it that we actually need
+extensive repairs and what we do is we take the intersection
+
+00:16
+of the event that we're interested in with our information set which is this one
+here and so what we're left with is those those two so it's 10
+in the numerator and then 28 in the denominator
+so we end up with our posterior beliefs of 10 over 28.
+we can compute the posterior of the individual states of the world as well
+so for this one it's 8 over 28 then 2 over 28 and 18 over 28 and we note that
+the state that is not in our information
+set we indeed get 0 if we use bayes rule to update the beliefs because we know
+this cannot be the true state because we're able to distinguish those states
+good now in true game theory fashion we put all of this
+that we just discussed into one long definition
+and we call this model that we have described we call this a belief space or
+
+00:17
+a finite belief space with a common prior a belief space
+over the states some set of states of nature consists of well a finite set of
+players same as in a game then a finite set of all possible states of the world
+a common prior probability measure over those states of the world
+then a partition of omega into information sets for each player and then lastly
+a state of nature which is an unknown quantity so it's a random
+variable which means it's a function from omega to
+instead of all possible values it can take so this was
+the cards in the poker example the state of repair of our car or the
+innovation cost of pc home now in the same way that the state of
+
+00:18
+nature is unknown the information set of other players is also
+unknown to us we don't know exactly which information set they have and
+this we can also describe this as a random variable as a function from omega
+to two information sets of player i and ti omega indicates the information set
+to which the state of the world belongs and we call this also player i's type
+so for example in poker we don't know the cars that somebody else has and
+again this is a random variable that we haven't observed but the other player
+has let's get some practice with this model
+and the first thing is we really really need to know how to use bayes rule so
+let me explain this here again with a simple numeric example so here we have
+a belief space of two players with forces of the world and two information
+
+00:19
+sets each and we see here that in the first information set
+player one does not know player two's information set
+right we don't know whether it's this one or this one because both of them
+intersect with our information set so indeed we do not know player 2's type
+now if we want to compute the posterior beliefs let's compute the posterior for
+each omega so for omega 1 well we divide the prime probability for
+omega 1 one quarter by the total probability
+that we assign to this information set which is one half
+and one thing to note here is that the relative probability of these two states
+does not change so if we update our posteriors our beliefs with bayes
+rule then we simply rescale the probabilities by the same constant for all
+
+00:20
+states in the information set and anything outside the information set
+now has posterior 0. now for player two we can do the same
+thing player two will believe that omega one arises with
+well one quarter over one quarter plus one third so three over seven and
+while the other states are then simply we believe that
+they are true with the opposite um beliefs so what are our beliefs what's player
+one's beliefs that player two's type is the left one here well it's precisely
+one half because it's the probability with which the state of the world is
+omega one right this is for the raw mechanics of
+it let's now see a somewhat more fun application specifically the monty hall
+problem now most of you may know this application already
+
+00:21
+but i think the belief spaces is really the most elegant way to explain the
+monty hall problem so the setting is this that we are at the
+game show and the game show host so at this game show there are three
+doors and behind one of the doors is a car and behind the other two doors is a
+goat and our goal is to pick the door with the car because then we get the car
+and if we pick a door with a goat then we don't get anything now
+the game show host asks us to pick a door and after we pick a door the game show
+host will reveal will open a door behind which there's a goat
+because the game show host knows where the car is so they'll open the door show
+us the goat and ask us if we want to switch and choose another door so let's
+say we pick door one they'll open door three and ask us if we want to switch
+the door too and the famous question is should we switch or should we not switch
+
+00:22
+because we look here at beliefs and probabilities i want to know more
+precisely with what probability do we get the car if we switch
+so let's phrase this as a belief space and so the model is symmetric
+depending on which door we chose so suppose we chose door one and
+then let's write down the belief space of all uncertainty that
+is left given that we pick the door one well so there are four states
+after he picked the door because monty has not opened
+the door yet so we don't know yet which door monty will open and we don't know
+yet behind which door the car is and so we can write this down with four
+possible states of the world so if we pick door one and the cars
+
+00:23
+behind door three then monty must open door two
+in the same way if we picked door two and the car is behind now if the
+car's behind door two then monty can only open door three
+and only if we're right then monty can pick which door he should open
+so what's the information set that we receive well
+or first the state of nature the states in nature are
+where behind which door is the car right this is the payoff relevant state
+then the information is that that our information set the information that we
+have is which door does monty open so we see the second component here
+now if monty opens let's say door 3 then our information set is tau 3
+and so we update our posterior we divide 1 6 that's the probability that we're
+right divided by the entire probability of the information set which is
+
+00:24
+one half so we see that we're only right with one third probability
+and we should switch or if we switch then we're right
+with probability two thirds now this makes one key assumption
+which is that monty opens both doors with equal probability
+and this is maybe a good assumption if monty is very energetic like this one
+here but what if monty actually looks like this then maybe it's
+more reasonable to assume that monty will simply walk
+to the door that is closest to him and let's say if this is door three and
+and he will always open door three if he has a choice then after we
+update our beliefs then we see that now the two states are equally likely and we
+see that we don't necessarily have to switch anymore and this means that
+in the other extreme where they always open door two
+
+00:25
+then or if we now get the information that it's store two then switching would
+give us um the the car with probability one right
+so if we now receive information tau two then we'll write with probability zero
+so in summary the probability with which we should switch
+depends on the relative probabilities with which monty chooses the doors if he
+has a choice but it's always between one half and one
+and so switching is weakly dominant now the last piece
+of information in this video here is our beliefs about the state of nature so
+we're really interested in our beliefs about the payoff relevant state and
+we only need the states of the world the posterior beliefs to figure out our
+
+00:26
+beliefs about the state of the world so in the monty hall example we only care
+the probability with which stores with which the cars behind which door but not
+the relative probabilities with which monty opens the doors
+and so those are the beliefs denoted by mu over state in nature
+and it's really just the posterior beliefs that the state of nature is theta now
+mu i omega is a belief over the state of nature so
+this is a distribution in the same way that we denote
+distributions over action profiles in a strategy we use the first
+argument here to indicate the variable that determines the entire
+distribution so for strategies is the history or the type and for beliefs this
+
+00:27
+is the state of the world and then the second one is the element
+of the over which we take the distribution so this is essentially the
+probability with which the state of the state of nature is theta so
+what i didn't say very eloquently rephrased again mu i omega is the entire
+belief the entire distribution and mu i omega theta is the probability that we
+assign to one specific state of nature now because our information set changes
+our beliefs will change with the information set and in particular with omega
+now if two for two states of the world in the same
+information set our posteriors are the same so our beliefs will also be the
+same and this makes sense because you have the same information then our
+beliefs about the state of nature should be the same
+so in the example of the mechanic our beliefs about same nature
+
+00:28
+were determined in the following way let's look at another example of a
+belief space one of my favorites and it's one it's avalon it's a social
+deduction game where the players they secretly get a role with an alignment
+every player is either good or evil and the people play in their teams
+now the evil players will know who is who and the good players won't know
+anybody's alignment so during the course of the game the good players have to
+figure out who is evil now here let's look at the simplest version
+of it where there are five players and five player games two of them are evil
+and three good players don't know who is evil now the game works that
+
+00:29
+the players choose teams to go on five for progressively harder quests and
+each player on a quest can either choose to succeed or fail the quest but
+the individual choice of the players is not shown to each other only after the
+quest you take the aggregate success and fails you shuffle so you don't know who
+succeeded and who failed and then you only show the aggregate successes and
+fails and if there is a fail in the quest then
+the entire quest fails which is sort of one
+victory point for evil and if the entire quest succeeds then it's one victory
+point for the good players what would you do next well after you
+see all this information you will update
+your beliefs your base rule and then you go on to the next quest i should say um
+yeah the winning condition i guess is if three quests succeed
+so the majority of quest succeeds and good players win and if
+
+00:30
+three quests fail then evil players win now i should say here that um this rule
+here that players update their beliefs your base rule is an optional rule
+and i've seen many players play without it
+let's try to write this down as a belief space so
+because there are five players let's make it a little bit simpler let's look
+at a belief subspace of only three players and we look at all the possible
+alignments between those three players and there's seven possible combinations
+and so the stated nature here would be the alignment of the players and the
+state of the world would be all the possible alignments of the players now
+evil players know their partner and by exclusion also the good players so
+an evil player will have a singleton information set
+
+00:31
+so here eg means that player 1 is evil player 2 is good player 3 is good
+and so all the states of the world where one player's evil will have a singleton
+information set good players don't know anybody's
+alignment so they have a single information set
+for all the states of the world in which they are good
+and this gives us the following belief space what's the probability the prior
+probability well it's given by shuffling right we shuffle the rolls we deal them
+to the players and then let's first look at how likely is the
+state in which all the players are good well all the players can be good only if
+the two evil players are the ones that we don't consider among these
+belief subspace and there's only one combination how we can give
+that both of them are evil and so in total choosing two players out of five
+players there are ten different combinations and so
+
+00:32
+this state here arises with probability one tenth
+then in the same way actually on all the states where there are two evil players
+among the three that we look at for all of those also
+there's only one combination left for the two other players which is that they
+are both good so also all those states will have probability one tenth
+and then all the other states there's two possible role combinations among the
+other two players they could both be so one of them is evil one of them is good
+but it could be either or the other so those are twice as likely so they have
+probability one-fifth now we update the beliefs to our posterior beliefs
+which means that we so which means that the states are still equally likely
+so the relative probabilities between states in an information set so here for
+player one this means that these two states will
+
+00:33
+still be twice as likely as those two and we simply divide by the whole
+probability with which this information set is realized
+and so if we add it up then we see that this information set is realized
+realized with sixty percent probability and so if we divide everything by sixty
+percent here then we get okay those two are still equally likely one-third and
+twice as likely as those two which have probability one-sixth
+and so here this notation means that in the information set of this state
+the players believe that this is the right state with the 1 6 for player 1
+and probabilities 1 for players two and three because they have a singleton
+information set they know this is the right state because they are both evil
+now let's see what the player's beliefs are let's say about
+player two's alignment so here we can look at the event that player 2 is evil
+
+00:34
+and what our player wants believes well let's look at this state
+here so this is state where player 2 is actually good but player 1 doesn't know
+right so what do we do well we look at our posterior beliefs over
+what are our posterior beliefs for this event which means we take the
+intersection of this information set in this one and we see
+that the total probability here is one sixth plus one third is one half
+so the posterior here to this last state
+of the world assigns posterior 0 because it's outside our information set and
+yeah in a different state let's say here in eeg
+our beliefs are one because we know player two is evil um
+so we see that they are our teammate good
+
+00:35
+those are belief spaces that allow us to model the player's
+beliefs about some unknown quantity and in
+my elective class games within complete information we look at higher order
+beliefs to analyze games like avalon in more detail good
+what's the main concept of this video well rational players update the beliefs
+via bayes rule this is so important and happens in so many applications that
+this is really the most important part of this week's lecture
+then the minor concepts well i would say two things i should have ordered them
+the other way around i think one thing that is very important here is
+information is represented not just by an information set but by a partition
+into information sets so somebody has more information than another
+that's not just described by a single information set but by the fact that the
+
+00:36
+partition is finer than somebody else's and a belief space allows us to describe
+these uncertain quantities as well as the player's knowledge and belief about it
+and so the timing i guess of beliefs and information here is that players start
+with prior beliefs then they receive information which or learn their type
+then they update their beliefs to the posterior beliefs then we can use the
+posterior beliefs to form the beliefs about the state in nature so here
+posterior beliefs are on the states of the world then the beliefs
+here i guess we can also call them posterior beliefs but we typically
+denote by mu the beliefs simply about the state in nature
+good some questions for you to practice bayes rule and how to read these belief
+
+00:37
+spaces and the literature um a very deep uh cover of this topic is in martial
+salon and samir and then auman was the first writing down these
+belief spaces and describing knowledge in those models
+good that's it for this video and i'll see you on wednesday in class

@@ -1,0 +1,975 @@
+
+00:00
+all right welcome back to micro one can everybody hear me okay yes thank you
+um good this week we have some more time to discuss sub game perfection and
+then in the last video we started to look at games with incomplete information
+or so far i guess only how we model incomplete information itself and then
+next week we will add games to the incomplete information so let me go
+through the three different topics and answer the most frequently asked
+questions through poll everywhere all right so
+the first thing that we analyzed or in the first video was
+
+00:01
+games with imperfect recall where players forget some kind of information
+and we have seen that in these games mixed strategies do not necessarily have
+realization equivalent behavior strategies and vice versa
+so the two examples that show this difference
+was the first one the absent-minded driver where
+they were trying to get home but we can't remember
+whether we have already passed an exit on the highway and
+optimally we want to get out at the second exit but if we can't remember
+there's no way that we can catch the second exit with a pure strategy
+because we have only one information set in a pure strategy we either select to
+stay on the highway or to exit which means we'll either end up at the hotel
+or in the bad neighborhood surprisingly there are nodes in the game
+
+00:02
+tree that we cannot reach by a pure strategy a behavior strategy is able
+to reach home and we see that the probability to get home is well if
+probability of exiting is x then we stay on the highway with
+probability 1 minus x and then with probability
+x we exit at the second one so in total with probability
+x times one minus x we will exit or catch the right exit and this is
+maximized for x equals to one half now we already notice
+something peculiar about the expected payoffs here are not linear anymore in x
+um and that's because we stay in the same information set twice
+so for games with this kind of imperfect
+recall whether we forget whether we have taken a move
+
+00:03
+the payoffs won't be linear in our parameterization and so we will have to um
+put it will slightly complicate finding best response correspondences
+any questions about this example all right then the second type of
+imperfect recall is where we forget any information that we have had other than
+whether we have taken a move so in this example here inspired by the
+last administration in the us um sometimes in the press conference we
+don't want to tell the truth to the citizens and then we can
+instead of telling a fact we can choose to tell an alternative fact now the last
+u.s administration was surprisingly bad at keeping their story consistent
+
+00:04
+presumably because they forgot the details of their lie
+beforehand and if that is the case if you have trouble remembering
+what you mentioned earlier in a lie then you would do well choosing a
+mixed strategy because in mixed strategy you can kind
+of commit to pure strategy in the beginning of the game
+and you would want to commit to either the pure strategy um where you both
+where you twice tell the truth or twice tell a lie
+and so there was a typo in the slides uh last
+uh last week so this should be ff and aa so it's important that we
+but we can commit to lying both times or telling the truth both times
+now a behavior strategy can only so behavior strategy either tells um
+
+00:05
+the truth with probability one a consistent line with probability one or
+it will with positive probability reach an outcome where there's an inconsistent
+line so if we go tell the truth with probability x and
+we lie with real to 1 minus x and then here um with probability let's say y 1
+minus y then the only way how we can have a
+consistent story is if either x and y are both one or
+x and y are both zero and then we see um if we
+try to tell the truth sometimes then we will also include inconsistent lies
+and so here what the player has forgotten is
+the action that they have taken they know they've already
+had a press conference they just forgot what they mentioned in the press
+
+00:06
+conference now sorry why why can the mix strategy be
+f a or a f it could be but we wouldn't want to choose it
+so there are mixed strategies or pure strategies that are fa or af but
+the goal is that we tell a consistent lie with probability one minus x
+so we want to live sometimes but we want to be consistent about it
+oh oh okay okay i know the story thank you now this brings us to the following
+definition of perfect recall where we have
+two things that we want to preclude we want to preclude that a
+player for forgets whether have taken a move and this is the first point here so
+in any two nodes of an information set one cannot come before the other
+
+00:07
+and then the second one looks a bit more
+complicated definition but what it means is we don't forget anything else
+so i tried here drawing a simple game tree that would visualize that
+so a node in a game tree captures everything that has happened in the game
+so describes completely everything that is relevant to the game
+and if a player knows a note they know everything that has happened so far
+now in this case here player 2 knows whether player 1 has
+taken action a or action b but at the information set further down
+the tree player 2 does not know anymore whether player 1 has taken a or b
+and this this forgetting or player two forgets in this way
+whenever two notes from the same information sets have predecessors in different
+
+00:08
+information sets so here for any two nodes in the tree
+in the same information set the predecessors have to be in the same
+information as well otherwise they have more information
+here than they had here because previously they were able to distinguish
+the two nodes but later they're not so there's some information
+something in the tree that they have forgotten it could be a move from
+somebody else it could be their own move or it could be a move of nature
+and so the definition here says is that they also have to take the same action
+at those nodes and so if both of them have predecessors
+then they have to align the same information set and the same
+the same action has to be taken at both nodes can you write the x head into the
+visualizer the graph oh yes so this here would be so here would be x
+
+00:09
+x prime and this would be x hat x hat prime so we start with any information set
+containing two nodes then we say okay there's some predecessor of
+player two's nodes where player two is active again
+then for that node there must also exist some other node the predecessor of this
+node here which belongs to the same information set
+and the same actions taken at both so crucially
+the first condition that they belong to the same information set means they
+don't forget anything that's happened before
+before game reaches this information set the second condition that the same
+
+00:10
+action has to be taken to reach this information set means that player 2
+doesn't forget the move they took at this information set so the
+the actions that the information set about the x-head and x-head pump should be
+the same one the same yeah it has to be the same one so that they don't forget
+um let me see where i have an eraser here [Music] well i'm not sure
+we'll just leave it on there but what it should be is
+this should be the right information set for it to be perfect for call
+
+00:11
+and it has to be the same action a okay so so actually they are just one line if
+there is a perfect recall i mean i didn't draw other parts of the
+office so there could be more actions here branching off here
+i just wanted to keep the graph as simple as possible okay so ix is the
+the active player at node x so here we start with an information set
+that belongs to some player so here this would be player two and
+then we look at predecessor knows where the same player is active
+
+00:12
+here this means player then let's see how we could so in games of
+imperfect recall now um mixed strategies and behavior strategies
+differ so if we want to find something perfect equilibria then we would use
+different approaches now this game has imperfect recall player
+one forgets the move they have taken at the first note and we see that it's
+important that um the predecessor nodes so on the previous slide it's important
+that we not only have the condition that they
+belong to the same information set but also that players take the same action
+because here the predecessor node is the same
+of both of these nodes but player 1 does not take the same action
+
+00:13
+and this means player 1 forgets the actions they have taken so
+this game has only one sub game so instead of also in perfect equilibria is
+the same of all or this is of all nash equilibrium
+now we know how to find nash equilibria in mixed strategies
+we transform the game into the street strategic form game
+and then we find nash equilibria as usual so here um how do we generate this
+tree here we see okay if we go um let me switch to red
+so let's say we want to first so we just go to the tree and see okay we have l l
+so anything where both players play capital l will lead to minus one one
+so this is all of these it doesn't matter what they do at the
+
+00:14
+other information set the payoff will be minus one then we can continue if if
+let's say we want to figure out which cells we have to fill in with let's say l
+r l then we see that okay this time the strategy of player 1 is completely
+specified but for player 2 it's only relevant that they play r so
+we have ll and anything where they play r and like that we keep filling in the
+game or the the payoffs from the game tree into our matrix
+and this yields mixed equilibrium how we find that we would parameterize the
+strategy profile and then find um mutual best response correspondences so
+
+00:15
+here we would write all right so oh i see because it's the next slide all right
+so here we would then i don't know have some parameterization
+alpha beta gamma and then here 1 minus alpha minus beta minus gamma
+and here we would maybe have x y z 1 minus x minus y minus c
+and we see this will be a lot of work because we have so many parameters mixed
+strategies are typically hard to find or hard tedious to find
+any questions how we would find mixed nash equilibrium
+then for behavior strategies we see that we can parametrize them with fewer
+parameters we only need two parameters for each player because each player has
+
+00:16
+only two information sets now how do we find nash equilibria here well
+the standard approach is we find the expected utilities and then we find
+mutual best response correspondences so how do we find the expected utility well
+so how do we end up at -1 1 well if both players play um left so we would have
+u1 of sigma is okay with probability alpha player one will choose left and with
+probability yeah gamma player two will play left and then we
+get minus one so from the first outcome here we get alpha times minus gamma now
+
+00:17
+player 1 can get 2 if player two plays r which happens with
+probability one minus gamma and then player one plays left with probability beta
+and so this is the left half of the game tree the right half of the game tree um
+okay we get zero if if player two chooses right and if player two chooses
+so the only way how we can get a non-zero payoff here is if player two
+chooses left and player two chooses right so we get two
+left happens to build the delta and write with probability 1 minus beta
+
+00:18
+and we can do the same for player 2. and we look at relatively similar we go
+again left in the game tree then plus one if they also play left and then
+they can only get two if player one chooses right which
+happens to probability one minus beta and then the right side of the game tree
+um well one if if i two chooses right which happens to be one minus delta
+and then three delta theta [Music] so this is how we find nash equilibria
+behavior strategies now for from this point on it's the same as soon as we
+
+00:19
+have to expect utilities we just find best just bonds correspondences and um and
+verify where they are consistent i'm not actually going to carry that out
+here because this example would take me maybe an hour to solve because there's
+so many parameters but i just want to show a large tree so we can see a
+difficult example where um where or how we find the expected utilities
+now you can try to solve it in your free
+time if you want additional practice the result is going to be quite interesting
+but um i'm not going to solve it here the question in the chat sorry could we
+turn the table into reduced strategic form all right let's do that
+so reduce strategic form means that we eliminate any
+rows or columns that have completely identical payoffs and
+in this case there is no such rows or columns
+
+00:20
+so this is already the reduced strategic form i think there is a typo in the
+last two rows because they are the same but in the extensive form they are not
+the same oh yes there is a typo for sure um let's see [Music]
+oh yeah those rows are equivalent here um let's see right right left zero three
+oh yeah so i so this should be 0 3 this should be 2-0 right left left right yes
+
+00:21
+okay yeah now we can all see that there are no two equivalent rows
+okay i'll can i ask a following question that the one slides in the
+class you showed we can count the parameters we have to
+use in behavior and mixed strategy can you show the like the the equation in
+this example okay so um so for the behavior strategies so we sum over all
+the information sets and at each information set we need the sum of
+actions minus one so so we see in this example it's two per player because
+
+00:22
+the sum of actions that follow from the information set minus 1.
+so for each information set we need one parameter and then there's two
+information sets then for mixed strategies um for mixed strategies it was
+look at how many pure strategies are there it's essentially the product of all
+of all information sets that's how many pure strategies there are
+then we just need one parameter fewer one parameter fewer because the total
+
+00:23
+probabilities have to sum up to one and so this means here three for each
+because we have two times two minus one and this becomes way worse if players
+have three actions at each node so in this case here
+we would then need four parameters but here we will need eight
+all right so this part here is the number of pure strategies
+so at each information set we can choose one of those actions
+so the possible combinations of your strategies are that for each information
+that we choose any combination of those actions that are available
+
+00:24
+so the product of the number of all those actions that are available is the
+number of pure strategies and then the probabilities sum up to one so we
+have one fewer parameter per player then then y y three so here this is
+two times two minus one is three this is for one player yes for one player for
+one type so we have if we want to count we the whole game we have to
+like three times three to get okay so for two players it's now two times
+three because each player has three and how about the behavior strategy
+this is also for each player two so four in total as we can see here four
+
+00:25
+parameters two for each player okay so so the minus one is in the in the sigma
+okay thank you okay good then any questions about imperfect recall
+or there's a question how do we turn mixed strategy to behavior strategies
+well if we have perfect recall then let me actually show this here
+
+00:26
+if we have perfect recall um then here this intuitive approach works so what is
+so if we have perfect recall then each pure
+or each terminal payoff can be reached by pure strategy and then
+the mixed strategy so if we start with the behavior strategy profile we can see
+with what probability is each terminal now reached
+each terminal node in a game of perfect or call corresponds to a pure strategy
+and then we choose that pure strategy um
+with the probability with which player i needs to take all the right decision to
+end up at this node so we look through the tree and we
+multiply all the moves by player i um to reach at that terminal node
+
+00:27
+and for the behavior strategy profile we um look at all
+the strategies that go through this node here let's say
+we see what with what probability are they selected in the mixed strategy
+profile and then we know that has to be the probability um
+are we divided by the probability that the information that is reached so the
+conditional probability of reaching this node given this node is
+how we would find the behavior strategy all right then existence of something
+perfect equilibria i was asked to go through the proof
+again and i figured we can again visualize it in our game tree so
+the idea that it was that we set up this inductive argument because we solve it
+backwards from the tree and suppose we have solved it for all
+
+00:28
+the smaller subgames we have shown that there exists a stopping perfect
+equilibrium for all the sub games of this game
+and how do we construct a subtlety perfect equilibrium of the entire game
+well by nash's existence theorem we know that there has to be an ash equilibrium
+in mixed strategies in the coons theorem we know that it has a realization
+equivalent behavior strategy profile so that is also a nash equilibrium
+because this is a game of perfect recall now on the path we don't have to change
+anything so the path here in this example is this
+so on the path we don't have to change anything because a nash equilibrium
+is already something perfect on its path and then off the path we have to make
+sure that the off path continuations are credible so that we get a sub-computer
+
+00:29
+equilibrium how do we do that well let me draw the path again
+how do we do that well for all the maximal sub games that are off the path we
+change the strategy profile to a subtly perfect equilibrium in that subject
+and we know it exists because it's a smaller subgame and we have this
+inductive argument so if we replace whatever the
+continuation was with a sub-game perfect equilibrium in those three sub-games
+then the resulting strategy profile is a sub-imperfect equilibrium
+now how can we see this what is the definition of a sub-game perfect
+equilibrium it is that in every sub game the restriction to every subgame is a
+nash equilibrium [Music] so in those sub games we have chosen
+a sub imperfect equilibrium as a continuation so in particular it's
+
+00:30
+a nash equilibrium and not only that it's a nash equilibrium in any
+subgame thereof because we have chosen the continuation from here
+is a sub game perfect equilibrium so by definition in any sub game
+the behavior is a national equilibrium and it works on the path
+as well so for for this subgame here it also works because um
+yeah in any in the game itself it's a nash equilibrium
+because it's on the path but also in any subgame of it by construction
+so the idea is really we start with the nash equilibrium on the path we leave it
+the same and we just replace the off path continuations with
+sums of imperfect equilibrium and by backward induction we know that
+
+00:31
+those exist in the sub games this means that the payoffs in the
+entire game have not changed at all because we only changed off path behavior
+and in particular it's still a nash equilibrium in the entire game
+and this is what was formalized here in the
+proof so those are all the strict sub games so strict sub game is
+any sub game that is strictly smaller that are off the path and
+this means maximal so in this case those maximal sub games
+were this one this one this one the maximal sub games off the path
+and those are the ones where we we replace the continuation with some
+
+00:32
+sub game perfect continuation and then the argument at the bottom
+shows that it's of imperfection because on the path the nash equilibrium is
+optimal and by definition of a sub-imperfect continuation equilibrium in any
+continuation game it has to be a nash equilibrium
+so what i want you to take away from this proof is
+we can leave the path unchanged and just replace the off path
+continuations with something that is credible
+uh can i ask the definition of strict subgame yeah so strict
+
+00:33
+simply means that it's not the same so a proper subgame could be the game itself
+yes so a straight sub game is any proper sub game that is not the game itself
+so it's a strictly smaller set of nodes and the original proof you
+denote g 0 and gk so what is the 0 to gk in this game so that's
+so g 0 would be those sub games that don't have any other sub games so
+g 0 would be here oops here here um i guess here here and this one
+
+00:34
+yeah those will be g0 and then g1 would be d1 would be nothing actually
+but g3 would then be this one because orders will be g2 g2 this would be g2 and
+g3 i guess sorry why why g2 is that one because he has two subgame
+yes because he has two streaks of games so in the proof we denoted g k has
+
+00:35
+k strict sub games [Music] so here it has two strict sub games and
+the one to the right also has two strict sub games
+and then we just keep increasing k and eventually we're all the way through the
+tree because the tree is finite so there is a problem that's the k is not a
+like there can be g0 but no g1 and half g2 well so deductive hypothesis is that
+for all g l l smaller equal k has sp [Music] but
+we want to prove that l plus one is satisfied we are we want to show that k
+
+00:36
+plus 1 is satisfied if it is satisfied for all g l below k but k plus 1 can not
+be exist in some case might be i mean if there are no sub games
+that have k plus one strict sub games then it's trivially satisfying ah
+so a statement on an empty set is always true okay okay thank you okay
+that's about the proof of sub game perfection then
+as an application of these extensive form games we briefly looked at
+multi-stage games which streamlines or put some additional structure on the game
+um that makes it much more tractable as we have seen so in general
+
+00:37
+a multi-stage game is an extensive form game where players
+play a sequence of staticky games and in general the sequence could depend
+on time and in a repeated game which is the most common case that we look at
+the games are the same for all periods and we have seen this uh
+the climate agreement example as well as the prisoners with revenge and
+we can now use the fact that the continuation game
+in each period looks exactly the same so here the continuation gain [Music]
+of the period one is exactly the same given the payoffs that are already earned
+and then this means that they all have the same subgame perfect equilibrium
+
+00:38
+so you only need to solve one of them to know
+the equilibrium continuation after all of them specifically in the example of
+the prisoner's dilemma with revenge we know that in the second period there are
+exactly two nash equilibria or two pure strategy nash equilibria and
+if we look for pure strategies up in perfect equilibria then
+one of those two continuations has to be played no matter what players play in
+the first period by sub game perfection now so let's see how we can
+incentivize players to stay silent well the way the game is set up the idea is
+
+00:39
+that if they say silent then then they go for it they go to jail for
+a year and afterwards nothing bad happens um the past is the past
+if they testify then the person that was testified against will join a gang
+and in order to protect them from the other gang um the person who testified
+also has to join the game so that's in the continuation um where
+they both join a gang and the idea is that we can turn this into
+an equilibrium by requiring that at the beginning let's call this h naught
+
+00:40
+the players play ss and the continuation to ss is bp the good equilibrium and
+and after any other anything else has been played in the first period
+um we'll play the bad equilibrium and we've verified that this is an equilibrium
+because following the sp so following sigma yields well minus one in the first
+period plus well zero in the second and this is better than a continuation
+where we get zero [Music] and then minus three in the second
+so here we have looked at the case where the discount factor is one if the
+discount factor is not one then we see that this is the case if and
+only if delta is larger or equal than one-third so if we are
+
+00:41
+the players have to be sufficiently patient if they don't care what happens
+to them next year if they have terminal cancer and they
+only live for one more year then they'll stay then they'll testify so
+they don't go into jail at all now the main question that i received on
+paul everywhere is how can we use this to find all equilibria so let me go over
+that again if we look at how incentives are provided then
+so here this is this is on the path and here this is
+after a deviation by one player so in this construction here it did not
+matter at all what the continuation of t t is so sigma t t could be
+
+00:42
+the good equilibrium and it doesn't matter for incentives
+because it cannot be reached by a deviation by only one player
+in an equilibrium we look at deviations by one player given that the
+opponent does not change their strategy and so if the opponent does not change
+the strategy then this history cannot be reached by a deviation of any player
+and yeah so this tells us that there are two sub-imperfect equilibria or pure
+strategies of perfect equilibria in which ss is played in the first period
+so we see so supporting s and let's write i guess a for any action
+
+00:43
+we need that s a triggers the good equilibrium and ta
+triggers the bad equilibrium and a could be either s or t so because um
+the benefit from [Music] deviating is always one now how do we support
+testifying in equilibrium well testifying is a dominant response so
+we're willing to testify unless we're getting punished for testifying
+
+00:44
+so this means that so if the good equilibrium is played
+then for sure incentives are satisfied because we get the best possible outcome
+of the game or we're also willing to testify if
+even if we're punished but if also silence is punished
+so if it's the same equilibrium regardless of of which action i choose then i'm
+willing to testify and then we have used these two observations to find all
+
+00:45
+equilibria in one go um i guess let me continue here so we've argued as
+there's two equilibria then st right from the previous uh
+observation we need we know that in order for player 1 to play s
+we need to reward player 1 which requires that [Music]
+yeah player 1 is punished if they deviate and
+does this provide sufficient incentives for player two it does because we've
+argued if testifying is rewarded then it doesn't
+
+00:46
+matter what happens if they deviate because even if if they're rewarded for ss
+then t was the best response and they are willing to choose t
+and if ss is punished then player 2 is especially willing to testify so here
+can be anything and the off path action profile oh it can also be anything
+and so we see force pure strategies of imperfect equilibrium
+
+00:47
+so simply about thinking which ones can be reached by unilateral deviation so
+symmetry tells us that ts also has four spe and then tt well we need to
+incentivize testifying and we have seen that we can do this either by attaching
+rewards to testify then it does not matter what the other
+strategy pro what the other continuations are so this gives us eight spe or if
+testifying is punished then also unilateral deviations have to be punished
+
+00:48
+otherwise players would be willing to deviate and stay silent so
+why is ss unrestricted up here well if we go back to how we incentivize how we
+support testifying then if testifying is rewarded then
+it's incentive compatible to testify regardless of what the continuation is
+if they stay silent maybe let me add some numbers here um so here
+
+00:49
+let's say this case then for player two so u two yes sigma is
+we'll testify in the first period gives them zero if the other one stays silent
+and then they are rewarded in the next period so also zero
+and this is larger or equal than if they also stay silent minus one plus zero
+and if saying sound is punished then it gets even worse [Music]
+so if player 1 gets their favorite payoff in both periods then
+it doesn't matter what the continuation after deviation is right we're
+
+00:50
+we can be at most as well off in period two um as we already are so
+we are willing to testify and that's the same idea here if
+testifying is rewarded it does not matter what what happens in the rest of
+the tree because we get both times our favorite payoffs
+so we're definitely willing to follow that strategy profile
+sorry can you explain it again why we have eight here yeah so [Music]
+if we follow the strategy profile right then we get zero in the first
+period plus zero in the second and this the maximal [Music]
+utility players can get in this game right so both times zero is the best
+
+00:51
+possible outcome oh i messed up here this is minus nine but so if we deviate
+if we deviate then well you get minus 10 the first period and punishment of zero
+or if deviating is punished then we get minus ten minus three
+sorry why here that the deviation will be punished because you raise the gg into
+
+00:52
+next sentence also these are two different cases case one so if
+testifying is rewarded then it does not matter whether silence or testifying
+or doesn't matter where the silence is punished or rewarded
+because if it's rewarded we get -10 which is less than the on path payoff
+and if it's punished then we get minus 13 which is also less yes but why 8 here
+because all three other action profiles are unrestricted so we have sigma s s
+sigma s t sigma t s can be anything so we have three combinations or three
+
+00:53
+or two choices for three possible histories so 2 to the power of 3 is 8.
+so up here we have 4sb because we have 2 choices
+after two histories and now we have two choices after three histories so that's
+eight possibilities now the crucial part here is that
+in repeated or multi-stage games all we need to do to solve the rest of
+the tree is we have to look for the largest payoff differential in the
+
+00:54
+sub game so find to see whether we can support some behavior on the path
+so in the prisoner's revenge game the payoff differential was three
+and so we can prevent any deviations that give them
+or any instantaneous deviation that give them less than three
+so if they were rewarded here for testifying if they got three here instead then
+the benefit of testifying would be for the immediate benefit so we couldn't
+support silence anymore because the payoff differential in the second period
+
+00:55
+is not large enough to prevent deviations yeah for the sub game we find the
+largest payoff differential that we can support on equity in equilibrium and
+then we can find all the action profiles that we can
+support in the previous stage of the game good before
+we move on to incomplete information now one other frequent question i had in
+paul everywhere was about the solution to to assignment three the last period of
+the last period of the what was it the bargaining game so how do we show that
+the responder has to accept with probability one in equilibrium and i
+
+00:56
+thought that's probably quite instructive to show so let me show that here um
+so in the last period um for simplicity let's say t is odd so t odd
+which is black this means player 1 proposes x and 2 responds all right so if
+x is smaller than one then player two receives one minus x and this is
+larger than what they get if they reject so the unique best response is to
+is to accept if player 1 proposes 1 then player 2 gets nothing
+
+00:57
+and so players player 2's best responses are accept if x smaller than one and
+and some mixed strategy that we can parameterize with probability of accepting y
+now in a sub imperfect equilibrium player one takes this into account when
+they make their proposal so let's write down player one strategy
+or play one's payoff if they propose x and player two best responds to x
+so we have to distinguish two cases if x
+
+00:58
+is smaller than one then player two will always accept so this means player one
+gets x if x is smaller than one and it's x y if x is equal to one and
+what does this mean where is this function maximized well the function if x is
+less than one then it will look like this and you see that player one does not
+have a best response if player two continues with anything other than y
+
+00:59
+equals one so this is why smaller one and so play one's best response
+i guess 2 probability y would be empty and 1 [Music] if y is 1.
+so crucially here we first solve the best response for player 2
+and we plug that in to player one's utility because player one anticipates
+how player two responds and then we maximize player one's
+utility and we see that in some cases it does not have a maximum so this means
+
+01:00
+that those responses cannot be part of a subgame perfect equilibrium okay
+i think this addresses most questions about sub game perfection
+and multi-stage games let's now let's now move on to
+models with incomplete information and i just wanna
+now that we have introduced everything in the video already i just wanna give a
+different summary or introduction to the different components that we have so
+the state of nature is really just the payoff relevant states that are unknown
+so this means that the utility function by the players are functions always from
+
+01:01
+the set of action profiles and the set of states of nature to
+whatever utility they get so payoffs are described
+or characterized by the state of nature and we use theta to denote the state of
+nature so this theta here is the random variable so the unknown
+quantity and then it lies in the set of capital theta all possible
+values and each specific value that it can take we denote by small theta
+what are some examples so a very typical example is if the state of nature is
+specific or is a play of characteristic by each player
+so for example in a cournot or a bertrand competition we could have the
+
+01:02
+firm's unit cost be there the unknown to the other players
+in which case theta i the cost of firm i is i's own payoff relevant state
+and here a firm's utility does not depend on the cost of another directly
+only indirectly through what this will prompt in the other firm's production
+then in an auction the valuation of a player's good is the payoff relevant state
+and again it does not matter to me how much you value the good other than
+through how much you bid in the auction and then you've seen the
+card game avalon uh the player's alignment determines their payoffs and
+in the mechanics example um the state of repair
+
+01:03
+was the payoff relevant state for the customer and we see that there's a
+difference between the first three examples and the last one so here
+players oh let me write this players know their characteristic
+so this for the first three games but in the second one the player does not
+know the customer does not notice it over pair
+so only describing the payoff relevant state is not enough we have to describe
+what the players know about pay of relevant state
+this is done by the types or information sets and here we used t for
+i guess the unknown quantity of the types we used small tau for
+a typic or one specific information set or type and
+
+01:04
+instead of all types was then uh large t yeah so the difference really is
+state of nature characterizes payoff types characterizes knowledge
+everything clear so far how do we use our knowledge to
+deal with the uncertainty in the world well we form beliefs so
+a belief in general is any distribution over
+the amount of uncertainty that i have in
+the model in the mechanics game it would
+be whether i need the repairs or whether the mechanic is honest
+so in general it's a distribution over well the pay of relevant states but also
+
+01:05
+the other players beliefs and so here um the beliefs of my own type are
+deterministic because i know my own type
+now we've generated these beliefs from a common prior which tells us
+sort of the initial if we didn't have any information about the setting this
+is what we would believe and then we update
+given our information given our type we update our beliefs to
+the posterior beliefs so in the avalon setting um the common prior is
+that we shuffle the roles and we distribute it to the players right and
+everybody knows that even if you don't play the game you know that
+if you play the game once you look at your card
+you know more you learn your type then you update your beliefs about the
+others based on the information that comes with it
+
+01:06
+in the mechanics example the prior is you know sort of the population
+distribution of honest and dishonest mechanics and how many
+repairs are extensive repairs and then we update that once we go to
+the mechanic and we receive information about our car
+based on what the mechanic tells us now there is um
+a special case that is often studied in economics which is if players types are
+independent if a player's type is in the if they are independent then
+that means that i don't learn anything about your type from my type
+so a typical example would be an auction setting
+but just by knowing how much i value a good i learn nothing about how much you
+value the good if your type is independent and this
+
+01:07
+often makes it a lot simpler because now beliefs
+which in general are a distribution over states and types
+are in this case only a distribution about the payoff relevant state
+and many many examples that you'll see are of this specific kind
+now this was not everything that we've introduced we've also introduced these
+states of the world what's the purpose of those a state of the world
+is like a node in a game tree it describes
+every possible state our model could be in in particular it determines
+completely the information that the players have and the state of nature the
+payoff relevant state and the primary purpose for it
+is that it allows us to correlate players knowledge quite easily so
+
+01:08
+we could always choose the set of states of the world as simply
+the state of nature and then a type profile for all the players
+but in many applications there is a simpler way to parametrize the model
+like in avalon in avalon the set of all possible states of
+nature would be all possible combinations of alignments and then
+we would have to consider also all the beliefs that the players can have
+but we can observe that there are only ten possible
+distributions of alignments in a five-player game so we can choose
+the set of states of the world much much smaller than this large space
+and this makes the analysis much simpler so
+
+01:09
+the role of the states of the world is simply to correlate
+players knowledge about either each other's information or about
+the payoff relevant state then let me talk about
+let's go back to the example of the mechanic and
+try to understand what is going on here so we have the payoff relevant states
+are whether our car needs repair or not but we actually don't know [Music] and
+since we don't know we represent our knowledge using
+information sets using types and so the information that we have here is
+our information after we hear a recommendation by the mechanic to
+whether we should do extensive repairs or minimal repairs and this
+gives us two information sets so if they recommend the repairs then we think
+that either the mechanic is honest and we do need
+
+01:10
+the repairs or the mechanicist is honest and will tell us that we need repairs
+regardless of whether we need them or not and if we wanted to
+describe this without states of the world then we would have and we would have
+two times two times four possible states that we would have
+to consider because to describe each other's knowledge about
+um but their other players knowledge and about
+the state of nature and each other's knowledge
+and i think you know this visualizes quite nicely what the different roles
+are um the states of the world parameterize the model then
+theta is what is relevant for payoffs and information sets describe the
+player's knowledge in this example we see that the mechanic
+
+01:11
+has four possible types because they have four information sets
+so they can choose a different action for each information set
+here we've just assumed that they choose the same action for three of them
+there are two more special cases that i want to mention so the first one is if
+it's what we call payoff types this would be if the only information we
+have is our own payoff characteristic that could be the costs in the corner
+competition that could be um that could be our own valuation in
+in an auction and in that case we don't necessarily need to introduce the
+notation t we can just say okay theta captures both our pair of
+characteristics and our knowledge now we may still use states of the world
+
+01:12
+to correlate the different payoff types and then lastly the simplest possible
+case is where we have independent payoff types so not only
+is the only thing we know are payoff characteristic but also we don't know
+anything about each other's knowledge and
+again we have the two important examples we have auctions with independent
+valuations or competition with independent cost and in that case we don't need
+omega either and then we just have say the payoff characteristics by the players
+i will add payoffs to this this week but for now let's see if we can use this
+belief space to describe the following setting in a belief space
+
+01:13
+the story is that the government has found an oil field
+and wants to auction it off to two companies to two oil companies who
+might want to purchase the oil field now the companies they don't know
+whether the oil field on the value of the oil field is high
+medium or low it could be all of the three with probabilities one quarter one
+half and one quarter so medium is the most likely now in order to
+give the company some information about the oil field the
+the government offers a free exploration of the oil field where they can do one
+drilling and see updated beliefs about the quality of the oil field
+and the information that they get could either be
+if you get a good signal a high signal or a low signal about the value
+and we suppose that the signals are not independent here that both explorations
+
+01:14
+provide optimistic beliefs to the companies if the oil field is in need of
+high value both signals are low if the oil fails of low value and exactly one
+signal is high if the oil field is of medium value
+then how would we write down the belief space here
+what's the what sort of sort of the fundamental parameterization that we need
+well there's two players with two possible signals and
+all four possible combination signals are possible so we definitely need four
+states of the world is that enough to describe also the dependence
+on the state of nature and the answer is yes because
+exactly if one signal is high then we have we have theta m and if
+exactly if both signals are high we have
+
+01:15
+theta h and if both signals are low then theta l so we would start with
+our states of the world we would write okay this is maybe let's write h
+then we would have hl and lh and ll so those are the signals that the
+players get so we can already draw the player's information sets so
+i guess we use gold for player one although it might not be visible so
+let's use orange so player one well if they receive the high signal
+that's their type and they can also receive the low signal and for player 2
+
+01:16
+flare 2 receives the low signal that's the information that the players receive
+and now i suppose in green we can indicate
+the state of nature so in this case here is low these two cases it's medium
+and then high [Music] now from this belief space we can read
+off anything that the players know about each other about the states
+of the world and we can use this to start finding
+how they should act optimally but we will get to that next week
+
+01:17
+how we describe asian games any questions about models with
+incomplete information if not the last thing remaining
+to do is to go through the questions here we had three possible games and we had
+to decide whether they are perfect or called so let's um let's look at those um
+so the game to the left is actually the one
+that we parameterized earlier today and it has imperfect recall because player
+
+01:18
+one forgets which move they take then the game to the middle is
+perfect or call because it's perfect information and the last one here
+is also perfect recall because player 3 does not forget anything about the tree
+because this is the first time they act and in the definition of perfect recall
+the second condition is always satisfied in a player's first information set
+right it says at any predecessor nodes of player three
+they have to lie in the same information set but there are no predecessor nodes
+of player three so essentially if it's the first time we
+act we can't have forgotten anything and player three does not forget to that
+i've taken a move because neither node is before the other so this is a game of
+
+01:19
+perfect recall so only the game to the left is imperfect recall so 60 correct
+yes correct the vast majority and this is also perfect recall so this is
+yes because player three acts the first time and so
+they can't have forgotten anything then realization equivalence um
+it's not enough that um both of them are best replies [Music]
+it's also necessary that they don't affect the distribution
+over nodes so that they don't affect the incentives of other players
+so this is false ah there's a question in the chat to all
+three have perfect recall no the left one has imperfect recall
+
+01:20
+so this is imperfect perfect [Music] consider game g which has imperfect
+recall only because players may forget but they have already taken a move
+and such a game is guaranteed to have an speed behavior strategies and this is
+true very good to all those who figured it out
+and the important part to notice is that for existence of subject perfect
+equilibrium we only needed one direction we only needed that mixed strategies
+have realization equivalent behavior strategies we didn't actually need the
+converse so yeah that's good enough for existence of something perfect
+equilibrium [Music] then moving on to multi-stage games if
+
+01:21
+the action profile taken after each history is a nash equilibrium
+then the resulting strategy profile is a soft game perfect equilibrium
+the answer is no this is false and the reason is that the continuation is
+the continuation profile can provide incentives for players to deviate
+and this can be illustrated quite well in our prisoner revenge game
+so here the nash equilibria are these and
+
+01:22
+or pure strategy nash equilibria and we have seen that if if we punish
+testifying and reward silence then players will have an incentive to deviate
+so if sigma tt is gg then player 2 will have an incentive to deviate
+player 1 has an incentive to d8 and this strategy profile satisfies
+all the requirements in the question right it's a static nash equilibrium
+after each history but it's not the subject perfect equilibrium because
+
+01:23
+we reward players for deviating from the nash equilibrium of the first period
+sorry the the question mentioned that every period but the
+tt is only the first period but the tt is only appears in the first
+period but the question requires that the sigma have to be every period
+oh but it's also in the second period right those are nash equilibria ah okay
+but the thing is if there is more than one continuation equilibrium
+we can incentivize players to deviate from the nash equilibrium in the previous
+period okay so the sigma contains the tt and the bb or gg
+
+01:24
+yeah so a strategy profile is a map from all the possible histories
+to the available actions and let's say if it's pure strategy then it's just a
+and yeah so in this case there are five possible histories yes the statement
+so in a repeated game this is the same answer to the question
+um that was a question in the chat for the same reason we can
+incentivize players to deviate by attaching punishments to
+choosing a nash equilibrium and rewards for deviating so in the in the
+what was it private agreement we can construct the same thing um we can
+
+01:25
+prevent them from playing zero zero in the first period if we attach
+the good continuation equilibrium after they deviate to v so here we could write
+sigma in the beginning is vb sigma vv is vv sigma v m is m and then
+player 2 will have an incentive to dba right
+if we modify the payoffs in the climate agreement model then
+the the efficient outcome can no longer be supported in a certain perfect
+equilibrium and to see whether this is true we only
+
+01:26
+have to look at the payoff differential that we we can get for continuation
+equilibrium so the payoff differential here is 2.
+so we can only prevent deviations that give them a reward of less than two
+in the first period and so if a b gives seven that's an
+immediate benefit of three so we cannot prevent the deviation
+so the answer here is false because the instantaneous benefit is three but
+the payoff differential of continuation in equilibria is two we cannot prevent
+um the players from deviating to va so we cannot support aea
+so it is true because the question say can no longer support ah correct yes
+thank you yes correct we solved this earlier today
+
+01:27
+for delta large or equal to one third then how many types does the next chat
+mechanic have the mechanic has four types because they're four information sets
+if players receive information twice they update their beliefs via base rule
+twice that is correct there's nothing special about
+reading information a second time we just use bayes rule whenever we
+receive new information and then lastly what are the beliefs in the avalon game
+
+01:28
+and yeah one half the most frequent answer is correct um
+let me go over how we can find this here so we asked about i close the question
+let me see in state eeg player three's beliefs about player
+one's alignment okay let's go eeg is this state here
+player three does not know state of the world player three's information set is
+not a singleton and we look for player 1's alignment and so player 1 is either
+good or evil so here let's say they are evil with
+
+01:29
+with what probability well we we sum up all the probabilities
+with which player three can believe that the true state belongs to this event
+that player one is evil and it's one half
+now the reason why we don't include this one here
+is because it belongs to a different information set
+so player 3 knows this is not a possible state because player 3 knows their own
+alignment good any additional questions now the good news is
+that you've essentially learned anything that you will need to know in this
+
+01:30
+course so now it's just different possible applications of the concepts you know
+and the only concepts that we need there are
+three of them in this class we need to know how to find mutual best response
+correspondences we need to know how players update their
+beliefs and that's given via bayes rule and then that players look ahead
+which means we solve a game backwards through the tree
+and all the other games that will follow bayesian games
+dynamic bayesian games we solve them with the same three principles so if you
+get really familiar with all these tools right now then you'll do very well even
+up until the end of the class good i wonder a question in the in the chat i
+wonder why the mechanic has four types why not two honest and dishonest so
+
+01:31
+the reason here is that um is that a type the number of types is always the same
+as the number of information sets type in the game theoretic sense means
+it really describes the player's information and so here even though in
+colloquial language we would say okay honesty or dishonesty is the mechanics
+type in a game theoretic sense it's the amount of information they have and
+the there there are four information sets of four types so
+in the game theory sense the type includes their knowledge about the car
+
+01:32
+which could either be repair or not repair any other questions
+i see someone mentioned in or asked in the examples
+the three prisoners problem explained in the language of beliefs and base rule
+so the three prisoners problem is mathematically equivalent to the monty
+hall problem so instead of choosing a car you choose
+whether you'll be freed from prison um so actually in that case it's
+equivalent to what we've already studied but in general if you have an example
+that you would like me to look at you need to mention it on poll
+everywhere the night before the class so i have time to prepare if you only
+mention this in the morning then then i won't have time to to prepare a
+specific example that you ask for good if so the questions about the proof of
+
+01:33
+kuhn's theorem i did not address here if you have those questions because it's
+not exam relevant please just come to the office it'll be
+easier to explain in an office hour um the details of that were proof good
+[Music] then if there are no additional questions that will be it um
+so office hours always after class until 4 20 and on monday evening after your
+macro is it macro as your macro pa session
+so monday's typically i think it's nasty metrics but here is issue on monday
+yes to your health so after econometrics ta session the
+idea is you you will ask the reason why i have monday and wednesday is
+monday the idea is you ask about the assignment which is due on tuesday and
+wednesday after class is any additional questions that i did not have time to
+
+01:34
+address in the class yeah and there will be starting now up until 4 20. good

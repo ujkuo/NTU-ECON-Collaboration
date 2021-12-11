@@ -1,0 +1,359 @@
+
+00:00
+so far we have looked at nash equilibria
+only in games with finitely many actions in this video we want to see what
+changes if players have a continuum of actions available
+the standard example that we had last week for a continuum of action was a
+cournot duopoly where the opec countries and the russian federation compete in a
+global market for oil and this is the parameterization that we had
+last week both players can produce any quantity at a unit cost of 10
+units per barrel and then we had a linear price function
+that starts at 100 and then linearly decreases with total supply
+now in this game we have already derived the best response correspondence for
+
+00:01
+players pure action so if we are certain that our opponent plays
+or produces a certain quantity then we best respond with this quantity here
+and these there are conjectures how we call them the certainty that they play a
+pure strategy can help us find pure strategy in ash equilibrium
+so if we were to write this as a best response correspondence like we did for
+the finite games it would look in this way
+and we can verify now consistency in the same way as before by simply going
+through all of these cases we can start again with any case that we
+would like so let's say we start here if firm 2 produces more than 90 then
+firm 1 will best respond with 0 then we see what happens if we plug in 0 then
+from 2 should play 45 which is inconsistent with what we started with
+
+00:02
+so this is not a nash equilibrium in exactly the same way it's not
+possible that firm 1 produces more than 90 and
+then if both players or both firms produce less than 90 then we have a cis
+system of two by two equations which has a unique solution where both
+players produce 30. we've already seen this outcome as the
+uniquely rationalizable outcome and it's no surprise that this is also a nash
+equilibrium what i wanted to highlight here though is that nothing changes
+in this approach where we first find the player's best response correspondences
+and then we verify consistency this works no matter if players have finitely
+many actions or they have a continuum of actions and it works even if let's say
+one player has finitely many the other eight continuum of actions
+and it also works in dynamic settings or games with incomplete information that
+we will look at through the rest of the class so really all the equilibria that
+
+00:03
+we will look at in the entire class can be found using this procedure
+so here is an example of a game where one firm firm one has a continuum of
+actions available has to choose a pure quantity but can be anything between
+zero and infinity and firm 2 can only choose 1 of 0 20 or 40
+barrels of oil to produce but firm 2 here has the ability to mix and you can try
+for yourself if you can solve this example i should be clear here this is
+not part of the participation grade this is just for you to get additional
+practice to solve through some of these examples
+now in this case the corner game we have seen that
+a nash equilibrium existed in pure strategy so that's sort of the best we
+can hope for and that's not always the case now the
+
+00:04
+reason why it worked is very similar to why we were able to work only with
+pure strategy conjectures is because we have this nice concavity
+or if we think about it a little bit more carefully what we actually need is
+quasi concavity now before we even look at the
+mathematical definition let's look at the graph of a typical
+quasi-concave function and it's a function that increases first
+and then decreases and what this means is that there is a unique
+maximum in a sense or put differently any local maximum so anything that we
+could find with the first order necessary condition is actually a global maximum
+now the formal definition here states that between any two points
+the function value is higher than the smallest value of either at x or y
+and so if x or y takes the same value then it means that any point in between
+
+00:05
+has to be larger or equal than this value and if they take different
+values then it means well it's simply larger than the smaller of those
+because it decreases down here to y so quasi-concavity here generalizes
+concavity and quasi-concavity is sufficient for
+local maxima to be global maximum we then have this existence theorem here
+by debrew glicksberg and fan who have shown individually actually that
+in a game where players have continuous actions but
+the action sets are compact and convex such that players utility functions are
+continuous not only in their own actions but also in everybody else's actions
+and the utility function is quasi concave in players own utility
+
+00:06
+then the game has a nash equilibrium in pure strategies and so
+that is sort of the best possible case we can hope for and
+those are games that are extremely well behaved like the cournot wapoli where we
+have as we have seen a unique nash equilibrium in pure strategies now
+because this is so convenient to work with pure strategies we often try to
+parameterize applications so that these conditions here are satisfied and if we
+can find a parameterization of the model
+that we're studying that satisfies these conditions then analyzing equilibria
+will be much simpler than if it does not satisfy these conditions now
+quasi-concavity the role of quasi-concavity in this
+result here is like i mentioned that the first order necessary condition is
+sufficient to find a global maximum let's
+
+00:07
+now discuss the other two assumptions so first we'll discuss
+why the strategy space has to be compact and convex and what can go wrong if it
+is not so for compactness there is a game the game of chicken that is frequently
+analyzed by game theorists or analyzed i should say
+used in classes as an example it was in a movie rebel without a cause
+with james dean where two to james dean and another another actor in the film
+they have this race where they race towards a cliff in their cars
+and then they jump out of the cars and let the cars go over the cliff
+and the goal of the game is to jump out as late as possible because if you jump
+out first then you'll be a chicken if we parametrize this
+as a game then we could say what are the players strategies well it's the time
+
+00:08
+they choose to jump out of the car there will be some fixed time t at which
+they reach the cliff and they have to jump out at any time before they reach
+the cliff once they reach the cliff it's
+too late and they will go down the cliff with the car in this case we see that
+the strategy space is not compact because it is
+not closed and what can go wrong is that it's always a better response to wait
+just a little longer so no matter how late the other guy jumps out of the car as
+long as it's before t then i always have a best response to just jump out right
+after him we see that the players can jump out later and later
+and it suggests that the equilibrium should be the limit point
+but the problem is the limit point is not included because at that time they
+both go over the cliff so we see that in that case
+
+00:09
+we cannot have a nash equilibrium in the same sense if
+the strategy space is not bounded then there might not be an equilibrium so if
+there is no cliff ever then the guys would just drive on and on and on
+and again there will be no equilibrium because they just
+can always drive a little longer now to understand what can go wrong with
+if continuity isn't satisfied let's look at an example of a beach vendor
+or a model actually of two beach vendors who set up shop on a beach of unit
+length and they can shed set up shop anywhere on the beach
+then the beach goers are distributed uniformly and
+they set up their space anywhere on the beach and then when they want something
+to drink they will always go to the beach vendor who is closer to them
+
+00:10
+what does this mean for the utility functions that the players have well if
+they set up shop here and here then this means that
+the first vendor will get to sell to everybody on this side of the beach
+and then to half of the customers between the two
+and then the second vendor will get to sell to everybody on this side of the
+beach and do half of them between those two
+and so if we measure the utility of the beach vendors as sort of the measure of
+or a fraction of people they sell to then x1 here will sell or
+vendor 1 will sell all those serve all those customers so
+vendor 1's utility is simply x1 plus x2 half whereas the second vendor will sell
+the remaining ones so 1 minus x1 plus x2
+and then we have to specify what happens if they both set up shop at the same
+
+00:11
+spot in which case they'll just get half off of the beach customers
+because it's equally far to get to both vendors
+and this is a discontinuous utility function if we draw it for some value of
+x2 here then okay at the very end at zero if player one chooses a zero then
+they split all those customers between them equally which means that
+they get half of the distance here then the utility increases the closer
+vendor 1 sets up shop to x2 until it's very close they set up shop very
+close to x2 they get all the customers essentially on this side of the beach
+the problem is that if they set up exactly at the same spot as x2 they only
+get half the customers on the other hand if they set up shop on the other side
+
+00:12
+of vendor two they'll have a lower payoff and again it's decreasing the
+further away they go because they serve a smaller fraction of the customers
+now this discontinuity here will cause some problems for best responses because
+the closer we get the better our response is but the limit point again is
+what's included but it gives a lower utility than anywhere
+as we approach this point x2 yeah so has a discontinuity if
+x2 is different from one half because if x2 is one-half then
+it will connect nicely to this point here so if x2 is different from one-half
+there's a discontinuity and it jumps down to one-half now this means that
+no position is actually the best response because it's always a better response
+
+00:13
+no matter how close we set up shop it's always a better response to set up just
+even closer to x2 and this means that there's actually no
+best response and the best response correspondence is empty for all
+x2 they're different from one half what happens for one half well in that case
+at x2 we get half of the customers and we still get half of the customers if we
+deviate just by a infinitesimal amount to either side
+and this means that we have a pure strategy nash equilibrium where both
+vendors set up shop at exactly one half because we see the best response to one
+half is one half and this is true for both players and so
+clearly those are consistent now we could extend this to two
+dimensions um it would be mathematically more complicated but
+we are then able to to use it to predict how
+
+00:14
+businesses set up shop anywhere in a city and if you walk around taipei you may
+have noticed that 711 and family mart always set up shop right across the
+street from each other or right next to each other and the reason is
+exactly the same because if they did not
+then there would be a better response to set up shop closer to the competition
+because we're unwilling to to move to walk too far for a convenience store
+for the same reasons let's say gas stations always set up at the same
+intersection and the reason is the same as in this example of the beach vendors
+now this is known as hoteling's spatial competition and has nothing to do with
+hotels is simply due to harald hoteling who first analyzed this
+
+00:15
+this special competition hoteling's model also has applications to voting um
+last year 2020 there were quite a few presidential elections around the globe
+um we had elections here in taiwan we're signing 101 with 57 percent of the vote
+joe biden won 51 percent in poland anja duda one with 51 percent
+and in croatia zoran villanovich one with 52
+of the popular vote and we see that all of those are relatively close to 50
+and can we explain this with a model similar to hoteling's competition
+can we explain it with a model of voting where people vote for
+the candidate who closely mac who most closely matches their political ideals
+let's say we represent the spectrum the political spectrum with a unit interval
+again so zero here is the very left edge of the political spectrum one would be
+the very right edge of the political spectrum
+
+00:16
+and then people simply vote for their the politician that represents their
+preferences the most closely now in such a model
+the two candidates of the two parties would have an incentive exactly like in
+the beach vendor setup to choose um political
+positions that are exactly identical of each other
+so that they both get half of the voter share while this does
+represent sort of the outcome it doesn't really explain it too well from
+an intuitive approach um we don't really see that
+trump and biden have the same ideology so what what goes wrong here
+also one thing that we have to consider is that for those two-party systems
+the people first need to be nominated by their party to compete in the
+
+00:17
+presidential election so let's say if half of the spectrum is republican and
+half is democrat then who most likely wins the democratic
+nomination is whoever is in the center of the democratic opinion
+and then for the republicans it will be whoever is in the center of the
+republican opinion then we get something
+where the two candidates are pretty much at let's say a quarter of the spectrum
+and at three quarters of the spectrum then once they compete with each other
+they pretty much get half of the vote now we see that if there's one party
+without primaries if there's one party where the candidate does not have to
+compete with others for the nomination then that party is an advantage because
+that candidate can put themselves a bit closer to the center than they could if
+they had to compete with other people from their own party this means that
+incumbents have an advantage to get reelected and maybe this is why we saw that
+
+00:18
+zainwen won with 57 whereas non-incumbents only one with 51
+or 52 percent of the vote yeah so this model is imperfect in the sense that
+a political stance the political stance of a politician is
+rather well known especially politicians that are sufficiently well known to be
+candidating for presidency so the politicians don't really choose necessarily
+their position on the line i mean they do but they can't change it
+before an election at least not by much but what it illustrates here is that
+the political candidate will win who is who who most closely represents the
+preferences of the median voter and this is known as the median voter theorem
+the proof is a little bit different it's not exactly hoteling's model but
+
+00:19
+hoteling's model is often used to explain the median voter theorem
+let's now suppose that we have three vendors on the beach what would change
+well let's first try to see what the utility function should be like let's say
+vendor 1 sits up here vendor 2 sets up here and then well on the outside the
+utility function will look exactly as it did before so if player 3 sets up
+at the very edge of the beach then they only get half
+of the customers between them and vendor
+one and then the closer they set up shop to vendor one the more
+customers they can serve and the same on the other side
+what happens if they set up between the two vendors
+then if they set up here let's say then well they get the customers that are
+from right to middle between them and vendor 1 to the customers right between
+the middle of them and vendor 2. and the difference here or the distance
+
+00:20
+if we subtract this one from the other one then we see
+that x3 cancels out and they always just get exactly half of this interval right
+because they lose one part here that they serve and then
+they lose one part here this equally largest one that they serve so in the
+end these are exactly half of the customers between x1 and 2. so
+they will get a constant utility for setting up shop between x1 and x2
+and then what happens if they set up exactly at x1 or x2 well in that case
+they share the customers with vendor one but only those that are on this side of
+the beach or if they set up here they share
+customers with vendor two but only those on this side of the beach and so
+the payoff that i get is exactly again half between those two points
+
+00:21
+again we see that the utilities are discontinuous mostly
+there's one case which it would not be discontinuous how is that well
+so essentially when those points match the
+limit points from left and right match the utility for exactly choosing the
+same location as another render so if we move x1 here to the left then
+the limit point from the top will decrease and from the bottom will increase and
+what's the left limit point here is exactly how far x1 is positioned on the
+beach so the right limit point here is that as
+well and then in between is exactly half the distance between x1 and x2
+so this means that we will get a continuous utility function if x1 sets
+up shop at one quarter and if x2 sets up shop at three quarters
+and that's the only time when the utility function of player 3 the
+
+00:22
+response function is continuous and that's the only time when we can have
+a best response because otherwise we always have this downward discontinuity
+which means that there is no best response so in conclusion
+the best response correspondence is empty unless
+the two vendors set up shop at one quarter and three quarter in which case
+the third vendor is willing to set up shop anywhere in between
+what does this mean for pure strategy and ash equilibria well
+it means there is none because if vendor three sets up shop here then vendor one
+will have an incentive to deviate and set up shop closer to player three
+if vendor 3 sets up shop here player 2 will have an incentive to deviate and if
+player 3 sets up shop anywhere in between then the others two don't
+actually have the best response so we see here that no pure strategy in
+ash equilibrium can exist and so for the last video then we want to look at
+
+00:23
+how can we find mixed strategy nash equilibria or do mixed strategy nash
+equilibrium even exist now a crucial role whether they exist is
+played by those discontinuities and before i even show you the formal definition
+what we're going to define here are upper semi-continuity and lower
+semi-continuity so upper semi-continuous
+function is one where the limit point is always above
+where the limit point is always below the function value
+so this is good for maximization lower semi-continuous function is one
+where the limit point is above the function value so there's a
+downward discontinuity and this is bad for maximization
+so the formal definition is yeah as we approach a discontinuity x the limit is
+below the function value regardless from which side that we approach
+
+00:24
+and lower simultaneous if it's the opposite if the limit is always
+larger than the function value and then in the footnote you have the definition
+of what the limb sub precisely mean but the important take away from here is
+really what the graph of a upper and lower semi-continuous function looks like
+and then we have this existence result for
+reasonably upper semi-continuous payoffs we have again
+the assumption on the domain which has to be compact convex and a subset of
+euclidean space then we have the condition that the sum of the
+players utilities is upper semi-continuous and then there's a third
+condition that is actually rather complicated to state so i will simply
+say discontinuities are sufficiently nice and rare
+so i want to mostly talk about the second assumption here that the sum of
+
+00:25
+utilities is upper semicontinuous and so this means that the sum here
+is essentially the social surplus that the players can divide amongst
+themselves and the social surplus that must be
+upper semi-continuous if the total surplus in the system has a downward
+discontinuity at any point then we cannot really expect that an equilibrium
+exists and this condition is satisfied by the
+hoteling model and the burn through our model where players choose prices and
+in that case it's actually continuous right so the total customers on the
+beach are always the same so the total surplus is constant but
+yeah sufficient for existence is actually upper semicontinuity and
+yeah that's the existence result and in the next video then we will look at how
+
+00:26
+can we find those mixed strategy nash equilibrium for now though a few
+questions for you to solve about how to find nash equilibria with a
+continuum of actions and the literature um
+yeah it's dealt with in foodenberg tyrol then we have the original paper by
+hoteling for the spatial competition then we have the three
+papers that show existence of a pure strategy nash equilibrium in if
+we have this quasi-concave utilities and then the paper by das gupta and asking
+that joe's existence for these discontinuous games

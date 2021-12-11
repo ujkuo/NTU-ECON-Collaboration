@@ -1,0 +1,882 @@
+
+00:00
+so this week we started with an introduction to static games and the
+first thing we analyzed was rationalizable behavior so sort of
+a short big picture summary of what we did this week is that
+we want to move away from individual choice theory to game theory where
+we have several players or several strategic decision makers that interact and
+now we formally model this interaction with a game and the game
+consists of the players who is interacting the actions that are
+available to each player and then the utilities
+that they obtain for each chosen action profile so for each outcome that could
+be realized from this game and so the utilities we've seen several
+
+00:01
+examples could be the profit of a firm in an oligopoly it could be
+one if we win in a game of rock paper scissors or minus one if we lose um and
+any any payoffs um for the interaction that captures the player's preferences
+over outcomes then it is important if we study game theory that sort of
+we make some underlying assumptions about the players so the players they
+are all aware of the game they know who is in the game and they're all rational
+they all try to maximize their expected utility function now
+this is the abstract model of the interaction and then we need a way to solve it
+and this is done with a solution concept now why do we need solution concepts
+well because we have these strategic interactions there's no let's say unique
+
+00:02
+optimum like there is or there's no clear
+measure for optimality like there is in a single uh agent decision problem
+and different solution concepts that we will consider they typically differ
+based on the assumptions that we require about the player's knowledge or their
+beliefs um so two examples that we have seen this week is that if we assume no
+knowledge of the players we only assume that they're rational then we have these
+for example a strict dominant equilibrium so players don't need to know
+what other players whether they are rational or not um if
+they have a strictly dominant strategy they will choose it if they are rational
+regardless of what they know about their opponents again a stronger assumption
+that we have looked at later is what if players rationality is common knowledge
+so the players know that every player is rational they know
+
+00:03
+that everybody knows that they are rational and so on and then we obtain
+the solution concept of rationalizability now next week we'll make even more
+assumptions about what the players know so for example um this will come next
+week but any nash equilibrium will assume that players beliefs about other
+players behavior is correct so and this just shows how again the
+solution concept differs simply based on what assumptions we impose on the
+player's knowledge now for those of you who
+for which maybe conjectures was a little
+bit difficult to grasp so i will go over conjectures in more detail but
+i want to show you some good news that is that
+after next week we'll never have to deal with correct conjectures again because
+the player's beliefs will be correct in equilibrium but today we will
+look first what can we say if we only impose rationality and common knowledge
+
+00:04
+of rationality are there any questions so far
+let me see if i can see the chat here oops i'm not sure how can i see hmm
+no i'm not sure if you see the chat well so if you have a question please do
+speak up now we have seen two very related sort of solution concepts so as i
+mentioned here rationalizability is the right solution concept but
+iterated elimination of strictly dominated strategies is maybe the more
+intuitive solution concept the idea is that in each step
+we eliminate strategies that are very clearly so optimal so in this example
+here that we've seen choosing center for player two
+
+00:05
+is always a worse option than choosing right
+right because right gives two if player one plays t where center gives only one
+but right gives six um if player one chooses b where c only gives four so
+no matter what player one plays choosing r is always a better response than
+choosing c then once we have eliminated c if now
+player 1 knows that player 2 is rational then player 1 knows
+player 2 will never never play c now player 1 can make
+an additional logical deduction player one can now see okay
+given that player two will never play c i can now i can now have a strictly
+dominant response which is t because it's always better than b
+and then player two knows that player 1 knows
+that they are rational so they know that
+player 1 can make this logical deduction and then
+
+00:06
+player 2 will say okay if player 1 plays t
+then there's no point for me to play r and i'll play i'll instead
+so here we see that we needed second order knowledge of rationality to come
+at this conclusion here is there any questions so far
+and the procedure is concluded by at the end looking at which mixed strategies
+are undominated now in this case only one pure strategy remains so that's the
+only strategy that survives now the problem with this intuitive
+approach is that sometimes the remaining strategies
+that we get they are not necessarily best responses to a conjecture
+over the opponent's strategy profiles that remain
+so let's say we have common knowledge of rationality and every player can now
+
+00:07
+figure out the set of strategies that survive iescs for each other player
+but somehow some of those strategies here may not
+actually be a best response to any beliefs any conjectures we may have
+about opponent strategies in this remaining set
+and this is why we want to sort of fix or improve this procedure to the
+procedure of rationalizability so we wonder in each step
+not what is clearly suboptimal but we ask what is optimal
+right so is it justifiable to play a certain strategy for some conjecture
+that i might have about every other player what they will play
+and then in each step of the iteration we keep those strategies with our best
+response to a conjecture on the strategies that remained in the previous
+iteration so in this example here what we what would we think so in the
+
+00:08
+first step i guess i should have eliminated these uh
+these strikeouts but in the first step if we
+try to use rationalizability then we wouldn't wander or the sub-optimal we
+would say okay can we play l that means is there a
+strategy by the opponent to which l is the best response
+and then if we see for the entire game l is a best response if player 1 plays t
+and we see that r is a best response if player 1 plays b
+so they are both justified by some conjecture and they will both remain
+within the set at r1 similarly for player 1 we can ask whether they are
+justified by some conjecture so if we believe their opponent plays l
+then we best respond with t and if we believe that player 2 will play c then
+
+00:09
+we best respond with b now the difficult part about rationalizability is that
+we should be doing this for mixed strategies as well which mixed strategies
+are best responses and this becomes very quickly very difficult or very tedious
+so we have two results that help us with this procedure so that we don't have to
+go through all these mixed strategies in every step
+so the first result is that in two player games we can simply use iesdf
+and the second result is that if we have sufficiently nice concave utilities um
+then we only need to look at pure strategic
+injectors and only at pure strategy best responses and then iescs becomes quite
+tractable and we will see that typically if there's finitely many actions
+
+00:10
+we want to use theorem 1.10 so we use aesds and
+if there's a continuum of actions but um utilities are sufficiently nice and
+strictly concave then it's easier to use
+zero 1.11 even in two-player games and i will illustrate this
+again the example of the queen or dwell so this is sort of the big picture
+rationalizability is the right solution concept
+conceptually but it is hard to apply so we have these two results here that help
+us apply in in practice now in the questions on paul everywhere so the
+most frequent question that i got was to explain conjectures again and how
+conjectures differ from mixed strategies so i want to spend a
+
+00:11
+few minutes here discussing mixing and mixing and conjectures again so let me
+try to make sure that the notation is clear so we have these set of
+pure actions for each player ai that are sort of the set of all
+fundamental choices the player can make then an action profile is a vector
+consisting of a pure action of each player and
+so here this means that each component comes from let's say first component
+comes from a1 the second component from a2 and the way we write the set of all
+action profiles is with this direct product here so we use here these crosses
+to indicate that this is a vector where each component
+from of the vector comes from these sets and then we can
+write this in a compact form also in this way here so this big cross just
+means we have lots of these small crosses
+
+00:12
+where we they take the direct product of the different sets of your actions then
+with this delta here we denote the set of all distributions over whichever set
+is inside here in the parentheses so in this case instead of all distributions
+over player i's pure actions are all of player eyes mixed actions
+this means a player can randomize between the actions so can choose a
+lottery between the pure actions where one action is chosen with some
+probability and another action with some other probability
+and so an example we have here so we could say okay player 2 mixes with 50 50
+between left and right and player 1 chooses 50 50 between top and down
+and this makes each outcome equally likely with one quarter each outcome
+
+00:13
+will be realized now what are the what is the set of all
+mixed action profiles well it's again a vector with a mixed action
+by every player so it's an element of this set here right all this means here
+is that it's a vector and each component comes from delta a i
+so this is the set of all mixed action profiles and this set is smaller
+than the set of all distributions over the set of all pure action profiles
+so here is an example of a distribution over all pure action profiles which is
+not which cannot arise from a mixed action because in a mixed action players
+actions are always or the lotteries are always realized independently of each
+other so if we have independence then the probability of each outcome is
+simply the product of the probabilities with which each player chooses that
+
+00:14
+mixed action or with the probability with which that action
+is chosen by the player's mixed action so here we have 50 times 50
+and we see there is no such mixed action that generates this outcome
+right in order for this outcome dr to never be realized this means that either
+player one chooses to you at zero probability or player two chooses r with
+zero probability but if player one chooses d with zero
+probability then this would be zero as well or if player two chooses r with
+zero probability then this would also happen with zero probability so this is a
+distribution over pure action profiles that is not a mixed
+um index strategy profile and so in general
+the whole point of this is that the set of all distributions here is larger than
+the set of mixed action profiles which is why we use different notations
+
+00:15
+yeah so mixed action profile this and all it means is that it's a vector
+where each component comes from the set of mixed actions of player i then
+the same notation applies to strategies so currently
+as long as we're dealing with static gains of complete information
+the pure strategy is the same as just a pure action we choose
+an action exactly once and so we can rewrite this all in terms
+of strategies and the same applies we have that the same of mixed
+strategies is again a vector where the consisting of a mixed strategy
+of each player so it's again an element of this direct product here
+which means that the mixed strategy of player i comes from this set here
+and again the set of all distributions over strategy profiles is larger than
+
+00:16
+the set of all mixed strategy profiles and then we can move on to conjectures so
+a conjecture in a conjecture if i try to think what will my opponents do
+then i think okay minfang will with 50 he will do this with 50 he'll do
+something else and i think um hendrick will do something with a certain
+probability and i will for my beliefs essentially
+about each of the players what they will do separately
+and so if i believe what some player will do then this is
+some distribution over their mixed strategies so then we have
+sort of these two of those deltas within each other because it's a distribution
+over the set of mixed strategies which are themselves a distribution over
+
+00:17
+the set of pure strategies so here's an example we could have two
+mixed strategies for each player so let's say player 1 plays 50 50 or
+they play 25 75 and then my beliefs could be okay player
+one plays this mixed strategy profile with 50 probability and this one with 50
+probability and this would be an example of a
+of my beliefs about what player 1 will do now conjecture consists of
+beliefs about what each other player would do so it's again a vector
+where in each component we have beliefs about the behavior of another player
+so it's a vector where for each other player we have one of these beliefs
+
+00:18
+and this explains the notation of why this is the set of all conjectures
+and again it's smaller than the set of all distributions over mixed
+strategy profiles so it's not a valid conjecture for me to believe that both
+of those mixed strategy profiles but only those will be realized and
+again they will be both realized with 50
+50 because what that would imply is that the two players coordinate
+if i believe that only these two are possible then they believe that whenever
+player 1 mixes 50 50 player 2 mixes 50 50 as well
+and whenever player 1 mixes 25 75 then player 2 mixes 40 60.
+but this is a static game where players interact only once there's no
+communication between players one and two so they don't have a way to to
+coordinate that they're mixing with each other so that's why those are not
+
+00:19
+valid conjectures and the conjectures are only the smaller set here
+i hope this made the notation a little bit clearer um
+yeah that this this big cross here just means it's a vector where each component
+comes from um this set here for that specific player
+are there any questions so far now i did get a few questions of
+how will the mixed strategy be implemented in reality um
+how do we randomize among our actions and this is just going to be additional
+information not not really exam relevant so you see here the light color scheme
+so suppose we are at the rock paper scissors game and we want to
+
+00:20
+play rock with 50 and play paper with 50 now one way how we could do that is we
+could flip a coin and we could say okay if the coin comes out head we play rock
+and if the coin comes out tails we play paper
+and we would do that in secret so that our opponent doesn't know whether we
+play rock or paper that's one way how we could implement it now
+what matters here because mixing is done independently of
+the players what matters is only the relative frequency with which the
+two actions are chosen it does not matter whether i flip a coin or whether
+i roll a dice and choose rock when it's even and
+paper when it's odd um so that's why typically we don't even model how
+how players realize their mixed actions they have some
+called a mixing device that we use to randomize between the actions but what
+is important that we choose the distribution with which we want the
+
+00:21
+outcomes to be realized an example where mixing is used in real life so in
+in rock paper scissors we wouldn't really flip a coin what we probably try
+to do is we try to estimate in our head that we have some kind of distribution
+that we follow if we play it ten times then maybe we will play
+paper three times rock four times scissors three times and in some
+pseudo-random fashion now when rock paper scissors is played for for high stakes
+people would pay more attention to how they're randomized to make sure that the
+opponents can't guess how they randomize and one game where people play for very
+high stakes is poker and in poker um it's important that the opponent doesn't
+know our cards so it's important that let's say whenever we have two aces in the
+
+00:22
+beginning which is the best hand that we can have
+that we don't always act in the exact same way
+otherwise they would be able to get some information from that
+now we will see later as we move on in the class more about why this is the case
+but for today let's suppose that we want to play two aces
+in five out of six cases now how would professional pokers randomize this well
+are four suits and so there are six combinations
+of suits that we can have our aces and then we can just say okay at the
+beginning of the poker session i say okay if i have a pocket pair and i wanna
+raise with five six probability then i will
+raise if and only if the suits aren't both black and
+so what this means is that our mixing device is simply the dealer shuffling so
+there's already randomness in the game and we can use that
+
+00:23
+to realize our mixed actions now as i've said this is additional
+information that is simply for you to understand
+how would we choose a mixed action reality this entire procedure is not not
+relevant for assignments or exams beyond understanding what a mixed action is
+now to the formal notation um so this is the formal definition of
+iterated strict dominance and it looks like quite a handful so let me
+go again through all of these three points step by step
+so the first point means we start with the set of all pure strategy profiles ah
+sorry yep your strategy profiles and then in each step we eliminate those
+that are strictly dominated so this means that we keep those
+
+00:24
+so all those strategy strategies that have not been eliminated yet we keep them
+if they're not strictly dominated so this means we eliminate
+those that are strictly dominated then what the second condition means is that
+we keep doing this we look at the limit as
+we as k goes to infinity as we do this over and over again
+so we repeat it until the process converges and the reason why we have an
+intersection here is because limits in with set valued maps is not
+necessarily well defined so the intersection is and so we can use
+the intersection because the set of strategies that were
+not eliminated will get smaller and smaller
+so if we want to look at the limit um we use formally we use the intersection
+
+00:25
+symbol but the interpretation is really this is the limit of this set of
+strategy profiles that gets smaller and smaller
+and then lastly at the very end once we know which pure strategies survive yes
+yes then we find the undominated mixed strategies
+so we check which mixed strategies supported on those pure strategies
+are not strictly dominated and then this is the solution to iesds now this is
+sort of the simplest way how we can formalize
+iterated strict dominance and if we open
+up any textbook that has a definition of
+it a formal definition not just in words it will be something like this
+why do we do this well we've seen that or i guess in the first assignment
+
+00:26
+you will see this example where um a strategy is not necessarily a best
+response to a valid conjecture even if it survives iests now
+what does that mean formally well we want to or what does this mean for for a
+researcher we want to write down ies yes
+formally and then see what which part we need to fix to get rid of the problem
+and then we arrive at rationalizability so the idea is again a similar procedure
+but instead in each step instead of eliminating some strategies that are
+clearly suboptimal we want to keep those that can be optimal for some
+conjectures over the remaining profiles of the opponents
+but the interpretation is again the same so we start with the sort of all mixed
+
+00:27
+strategies and then we eliminate all those that cannot be
+that are never a best response then again we take the limit and we
+repeat it until the process converges and once it does we have found a set of
+all rationalizable strategies so the process is different in the sense that
+in theory here we look at all mixed strategies in each step whereas in
+ies yes we only eliminate or we only look at mixed strategies at the end
+also another difference here is that we always have to justify the behavior
+of why something could be optimal whereas in aescs we simply say ah this
+is clearly suboptimal now why do we consider conjectures and
+we've had this example here where all of the pure strat so in the first
+
+00:28
+round of elimination we eliminate d because it's strictly dominated by c
+but all the other pure strategies remain because they are best responses to some
+valid conjecture so b t and m were best responses to a b and
+the mixture between a and b and for player two a b and c are best responses to
+two t b and m now the mixed strategy itself is actually not
+a rational or it's not the best response to any conjecture because
+it's strictly dominated by c right if we mix a and b then we get one
+point five zero one point five which is strictly dominated by c
+now we may wonder well will we will we eliminate n because c has um
+
+00:29
+only will we eliminate m because this mixture here has been eliminated
+and the answer is no because there is still a valid conjecture
+to which m can be a best response if we play both a and b
+with 50 likelihood then m is the best response
+and this is a valid conjecture because both a and b can be justified if
+player 2 believes that player 1 will play t or b respectively
+now how is that conjecture here different from the mixed strategy um not
+all too much um so the best responses to this mixed
+strategy are exactly the best responses to this conjecture um
+and the reason is that the payoffs are determined by the pure
+strategies and then we aggregate them equally and this is the case in both of
+
+00:30
+them the difference is sort of this is behavior by player two and it cannot be
+optimal whereas this is sort of conjectured behavior um
+is okay they could play a with 50 likelihood or b with 50 likelihood
+or let's look at an example and this is one of the examples that you solved in
+the questions on paul everywhere so i figured we discussed the solutions to
+this one anyway so let's let's do this one as an example
+and the question is which strategies are rationalizable
+and our first instinct should be well it's a two-player game so we will look at
+ie sds so if we look at these payoffs then we see that okay r
+is not dominated because it's better than l if player one plays t then um
+we see that also for player one um no pure strategy is strictly
+
+00:31
+dominated by another pure strategy but it turns out that one pure strive is
+just dominated by a mixed strategy how can we how can we find out um
+so one way that we have seen is that we could draw um player one's payoff rows
+and then see which one is strictly dominated so let's uh try to do that here
+so whoops um here so let's say if we play t then we'll get payoffs five
+and one so let's say maybe so here we have five and one five and one
+then we have three and two so that would be maybe somewhere here
+
+00:32
+and then we have two and four maybe somewhere here and then we see that
+m will be dominated by a mixture of five and one
+so this is one way how we can do it we can draw it
+or if you're not one for drawing much then um then we can try to see numerically
+whether you know a mixture of two of them will be better than the third and so
+typically because um the best response here requires that
+or it's strictly dominated for all the other strategy profiles of the opponents
+it means that row payoffs where the sum is the lowest
+are the ones that are most likely to be dominated
+so here if we look at this one we see that m only gives us five pair of units
+
+00:33
+whereas t and b give us six total payoff units [Music] in total
+so this means that t and b will be further to the top right in a sense than
+m so we can use this heuristic to see okay
+most likely m is going to be dominated so let's try to see for which mixture um
+3 is lower than 5 and 2 and we see that okay if we mix 50 50
+then we'll get 3.5 and this works if player 2 plays l
+and then we can see that oh the 50 50 mixture actually also works for r
+so 1 plus 4 50 50 would give us 2.5 so we see that [Music] so
+
+00:34
+we see that um a 50 50 mixture of tnb dominates m and nope
+and so n is dominated and if m is dominated then now we see that r
+is strictly better than l and then b is strictly better than t
+so the unique outcome here of iescs or rationalizability for that matter is br
+so this is one of the typical examples that we can encounter and this is one for
+finitely many strategies then another type of example that we
+could encounter is we have a continuum of possible strategies and
+
+00:35
+such an example would be the case of the cournot
+and this is the same the same numbers that we've seen in class and the only
+change that i made is that players can choose very very large quantities um
+and let's solve this example as if we had if we hadn't any knowledge about
+ascs or rationality from the class what was the the easiest way that we could
+try to solve this so intuitively i think most of us would try to find
+best responses so most of us would lean towards rationalizability rather than
+eliminating strictly dominated strategies because we know how to find
+best responses essentially by taking the first derivative setting it equal to
+zero and making sure that it is a local maximum so the idea is here that
+finding best responses is actually simpler than showing
+
+00:36
+that a strategy is dominated but it's only simpler if we can restrict
+attention to to these simple conjectures to these
+there are conjectures on pure strategies which is precisely
+what we can do if theorem 1.11 applies and we check that the conditions are met
+there are four conditions that the set of available actions for
+each player is bounded is a closed bounded interval that's satisfied
+that the utility function is continuously differentiable
+so here it's a polynomial and any polynomial can be infinitely many times
+be differentiated continuously then it's strictly concave in q i so the
+second derivative here um will be -2 which is negative and then it's monotone in
+
+00:37
+the other players quantity so our payoff is always lower the more
+the other company produces because this will lead to a lower price
+so all the conditions are satisfied and so we only have to worry about these
+very simple beliefs that our opponents will play a pure strategy with
+probability one okay now once we restrict attention to these very simple beliefs
+how should we respond and so here is where we use the extreme value theorem um
+that we say okay if we have some kind of continuous function
+so this is not the payoff function of of the duopoly this is just an arbitrary
+graph where could it be maximized well it
+could be maximized where the derivative is zero
+it could be maximized at a boundary point
+and we see that it can also be maximized where it's not differentiable
+so wherever there's a kink it's possible that we have a maximum without the
+
+00:38
+derivative ever being zero right because to the left the derivative
+is positive and to the right the derivative is negative
+now we could ask the same question about where is the minimum of this function
+here again by the extreme value theorem it tells us it's either where the
+derivative is zero so that would be here or at a boundary point or
+at where it's not differentiable and so it's important that
+there's only one of these it's not always where the derivative is zero it's just
+one of these three cases so if we look for the minimum the global
+minimum is here and the derivative is actually positive here right so the
+payoffs decrease the closer we get to the boundary and the only reason why the
+minimum is at the boundaries because we can't choose anything lower
+so three possible cases it's not differentiable the derivative
+
+00:39
+is zero or it's the boundary point now going back to the cournot example
+we know that the utility function is differentiable so there so you don't
+have to worry about this third case here but it could still be either
+an interior point where the derivative is zero or a boundary point
+now let's distinguish both cases let's first assume that it's an interior point
+then we know the derivative has to be zero
+so we compute the derivative we set it equal to zero which we can then solve
+for q1 now this is not yet from one's best response we only know
+that if the best response is in the interior it takes this form
+well actually we first have to verify that it is a maximum
+so we verify that it is a local maximum and we do this with the second order
+
+00:40
+condition so if the function is locally concave if
+the second derivative is negative then this point here will be a local maximum
+so why is this this this condition uh sufficient here well it tells us that
+the first derivative right is the the slope so the second derivative means how
+how is the slope increasing or decreasing and if the slope is decreasing this
+means that at this point here the slope changes from being positive to negative
+so it sort of means that it's curved towards curve downwards
+right because the slope keeps getting lower and lower
+whereas if the second condition was positive then this is actually a minimum
+and we don't ever want to find worse responses in game theory so we
+
+00:41
+always have to make sure that it is a maximum so this is for an interior point
+at the boundary point when could the boundary point be optimal
+well for zero we always get zero and the only way how this is the best
+response is if um player 2 chooses a very large quantity
+if firm 2 chooses more than 90 then q1 hat here
+is even outside the set of allowed strategies right we cannot choose a
+negative quantity we cannot produce a negative quantity
+and if we plot the payoff function the payoffs that we get if
+player 2 chooses q2 then we'll get strictly negative payoffs because if
+firm 2 chooses more than 90 then the price will always be negative and so
+
+00:42
+producing anything will result in a loss and so just be a decreasing function
+that is maximized at zero so we see that in the end
+the best response is either zero if firm 2 produces more than 90
+or is given by this expression here if firm 2 produces less than 19.
+so in summary our best response is of this form so
+plus here means it's the maximum between this quantity and zero
+and if we plot the graph of our best responses then it takes this shape here so
+our best response is positive for anything up to
+
+00:43
+90 and then after that our best response is zero now what
+what does this mean what pure strategies of us can be best
+responses which pure strategies are justifiable or anything in the range here
+so if we plug in all possible values for q2 then we'll
+get all possible best responses and because it's monotonic we can do
+that by plugging in the lowest and the highest value of q2
+and so this means that instead of all strategies
+that are consistent with rationality so r1 is anything between 0 and 45.
+and then we can keep doing that where we adjust here the maximum and the
+minimum um to lie within the set of admissible strategies
+we keep doing it and get an iterative procedure that converges to
+
+00:44
+the solution that we know to be 30 and 30. good so these
+are the two types of questions that we can solve with um rationalizability so
+if there's finitely many strategies then if it's a two-player game we just use
+iesdf and if there's a continuum of actions then
+i think personally it's easier to find um the best responses so we use theorem
+1.11 so that we only have to find pure strategy best responses to these
+very simple beliefs that our opponent will play a pure strategy with
+
+00:45
+probability one good any questions so far then this is this was my prepared um
+prepared summary or explanation to the questions you asked ahead of time so
+typically i will check tuesday night the questions that are already on paul
+everywhere and then i'll respond to those um
+by preparing something and to the other questions i'll simply respond
+in the class so let's go to poll everywhere and go through these questions
+so if two players know that they are both rational and they know that both
+know that they are rational the rationality of the players is common knowledge
+the answer is so this is false so this means is second order knowledge right
+they know and wait they know first order knowledge
+then they know that they both know that second order knowledge but common
+knowledge is really reserved for infinite order
+
+00:46
+knowledge so we can carry out this procedure until the process converges so
+in this example here if we only have second order knowledge then we will stop
+at 22.5 to 45 whereas if we have common knowledge then
+we get all the way to the result which was 30 and 30.
+it is easier to predict the outcome of a cournot oligopoly than a rock paper
+scissor game well very good this is true because
+we have seen now that there is a uniquely rationalizable strategy
+so we only need common knowledge of rationality to get a unique prediction and
+theorem 1.11 can actually be applied to more general settings of the kernel game
+um where we have concave price functions and things like that and so in quite a
+
+00:47
+lot of generality there's a unique rationalizable outcome whereas in the
+rock paper scissors game anything is rationalizable and so it's
+harder to predict the outcome in rock paper scissors
+a weekly dominant strategy equilibrium is unique well let's look at
+the definition of weak dominance so oops so here um if strategy is
+weakly dominated if it is um never better but it's strictly worse for
+some strategy profile of everybody else now i didn't define here what the weekly
+
+00:48
+dominant strategy equilibrium would be like but if we assume that
+it would involve the strategy that weekly dominates every other strategy
+then it means that two of them so that it would have to be unique
+we can see this by by supposing that if there are two so if there are sigma say
+i one and sigma i2 then this condition here would imply i1 small or equal to ui
+
+00:49
+sigma i2 but it has to hold in both directions so
+it would mean that they're equal always but then
+this cannot hold for either of them but it has to hold that we have strict
+inequality for some so if it's equal for both of them then
+then sigma 1 cannot weaker dominate sigma 2. but if
+weak dominance if we drop this requirement here then
+then they wouldn't be unique and like i mentioned in grad school it's
+more important about how we argue rather than the outcome so depending on how we
+define the weakly dominant strategic equilibrium we will get one result or
+the other but it's important that you know the the
+cognitive steps how we arrive at the solution are correct for a definition
+
+00:50
+that we had in mind for weak dominance then
+a weekly dominant strategy equilibrium is robust the answer is no
+because we have here this weak inequality and if we have a strategy that is
+yields the same outcome as some other strategy profile
+as some other strategy then in an epsilon perturbation it might yield a lower
+utility so let's say we have um let's say we have
+uh two strategies and one yields um one and the other one also yields one so
+this is the equilibrium here the equilibrium this is some alternative strategy
+
+00:51
+for sum [Music] then we can have an epsilon perturbation [Music] of the game
+in which we have this is one minus epsilon and this is so this would mean that
+sigma i here is not weakly dominant in the approximation
+because it actually yields a smaller payoff than some other strategy [Music]
+then so here the correct answer is false and the outcome of a strict dominant
+
+00:52
+strategy equilibrium is pareto efficient the answer is no
+it's not so this is false um so if we go to the doping example then we see that
+the strict dominant strategy equilibrium makes the prediction that both
+athletes will use doping which is not very deficient because it's worse than
+nobody doping so we have here pareto dominance to rule out
+dominated strategies um or to find dominated strategies that are
+dominated by mixed strategies but those are not
+the payoffs of both players right those are only the payoffs of player one
+so even though we used no parental efficiency to kind of arrive
+at the solution the solution because particular efficiency here was
+
+00:53
+only for player 1 or for each player individually
+the result does not have to be very deficient in the entire game
+and what outcomes are consistent with rationality of both firms in the corner
+example we just derived it it's 0 45. so for this one here we need knowledge
+of rationality oh i chose word cloud as as the
+way the answers would be presented um which makes quite of a mess if people
+write sentences but we can still see b and r was the most frequently chosen
+responses which is the correct response right this is the example that we just
+
+00:54
+solved then if there are finitely many or n um pure strategies the set of
+conjectures is the following and that's not correct this is either the
+set of pure strategy conjectures or equivalently the set of mixed strategies um
+but instead of all conjectures is the set of distributions over all these um
+yeah as we've defined uh at the beginning of of this class so this is false then
+strategy profiles consistency with player knowing that every player is
+rational are precisely those in r2 that is correct so r1 means rational r2
+knowledge of rationality r3 second order knowledge of rationality
+and so rk is k minus first order knowledge of rationality
+
+00:55
+for two player games the isds procedure coincides with the procedure for
+rationalizable strategies the result is the same
+that's the result of theorem 1.10 but i would say
+the procedure is not right the procedure is that
+we eliminate dominated strategies in iescs but for rationalizable
+we check that all the strategies are supported by some conjectures and
+the procedure is more complicated for rationalizable strategies which is why
+this result that they are the same in two-player games is so useful because it
+means we can use the simpler procedure to get the same result
+then a chance for us to look at the proof of this result
+is this question here so suppose that each player's payoff depends only on his
+
+00:56
+or her own action and the action of one other player then
+instead of rationalizable strategies coincides with the set of strategies
+that survive by sds this is correct and i'm pleasantly
+surprised how large the number of correct answers is here because we have
+to go into the proof of the result to see why this is true
+so if we go here into the proof so here was to prove where does the
+proof fail in multiplayer games and we had that
+so in the proof we constructed these conjectures based on based on um
+instead of all sort of the convex hull of all the payoff rows for player one and
+now if player one's payoff depends only on one other player's actions then
+essentially we can again look at something two-dimensional like this here
+
+00:57
+because all the other players don't matter in that case we only get a conjecture
+of two strategy profiles that differ only by player one strategy which is or
+by one player strategy which is a valid conjecture
+and so we see why it's nice to have a proof because even in situations where
+the result does not directly apply we can go into the proof and see would it
+still work and the answer in this case is yes it works because relevant
+for the proof here was that um that any essentially any two extremal um
+payoffs here in this convex hull differ only by the strategy of one opponent
+this is always satisfied in two player games but also under this condition here
+
+00:58
+[Music] and then lastly any solution concept that is consistent
+with common knowledge of rationality must yield a subset of rationalizable
+strategies and this is correct um yeah rationalizability tells us
+everything that is consistent with it and so if a solution concept tells us a
+subset of it then it's still consistent with common knowledge of rationality
+good are there any other questions so i figured out how to open the chat
+window next to zoom so you can also type the questions in the chat
+
+00:59
+can provide an example that um the the procedure of uh iewds is
+not immune to to the order of indonesian i can find an example in a textbook for
+you i don't know one by heart but i can either have minifum show it in the
+ta session or i can give you a reference to a textbook
+so jj was asking can you repeat the answer again too fast which answer all
+well so so the class is recorded so if it's too
+fast you can always go back to the videos afterwards and see the
+
+01:00
+explanation again um but let me go here through the answers one more time so
+if two players know that they are both rational and they know that both know
+that they are rational then rationality is not common knowledge so this is false
+the reason is that common knowledge is reserved for infinite order knowledge
+whereas knowing that everybody knows that irrational is second order knowledge
+is that all right jj okay then it is easier to predict the outcome of a
+kernel oligopoly than a rock paper scissor game and so here the crucial
+
+01:01
+part of the question is what does it mean to be easier to predict
+and this means less stringent assumption on the player's knowledge or a
+smaller set of strategies that survives rationalizability
+and rock paper scissor might be easier to model
+than the canon oligopoly but once we have it modeled we have seen that no
+strategy can be eliminated um and this is by design i mean if
+if there was one strategy that was always dominated then nobody would ever
+pick let's say rock if rock could never win
+and but each strategy has a chance to win so no strategies are dominated hence
+all the strategies are survive iscs or rationalizable elimination
+
+01:02
+whereas in cournot we have seen that there's a unique strategy that survives
+and so we get a unique prediction does that make sense jj good
+then a weekly dominant strategy equilibrium is unique um and the answer was no
+um or it depends on your definition of what weekly dominant means um different
+fields use different um definitions um the one that i gave is from decision
+theory where we want that that a strategy is weakly dominated if it is
+never better than some other strategy but it's also strictly worse sometimes
+
+01:03
+right so this condition here that it holds with strict inequality for some
+strategy profile of player i's opponents means that
+sometimes if all my opponents happen to play exactly this
+then i'll do strictly worse than choosing the dominant one
+then we defined a strict dominant strategy equilibrium as
+everybody playing a strictly dominant strategy
+now here if we define a weekly dominant strategy equilibrium
+one possible definition would be to say okay everybody chooses a strategy
+that weakly dominates every other strategy
+and if it weekly dominates every other strategy then this implies uniqueness
+why so what i had here before written down was that
+
+01:04
+so let's say here in this inequality both sigma i and sigma i prime
+are a weakly dominant strategy equilibrium then this means that
+we have to have this inequality as well as the inequality in the other
+direction because both sigma i prime and sigma i dominate each other
+this means they have to yield the same utility for all possible strategy
+profiles chosen by ice opponents and then this has to violate this last
+condition because if they yield the same utility it's not possible that
+one of them also yields a larger utility for one specific strategy of the others
+does that make sense then robustness does not hold because
+
+01:05
+if we have equality if we change one side slightly then
+then the inequality won't hold anymore so like you mentioned if we have here
+one small or equal to one then we can change the payoff slightly
+to one plus epsilon where this is no longer true so it is not robust then
+does that make sense then the outcome of a strict dominant
+strategy equilibrium is territo efficient now okay what is pareto efficiency um
+let's go here so pareto efficiency means so i pay a factor or i guess a ai
+
+01:06
+outcome a is pretty efficient if um let's say actually all right so to strategy
+as is perito dominated y s prime so i guess this is strategy profile if
+so we have um the payoffs in s prime [Music] are larger or equal
+
+01:07
+than in s for any player and there is one player
+for which u i s prime is strictly better that would be the definition of
+predominated then pareto efficient is if it's not dominated by anything else now
+to answer this question here all we need to see is
+is there one sided profile that is strictly better so we can
+so all we need to see is one counter example and the counter example here was
+whether the athletes should dope because the outcome of the strict dominant
+strategy equilibrium is that they both choose to dope
+which is pretty dominated by not opening right because the payoffs here are
+
+01:08
+higher for both players so it cannot be parado efficient does that make sense
+good then what outcomes are consistent with the
+rationality of both firms in the current example
+so rationality means r1 and we've computed r1 in an earlier example in
+this in this video and it is 0 45. right it's all those strategies that we know
+is a best response to some conjecture even if we don't know anything about the
+other player's rationality in which strategy profile survive iests
+in the game to the right so this was this was this this example here
+and here again you can rewatch the video how we arrived at bottom right
+
+01:09
+and we iteratively eliminate these strategies then here
+what is this here what is the set this set of distributions over s i
+so this is either the set of mixed strategies or the set of fewer strategic
+injectors but it's not the set of all mixed strategy conjectures
+because that is a much larger set so the set of conjectures is
+you know sort of the set of distributions over all this set so very large set
+and typically we don't want to work with it that is why we have these two
+theorems that help us simplify the procedure of rationalizability [Music] then
+
+01:10
+yeah r1 is rationality r2 is knowledge of rationality because the players
+if they know that their opponent is rational they know they will only play
+something from r1 which means that now we best respond by something in r2 yeah
+the procedure is different but the result is the same and
+here for this one we again look at the proof of [Music] of the result
+and we have seen that a strategy is undominated
+if if we look at this set of payoff rows if its payoff row is
+
+01:11
+on the efficient frontier and we have used this to construct a
+conjecture to which it is the best response to and the conjecture was
+dependent on this normal vector to this convex set so because
+v1 here is on the efficient frontier it lies above any other payoff row v
+within the set if we measure it in the direction n
+so no matter which point we have so let's say we have some point v inside here
+then this direct product here is this distance and this distance will always be
+positive or non-negative for any v in the set because this lies on the boundary
+into this direction and because the normal vector has all
+non-negative entries we can rescale the normal vector to such that it is a
+
+01:12
+valid conjecture and what this conjecture here means now is that it weights
+both of those strategy profiles of the other players opponents and gives them
+some probability based on n1 and n2 and for this to be a valid conjecture it
+must mean that those two strategy profiles differ only by
+the strategies of one player [Music] and this holds if we have a two-player
+game like here or if play one's payoffs depend only on the
+strategies of one other opponent and so we see why it's so useful to have
+
+01:13
+proofs because even when it does not apply the result does not apply we can
+we can see whether it still holds true does that make sense jj so next time
+if i go too fast just send a message earlier it's more efficient for
+everybody if we just you know if it's clear in the first in the first
+explanation and the reason why the videos are
+recorded as well is that you can go over the explanations again
+if something wasn't clear are there any other questions that i
+haven't addressed yet now i want to emphasize i don't mind
+
+01:14
+explaining something again right it's just if you say explain everything again
+then there would be a more efficient solution
+in slowing me down earlier if you have a very targeted question then of course
+i'm happy to reply to that all right if there are no other questions then
+this would be the end of the class and um good luck in your is it a macro
+midterm that you have afterwards the first assignment is online um
+three questions for next tuesday at midnight
+so typically the rhythm will be i hand them out on wednesday during class and
+then you have until tuesday night one week to solve it and
+make sure to look at the questions before the ta session so you can ask me
+in front in in the ta session and i do have office
+
+01:15
+hours on monday at 4 30. so if you've worked on it over the weekend and
+you still have questions after that you can come to my office on monday
+afternoon to ask questions about the assignment there good
+i'll post those recordings on the class website and the
+lecture videos for next week will be available sometime or
+sometime on thursday typically all right that's it um good luck in your exam

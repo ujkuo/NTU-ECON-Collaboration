@@ -1,0 +1,574 @@
+
+00:00
+welcome back to micro one in the first two weeks of the class we
+have looked at static games where players interact with each other exactly once
+now for those games we have introduced two useful solution concepts
+rationalizability and nash equilibria we
+have been able to use those to gain some insights about these static games
+now in reality there aren't too many interactions or strategic situations
+where people get together once they interact with each other once
+and then they go their separate ways for the rest of their lives
+and in this week we want to look at a perhaps more realistic setting where
+player interact with each other's dynamically over time and
+the main solution concepts that we will look at this week is sub game perfection
+
+00:01
+now as a motivation consider the situation where you and your friend are
+both invited to a birthday party of a third friend and because it's a birthday
+party you need to bring a gift now you and your friend decided that
+you'll get a gift together so it's not necessary that both you and your friend
+get a gift because coming up with a good idea for a gift is hard
+both of you prefer if the other one gets the gift
+now this strategic situation we can write down as a game using the concepts
+that we have learned in the first two weeks
+as a static game like this where we have both players have two actions available
+they can go straight to the party or they can go buy a gift and the worst
+possible situation here is if neither buys a gift and both directly go to the
+party this is very embarrassing and the best possible outcome here is if exactly
+one person gets the gift but each of you prefers if the other one is the
+
+00:02
+one to get it now the way i chose this payoff matrix here is
+exactly the same way as in the crossing intersections example so we already know
+what the nash equilibria are there are two pures have ginash equilibria where
+one player goes by a gift and then we know that there is a mixed
+strategy nash equilibrium where both players go by a gift with one-fifth
+probability now this is a static game a simultaneous move game
+which means that both you and your friend decide at the same time whether
+you will go buy a gift and you don't communicate with each other
+now we can think of a slight variation of this game where
+your friend gets off work first or finishes studying first and we can
+capture this dynamic interaction using a game tree so
+the way a game tree is red is that there are nodes in the tree that represent
+
+00:03
+sort of the state of the game and play in the game flows from the top of
+the game tree to the bottom and for all terminal payoffs here
+each player will get some utility now the first node your friend gets to
+decide whether they will go buy a gift or go straight to the party and then
+you will observe what what your friend has done and then you will get to react
+by also choosing to either get a gift or going straight to the party now
+if you're rational then you'll use information from your
+friend what your friend has done and if your friend has gone straight to
+the party then you will go buy a gift because you want to avoid the
+embarrassing situation where you show up without a gift
+and if your friend has bought a gift then you can go straight to the party
+without worrying and this is what your best response is if you are rational
+
+00:04
+and your friend might know that you're rational
+and if your friend knows that you will go buy a gift if they go straight to the
+party then your friend can anticipate this behavior and will optimally choose
+to go straight to the party because they'll
+get one utility instead of zero if they go by a gift themselves and this
+solution concept what we have done here intuitively is we
+have solved this game tree backwards so we call this backward induction
+and it's a very intuitive solution concept and we will use it as a starting
+point to define soft game perfection now what is important here is that
+your friend lets you know that they went to the party
+if they don't let you know then then you don't necessarily best respond
+with buying a gift so we can represent this lack of information
+
+00:05
+using information sets an information set is a set of nodes where
+the player whose information said it is cannot distinguish between the different
+nodes so in this example here your friend doesn't tell you
+whether they have gone to the party or they bought a gift so you don't know at
+which node in the tree you are so you don't know whether you should um
+buy a gift or whether you can go straight to the party
+so this shows that timing of actions matters only
+if some information about the chosen actions is observed by the later players
+otherwise this game is exactly identical to the static games that we have looked
+at for the last two weeks now this game here cannot be solved by
+backward induction because like i mentioned you don't know
+whether this is the true state and you should buy a gift or this is the true
+state and you can go to the party and this is precisely what we want to
+
+00:06
+generalize this week so we will formally define extensive
+form games which are those games with game trees
+and then we'll define sub-imperfect equilibria which extend
+both backward induction as well as nash equilibria which we have seen last week
+and the approach that we're pursuing is a very standard approach i would say in
+research or game theory or yeah i would say in any research we start with
+abstractly describing this intuitive solution concept of backward induction
+and then we're trying to see how can we generalize this intuitively to
+non-singleton information sets and we have pursued a similar approach
+in the first week of the class where we have generalized iesds to
+the perhaps less intuitive but more correct
+um solution concept of rationalizability now this week i don't think we'll have
+time to go through a sub game perfect through existence of sub-game perfect
+
+00:07
+equilibrium so we'll defer that to next week good so how should we
+formally define such a dynamic game well in order to describe the mechanics
+of the game we need a set of states that describe the
+current state of the game the current environment that the players are in
+then in each state there will be one active player who gets to decide
+what happens next so the active player has a few actions available and
+whichever action they choose will determine how the environment evolves
+and we will use a game tree to capture this game structure
+then as i've mentioned a crucial component for the decision making is
+information that the players have available and will use information sets
+to indicate what the players know or don't know
+
+00:08
+and then the strategy in a dynamic game is a contingent plan of actions
+given the current state and information that the players have so this week a
+strategy will not just be a single choice of an action but it will be
+a choice of an action dependent on the information that the players have at
+the time they make the decision so formally
+a strategy is now a function that maps the player's information sets to the set
+of available actions now in order to know what kind of strategy
+the player should choose um we need to know how players aggregate
+outcomes so preferences over outcomes as usual will be described by utility
+functions and the play the strategy profile that the players
+choose will induce a distribution over the possible outcomes and players
+
+00:09
+aggregate the utilities using this distribution induced
+by the chosen strategy profile and so we'll define all of these
+formally over the next few slides and we'll start with game trees
+a game tree is a graph and consists of nodes as well as edges and for a game
+the edge will have the implication that x2 here can be reached from x0 if
+a suitable action is chosen at x 0. now the relation between the nodes will be a
+precedence relation so we'll say that x is before x prime
+and we'll write it like this if x happens earlier in the game tree and x
+
+00:10
+prime can be reached from x now in order for this set to be a game tree
+we need to impose some conditions on this relation so the first one
+is that well a game 3 should flow into one direction there shouldn't be any
+cycles and we can do that by imposing that this relation is
+asymmetric and transitive so transitive means that if
+x is before x prime and x prime is before x double prime and also x has to
+be before x double prime and indeed we can see that this prevents cycles because
+in this case here transitivity is violated
+actually transitivity and asymmetry are violated because x0 is before
+
+00:11
+x2 but x2 is also before x0 so this is not possible in a game tree then
+there's an initial node of a game tree so there's one unique node
+which does not have any predecessor nodes so this is one node that happens
+before all the other nodes so tree will always start at one unique route
+and then lastly one condition that we need to make this a game tree is that
+each node has exactly one immediate predecessor so this means that it's not
+possible to reach some node x3 from two different nodes x1 and x2
+because those those would both be predecessor nodes
+or both immediate predecessor nodes which is which we want to preclude in a
+game tree so a tree just branches but the branches
+don't grow back together and formally we can write it like this
+
+00:12
+an immediate predecessor is one node before x such that any other node that
+is also before x also is before x prime so it's not possible that the branches
+grow together in a game tree and mathematically this is called ender
+borisons so a set of nodes that form a tree now what does this imply
+about the meaning behind those notes the meaning behind those states today
+yeah today on the 26th um the world chess championship is starting
+between magnus carlson and jan nipomnichi and yeah chess is a game that we could
+describe with an extensive form game now at first glance we might think well
+perhaps the state of the game is simply given by the pieces on the board but
+
+00:13
+that's not actually true because even if the pieces on the board are
+exactly in the same position then the strategic considerations of the players
+may be different they may differ depending on whose move it is
+it may differ depending on whether the players have castled previously
+so castle castling is a move in chess where you can switch rook and king
+and you can only do it at once in the game and another important reason for why
+just looking at the pieces on the board is not sufficient to capture the state
+of the game it's because a three-fold repetition of the same position is
+automatically a draw so the players need to keep track um whether
+the same position has already um twice of twice appeared before and then they
+have to avoid this position if they want to play for a win
+so what does this mean for the nodes in the game tree well
+
+00:14
+this means that the node has to encode not just the pieces on the board but the
+entire history of the game so that we can induce from the history whether any of
+these situations have happened and so this means that yeah so that
+the branches cannot grow back um together again because we capture not
+just the position of the pieces but everything that has happened and if
+there was one difference at any time before then it will always be different
+the history will always be different in the future
+i include a link here if you click on the picture you'll
+be brought to a youtube channel that will cover the the world chess championship
+[Music] good now we now that we know what the store
+the nodes and the states are um let's look at the dynamics of the game
+
+00:15
+how play evolves on this tree so there's a finite set of players [Music]
+as we've had it before but there is now also an additional player a
+non-strategic player that we call nature nature resolves random exogenous events
+over which the players have no influence then the outcome of a game tree
+is which terminal node is reached and at those terminal nodes we'll denote the
+set of terminal nodes by z at the terminal nodes
+each player will receive a utility and we note here that only the strategic
+players from one through n receive a utility and this is precisely what makes
+nature non strategic because nature doesn't care which outcome is realized
+then at each non-terminal node there'll be one active player we denote it by ix
+
+00:16
+who can choose among a few actions that are available which we'll
+denote by a of x and the chosen action will determine where
+play evolves next so if action a is taken action r is taken here by nature then
+player 1 will get to move over here and nature's move will determine whether
+player 1 plays against player 2 or some third player 3. now
+because there's only one active player at any node there's no
+need here to indicate the player for the set of available
+actions so at ax it will always be the active player ix who chooses otherwise
+we would have to write something like a of ix x and we want to avoid
+unnecessarily complicated notation so in extensive form games a of x will
+simply be the set of actions and not the set of action profiles then
+
+00:17
+what information do the players have available well like i've already
+mentioned we want to use information sets to capture
+which states the players cannot distinguish um
+so here in this information set player 2 cannot tell whether
+ll or lr has been played and that's why both of those nodes are in
+the same information set now all the nodes at which one player is
+active we'll denote those by x i and the information sets actually form a
+partition of all of player i's nodes so player 3 here is able to distinguish
+between the two nodes but player 1 and player 2 only have one information set
+for all of their nodes now there's one additional imposition
+that we have to make on these information sets which is that
+at any two nodes in the same information set
+
+00:18
+the active player has to have the same actions available so
+these two nodes here could not be in the same information set because
+player 3 would know simply by the fact that he or she has three actions
+available that they are in the right node and not in the left node
+putting all of this together in one definition we have an extensive
+form game consisting of all of those pieces that we have discussed before
+yeah this is just for your reference all those i've walked through before on the
+previous slides now what can we describe with this general
+extensive form game how general is it well so one condition that will
+determine quite significantly how play evolves is whether information is
+perfect or imperfect we say that information is perfect
+
+00:19
+if nature has no moves and each information set is a singleton
+so this means that at any point at any state and any node
+in the game the players know exactly what happened and they know exactly what
+will happen because nature has no future moves
+and information is imperfect if there is any non-single information set or if
+nature has any moves and the information could be imperfect for for many reasons
+so one that we've already seen is in a simultaneous move game we have an on
+singleton information set which arises because we act at the same
+time as somebody else or we have no information about what the other players
+have done and so we have strategic uncertainty in such a situation then
+we're able to describe situations of imperfect monitoring
+which are situations where we cannot directly observe somebody's action but only
+
+00:20
+we only get some stochastically related information about it so as an example um
+nobody really knows how much i work how many hours i put into my research and my
+teaching the only thing that you can see is the output but the output of course
+is correlated stochastically to the effort that i put in the more
+effort i put in the better the output will be nevertheless
+information in this setting is imperfect and it's imperfect because we have
+imperfect monitoring then information could be imperfect
+because it is incomplete so we say information is incomplete if there is
+some uncertainty about a payoff relevant quantity or some characteristic of the
+players in a poker game for example um we don't
+know the cards that the other players have that the other players have and
+this is a setting of incomplete information and then we can have imperfect
+
+00:21
+information if we have a limited memory if we start to
+forget what has happened long ago then we have non-singleton information sets
+which means information is imperfect we'll see all of those in more detail
+over the next few weeks but what i want to say here is that this
+model of extensive form games is really very general and we can describe a lot
+of situations now now that we've described the model
+what can players do in it um so a strategy
+in this model is a map it's a function from
+player eyes information sets to player eyes actions and we'll use ai
+here to denote the set of all actions that player i has available at any point
+in the game tree and formally it's a map such that at
+
+00:22
+information set hi player i can only choose actions there are available to
+player i at that point and as before we'll denote by s i the
+set of player i's pure strategies and yeah so the two crucial parts here
+of a strategy is it's a function from the available information sets so
+only information that we have is is information that we can use to make
+our decisions and the strategy involves a plan of action for every
+possible situation that we might be in so a strategy in a game of chess is a
+decision what to do for any position of pieces on the board or for any
+state of the game which involves the pieces on the board and the entire
+history of the game up to that point so these are pure strategies how can we
+mix in the setting well as previously a mixed strategy is a
+
+00:23
+distribution over pure strategies and in this case this means that we mix over
+not just actions like in the static game but over entire
+strategies over contingent plans of actions and
+so we mix here over functions which is not too easy not too intuitive
+somewhat more intuitive would be if for each history for each information set
+we mix we choose a mixed action and this is known as a behavior strategy and
+again in the this week and next week we'll see how
+mixed and behavior strategies differ so the idea is that in a behavior strategy
+in any situation that we might find ourselves in we can choose a mixed
+action to see where the game goes next now a
+mixed action here is a distribution and we'll denote by sigma i h the entire
+
+00:24
+distribution and by sigma i h i a the probability with which action a is chosen
+in this mixed action now how are mixed and behavior
+strategies different so suppose you play three rounds of rock paper and
+scissors against your friend in a behavior strategy this means that you
+can randomize before each round so for each round you say okay rock with one
+third or whatever and then the mixed strategy
+you take into account that you will play three times so you'll resolve the
+randomness for all three rounds in the beginning and then play a pure strategy
+throughout all three rounds now because a mixed strategy is a mixture over all
+pure strategies you need to mix a lot at
+in the beginning in the game because you need to mix for any possible
+sequence of of outcomes that could happen so we need
+
+00:25
+to mix if there was rock rock you need to mix differently if there's
+rock paper you need to mix differently if there was rock scissors so this
+roasted mixing is much much more complicated if we mix over strategies
+than if we mix over actions given the information that we have
+so what's the main message of mixed strategies versus behavior strategies we
+really want to use behavior strategies they are more intuitive and they better
+reflect this dynamic setting that we're in
+the problem is that we know existence of nash equilibrium mixed actions and not
+in behavior strategies in mixed strategies not in behavior strategies and
+next week we will figure out when the two concepts are actually equivalent so
+that we can use only behavior strategies going forward okay we have described
+the game mechanics the strategies that the players can take
+
+00:26
+and the last thing that we need to know is how players can aggregate
+the outcomes or what distribution a chosen strategy implies over terminal nodes
+as i've mentioned before the outcome of an extensive form game is the terminal
+node reached and if there are moves by nature or if
+the players mix then the outcome will be random so formally
+the outcome is a random variable which takes values in the set of all
+terminal nodes and the distribution of this random variable is given by
+the probability with which you arrive at a given terminal node and in game
+three this is the product of the probabilities with
+which each action on the path is chosen so here if player one chooses left with
+three-fifths probability and player two chooses action b with one quarter
+
+00:27
+then in total we'll get three over twenty probability with each arrive here
+which is zero point one five and then players can use
+this distribution over outcomes to calculate their expected utility yeah so here
+in this figure um now you can check that the product of all these um
+individual mixing probabilities will lead to this distribution
+over outcomes and we can represent this um visually if
+with the following graph here where the size the vertical size here is the
+probability with which one action is chosen or the other
+so here um three-fifths left two-fifth right so 60 left 40 right and then here
+60 is the total probability with which this node is reached
+
+00:28
+and if player 2 chooses d with 50 probability and with 25 probability a
+and b then this will be the distribution going forward
+now what we can see here is that the chosen strategy profile does not only
+define a distribution over outcomes it defines a distribution over the entire
+tree and this will be useful for players to aggregate
+utilities at intermediate points in the game so formally
+we can define this distribution over the game tree in the following way
+what we do here is essentially just formalizing the idea that we multiply
+the probabilities of each of each edge so formally though for any node there's
+a unique path with which this node can be reached right so this node here can
+
+00:29
+be reached exactly from x 0 then the left one and here
+and there's a unique sequence of actions taken that lead to x so this was left
+and b and so then we just take the product over all these probabilities
+which are given by oops the probability with which
+the active player chooses the right action along this path
+good and now we have all the concept the all the components that we need to
+describe the player's strategic interaction in an extensive form game
+the first thing that we might wonder is how do all these definitions compare
+to the static game is this really an extension
+if we have a simultaneous move game do we get back the same
+the same setting that we had the last two weeks and this would be very
+desirable because then we don't give up any anything we
+
+00:30
+only get a generalization so let's have a look at it let's go back to
+the birthday party example where we don't know whether our friend
+has bought a gift or not and so this is a simultaneous move game
+a behavior strategy is what we would optimally like to work with in a dynamic
+game and because both players have only one information set it's just a map from
+well from one information set to the set of mixed actions
+and so this is indeed exactly the same strategies that we would have in a
+static game and if we compute the expected utility well
+what's the distribution over the outcomes this outcome happens with
+probability x y then this one with x 1 minus y this one with 1 minus
+x y and then 1 minus x 1 minus y so this is exactly
+
+00:31
+the same way in which we aggregated the different cells of the payoff matrix and
+so just to illustrate it here on the left hand side is the expected utility
+over terminal nodes and here the expected utility over the chosen action
+profile in this simultaneous move game and they are the same
+so indeed we have an extension of static gains now
+in this model here in this game we cannot use
+backward induction so we haven't gained anything um by
+writing this as an extensive form game what we can do here though what we've
+learned last week is we can find nash equilibrium and
+a nash equilibrium in an extensive form game is exactly the same as it was in a
+static game it's exactly the same definition and this emphasizes that a nash
+
+00:32
+equilibrium does not make any dynamic considerations nash equilibrium is just
+choosing the strategy for the entire game and if we know what the strategies
+what strategies our opponents choose then we
+cannot benefit by deviating now because there are no dynamic considerations in
+the nash equilibrium we can actually transform the extensive form game to a
+related static game and use that to find nash equilibria
+and that game is called a strategic form game
+so formally we can define the strategic form game by saying okay we're looking
+at a static game in which each player chooses a strategy in the
+extensive form game and we associate the payoff of that strategy with the same
+um with the same actions in this strategic form gain
+
+00:33
+then we can find nash equilibria as we did last week and i'll illustrate that
+for the rest of this video here so let's look at a
+dynamic game an extensive form game and we want to see if we can find
+all the nash equilibria of this game so perhaps first
+we should look at backward induction what solution would we predict with
+backward induction well we start at the back of the tree
+player 1 here at their second node should choose bottom beta
+because they get 2 instead of 0 then now anticipating that
+player 1 will choose beta player 2 will choose top
+because they get 2 instead of 0 and then anticipating that player 2 will
+choose top player one at the very beginning will also choose top because
+they get one instead of zero so the backward induction solution is
+
+00:34
+relatively intuitive and we can find it quickly how do how does this background
+induction solution compare to nash equilibria well let's try to find
+the static game that is that corresponds to this dynamic game
+to do that we have to choose well to find all the pure strategies of
+the players so player two has two pure strategies because they can choose t or b
+but player one has four pure strategies any combinations of the actions that
+they have available at their two information sets and so we can re
+represent this with um those four pure strategies where the first letter
+indicates what player one chooses at the
+first information set and the second one what they choose at the second
+information set and yeah so here just it may be
+might be a little bit curious why do we distinguish these two strategies if
+
+00:35
+player one chooses top player 1 will never have to choose between tau or beta
+but formally a strategy involves a decision at every information set even
+if the second information set is never reached because of player 1's earlier
+action but in terms of payoffs it will mean that those two are equivalent
+so when we look at the strategic form game so what we do here is we list all the
+possible pure strategies for the two players and then we enter um the outcome to
+which it leads to so there's four outcomes here because player one ends the game
+immediately by choosing t and they all have utilities 1 1.
+if player 1 chooses b then player 2 gets to decide whether they end the game or
+not by choosing t in which case again we see that both of them have the same
+outcome and only if player 1 chooses b player 2
+
+00:36
+chooses t then we will reach the last information set of player 1 where player
+1 can choose between tau or beta so this is how we find the strategic form again
+and we can now simplify this by a little bit by com combining
+um pair of equivalent strategies so we can combine those for for no
+considerations if the entire payoff row is identical then for no
+considerations by any player will it matter whether this action is this
+action or strategy is chosen or this one and once we eliminate all
+duplicate rows or columns we arrive at what is called the reduced strategic
+form of the game and the reduced strategic form of the game is unique
+now we can solve this game using the same techniques that we have seen
+last week and we will find that there are infinitely many nash equilibria
+
+00:37
+where player 1 chooses top and player 2 chooses
+top with probability at least one half let's bring those back into the dynamic
+setting now here if player one chooses top what this really means in the dynamic
+setting is that it can mix between t tau and t beta in arbitrary way
+because in the reduced strategic form this means that top will always be chosen
+and for player 2 this already corresponds to behavior strategy
+for player one though because player one has more than one information set
+this is not a behavior strategy it's a mixed strategy player one mixes at the
+beginning how they will resolve mixing at the second information set if
+the second information set is reached nevertheless
+
+00:38
+we can find an equivalent behavior strategy in which player one mixes
+only at the second information set over on those two possible actions
+and we will wonder later whether this is always possible
+whether we can always find an equivalent equilibrium in behavior strategies
+now let's look at some of these equilibria
+so player 1 can mix arbitrarily between tau and beta which means they can also
+choose tau with probability one but this is
+this is a nash equilibrium but it's a bit surprising perhaps because player one
+is not does not act rationally at the second information set because a
+rational player would choose 2 and it also means that player 2 does not
+act rationally given that player 1 plays tau
+right given to player 1 plays tau player 2 should choose b instead
+
+00:39
+now why is this a nash equilibrium well because it is rational
+to agree to play t and tau in the beginning of the game like i've
+mentioned a nash equilibrium is makes no dynamic considerations at all
+right so only at the beginning of the game we decide
+what is optimal what is not optimal and in the beginning of the game we are
+willing to choose t and tau because those are never reached right because
+player 1 exits the game right away and we say that
+those information sets lie off the equilibrium path they are never reached
+if players actually follow strategy profile sigma
+but still using this as a solution concept is somewhat unsettling because
+because whether or not the players want to stay on the equilibrium path
+depends what can be reached if they deviate right so if
+
+00:40
+both player 1 player 2 deviate then player 2 could get a higher payoff
+and so yeah we want to preclude sub-optimal behavior even off the
+equilibrium path because no matter how a node is reached we think that rational
+players should act optimally from there on
+in this case we have seen we could solve this with backward induction and
+backward induction um gives the more intuitive nash equilibrium um
+where play one chooses beta with probability one in the end and
+yeah so what we'll do for the rest of this week is trying to combine these two
+concepts so we have now right is backward induction which we cannot use
+if there are non-signaling information sets and then nash equilibria for which
+we get very weird um very weird predictions in dynamic games and the
+
+00:41
+goal is to combine the two so what we've what have we done so far
+we have to find extensive form games and they are very very general they
+can have imperfect information for a variety of reasons which makes them
+a very general framework to study and because of the generality the notation
+is somewhat tedious we have to keep track of the nodes
+the active player the available actions and
+and this is somewhat tedious but it will pay off because we can
+because we can analyze many things with it yeah extensive form games are a
+generalization of static games and we can still find nash equilibria in the
+same way that we have done before by transforming in-game into its reduced
+strategic form then at the end after we bring it back to the dynamic gain then
+payoff equivalent strategies which we have eliminated when we
+
+00:42
+wrote down the reduced strategy form we can allow any mixtures over those
+strategies that we've eliminated because they are completely equivalent for nash
+equilibrium now this is this first video maybe leaves us with
+more questions than answers what is the difference really between mix and
+behavior strategies and can we combine backward induction with nash equilibria
+and we'll get the answers to both of those in future videos good here
+mostly questions about the definition of extensive form games to see how
+comfortable you are with the mechanics of these dynamic games
+then the literature um of course extensive form games are described in
+any other game theory books and i'm not sure actually if kuhn was the
+first one to analyze them but he is the first one who showed a major
+
+00:43
+result in extensive form games actually the conditions under which mixed
+strategies and behavior strategies are equivalent
+good that's it for the first video and i'll see you in the next one

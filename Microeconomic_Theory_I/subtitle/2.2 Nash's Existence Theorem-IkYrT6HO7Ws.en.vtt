@@ -1,0 +1,4448 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.149 align:start position:0%
+ 
+now<00:00:00.480><c> that</c><00:00:00.640><c> we</c><00:00:00.719><c> have</c><00:00:00.880><c> to</c><00:00:01.040><c> find</c><00:00:01.599><c> a</c><00:00:01.920><c> nash</c>
+
+00:00:02.149 --> 00:00:02.159 align:start position:0%
+now that we have to find a nash
+ 
+
+00:00:02.159 --> 00:00:04.309 align:start position:0%
+now that we have to find a nash
+equilibrium<00:00:03.120><c> let's</c><00:00:03.360><c> see</c><00:00:03.600><c> how</c><00:00:03.760><c> well</c><00:00:04.000><c> does</c><00:00:04.240><c> it</c>
+
+00:00:04.309 --> 00:00:04.319 align:start position:0%
+equilibrium let's see how well does it
+ 
+
+00:00:04.319 --> 00:00:06.789 align:start position:0%
+equilibrium let's see how well does it
+do<00:00:04.640><c> as</c><00:00:04.880><c> a</c><00:00:05.040><c> solution</c><00:00:05.600><c> concept</c>
+
+00:00:06.789 --> 00:00:06.799 align:start position:0%
+do as a solution concept
+ 
+
+00:00:06.799 --> 00:00:08.950 align:start position:0%
+do as a solution concept
+last<00:00:07.040><c> week</c><00:00:07.200><c> we</c><00:00:07.359><c> have</c><00:00:07.440><c> used</c><00:00:07.919><c> three</c><00:00:08.240><c> criteria</c><00:00:08.800><c> to</c>
+
+00:00:08.950 --> 00:00:08.960 align:start position:0%
+last week we have used three criteria to
+ 
+
+00:00:08.960 --> 00:00:11.350 align:start position:0%
+last week we have used three criteria to
+evaluate<00:00:09.440><c> solution</c><00:00:09.920><c> concepts</c><00:00:10.880><c> namely</c><00:00:11.200><c> we</c>
+
+00:00:11.350 --> 00:00:11.360 align:start position:0%
+evaluate solution concepts namely we
+ 
+
+00:00:11.360 --> 00:00:13.669 align:start position:0%
+evaluate solution concepts namely we
+have<00:00:11.440><c> looked</c><00:00:11.759><c> at</c><00:00:11.920><c> existence</c><00:00:12.880><c> does</c><00:00:13.120><c> it</c><00:00:13.280><c> exist</c>
+
+00:00:13.669 --> 00:00:13.679 align:start position:0%
+have looked at existence does it exist
+ 
+
+00:00:13.679 --> 00:00:15.270 align:start position:0%
+have looked at existence does it exist
+in<00:00:13.840><c> any</c><00:00:14.000><c> game</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+in any game
+ 
+
+00:00:15.280 --> 00:00:17.430 align:start position:0%
+in any game
+it's<00:00:15.440><c> predictive</c><00:00:15.839><c> power</c><00:00:16.480><c> does</c><00:00:16.720><c> it</c><00:00:16.960><c> reasonably</c>
+
+00:00:17.430 --> 00:00:17.440 align:start position:0%
+it's predictive power does it reasonably
+ 
+
+00:00:17.440 --> 00:00:20.470 align:start position:0%
+it's predictive power does it reasonably
+narrow<00:00:17.760><c> down</c><00:00:18.480><c> set</c><00:00:18.640><c> of</c><00:00:18.800><c> all</c><00:00:18.960><c> strategy</c><00:00:19.439><c> profiles</c>
+
+00:00:20.470 --> 00:00:20.480 align:start position:0%
+narrow down set of all strategy profiles
+ 
+
+00:00:20.480 --> 00:00:23.109 align:start position:0%
+narrow down set of all strategy profiles
+and<00:00:20.720><c> lastly</c><00:00:21.119><c> robustness</c><00:00:22.080><c> is</c><00:00:22.240><c> it</c><00:00:22.400><c> robust</c><00:00:22.880><c> to</c>
+
+00:00:23.109 --> 00:00:23.119 align:start position:0%
+and lastly robustness is it robust to
+ 
+
+00:00:23.119 --> 00:00:24.070 align:start position:0%
+and lastly robustness is it robust to
+small
+
+00:00:24.070 --> 00:00:24.080 align:start position:0%
+small
+ 
+
+00:00:24.080 --> 00:00:26.310 align:start position:0%
+small
+mistakes<00:00:24.720><c> or</c><00:00:25.039><c> estimation</c><00:00:25.599><c> errors</c><00:00:26.000><c> of</c><00:00:26.160><c> the</c>
+
+00:00:26.310 --> 00:00:26.320 align:start position:0%
+mistakes or estimation errors of the
+ 
+
+00:00:26.320 --> 00:00:27.990 align:start position:0%
+mistakes or estimation errors of the
+player's<00:00:26.640><c> payoffs</c>
+
+00:00:27.990 --> 00:00:28.000 align:start position:0%
+player's payoffs
+ 
+
+00:00:28.000 --> 00:00:31.109 align:start position:0%
+player's payoffs
+and<00:00:28.160><c> here</c><00:00:28.320><c> i</c><00:00:28.480><c> want</c><00:00:28.560><c> to</c><00:00:28.640><c> start</c><00:00:29.119><c> with</c><00:00:29.519><c> existence</c>
+
+00:00:31.109 --> 00:00:31.119 align:start position:0%
+and here i want to start with existence
+ 
+
+00:00:31.119 --> 00:00:33.430 align:start position:0%
+and here i want to start with existence
+the<00:00:31.279><c> good</c><00:00:31.439><c> news</c><00:00:31.840><c> is</c><00:00:32.160><c> that</c><00:00:32.399><c> a</c><00:00:32.640><c> nash</c><00:00:32.880><c> equilibrium</c>
+
+00:00:33.430 --> 00:00:33.440 align:start position:0%
+the good news is that a nash equilibrium
+ 
+
+00:00:33.440 --> 00:00:35.510 align:start position:0%
+the good news is that a nash equilibrium
+always<00:00:33.680><c> exists</c><00:00:34.160><c> in</c><00:00:34.239><c> mixed</c><00:00:34.480><c> strategies</c><00:00:35.360><c> at</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+always exists in mixed strategies at
+ 
+
+00:00:35.520 --> 00:00:38.549 align:start position:0%
+always exists in mixed strategies at
+least<00:00:36.239><c> if</c><00:00:36.880><c> the</c><00:00:37.120><c> players</c><00:00:37.600><c> have</c><00:00:37.840><c> finitely</c><00:00:38.320><c> many</c>
+
+00:00:38.549 --> 00:00:38.559 align:start position:0%
+least if the players have finitely many
+ 
+
+00:00:38.559 --> 00:00:41.030 align:start position:0%
+least if the players have finitely many
+strategies<00:00:39.120><c> available</c><00:00:40.079><c> and</c><00:00:40.160><c> this</c><00:00:40.320><c> result</c><00:00:40.879><c> is</c>
+
+00:00:41.030 --> 00:00:41.040 align:start position:0%
+strategies available and this result is
+ 
+
+00:00:41.040 --> 00:00:44.950 align:start position:0%
+strategies available and this result is
+due<00:00:41.440><c> to</c><00:00:41.680><c> nash</c><00:00:42.320><c> in</c><00:00:42.480><c> 1950.</c>
+
+00:00:44.950 --> 00:00:44.960 align:start position:0%
+due to nash in 1950.
+ 
+
+00:00:44.960 --> 00:00:47.110 align:start position:0%
+due to nash in 1950.
+now<00:00:45.200><c> i</c><00:00:45.280><c> do</c><00:00:45.440><c> want</c><00:00:45.600><c> to</c><00:00:45.680><c> spend</c><00:00:46.000><c> some</c><00:00:46.160><c> time</c><00:00:46.879><c> going</c>
+
+00:00:47.110 --> 00:00:47.120 align:start position:0%
+now i do want to spend some time going
+ 
+
+00:00:47.120 --> 00:00:49.350 align:start position:0%
+now i do want to spend some time going
+through<00:00:47.280><c> this</c><00:00:47.520><c> proof</c><00:00:47.840><c> because</c><00:00:48.320><c> one</c><00:00:49.039><c> is</c><00:00:49.280><c> the</c>
+
+00:00:49.350 --> 00:00:49.360 align:start position:0%
+through this proof because one is the
+ 
+
+00:00:49.360 --> 00:00:51.590 align:start position:0%
+through this proof because one is the
+most<00:00:49.600><c> fundamental</c><00:00:50.160><c> solution</c><00:00:50.559><c> concept</c>
+
+00:00:51.590 --> 00:00:51.600 align:start position:0%
+most fundamental solution concept
+ 
+
+00:00:51.600 --> 00:00:52.950 align:start position:0%
+most fundamental solution concept
+and<00:00:51.840><c> two</c>
+
+00:00:52.950 --> 00:00:52.960 align:start position:0%
+and two
+ 
+
+00:00:52.960 --> 00:00:55.029 align:start position:0%
+and two
+because<00:00:53.760><c> existence</c><00:00:54.239><c> of</c><00:00:54.399><c> all</c><00:00:54.480><c> the</c><00:00:54.640><c> future</c>
+
+00:00:55.029 --> 00:00:55.039 align:start position:0%
+because existence of all the future
+ 
+
+00:00:55.039 --> 00:00:56.709 align:start position:0%
+because existence of all the future
+concepts<00:00:55.600><c> that</c><00:00:55.760><c> we</c><00:00:55.920><c> will</c><00:00:56.079><c> look</c><00:00:56.320><c> at</c><00:00:56.480><c> in</c><00:00:56.559><c> the</c>
+
+00:00:56.709 --> 00:00:56.719 align:start position:0%
+concepts that we will look at in the
+ 
+
+00:00:56.719 --> 00:00:58.869 align:start position:0%
+concepts that we will look at in the
+class<00:00:57.280><c> can</c><00:00:57.440><c> essentially</c><00:00:57.920><c> be</c><00:00:58.079><c> reduced</c><00:00:58.640><c> to</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+class can essentially be reduced to
+ 
+
+00:00:58.879 --> 00:01:02.790 align:start position:0%
+class can essentially be reduced to
+existence<00:00:59.440><c> of</c><00:00:59.680><c> nash</c><00:01:00.000><c> equilibrium</c>
+
+00:01:02.790 --> 00:01:02.800 align:start position:0%
+ 
+ 
+
+00:01:02.800 --> 00:01:04.710 align:start position:0%
+ 
+the<00:01:02.960><c> main</c><00:01:03.120><c> motivation</c><00:01:03.680><c> behind</c><00:01:03.920><c> the</c><00:01:04.080><c> proof</c><00:01:04.400><c> is</c>
+
+00:01:04.710 --> 00:01:04.720 align:start position:0%
+the main motivation behind the proof is
+ 
+
+00:01:04.720 --> 00:01:06.230 align:start position:0%
+the main motivation behind the proof is
+to<00:01:04.879><c> go</c><00:01:05.040><c> back</c><00:01:05.280><c> at</c><00:01:05.360><c> the</c><00:01:05.439><c> very</c><00:01:05.680><c> fundamental</c>
+
+00:01:06.230 --> 00:01:06.240 align:start position:0%
+to go back at the very fundamental
+ 
+
+00:01:06.240 --> 00:01:08.469 align:start position:0%
+to go back at the very fundamental
+definition<00:01:06.799><c> of</c><00:01:06.960><c> a</c><00:01:07.040><c> nash</c><00:01:07.360><c> equilibrium</c><00:01:08.080><c> namely</c>
+
+00:01:08.469 --> 00:01:08.479 align:start position:0%
+definition of a nash equilibrium namely
+ 
+
+00:01:08.479 --> 00:01:11.270 align:start position:0%
+definition of a nash equilibrium namely
+that<00:01:08.720><c> it's</c><00:01:08.960><c> a</c><00:01:09.600><c> mutual</c><00:01:10.000><c> best</c><00:01:10.240><c> response</c><00:01:10.880><c> by</c><00:01:11.119><c> the</c>
+
+00:01:11.270 --> 00:01:11.280 align:start position:0%
+that it's a mutual best response by the
+ 
+
+00:01:11.280 --> 00:01:12.550 align:start position:0%
+that it's a mutual best response by the
+player
+
+00:01:12.550 --> 00:01:12.560 align:start position:0%
+player
+ 
+
+00:01:12.560 --> 00:01:14.469 align:start position:0%
+player
+we<00:01:12.720><c> have</c><00:01:12.799><c> already</c><00:01:13.119><c> defined</c>
+
+00:01:14.469 --> 00:01:14.479 align:start position:0%
+we have already defined
+ 
+
+00:01:14.479 --> 00:01:16.310 align:start position:0%
+we have already defined
+the<00:01:14.640><c> best</c><00:01:14.880><c> response</c><00:01:15.360><c> correspondences</c><00:01:16.159><c> of</c>
+
+00:01:16.310 --> 00:01:16.320 align:start position:0%
+the best response correspondences of
+ 
+
+00:01:16.320 --> 00:01:18.789 align:start position:0%
+the best response correspondences of
+each<00:01:16.560><c> players</c><00:01:17.360><c> and</c><00:01:17.439><c> now</c><00:01:17.680><c> we</c><00:01:17.759><c> define</c>
+
+00:01:18.789 --> 00:01:18.799 align:start position:0%
+each players and now we define
+ 
+
+00:01:18.799 --> 00:01:21.429 align:start position:0%
+each players and now we define
+the<00:01:18.960><c> mutual</c><00:01:19.439><c> best</c><00:01:19.759><c> response</c><00:01:20.320><c> operator</c>
+
+00:01:21.429 --> 00:01:21.439 align:start position:0%
+the mutual best response operator
+ 
+
+00:01:21.439 --> 00:01:23.109 align:start position:0%
+the mutual best response operator
+and<00:01:21.600><c> is</c><00:01:21.759><c> given</c><00:01:22.240><c> by</c>
+
+00:01:23.109 --> 00:01:23.119 align:start position:0%
+and is given by
+ 
+
+00:01:23.119 --> 00:01:24.870 align:start position:0%
+and is given by
+the<00:01:23.200><c> direct</c><00:01:23.600><c> product</c><00:01:23.840><c> here</c><00:01:24.159><c> of</c><00:01:24.320><c> all</c><00:01:24.479><c> the</c><00:01:24.640><c> best</c>
+
+00:01:24.870 --> 00:01:24.880 align:start position:0%
+the direct product here of all the best
+ 
+
+00:01:24.880 --> 00:01:26.469 align:start position:0%
+the direct product here of all the best
+response<00:01:25.280><c> correspondences</c><00:01:26.159><c> by</c><00:01:26.320><c> the</c>
+
+00:01:26.469 --> 00:01:26.479 align:start position:0%
+response correspondences by the
+ 
+
+00:01:26.479 --> 00:01:27.749 align:start position:0%
+response correspondences by the
+different<00:01:26.720><c> players</c>
+
+00:01:27.749 --> 00:01:27.759 align:start position:0%
+different players
+ 
+
+00:01:27.759 --> 00:01:29.749 align:start position:0%
+different players
+so<00:01:27.920><c> what</c><00:01:28.000><c> this</c><00:01:28.159><c> means</c><00:01:28.479><c> is</c><00:01:28.720><c> the</c><00:01:28.799><c> result</c><00:01:29.119><c> here</c>
+
+00:01:29.749 --> 00:01:29.759 align:start position:0%
+so what this means is the result here
+ 
+
+00:01:29.759 --> 00:01:31.590 align:start position:0%
+so what this means is the result here
+will<00:01:30.079><c> again</c><00:01:30.479><c> be</c>
+
+00:01:31.590 --> 00:01:31.600 align:start position:0%
+will again be
+ 
+
+00:01:31.600 --> 00:01:33.429 align:start position:0%
+will again be
+well<00:01:31.840><c> a</c><00:01:31.920><c> strategy</c><00:01:32.400><c> profile</c><00:01:32.799><c> so</c><00:01:32.960><c> this</c><00:01:33.119><c> will</c><00:01:33.280><c> be</c>
+
+00:01:33.429 --> 00:01:33.439 align:start position:0%
+well a strategy profile so this will be
+ 
+
+00:01:33.439 --> 00:01:35.670 align:start position:0%
+well a strategy profile so this will be
+a<00:01:33.520><c> set</c><00:01:33.840><c> of</c><00:01:33.920><c> strategy</c><00:01:34.400><c> profiles</c><00:01:34.880><c> where</c><00:01:35.520><c> the</c>
+
+00:01:35.670 --> 00:01:35.680 align:start position:0%
+a set of strategy profiles where the
+ 
+
+00:01:35.680 --> 00:01:38.069 align:start position:0%
+a set of strategy profiles where the
+first<00:01:36.000><c> component</c><00:01:36.560><c> is</c><00:01:36.720><c> a</c><00:01:36.880><c> best</c><00:01:37.119><c> respond</c><00:01:37.840><c> best</c>
+
+00:01:38.069 --> 00:01:38.079 align:start position:0%
+first component is a best respond best
+ 
+
+00:01:38.079 --> 00:01:39.590 align:start position:0%
+first component is a best respond best
+response
+
+00:01:39.590 --> 00:01:39.600 align:start position:0%
+response
+ 
+
+00:01:39.600 --> 00:01:41.830 align:start position:0%
+response
+to<00:01:39.759><c> the</c><00:01:39.920><c> strategy</c><00:01:40.320><c> profile</c><00:01:41.040><c> by</c><00:01:41.280><c> player</c><00:01:41.600><c> one's</c>
+
+00:01:41.830 --> 00:01:41.840 align:start position:0%
+to the strategy profile by player one's
+ 
+
+00:01:41.840 --> 00:01:44.149 align:start position:0%
+to the strategy profile by player one's
+opponents<00:01:42.640><c> the</c><00:01:42.799><c> second</c><00:01:43.119><c> component</c><00:01:43.680><c> will</c><00:01:43.840><c> be</c><00:01:44.000><c> a</c>
+
+00:01:44.149 --> 00:01:44.159 align:start position:0%
+opponents the second component will be a
+ 
+
+00:01:44.159 --> 00:01:46.950 align:start position:0%
+opponents the second component will be a
+best<00:01:44.399><c> response</c><00:01:44.960><c> to</c><00:01:45.600><c> player</c><00:01:46.000><c> two's</c><00:01:46.399><c> opponents</c>
+
+00:01:46.950 --> 00:01:46.960 align:start position:0%
+best response to player two's opponents
+ 
+
+00:01:46.960 --> 00:01:49.030 align:start position:0%
+best response to player two's opponents
+and<00:01:47.119><c> so</c><00:01:47.360><c> on</c>
+
+00:01:49.030 --> 00:01:49.040 align:start position:0%
+and so on
+ 
+
+00:01:49.040 --> 00:01:49.910 align:start position:0%
+and so on
+and
+
+00:01:49.910 --> 00:01:49.920 align:start position:0%
+and
+ 
+
+00:01:49.920 --> 00:01:51.670 align:start position:0%
+and
+a<00:01:50.079><c> nash</c><00:01:50.320><c> equilibrium</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+a nash equilibrium
+ 
+
+00:01:51.680 --> 00:01:52.789 align:start position:0%
+a nash equilibrium
+is
+
+00:01:52.789 --> 00:01:52.799 align:start position:0%
+is
+ 
+
+00:01:52.799 --> 00:01:55.190 align:start position:0%
+is
+well<00:01:53.040><c> a</c><00:01:53.200><c> mutual</c><00:01:53.520><c> best</c><00:01:53.759><c> response</c><00:01:54.640><c> which</c><00:01:54.880><c> means</c>
+
+00:01:55.190 --> 00:01:55.200 align:start position:0%
+well a mutual best response which means
+ 
+
+00:01:55.200 --> 00:01:57.990 align:start position:0%
+well a mutual best response which means
+that
+
+00:01:57.990 --> 00:01:58.000 align:start position:0%
+ 
+ 
+
+00:01:58.000 --> 00:02:00.149 align:start position:0%
+ 
+sigma<00:01:58.640><c> in</c><00:01:58.719><c> natural</c><00:01:59.040><c> room</c><00:01:59.200><c> sigma</c>
+
+00:02:00.149 --> 00:02:00.159 align:start position:0%
+sigma in natural room sigma
+ 
+
+00:02:00.159 --> 00:02:01.350 align:start position:0%
+sigma in natural room sigma
+is
+
+00:02:01.350 --> 00:02:01.360 align:start position:0%
+is
+ 
+
+00:02:01.360 --> 00:02:04.149 align:start position:0%
+is
+an<00:02:01.520><c> element</c><00:02:01.920><c> of</c><00:02:02.159><c> b</c><00:02:02.399><c> sigma</c><00:02:02.960><c> because</c><00:02:03.520><c> sigma</c><00:02:03.840><c> 1</c><00:02:04.079><c> is</c>
+
+00:02:04.149 --> 00:02:04.159 align:start position:0%
+an element of b sigma because sigma 1 is
+ 
+
+00:02:04.159 --> 00:02:05.910 align:start position:0%
+an element of b sigma because sigma 1 is
+the<00:02:04.240><c> best</c><00:02:04.479><c> response</c>
+
+00:02:05.910 --> 00:02:05.920 align:start position:0%
+the best response
+ 
+
+00:02:05.920 --> 00:02:08.550 align:start position:0%
+the best response
+to<00:02:06.479><c> player</c><00:02:06.719><c> 1</c><00:02:06.960><c> bonus</c><00:02:07.280><c> and</c><00:02:07.360><c> so</c><00:02:07.600><c> on</c><00:02:08.160><c> so</c><00:02:08.319><c> this</c>
+
+00:02:08.550 --> 00:02:08.560 align:start position:0%
+to player 1 bonus and so on so this
+ 
+
+00:02:08.560 --> 00:02:10.389 align:start position:0%
+to player 1 bonus and so on so this
+means<00:02:08.800><c> it's</c><00:02:08.959><c> a</c><00:02:09.119><c> fixed</c><00:02:09.440><c> point</c><00:02:09.920><c> of</c><00:02:10.080><c> this</c>
+
+00:02:10.389 --> 00:02:10.399 align:start position:0%
+means it's a fixed point of this
+ 
+
+00:02:10.399 --> 00:02:13.110 align:start position:0%
+means it's a fixed point of this
+operator<00:02:10.800><c> b</c>
+
+00:02:13.110 --> 00:02:13.120 align:start position:0%
+ 
+ 
+
+00:02:13.120 --> 00:02:16.070 align:start position:0%
+ 
+and<00:02:13.520><c> the</c><00:02:13.680><c> main</c><00:02:13.920><c> idea</c><00:02:14.400><c> will</c><00:02:14.560><c> be</c><00:02:14.879><c> to</c><00:02:15.360><c> apply</c><00:02:15.920><c> a</c>
+
+00:02:16.070 --> 00:02:16.080 align:start position:0%
+and the main idea will be to apply a
+ 
+
+00:02:16.080 --> 00:02:18.949 align:start position:0%
+and the main idea will be to apply a
+suitable<00:02:16.640><c> fixed</c><00:02:16.959><c> point</c><00:02:17.280><c> theorem</c>
+
+00:02:18.949 --> 00:02:18.959 align:start position:0%
+suitable fixed point theorem
+ 
+
+00:02:18.959 --> 00:02:20.869 align:start position:0%
+suitable fixed point theorem
+now<00:02:19.200><c> we</c><00:02:19.440><c> will</c><00:02:19.599><c> start</c><00:02:19.920><c> by</c><00:02:20.160><c> visualizing</c><00:02:20.720><c> the</c>
+
+00:02:20.869 --> 00:02:20.879 align:start position:0%
+now we will start by visualizing the
+ 
+
+00:02:20.879 --> 00:02:23.190 align:start position:0%
+now we will start by visualizing the
+proof<00:02:21.200><c> for</c><00:02:21.440><c> a</c><00:02:21.760><c> two</c><00:02:21.920><c> person</c><00:02:22.319><c> two</c><00:02:22.560><c> action</c><00:02:22.800><c> game</c>
+
+00:02:23.190 --> 00:02:23.200 align:start position:0%
+proof for a two person two action game
+ 
+
+00:02:23.200 --> 00:02:25.190 align:start position:0%
+proof for a two person two action game
+because<00:02:23.520><c> we</c><00:02:23.680><c> can</c><00:02:23.840><c> easily</c><00:02:24.160><c> draw</c><00:02:24.720><c> the</c><00:02:24.879><c> best</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+because we can easily draw the best
+ 
+
+00:02:25.200 --> 00:02:27.270 align:start position:0%
+because we can easily draw the best
+response<00:02:25.680><c> functions</c><00:02:26.160><c> nicely</c><00:02:26.879><c> and</c><00:02:26.959><c> then</c><00:02:27.120><c> we</c>
+
+00:02:27.270 --> 00:02:27.280 align:start position:0%
+response functions nicely and then we
+ 
+
+00:02:27.280 --> 00:02:29.510 align:start position:0%
+response functions nicely and then we
+will<00:02:27.440><c> try</c><00:02:28.000><c> to</c><00:02:28.160><c> see</c><00:02:28.319><c> how</c><00:02:28.560><c> could</c><00:02:28.720><c> we</c><00:02:28.879><c> generalize</c>
+
+00:02:29.510 --> 00:02:29.520 align:start position:0%
+will try to see how could we generalize
+ 
+
+00:02:29.520 --> 00:02:30.309 align:start position:0%
+will try to see how could we generalize
+this
+
+00:02:30.309 --> 00:02:30.319 align:start position:0%
+this
+ 
+
+00:02:30.319 --> 00:02:32.470 align:start position:0%
+this
+to<00:02:30.879><c> the</c><00:02:31.120><c> end</c><00:02:31.360><c> player</c>
+
+00:02:32.470 --> 00:02:32.480 align:start position:0%
+to the end player
+ 
+
+00:02:32.480 --> 00:02:36.390 align:start position:0%
+to the end player
+and<00:02:32.720><c> finitely</c><00:02:33.120><c> many</c><00:02:33.440><c> action</c><00:02:33.760><c> game</c>
+
+00:02:36.390 --> 00:02:36.400 align:start position:0%
+and finitely many action game
+ 
+
+00:02:36.400 --> 00:02:38.470 align:start position:0%
+and finitely many action game
+now<00:02:36.560><c> let's</c><00:02:36.800><c> start</c><00:02:37.200><c> with</c><00:02:37.680><c> brower's</c><00:02:38.239><c> fixed</c>
+
+00:02:38.470 --> 00:02:38.480 align:start position:0%
+now let's start with brower's fixed
+ 
+
+00:02:38.480 --> 00:02:39.830 align:start position:0%
+now let's start with brower's fixed
+point<00:02:38.800><c> theorem</c>
+
+00:02:39.830 --> 00:02:39.840 align:start position:0%
+point theorem
+ 
+
+00:02:39.840 --> 00:02:41.670 align:start position:0%
+point theorem
+this<00:02:40.080><c> theorem</c><00:02:40.400><c> is</c><00:02:40.480><c> not</c><00:02:40.640><c> directly</c><00:02:41.040><c> related</c><00:02:41.519><c> to</c>
+
+00:02:41.670 --> 00:02:41.680 align:start position:0%
+this theorem is not directly related to
+ 
+
+00:02:41.680 --> 00:02:43.990 align:start position:0%
+this theorem is not directly related to
+nash<00:02:41.920><c> equilibrium</c><00:02:42.720><c> but</c><00:02:42.879><c> it</c><00:02:43.040><c> is</c><00:02:43.200><c> the</c><00:02:43.360><c> easiest</c>
+
+00:02:43.990 --> 00:02:44.000 align:start position:0%
+nash equilibrium but it is the easiest
+ 
+
+00:02:44.000 --> 00:02:45.750 align:start position:0%
+nash equilibrium but it is the easiest
+fixed<00:02:44.319><c> point</c><00:02:44.560><c> theorem</c><00:02:44.879><c> and</c><00:02:45.040><c> kind</c><00:02:45.200><c> of</c><00:02:45.360><c> gives</c><00:02:45.599><c> us</c>
+
+00:02:45.750 --> 00:02:45.760 align:start position:0%
+fixed point theorem and kind of gives us
+ 
+
+00:02:45.760 --> 00:02:47.030 align:start position:0%
+fixed point theorem and kind of gives us
+the<00:02:45.920><c> idea</c>
+
+00:02:47.030 --> 00:02:47.040 align:start position:0%
+the idea
+ 
+
+00:02:47.040 --> 00:02:49.030 align:start position:0%
+the idea
+of
+
+00:02:49.030 --> 00:02:49.040 align:start position:0%
+of
+ 
+
+00:02:49.040 --> 00:02:53.110 align:start position:0%
+of
+how<00:02:50.080><c> some</c><00:02:50.319><c> other</c><00:02:50.560><c> fixed</c><00:02:50.879><c> point</c><00:02:51.120><c> theorems</c><00:02:51.599><c> work</c>
+
+00:02:53.110 --> 00:02:53.120 align:start position:0%
+how some other fixed point theorems work
+ 
+
+00:02:53.120 --> 00:02:54.630 align:start position:0%
+how some other fixed point theorems work
+so<00:02:53.280><c> what</c><00:02:53.440><c> the</c><00:02:53.599><c> theorem</c><00:02:53.920><c> says</c><00:02:54.160><c> is</c><00:02:54.319><c> that</c><00:02:54.400><c> if</c><00:02:54.560><c> we</c>
+
+00:02:54.630 --> 00:02:54.640 align:start position:0%
+so what the theorem says is that if we
+ 
+
+00:02:54.640 --> 00:02:57.830 align:start position:0%
+so what the theorem says is that if we
+have<00:02:54.720><c> a</c><00:02:54.879><c> function</c><00:02:55.599><c> from</c><00:02:55.760><c> 0</c><00:02:56.080><c> 1</c><00:02:56.239><c> to</c><00:02:56.480><c> 0</c><00:02:56.720><c> 1</c>
+
+00:02:57.830 --> 00:02:57.840 align:start position:0%
+have a function from 0 1 to 0 1
+ 
+
+00:02:57.840 --> 00:02:59.750 align:start position:0%
+have a function from 0 1 to 0 1
+and<00:02:58.000><c> if</c><00:02:58.159><c> that</c><00:02:58.319><c> function</c><00:02:58.640><c> is</c><00:02:58.720><c> continuous</c><00:02:59.519><c> then</c>
+
+00:02:59.750 --> 00:02:59.760 align:start position:0%
+and if that function is continuous then
+ 
+
+00:02:59.760 --> 00:03:02.390 align:start position:0%
+and if that function is continuous then
+it<00:02:59.840><c> must</c><00:03:00.080><c> have</c><00:03:00.319><c> a</c><00:03:00.480><c> fixed</c><00:03:00.800><c> point</c>
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+it must have a fixed point
+ 
+
+00:03:02.400 --> 00:03:03.509 align:start position:0%
+it must have a fixed point
+and
+
+00:03:03.509 --> 00:03:03.519 align:start position:0%
+and
+ 
+
+00:03:03.519 --> 00:03:05.270 align:start position:0%
+and
+the<00:03:03.680><c> basic</c><00:03:04.000><c> idea</c><00:03:04.319><c> behind</c><00:03:04.560><c> it</c><00:03:04.720><c> is</c><00:03:04.879><c> that</c><00:03:05.040><c> if</c><00:03:05.120><c> we</c>
+
+00:03:05.270 --> 00:03:05.280 align:start position:0%
+the basic idea behind it is that if we
+ 
+
+00:03:05.280 --> 00:03:07.030 align:start position:0%
+the basic idea behind it is that if we
+draw<00:03:05.519><c> any</c><00:03:05.760><c> function</c>
+
+00:03:07.030 --> 00:03:07.040 align:start position:0%
+draw any function
+ 
+
+00:03:07.040 --> 00:03:10.710 align:start position:0%
+draw any function
+here<00:03:07.360><c> from</c><00:03:07.760><c> from</c><00:03:08.000><c> 0</c><00:03:08.319><c> 1</c><00:03:08.560><c> 2</c><00:03:08.800><c> 0</c><00:03:09.040><c> 1</c><00:03:09.760><c> then</c><00:03:10.080><c> we</c><00:03:10.239><c> must</c>
+
+00:03:10.710 --> 00:03:10.720 align:start position:0%
+here from from 0 1 2 0 1 then we must
+ 
+
+00:03:10.720 --> 00:03:12.550 align:start position:0%
+here from from 0 1 2 0 1 then we must
+cross<00:03:11.040><c> the</c><00:03:11.200><c> diagonal</c><00:03:11.760><c> once</c><00:03:12.080><c> and</c><00:03:12.239><c> at</c><00:03:12.400><c> the</c>
+
+00:03:12.550 --> 00:03:12.560 align:start position:0%
+cross the diagonal once and at the
+ 
+
+00:03:12.560 --> 00:03:14.790 align:start position:0%
+cross the diagonal once and at the
+diagonal<00:03:13.680><c> um</c>
+
+00:03:14.790 --> 00:03:14.800 align:start position:0%
+diagonal um
+ 
+
+00:03:14.800 --> 00:03:17.430 align:start position:0%
+diagonal um
+we<00:03:14.959><c> must</c><00:03:15.200><c> have</c><00:03:15.440><c> a</c><00:03:15.519><c> fixed</c><00:03:15.760><c> point</c>
+
+00:03:17.430 --> 00:03:17.440 align:start position:0%
+we must have a fixed point
+ 
+
+00:03:17.440 --> 00:03:19.670 align:start position:0%
+we must have a fixed point
+now<00:03:17.599><c> let's</c><00:03:17.840><c> discuss</c><00:03:18.480><c> the</c><00:03:18.640><c> assumption</c><00:03:19.200><c> so</c><00:03:19.440><c> the</c>
+
+00:03:19.670 --> 00:03:19.680 align:start position:0%
+now let's discuss the assumption so the
+ 
+
+00:03:19.680 --> 00:03:21.670 align:start position:0%
+now let's discuss the assumption so the
+the<00:03:19.840><c> continuity</c><00:03:20.480><c> assumption</c><00:03:21.040><c> i</c><00:03:21.280><c> think</c><00:03:21.519><c> is</c>
+
+00:03:21.670 --> 00:03:21.680 align:start position:0%
+the continuity assumption i think is
+ 
+
+00:03:21.680 --> 00:03:24.949 align:start position:0%
+the continuity assumption i think is
+quite<00:03:21.920><c> clear</c><00:03:22.640><c> if</c><00:03:22.800><c> we</c><00:03:22.959><c> have</c><00:03:23.120><c> a</c><00:03:23.280><c> discontinuous</c>
+
+00:03:24.949 --> 00:03:24.959 align:start position:0%
+quite clear if we have a discontinuous
+ 
+
+00:03:24.959 --> 00:03:26.550 align:start position:0%
+quite clear if we have a discontinuous
+function<00:03:25.360><c> then</c><00:03:25.519><c> we</c><00:03:25.599><c> could</c><00:03:25.840><c> jump</c><00:03:26.080><c> across</c><00:03:26.400><c> the</c>
+
+00:03:26.550 --> 00:03:26.560 align:start position:0%
+function then we could jump across the
+ 
+
+00:03:26.560 --> 00:03:27.910 align:start position:0%
+function then we could jump across the
+diagonal<00:03:27.040><c> and</c><00:03:27.120><c> then</c><00:03:27.280><c> we</c><00:03:27.360><c> wouldn't</c><00:03:27.599><c> have</c><00:03:27.840><c> a</c>
+
+00:03:27.910 --> 00:03:27.920 align:start position:0%
+diagonal and then we wouldn't have a
+ 
+
+00:03:27.920 --> 00:03:29.270 align:start position:0%
+diagonal and then we wouldn't have a
+fixed<00:03:28.159><c> point</c>
+
+00:03:29.270 --> 00:03:29.280 align:start position:0%
+fixed point
+ 
+
+00:03:29.280 --> 00:03:31.190 align:start position:0%
+fixed point
+there's<00:03:29.519><c> a</c><00:03:29.599><c> second</c><00:03:29.920><c> assumption</c><00:03:30.400><c> here</c><00:03:30.959><c> which</c>
+
+00:03:31.190 --> 00:03:31.200 align:start position:0%
+there's a second assumption here which
+ 
+
+00:03:31.200 --> 00:03:33.589 align:start position:0%
+there's a second assumption here which
+is<00:03:31.280><c> about</c><00:03:31.599><c> the</c><00:03:31.760><c> domain</c><00:03:32.640><c> and</c><00:03:32.799><c> the</c><00:03:32.879><c> domain</c><00:03:33.360><c> here</c>
+
+00:03:33.589 --> 00:03:33.599 align:start position:0%
+is about the domain and the domain here
+ 
+
+00:03:33.599 --> 00:03:35.990 align:start position:0%
+is about the domain and the domain here
+from<00:03:33.840><c> zero</c><00:03:34.080><c> one</c><00:03:34.560><c> has</c><00:03:35.280><c> three</c><00:03:35.599><c> special</c>
+
+00:03:35.990 --> 00:03:36.000 align:start position:0%
+from zero one has three special
+ 
+
+00:03:36.000 --> 00:03:37.190 align:start position:0%
+from zero one has three special
+properties
+
+00:03:37.190 --> 00:03:37.200 align:start position:0%
+properties
+ 
+
+00:03:37.200 --> 00:03:38.390 align:start position:0%
+properties
+namely
+
+00:03:38.390 --> 00:03:38.400 align:start position:0%
+namely
+ 
+
+00:03:38.400 --> 00:03:40.390 align:start position:0%
+namely
+it<00:03:38.640><c> is</c><00:03:38.799><c> closed</c><00:03:39.360><c> it</c><00:03:39.519><c> is</c><00:03:39.599><c> bounded</c><00:03:40.080><c> and</c><00:03:40.239><c> is</c>
+
+00:03:40.390 --> 00:03:40.400 align:start position:0%
+it is closed it is bounded and is
+ 
+
+00:03:40.400 --> 00:03:42.390 align:start position:0%
+it is closed it is bounded and is
+convexed
+
+00:03:42.390 --> 00:03:42.400 align:start position:0%
+convexed
+ 
+
+00:03:42.400 --> 00:03:45.830 align:start position:0%
+convexed
+to<00:03:42.560><c> see</c><00:03:42.720><c> why</c><00:03:42.959><c> it</c><00:03:43.040><c> has</c><00:03:43.280><c> to</c><00:03:43.360><c> be</c><00:03:43.519><c> closed</c>
+
+00:03:45.830 --> 00:03:45.840 align:start position:0%
+to see why it has to be closed
+ 
+
+00:03:45.840 --> 00:03:47.750 align:start position:0%
+to see why it has to be closed
+that<00:03:46.000><c> we</c><00:03:46.159><c> look</c><00:03:46.400><c> at</c><00:03:46.480><c> the</c><00:03:46.640><c> open</c><00:03:46.959><c> interval</c><00:03:47.360><c> from</c><00:03:47.519><c> 0</c>
+
+00:03:47.750 --> 00:03:47.760 align:start position:0%
+that we look at the open interval from 0
+ 
+
+00:03:47.760 --> 00:03:49.990 align:start position:0%
+that we look at the open interval from 0
+1<00:03:48.480><c> then</c><00:03:48.640><c> this</c><00:03:48.879><c> function</c><00:03:49.200><c> here</c><00:03:49.440><c> would</c><00:03:49.599><c> not</c><00:03:49.840><c> have</c>
+
+00:03:49.990 --> 00:03:50.000 align:start position:0%
+1 then this function here would not have
+ 
+
+00:03:50.000 --> 00:03:52.229 align:start position:0%
+1 then this function here would not have
+to<00:03:50.159><c> have</c><00:03:50.400><c> an</c><00:03:50.560><c> intersection</c><00:03:51.440><c> because</c><00:03:51.920><c> it</c><00:03:52.080><c> could</c>
+
+00:03:52.229 --> 00:03:52.239 align:start position:0%
+to have an intersection because it could
+ 
+
+00:03:52.239 --> 00:03:54.949 align:start position:0%
+to have an intersection because it could
+always<00:03:52.640><c> lie</c><00:03:53.040><c> below</c><00:03:53.360><c> the</c><00:03:53.519><c> diagonal</c><00:03:54.400><c> if</c><00:03:54.640><c> zero</c>
+
+00:03:54.949 --> 00:03:54.959 align:start position:0%
+always lie below the diagonal if zero
+ 
+
+00:03:54.959 --> 00:03:57.190 align:start position:0%
+always lie below the diagonal if zero
+was<00:03:55.200><c> excluded</c>
+
+00:03:57.190 --> 00:03:57.200 align:start position:0%
+was excluded
+ 
+
+00:03:57.200 --> 00:03:58.949 align:start position:0%
+was excluded
+then<00:03:57.439><c> why</c><00:03:57.599><c> the</c><00:03:57.680><c> domain</c><00:03:58.000><c> has</c><00:03:58.159><c> to</c><00:03:58.239><c> be</c><00:03:58.400><c> bounded</c>
+
+00:03:58.949 --> 00:03:58.959 align:start position:0%
+then why the domain has to be bounded
+ 
+
+00:03:58.959 --> 00:04:01.509 align:start position:0%
+then why the domain has to be bounded
+well<00:04:00.159><c> if</c><00:04:00.239><c> it</c><00:04:00.319><c> was</c><00:04:00.480><c> unbounded</c><00:04:01.040><c> then</c><00:04:01.200><c> we</c><00:04:01.360><c> could</c>
+
+00:04:01.509 --> 00:04:01.519 align:start position:0%
+well if it was unbounded then we could
+ 
+
+00:04:01.519 --> 00:04:02.149 align:start position:0%
+well if it was unbounded then we could
+have
+
+00:04:02.149 --> 00:04:02.159 align:start position:0%
+have
+ 
+
+00:04:02.159 --> 00:04:03.830 align:start position:0%
+have
+a<00:04:02.319><c> function</c><00:04:02.720><c> that</c><00:04:02.879><c> always</c><00:04:03.120><c> lies</c><00:04:03.360><c> above</c><00:04:03.680><c> the</c>
+
+00:04:03.830 --> 00:04:03.840 align:start position:0%
+a function that always lies above the
+ 
+
+00:04:03.840 --> 00:04:06.309 align:start position:0%
+a function that always lies above the
+diagonal<00:04:04.560><c> let's</c><00:04:04.720><c> say</c><00:04:04.959><c> a</c><00:04:05.120><c> parabola</c><00:04:05.680><c> one</c><00:04:05.920><c> plus</c><00:04:06.159><c> x</c>
+
+00:04:06.309 --> 00:04:06.319 align:start position:0%
+diagonal let's say a parabola one plus x
+ 
+
+00:04:06.319 --> 00:04:08.789 align:start position:0%
+diagonal let's say a parabola one plus x
+square<00:04:06.879><c> would</c><00:04:07.120><c> always</c><00:04:07.519><c> lie</c><00:04:08.080><c> above</c><00:04:08.640><c> the</c>
+
+00:04:08.789 --> 00:04:08.799 align:start position:0%
+square would always lie above the
+ 
+
+00:04:08.799 --> 00:04:10.470 align:start position:0%
+square would always lie above the
+diagonal
+
+00:04:10.470 --> 00:04:10.480 align:start position:0%
+diagonal
+ 
+
+00:04:10.480 --> 00:04:13.030 align:start position:0%
+diagonal
+and<00:04:10.560><c> then</c><00:04:10.720><c> convex</c><00:04:11.360><c> means</c><00:04:11.760><c> that</c><00:04:12.560><c> the</c><00:04:12.640><c> domain</c>
+
+00:04:13.030 --> 00:04:13.040 align:start position:0%
+and then convex means that the domain
+ 
+
+00:04:13.040 --> 00:04:15.350 align:start position:0%
+and then convex means that the domain
+does<00:04:13.200><c> not</c><00:04:13.360><c> have</c><00:04:13.599><c> any</c><00:04:13.840><c> gaps</c>
+
+00:04:15.350 --> 00:04:15.360 align:start position:0%
+does not have any gaps
+ 
+
+00:04:15.360 --> 00:04:17.189 align:start position:0%
+does not have any gaps
+and<00:04:16.000><c> the</c><00:04:16.079><c> reason</c><00:04:16.320><c> why</c><00:04:16.479><c> it's</c><00:04:16.639><c> necessary</c><00:04:17.040><c> is</c>
+
+00:04:17.189 --> 00:04:17.199 align:start position:0%
+and the reason why it's necessary is
+ 
+
+00:04:17.199 --> 00:04:20.390 align:start position:0%
+and the reason why it's necessary is
+visualized<00:04:17.840><c> here</c><00:04:18.160><c> in</c><00:04:18.320><c> this</c><00:04:18.880><c> in</c><00:04:18.959><c> this</c><00:04:19.600><c> figure</c>
+
+00:04:20.390 --> 00:04:20.400 align:start position:0%
+visualized here in this in this figure
+ 
+
+00:04:20.400 --> 00:04:21.349 align:start position:0%
+visualized here in this in this figure
+um
+
+00:04:21.349 --> 00:04:21.359 align:start position:0%
+um
+ 
+
+00:04:21.359 --> 00:04:23.830 align:start position:0%
+um
+if<00:04:21.600><c> domain</c><00:04:22.000><c> had</c><00:04:22.800><c> a</c><00:04:22.960><c> gap</c>
+
+00:04:23.830 --> 00:04:23.840 align:start position:0%
+if domain had a gap
+ 
+
+00:04:23.840 --> 00:04:24.950 align:start position:0%
+if domain had a gap
+then
+
+00:04:24.950 --> 00:04:24.960 align:start position:0%
+then
+ 
+
+00:04:24.960 --> 00:04:26.469 align:start position:0%
+then
+the<00:04:25.120><c> function</c><00:04:25.440><c> would</c><00:04:25.600><c> not</c><00:04:25.759><c> have</c><00:04:26.000><c> a</c><00:04:26.160><c> fixed</c>
+
+00:04:26.469 --> 00:04:26.479 align:start position:0%
+the function would not have a fixed
+ 
+
+00:04:26.479 --> 00:04:28.710 align:start position:0%
+the function would not have a fixed
+point<00:04:27.199><c> or</c><00:04:27.360><c> could</c><00:04:27.600><c> not</c><00:04:27.840><c> have</c><00:04:28.000><c> a</c><00:04:28.080><c> fixed</c><00:04:28.320><c> point</c><00:04:28.560><c> by</c>
+
+00:04:28.710 --> 00:04:28.720 align:start position:0%
+point or could not have a fixed point by
+ 
+
+00:04:28.720 --> 00:04:31.510 align:start position:0%
+point or could not have a fixed point by
+definition<00:04:29.600><c> so</c><00:04:29.759><c> even</c><00:04:30.479><c> one</c><00:04:30.639><c> minus</c><00:04:31.040><c> x</c><00:04:31.199><c> would</c><00:04:31.360><c> not</c>
+
+00:04:31.510 --> 00:04:31.520 align:start position:0%
+definition so even one minus x would not
+ 
+
+00:04:31.520 --> 00:04:33.990 align:start position:0%
+definition so even one minus x would not
+have<00:04:31.680><c> a</c><00:04:31.759><c> fixed</c><00:04:32.000><c> point</c><00:04:32.479><c> if</c><00:04:32.720><c> we</c>
+
+00:04:33.990 --> 00:04:34.000 align:start position:0%
+have a fixed point if we
+ 
+
+00:04:34.000 --> 00:04:36.390 align:start position:0%
+have a fixed point if we
+elim<00:04:34.639><c> or</c><00:04:34.800><c> remove</c>
+
+00:04:36.390 --> 00:04:36.400 align:start position:0%
+elim or remove
+ 
+
+00:04:36.400 --> 00:04:37.990 align:start position:0%
+elim or remove
+the<00:04:36.560><c> center</c><00:04:36.960><c> part</c><00:04:37.199><c> where</c><00:04:37.360><c> the</c><00:04:37.520><c> fixed</c><00:04:37.759><c> point</c>
+
+00:04:37.990 --> 00:04:38.000 align:start position:0%
+the center part where the fixed point
+ 
+
+00:04:38.000 --> 00:04:39.749 align:start position:0%
+the center part where the fixed point
+would<00:04:38.160><c> occur</c><00:04:38.560><c> if</c><00:04:38.720><c> we</c><00:04:38.880><c> remove</c><00:04:39.280><c> that</c><00:04:39.520><c> from</c><00:04:39.680><c> the</c>
+
+00:04:39.749 --> 00:04:39.759 align:start position:0%
+would occur if we remove that from the
+ 
+
+00:04:39.759 --> 00:04:41.350 align:start position:0%
+would occur if we remove that from the
+domain
+
+00:04:41.350 --> 00:04:41.360 align:start position:0%
+domain
+ 
+
+00:04:41.360 --> 00:04:43.189 align:start position:0%
+domain
+but<00:04:41.600><c> if</c><00:04:41.759><c> all</c><00:04:41.919><c> of</c><00:04:42.000><c> those</c><00:04:42.320><c> are</c><00:04:42.400><c> satisfied</c><00:04:43.040><c> and</c>
+
+00:04:43.189 --> 00:04:43.199 align:start position:0%
+but if all of those are satisfied and
+ 
+
+00:04:43.199 --> 00:04:45.990 align:start position:0%
+but if all of those are satisfied and
+the<00:04:43.360><c> function</c><00:04:43.840><c> is</c><00:04:44.240><c> continuous</c><00:04:45.199><c> then</c><00:04:45.520><c> it</c><00:04:45.680><c> must</c>
+
+00:04:45.990 --> 00:04:46.000 align:start position:0%
+the function is continuous then it must
+ 
+
+00:04:46.000 --> 00:04:48.230 align:start position:0%
+the function is continuous then it must
+have<00:04:46.240><c> a</c><00:04:46.400><c> fixed</c><00:04:46.639><c> point</c>
+
+00:04:48.230 --> 00:04:48.240 align:start position:0%
+have a fixed point
+ 
+
+00:04:48.240 --> 00:04:49.670 align:start position:0%
+have a fixed point
+now
+
+00:04:49.670 --> 00:04:49.680 align:start position:0%
+now
+ 
+
+00:04:49.680 --> 00:04:52.310 align:start position:0%
+now
+a<00:04:49.840><c> best</c><00:04:50.080><c> response</c><00:04:50.560><c> correspondence</c>
+
+00:04:52.310 --> 00:04:52.320 align:start position:0%
+a best response correspondence
+ 
+
+00:04:52.320 --> 00:04:55.110 align:start position:0%
+a best response correspondence
+is<00:04:52.479><c> not</c><00:04:52.800><c> a</c><00:04:53.040><c> function</c><00:04:53.759><c> it</c><00:04:54.160><c> is</c><00:04:54.320><c> a</c><00:04:54.400><c> correspondence</c>
+
+00:04:55.110 --> 00:04:55.120 align:start position:0%
+is not a function it is a correspondence
+ 
+
+00:04:55.120 --> 00:04:57.670 align:start position:0%
+is not a function it is a correspondence
+which<00:04:55.440><c> means</c><00:04:55.759><c> it</c><00:04:55.919><c> can</c><00:04:56.160><c> have</c><00:04:56.800><c> several</c><00:04:57.199><c> values</c>
+
+00:04:57.670 --> 00:04:57.680 align:start position:0%
+which means it can have several values
+ 
+
+00:04:57.680 --> 00:04:58.950 align:start position:0%
+which means it can have several values
+not<00:04:57.919><c> just</c><00:04:58.160><c> one</c>
+
+00:04:58.950 --> 00:04:58.960 align:start position:0%
+not just one
+ 
+
+00:04:58.960 --> 00:05:00.230 align:start position:0%
+not just one
+so<00:04:59.199><c> we</c><00:04:59.280><c> need</c><00:04:59.520><c> to</c>
+
+00:05:00.230 --> 00:05:00.240 align:start position:0%
+so we need to
+ 
+
+00:05:00.240 --> 00:05:03.510 align:start position:0%
+so we need to
+extend<00:05:00.639><c> this</c><00:05:00.880><c> idea</c><00:05:01.199><c> to</c><00:05:01.280><c> correspondences</c>
+
+00:05:03.510 --> 00:05:03.520 align:start position:0%
+extend this idea to correspondences
+ 
+
+00:05:03.520 --> 00:05:05.510 align:start position:0%
+extend this idea to correspondences
+so<00:05:03.680><c> let's</c><00:05:03.919><c> visualize</c><00:05:04.479><c> this</c><00:05:04.720><c> with</c><00:05:05.039><c> two</c><00:05:05.280><c> player</c>
+
+00:05:05.510 --> 00:05:05.520 align:start position:0%
+so let's visualize this with two player
+ 
+
+00:05:05.520 --> 00:05:07.110 align:start position:0%
+so let's visualize this with two player
+games<00:05:05.840><c> where</c><00:05:06.000><c> both</c><00:05:06.320><c> players</c><00:05:06.720><c> have</c><00:05:06.880><c> two</c>
+
+00:05:07.110 --> 00:05:07.120 align:start position:0%
+games where both players have two
+ 
+
+00:05:07.120 --> 00:05:08.150 align:start position:0%
+games where both players have two
+actions
+
+00:05:08.150 --> 00:05:08.160 align:start position:0%
+actions
+ 
+
+00:05:08.160 --> 00:05:09.909 align:start position:0%
+actions
+where<00:05:08.400><c> we</c><00:05:08.479><c> know</c><00:05:08.639><c> that</c><00:05:08.800><c> we</c><00:05:08.880><c> can</c><00:05:09.039><c> parametrize</c>
+
+00:05:09.909 --> 00:05:09.919 align:start position:0%
+where we know that we can parametrize
+ 
+
+00:05:09.919 --> 00:05:12.230 align:start position:0%
+where we know that we can parametrize
+the<00:05:10.080><c> player's</c><00:05:10.320><c> strategies</c><00:05:10.880><c> with</c><00:05:11.039><c> simply</c>
+
+00:05:12.230 --> 00:05:12.240 align:start position:0%
+the player's strategies with simply
+ 
+
+00:05:12.240 --> 00:05:14.310 align:start position:0%
+the player's strategies with simply
+one<00:05:12.560><c> variable</c><00:05:13.120><c> let's</c><00:05:13.360><c> say</c><00:05:13.520><c> the</c><00:05:13.680><c> probability</c>
+
+00:05:14.310 --> 00:05:14.320 align:start position:0%
+one variable let's say the probability
+ 
+
+00:05:14.320 --> 00:05:16.150 align:start position:0%
+one variable let's say the probability
+that<00:05:14.479><c> they</c><00:05:14.720><c> choose</c><00:05:15.039><c> the</c><00:05:15.199><c> first</c><00:05:15.680><c> of</c><00:05:15.840><c> their</c>
+
+00:05:16.150 --> 00:05:16.160 align:start position:0%
+that they choose the first of their
+ 
+
+00:05:16.160 --> 00:05:17.990 align:start position:0%
+that they choose the first of their
+actions
+
+00:05:17.990 --> 00:05:18.000 align:start position:0%
+actions
+ 
+
+00:05:18.000 --> 00:05:20.550 align:start position:0%
+actions
+and<00:05:18.080><c> we've</c><00:05:18.320><c> seen</c><00:05:18.479><c> that</c><00:05:18.720><c> a</c><00:05:19.199><c> correspondence</c>
+
+00:05:20.550 --> 00:05:20.560 align:start position:0%
+and we've seen that a correspondence
+ 
+
+00:05:20.560 --> 00:05:22.230 align:start position:0%
+and we've seen that a correspondence
+is<00:05:20.720><c> the</c><00:05:20.880><c> name</c><00:05:21.120><c> mapping</c>
+
+00:05:22.230 --> 00:05:22.240 align:start position:0%
+is the name mapping
+ 
+
+00:05:22.240 --> 00:05:24.950 align:start position:0%
+is the name mapping
+from<00:05:22.560><c> 0</c><00:05:22.800><c> 1</c><00:05:23.360><c> two</c><00:05:23.600><c> zero</c><00:05:23.919><c> one</c>
+
+00:05:24.950 --> 00:05:24.960 align:start position:0%
+from 0 1 two zero one
+ 
+
+00:05:24.960 --> 00:05:28.230 align:start position:0%
+from 0 1 two zero one
+where<00:05:25.280><c> as</c><00:05:25.440><c> input</c><00:05:25.840><c> it</c><00:05:25.919><c> takes</c><00:05:26.560><c> the</c><00:05:26.720><c> probability</c>
+
+00:05:28.230 --> 00:05:28.240 align:start position:0%
+where as input it takes the probability
+ 
+
+00:05:28.240 --> 00:05:29.830 align:start position:0%
+where as input it takes the probability
+or<00:05:28.479><c> the</c><00:05:28.560><c> strategy</c><00:05:29.120><c> of</c>
+
+00:05:29.830 --> 00:05:29.840 align:start position:0%
+or the strategy of
+ 
+
+00:05:29.840 --> 00:05:31.990 align:start position:0%
+or the strategy of
+player<00:05:30.160><c> one's</c><00:05:30.400><c> opponent</c><00:05:30.800><c> so</c><00:05:30.960><c> in</c><00:05:31.039><c> this</c><00:05:31.199><c> case</c><00:05:31.520><c> y</c>
+
+00:05:31.990 --> 00:05:32.000 align:start position:0%
+player one's opponent so in this case y
+ 
+
+00:05:32.000 --> 00:05:34.230 align:start position:0%
+player one's opponent so in this case y
+and<00:05:32.240><c> it</c><00:05:32.320><c> gives</c><00:05:32.560><c> us</c><00:05:32.720><c> back</c><00:05:32.960><c> which</c><00:05:33.280><c> values</c><00:05:33.759><c> of</c><00:05:33.919><c> x</c>
+
+00:05:34.230 --> 00:05:34.240 align:start position:0%
+and it gives us back which values of x
+ 
+
+00:05:34.240 --> 00:05:36.390 align:start position:0%
+and it gives us back which values of x
+are<00:05:34.479><c> best</c><00:05:34.720><c> responses</c>
+
+00:05:36.390 --> 00:05:36.400 align:start position:0%
+are best responses
+ 
+
+00:05:36.400 --> 00:05:39.270 align:start position:0%
+are best responses
+and<00:05:36.720><c> only</c><00:05:37.039><c> three</c><00:05:37.759><c> cases</c><00:05:38.160><c> can</c><00:05:38.320><c> happen</c>
+
+00:05:39.270 --> 00:05:39.280 align:start position:0%
+and only three cases can happen
+ 
+
+00:05:39.280 --> 00:05:41.270 align:start position:0%
+and only three cases can happen
+either<00:05:40.000><c> player</c><00:05:40.240><c> one</c><00:05:40.400><c> prefers</c><00:05:40.800><c> their</c><00:05:40.960><c> first</c>
+
+00:05:41.270 --> 00:05:41.280 align:start position:0%
+either player one prefers their first
+ 
+
+00:05:41.280 --> 00:05:43.670 align:start position:0%
+either player one prefers their first
+action<00:05:41.840><c> their</c><00:05:42.080><c> second</c><00:05:42.400><c> action</c><00:05:42.960><c> or</c><00:05:43.199><c> player</c><00:05:43.440><c> one</c>
+
+00:05:43.670 --> 00:05:43.680 align:start position:0%
+action their second action or player one
+ 
+
+00:05:43.680 --> 00:05:45.189 align:start position:0%
+action their second action or player one
+is<00:05:43.840><c> indifferent</c>
+
+00:05:45.189 --> 00:05:45.199 align:start position:0%
+is indifferent
+ 
+
+00:05:45.199 --> 00:05:47.350 align:start position:0%
+is indifferent
+and<00:05:45.759><c> if</c><00:05:46.000><c> it</c><00:05:46.080><c> is</c><00:05:46.240><c> indifferent</c><00:05:46.720><c> is</c><00:05:46.800><c> precisely</c>
+
+00:05:47.350 --> 00:05:47.360 align:start position:0%
+and if it is indifferent is precisely
+ 
+
+00:05:47.360 --> 00:05:49.830 align:start position:0%
+and if it is indifferent is precisely
+the<00:05:47.520><c> case</c><00:05:48.160><c> when</c><00:05:48.560><c> the</c><00:05:48.720><c> correspondence</c><00:05:49.440><c> is</c><00:05:49.520><c> not</c>
+
+00:05:49.830 --> 00:05:49.840 align:start position:0%
+the case when the correspondence is not
+ 
+
+00:05:49.840 --> 00:05:51.350 align:start position:0%
+the case when the correspondence is not
+single<00:05:50.160><c> valued</c>
+
+00:05:51.350 --> 00:05:51.360 align:start position:0%
+single valued
+ 
+
+00:05:51.360 --> 00:05:54.550 align:start position:0%
+single valued
+and<00:05:51.600><c> we</c><00:05:51.680><c> have</c><00:05:52.000><c> here</c><00:05:52.639><c> a</c><00:05:52.800><c> few</c><00:05:53.120><c> of</c><00:05:53.199><c> those</c><00:05:53.520><c> cases</c><00:05:54.400><c> so</c>
+
+00:05:54.550 --> 00:05:54.560 align:start position:0%
+and we have here a few of those cases so
+ 
+
+00:05:54.560 --> 00:05:56.870 align:start position:0%
+and we have here a few of those cases so
+here<00:05:55.280><c> is</c><00:05:55.680><c> where</c><00:05:56.000><c> the</c><00:05:56.160><c> best</c><00:05:56.400><c> response</c>
+
+00:05:56.870 --> 00:05:56.880 align:start position:0%
+here is where the best response
+ 
+
+00:05:56.880 --> 00:06:05.029 align:start position:0%
+here is where the best response
+correspondence<00:05:58.000><c> is</c><00:05:58.240><c> not</c><00:05:58.720><c> single</c><00:05:59.039><c> valued</c>
+
+00:06:05.029 --> 00:06:05.039 align:start position:0%
+ 
+ 
+
+00:06:05.039 --> 00:06:07.110 align:start position:0%
+ 
+and<00:06:05.840><c> the</c><00:06:05.919><c> consequence</c><00:06:06.479><c> if</c><00:06:06.639><c> we</c><00:06:06.720><c> now</c><00:06:06.880><c> look</c><00:06:07.039><c> at</c>
+
+00:06:07.110 --> 00:06:07.120 align:start position:0%
+and the consequence if we now look at
+ 
+
+00:06:07.120 --> 00:06:09.029 align:start position:0%
+and the consequence if we now look at
+this<00:06:07.280><c> graph</c><00:06:07.680><c> is</c><00:06:07.840><c> that</c>
+
+00:06:09.029 --> 00:06:09.039 align:start position:0%
+this graph is that
+ 
+
+00:06:09.039 --> 00:06:10.550 align:start position:0%
+this graph is that
+they<00:06:09.199><c> must</c>
+
+00:06:10.550 --> 00:06:10.560 align:start position:0%
+they must
+ 
+
+00:06:10.560 --> 00:06:12.550 align:start position:0%
+they must
+always<00:06:10.880><c> intersect</c><00:06:11.440><c> the</c><00:06:11.520><c> mutual</c><00:06:11.919><c> best</c><00:06:12.319><c> or</c><00:06:12.479><c> the</c>
+
+00:06:12.550 --> 00:06:12.560 align:start position:0%
+always intersect the mutual best or the
+ 
+
+00:06:12.560 --> 00:06:14.629 align:start position:0%
+always intersect the mutual best or the
+best<00:06:12.720><c> response</c><00:06:13.120><c> correspondences</c><00:06:14.160><c> because</c>
+
+00:06:14.629 --> 00:06:14.639 align:start position:0%
+best response correspondences because
+ 
+
+00:06:14.639 --> 00:06:15.909 align:start position:0%
+best response correspondences because
+they<00:06:14.800><c> are</c><00:06:15.039><c> sort</c><00:06:15.280><c> of</c>
+
+00:06:15.909 --> 00:06:15.919 align:start position:0%
+they are sort of
+ 
+
+00:06:15.919 --> 00:06:19.189 align:start position:0%
+they are sort of
+continuous<00:06:16.960><c> in</c><00:06:17.120><c> a</c><00:06:17.199><c> sense</c><00:06:18.000><c> that</c><00:06:18.160><c> we</c><00:06:18.319><c> can</c><00:06:18.479><c> draw</c>
+
+00:06:19.189 --> 00:06:19.199 align:start position:0%
+continuous in a sense that we can draw
+ 
+
+00:06:19.199 --> 00:06:21.189 align:start position:0%
+continuous in a sense that we can draw
+the<00:06:19.360><c> graph</c><00:06:19.759><c> without</c><00:06:20.160><c> ever</c><00:06:20.400><c> removing</c><00:06:21.039><c> the</c>
+
+00:06:21.189 --> 00:06:21.199 align:start position:0%
+the graph without ever removing the
+ 
+
+00:06:21.199 --> 00:06:24.870 align:start position:0%
+the graph without ever removing the
+paper<00:06:21.600><c> from</c><00:06:21.840><c> the</c><00:06:22.000><c> pen</c>
+
+00:06:24.870 --> 00:06:24.880 align:start position:0%
+ 
+ 
+
+00:06:24.880 --> 00:06:27.270 align:start position:0%
+ 
+and<00:06:25.039><c> we</c><00:06:25.199><c> just</c><00:06:25.440><c> have</c><00:06:25.600><c> to</c><00:06:25.919><c> sort</c><00:06:26.160><c> of</c><00:06:26.240><c> formalize</c>
+
+00:06:27.270 --> 00:06:27.280 align:start position:0%
+and we just have to sort of formalize
+ 
+
+00:06:27.280 --> 00:06:30.629 align:start position:0%
+and we just have to sort of formalize
+what<00:06:27.520><c> a</c><00:06:27.680><c> continuous</c><00:06:28.639><c> correspondence</c><00:06:29.520><c> is</c><00:06:30.080><c> in</c>
+
+00:06:30.629 --> 00:06:30.639 align:start position:0%
+what a continuous correspondence is in
+ 
+
+00:06:30.639 --> 00:06:32.830 align:start position:0%
+what a continuous correspondence is in
+this<00:06:30.960><c> setting</c>
+
+00:06:32.830 --> 00:06:32.840 align:start position:0%
+this setting
+ 
+
+00:06:32.840 --> 00:06:34.550 align:start position:0%
+this setting
+so
+
+00:06:34.550 --> 00:06:34.560 align:start position:0%
+so
+ 
+
+00:06:34.560 --> 00:06:36.710 align:start position:0%
+so
+we<00:06:34.720><c> have</c><00:06:34.880><c> to</c><00:06:35.039><c> prevent</c><00:06:35.360><c> two</c><00:06:35.600><c> kinds</c><00:06:36.240><c> two</c><00:06:36.400><c> kinds</c>
+
+00:06:36.710 --> 00:06:36.720 align:start position:0%
+we have to prevent two kinds two kinds
+ 
+
+00:06:36.720 --> 00:06:38.629 align:start position:0%
+we have to prevent two kinds two kinds
+of<00:06:36.800><c> gaps</c><00:06:37.120><c> we</c><00:06:37.280><c> have</c><00:06:37.360><c> to</c><00:06:37.520><c> prevent</c><00:06:38.080><c> horizontal</c>
+
+00:06:38.629 --> 00:06:38.639 align:start position:0%
+of gaps we have to prevent horizontal
+ 
+
+00:06:38.639 --> 00:06:41.270 align:start position:0%
+of gaps we have to prevent horizontal
+gaps<00:06:39.039><c> and</c><00:06:39.199><c> vertical</c><00:06:39.680><c> gaps</c>
+
+00:06:41.270 --> 00:06:41.280 align:start position:0%
+gaps and vertical gaps
+ 
+
+00:06:41.280 --> 00:06:43.909 align:start position:0%
+gaps and vertical gaps
+horizontal<00:06:41.840><c> gaps</c><00:06:42.560><c> can</c><00:06:42.800><c> happen</c><00:06:43.280><c> if</c><00:06:43.520><c> the</c><00:06:43.600><c> best</c>
+
+00:06:43.909 --> 00:06:43.919 align:start position:0%
+horizontal gaps can happen if the best
+ 
+
+00:06:43.919 --> 00:06:46.230 align:start position:0%
+horizontal gaps can happen if the best
+response<00:06:44.400><c> correspondence</c><00:06:45.039><c> is</c><00:06:45.199><c> empty</c>
+
+00:06:46.230 --> 00:06:46.240 align:start position:0%
+response correspondence is empty
+ 
+
+00:06:46.240 --> 00:06:47.350 align:start position:0%
+response correspondence is empty
+and
+
+00:06:47.350 --> 00:06:47.360 align:start position:0%
+and
+ 
+
+00:06:47.360 --> 00:06:48.629 align:start position:0%
+and
+if<00:06:47.520><c> we</c>
+
+00:06:48.629 --> 00:06:48.639 align:start position:0%
+if we
+ 
+
+00:06:48.639 --> 00:06:50.950 align:start position:0%
+if we
+ask<00:06:48.800><c> them</c><00:06:48.960><c> to</c><00:06:49.039><c> be</c><00:06:49.120><c> non-empty</c><00:06:49.759><c> then</c>
+
+00:06:50.950 --> 00:06:50.960 align:start position:0%
+ask them to be non-empty then
+ 
+
+00:06:50.960 --> 00:06:53.589 align:start position:0%
+ask them to be non-empty then
+horizontal<00:06:51.440><c> gaps</c><00:06:51.680><c> won't</c><00:06:52.000><c> happen</c>
+
+00:06:53.589 --> 00:06:53.599 align:start position:0%
+horizontal gaps won't happen
+ 
+
+00:06:53.599 --> 00:06:55.430 align:start position:0%
+horizontal gaps won't happen
+to<00:06:53.759><c> prevent</c><00:06:54.080><c> vertical</c><00:06:54.479><c> gaps</c><00:06:54.800><c> we</c><00:06:54.960><c> need</c><00:06:55.199><c> two</c>
+
+00:06:55.430 --> 00:06:55.440 align:start position:0%
+to prevent vertical gaps we need two
+ 
+
+00:06:55.440 --> 00:06:57.510 align:start position:0%
+to prevent vertical gaps we need two
+conditions<00:06:56.160><c> we</c><00:06:56.319><c> need</c><00:06:56.639><c> that</c><00:06:57.199><c> the</c><00:06:57.280><c> best</c>
+
+00:06:57.510 --> 00:06:57.520 align:start position:0%
+conditions we need that the best
+ 
+
+00:06:57.520 --> 00:06:59.830 align:start position:0%
+conditions we need that the best
+response<00:06:58.000><c> correspondence</c><00:06:58.639><c> is</c><00:06:58.720><c> convex</c><00:06:59.680><c> so</c>
+
+00:06:59.830 --> 00:06:59.840 align:start position:0%
+response correspondence is convex so
+ 
+
+00:06:59.840 --> 00:07:01.510 align:start position:0%
+response correspondence is convex so
+this<00:07:00.000><c> means</c><00:07:00.319><c> that</c><00:07:00.560><c> if</c>
+
+00:07:01.510 --> 00:07:01.520 align:start position:0%
+this means that if
+ 
+
+00:07:01.520 --> 00:07:03.189 align:start position:0%
+this means that if
+any<00:07:01.919><c> two</c>
+
+00:07:03.189 --> 00:07:03.199 align:start position:0%
+any two
+ 
+
+00:07:03.199 --> 00:07:04.950 align:start position:0%
+any two
+strategies<00:07:03.840><c> are</c><00:07:04.080><c> best</c><00:07:04.240><c> response</c><00:07:04.720><c> that</c>
+
+00:07:04.950 --> 00:07:04.960 align:start position:0%
+strategies are best response that
+ 
+
+00:07:04.960 --> 00:07:07.270 align:start position:0%
+strategies are best response that
+anything<00:07:05.759><c> any</c><00:07:06.000><c> convex</c><00:07:06.400><c> combination</c><00:07:06.960><c> of</c><00:07:07.039><c> them</c>
+
+00:07:07.270 --> 00:07:07.280 align:start position:0%
+anything any convex combination of them
+ 
+
+00:07:07.280 --> 00:07:09.430 align:start position:0%
+anything any convex combination of them
+is<00:07:07.440><c> also</c><00:07:07.759><c> a</c><00:07:07.919><c> best</c><00:07:08.160><c> response</c>
+
+00:07:09.430 --> 00:07:09.440 align:start position:0%
+is also a best response
+ 
+
+00:07:09.440 --> 00:07:11.430 align:start position:0%
+is also a best response
+and<00:07:09.599><c> the</c><00:07:09.759><c> second</c><00:07:10.000><c> condition</c><00:07:10.400><c> that</c><00:07:10.479><c> we</c><00:07:10.639><c> need</c><00:07:11.280><c> is</c>
+
+00:07:11.430 --> 00:07:11.440 align:start position:0%
+and the second condition that we need is
+ 
+
+00:07:11.440 --> 00:07:12.710 align:start position:0%
+and the second condition that we need is
+that<00:07:11.520><c> the</c><00:07:11.680><c> graph</c>
+
+00:07:12.710 --> 00:07:12.720 align:start position:0%
+that the graph
+ 
+
+00:07:12.720 --> 00:07:14.950 align:start position:0%
+that the graph
+of<00:07:13.360><c> the</c><00:07:13.520><c> best</c><00:07:13.680><c> response</c><00:07:14.080><c> correspondence</c><00:07:14.720><c> is</c>
+
+00:07:14.950 --> 00:07:14.960 align:start position:0%
+of the best response correspondence is
+ 
+
+00:07:14.960 --> 00:07:18.070 align:start position:0%
+of the best response correspondence is
+closed<00:07:15.680><c> so</c><00:07:15.840><c> the</c><00:07:16.000><c> graph</c><00:07:16.240><c> here</c><00:07:16.400><c> is</c><00:07:16.479><c> simply</c>
+
+00:07:18.070 --> 00:07:18.080 align:start position:0%
+closed so the graph here is simply
+ 
+
+00:07:18.080 --> 00:07:21.990 align:start position:0%
+closed so the graph here is simply
+exactly<00:07:18.479><c> what</c><00:07:18.639><c> it</c><00:07:18.800><c> says</c><00:07:19.039><c> is</c><00:07:19.280><c> how</c><00:07:19.759><c> we</c><00:07:20.000><c> draw</c>
+
+00:07:21.990 --> 00:07:22.000 align:start position:0%
+exactly what it says is how we draw
+ 
+
+00:07:22.000 --> 00:07:23.990 align:start position:0%
+exactly what it says is how we draw
+we<00:07:22.160><c> draw</c><00:07:22.319><c> the</c><00:07:22.479><c> graph</c><00:07:22.800><c> it's</c><00:07:23.039><c> the</c><00:07:23.199><c> pair</c><00:07:23.599><c> of</c><00:07:23.840><c> all</c>
+
+00:07:23.990 --> 00:07:24.000 align:start position:0%
+we draw the graph it's the pair of all
+ 
+
+00:07:24.000 --> 00:07:28.390 align:start position:0%
+we draw the graph it's the pair of all
+the<00:07:24.240><c> inputs</c><00:07:25.039><c> and</c><00:07:25.599><c> all</c><00:07:25.919><c> the</c><00:07:26.160><c> outputs</c>
+
+00:07:28.390 --> 00:07:28.400 align:start position:0%
+the inputs and all the outputs
+ 
+
+00:07:28.400 --> 00:07:30.469 align:start position:0%
+the inputs and all the outputs
+and<00:07:28.560><c> the</c><00:07:28.639><c> reason</c><00:07:28.880><c> why</c><00:07:29.039><c> we</c><00:07:29.120><c> need</c><00:07:29.280><c> both</c><00:07:29.599><c> is</c><00:07:29.759><c> that</c>
+
+00:07:30.469 --> 00:07:30.479 align:start position:0%
+and the reason why we need both is that
+ 
+
+00:07:30.479 --> 00:07:31.830 align:start position:0%
+and the reason why we need both is that
+this<00:07:30.720><c> is</c><00:07:30.800><c> a</c><00:07:30.880><c> case</c><00:07:31.199><c> here</c><00:07:31.360><c> where</c><00:07:31.520><c> the</c><00:07:31.599><c> best</c>
+
+00:07:31.830 --> 00:07:31.840 align:start position:0%
+this is a case here where the best
+ 
+
+00:07:31.840 --> 00:07:33.990 align:start position:0%
+this is a case here where the best
+response<00:07:32.240><c> corresponds</c><00:07:32.720><c> is</c><00:07:32.800><c> convex</c>
+
+00:07:33.990 --> 00:07:34.000 align:start position:0%
+response corresponds is convex
+ 
+
+00:07:34.000 --> 00:07:34.870 align:start position:0%
+response corresponds is convex
+but
+
+00:07:34.870 --> 00:07:34.880 align:start position:0%
+but
+ 
+
+00:07:34.880 --> 00:07:36.710 align:start position:0%
+but
+there<00:07:35.199><c> is</c><00:07:35.440><c> a</c>
+
+00:07:36.710 --> 00:07:36.720 align:start position:0%
+there is a
+ 
+
+00:07:36.720 --> 00:07:39.110 align:start position:0%
+there is a
+or<00:07:37.120><c> a</c><00:07:37.280><c> vertical</c><00:07:37.680><c> gap</c><00:07:38.000><c> because</c>
+
+00:07:39.110 --> 00:07:39.120 align:start position:0%
+or a vertical gap because
+ 
+
+00:07:39.120 --> 00:07:41.189 align:start position:0%
+or a vertical gap because
+the<00:07:39.360><c> graph</c><00:07:39.759><c> is</c><00:07:39.840><c> not</c><00:07:40.160><c> closed</c>
+
+00:07:41.189 --> 00:07:41.199 align:start position:0%
+the graph is not closed
+ 
+
+00:07:41.199 --> 00:07:43.110 align:start position:0%
+the graph is not closed
+conversely
+
+00:07:43.110 --> 00:07:43.120 align:start position:0%
+conversely
+ 
+
+00:07:43.120 --> 00:07:44.869 align:start position:0%
+conversely
+this<00:07:43.520><c> now</c><00:07:43.759><c> is</c><00:07:43.919><c> one</c><00:07:44.080><c> where</c><00:07:44.240><c> the</c><00:07:44.400><c> graph</c><00:07:44.720><c> is</c>
+
+00:07:44.869 --> 00:07:44.879 align:start position:0%
+this now is one where the graph is
+ 
+
+00:07:44.879 --> 00:07:47.589 align:start position:0%
+this now is one where the graph is
+closed<00:07:45.520><c> so</c><00:07:45.680><c> the</c><00:07:45.840><c> endpoints</c><00:07:46.400><c> are</c><00:07:46.560><c> included</c><00:07:47.440><c> but</c>
+
+00:07:47.589 --> 00:07:47.599 align:start position:0%
+closed so the endpoints are included but
+ 
+
+00:07:47.599 --> 00:07:50.230 align:start position:0%
+closed so the endpoints are included but
+there<00:07:47.840><c> is</c><00:07:48.080><c> a</c><00:07:48.240><c> vertical</c><00:07:48.639><c> gap</c><00:07:49.120><c> because</c>
+
+00:07:50.230 --> 00:07:50.240 align:start position:0%
+there is a vertical gap because
+ 
+
+00:07:50.240 --> 00:07:51.670 align:start position:0%
+there is a vertical gap because
+the<00:07:50.400><c> best</c><00:07:50.560><c> response</c><00:07:50.960><c> correspondence</c><00:07:51.440><c> is</c><00:07:51.520><c> not</c>
+
+00:07:51.670 --> 00:07:51.680 align:start position:0%
+the best response correspondence is not
+ 
+
+00:07:51.680 --> 00:07:53.830 align:start position:0%
+the best response correspondence is not
+convex<00:07:52.560><c> so</c><00:07:52.800><c> for</c>
+
+00:07:53.830 --> 00:07:53.840 align:start position:0%
+convex so for
+ 
+
+00:07:53.840 --> 00:07:55.749 align:start position:0%
+convex so for
+x<00:07:54.080><c> equal</c><00:07:54.240><c> to</c><00:07:54.319><c> one</c><00:07:54.560><c> half</c><00:07:54.800><c> there's</c><00:07:55.039><c> two</c><00:07:55.520><c> best</c>
+
+00:07:55.749 --> 00:07:55.759 align:start position:0%
+x equal to one half there's two best
+ 
+
+00:07:55.759 --> 00:07:58.070 align:start position:0%
+x equal to one half there's two best
+responses<00:07:56.560><c> but</c><00:07:56.800><c> anything</c><00:07:57.199><c> in</c><00:07:57.280><c> between</c><00:07:57.759><c> is</c><00:07:57.840><c> not</c>
+
+00:07:58.070 --> 00:07:58.080 align:start position:0%
+responses but anything in between is not
+ 
+
+00:07:58.080 --> 00:07:59.670 align:start position:0%
+responses but anything in between is not
+the<00:07:58.240><c> best</c><00:07:58.479><c> response</c>
+
+00:07:59.670 --> 00:07:59.680 align:start position:0%
+the best response
+ 
+
+00:07:59.680 --> 00:08:03.909 align:start position:0%
+the best response
+and<00:07:59.840><c> once</c><00:08:00.080><c> we</c><00:08:00.240><c> have</c><00:08:00.479><c> both</c><00:08:00.720><c> conditions</c><00:08:01.840><c> then</c>
+
+00:08:03.909 --> 00:08:03.919 align:start position:0%
+and once we have both conditions then
+ 
+
+00:08:03.919 --> 00:08:06.390 align:start position:0%
+and once we have both conditions then
+there<00:08:04.160><c> are</c><00:08:04.319><c> no</c><00:08:04.560><c> more</c><00:08:04.720><c> vertical</c><00:08:05.199><c> gaps</c>
+
+00:08:06.390 --> 00:08:06.400 align:start position:0%
+there are no more vertical gaps
+ 
+
+00:08:06.400 --> 00:08:08.550 align:start position:0%
+there are no more vertical gaps
+and<00:08:06.479><c> so</c><00:08:06.800><c> those</c><00:08:07.039><c> will</c><00:08:07.199><c> be</c><00:08:07.280><c> the</c><00:08:07.440><c> conditions</c>
+
+00:08:08.550 --> 00:08:08.560 align:start position:0%
+and so those will be the conditions
+ 
+
+00:08:08.560 --> 00:08:10.469 align:start position:0%
+and so those will be the conditions
+under<00:08:08.800><c> which</c><00:08:09.120><c> a</c><00:08:09.280><c> correspondence</c><00:08:09.919><c> is</c><00:08:10.080><c> sort</c><00:08:10.240><c> of</c>
+
+00:08:10.469 --> 00:08:10.479 align:start position:0%
+under which a correspondence is sort of
+ 
+
+00:08:10.479 --> 00:08:14.710 align:start position:0%
+under which a correspondence is sort of
+continuous
+
+00:08:14.710 --> 00:08:14.720 align:start position:0%
+ 
+ 
+
+00:08:14.720 --> 00:08:16.710 align:start position:0%
+ 
+and<00:08:14.879><c> this</c><00:08:15.039><c> brings</c><00:08:15.360><c> us</c><00:08:15.520><c> to</c><00:08:15.759><c> kagutani's</c><00:08:16.479><c> fixed</c>
+
+00:08:16.710 --> 00:08:16.720 align:start position:0%
+and this brings us to kagutani's fixed
+ 
+
+00:08:16.720 --> 00:08:18.309 align:start position:0%
+and this brings us to kagutani's fixed
+point<00:08:16.960><c> theorem</c><00:08:17.360><c> which</c><00:08:17.599><c> is</c><00:08:17.680><c> the</c><00:08:17.840><c> theorem</c><00:08:18.160><c> we</c>
+
+00:08:18.309 --> 00:08:18.319 align:start position:0%
+point theorem which is the theorem we
+ 
+
+00:08:18.319 --> 00:08:19.670 align:start position:0%
+point theorem which is the theorem we
+want<00:08:18.479><c> to</c><00:08:18.639><c> apply</c>
+
+00:08:19.670 --> 00:08:19.680 align:start position:0%
+want to apply
+ 
+
+00:08:19.680 --> 00:08:21.909 align:start position:0%
+want to apply
+for<00:08:20.240><c> or</c><00:08:20.400><c> to</c><00:08:20.479><c> establish</c><00:08:21.039><c> existence</c><00:08:21.520><c> of</c><00:08:21.680><c> nash</c>
+
+00:08:21.909 --> 00:08:21.919 align:start position:0%
+for or to establish existence of nash
+ 
+
+00:08:21.919 --> 00:08:23.189 align:start position:0%
+for or to establish existence of nash
+equilibrium
+
+00:08:23.189 --> 00:08:23.199 align:start position:0%
+equilibrium
+ 
+
+00:08:23.199 --> 00:08:26.309 align:start position:0%
+equilibrium
+and<00:08:23.440><c> it's</c><00:08:23.840><c> essentially</c><00:08:24.400><c> a</c><00:08:24.560><c> correspondence</c>
+
+00:08:26.309 --> 00:08:26.319 align:start position:0%
+and it's essentially a correspondence
+ 
+
+00:08:26.319 --> 00:08:27.990 align:start position:0%
+and it's essentially a correspondence
+version<00:08:26.960><c> of</c>
+
+00:08:27.990 --> 00:08:28.000 align:start position:0%
+version of
+ 
+
+00:08:28.000 --> 00:08:30.070 align:start position:0%
+version of
+brower's<00:08:28.400><c> fixed</c><00:08:28.639><c> point</c><00:08:28.960><c> theorem</c>
+
+00:08:30.070 --> 00:08:30.080 align:start position:0%
+brower's fixed point theorem
+ 
+
+00:08:30.080 --> 00:08:31.670 align:start position:0%
+brower's fixed point theorem
+and<00:08:30.240><c> it</c><00:08:30.319><c> says</c><00:08:30.560><c> that</c><00:08:30.720><c> a</c><00:08:30.800><c> correspondence</c><00:08:31.440><c> does</c>
+
+00:08:31.670 --> 00:08:31.680 align:start position:0%
+and it says that a correspondence does
+ 
+
+00:08:31.680 --> 00:08:34.469 align:start position:0%
+and it says that a correspondence does
+have<00:08:31.840><c> a</c><00:08:31.919><c> fixed</c><00:08:32.159><c> point</c><00:08:32.560><c> if</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+have a fixed point if
+ 
+
+00:08:34.479 --> 00:08:36.949 align:start position:0%
+have a fixed point if
+the<00:08:34.640><c> first</c><00:08:34.880><c> condition</c><00:08:35.599><c> if</c><00:08:36.240><c> the</c><00:08:36.399><c> domain</c><00:08:36.880><c> is</c>
+
+00:08:36.949 --> 00:08:36.959 align:start position:0%
+the first condition if the domain is
+ 
+
+00:08:36.959 --> 00:08:39.110 align:start position:0%
+the first condition if the domain is
+non-empty<00:08:37.519><c> convex</c><00:08:38.000><c> and</c><00:08:38.080><c> compact</c><00:08:38.560><c> subset</c><00:08:38.959><c> of</c>
+
+00:08:39.110 --> 00:08:39.120 align:start position:0%
+non-empty convex and compact subset of
+ 
+
+00:08:39.120 --> 00:08:41.750 align:start position:0%
+non-empty convex and compact subset of
+euclidean<00:08:39.599><c> space</c><00:08:40.320><c> so</c><00:08:40.560><c> euclidean</c><00:08:41.120><c> space</c><00:08:41.440><c> here</c>
+
+00:08:41.750 --> 00:08:41.760 align:start position:0%
+euclidean space so euclidean space here
+ 
+
+00:08:41.760 --> 00:08:42.709 align:start position:0%
+euclidean space so euclidean space here
+is
+
+00:08:42.709 --> 00:08:42.719 align:start position:0%
+is
+ 
+
+00:08:42.719 --> 00:08:44.470 align:start position:0%
+is
+rn
+
+00:08:44.470 --> 00:08:44.480 align:start position:0%
+rn
+ 
+
+00:08:44.480 --> 00:08:45.269 align:start position:0%
+rn
+then
+
+00:08:45.269 --> 00:08:45.279 align:start position:0%
+then
+ 
+
+00:08:45.279 --> 00:08:46.550 align:start position:0%
+then
+the<00:08:45.360><c> correspondence</c><00:08:45.920><c> is</c><00:08:46.000><c> non-empty</c><00:08:46.480><c> and</c>
+
+00:08:46.550 --> 00:08:46.560 align:start position:0%
+the correspondence is non-empty and
+ 
+
+00:08:46.560 --> 00:08:49.829 align:start position:0%
+the correspondence is non-empty and
+convex<00:08:47.519><c> for</c><00:08:47.920><c> all</c><00:08:48.240><c> values</c><00:08:49.040><c> so</c><00:08:49.279><c> those</c><00:08:49.600><c> two</c>
+
+00:08:49.829 --> 00:08:49.839 align:start position:0%
+convex for all values so those two
+ 
+
+00:08:49.839 --> 00:08:50.790 align:start position:0%
+convex for all values so those two
+together
+
+00:08:50.790 --> 00:08:50.800 align:start position:0%
+together
+ 
+
+00:08:50.800 --> 00:08:53.110 align:start position:0%
+together
+will<00:08:51.120><c> give</c><00:08:51.360><c> us</c><00:08:51.440><c> this</c><00:08:51.680><c> continuity</c><00:08:52.640><c> of</c><00:08:52.800><c> the</c><00:08:52.959><c> best</c>
+
+00:08:53.110 --> 00:08:53.120 align:start position:0%
+will give us this continuity of the best
+ 
+
+00:08:53.120 --> 00:08:55.670 align:start position:0%
+will give us this continuity of the best
+response<00:08:53.519><c> correspondence</c>
+
+00:08:55.670 --> 00:08:55.680 align:start position:0%
+response correspondence
+ 
+
+00:08:55.680 --> 00:08:57.670 align:start position:0%
+response correspondence
+actually<00:08:56.000><c> those</c><00:08:56.240><c> two</c><00:08:56.480><c> sorry</c><00:08:56.720><c> two</c><00:08:56.880><c> and</c><00:08:57.120><c> three</c>
+
+00:08:57.670 --> 00:08:57.680 align:start position:0%
+actually those two sorry two and three
+ 
+
+00:08:57.680 --> 00:08:59.750 align:start position:0%
+actually those two sorry two and three
+the<00:08:57.760><c> correspondence</c><00:08:58.399><c> has</c><00:08:58.560><c> a</c><00:08:58.720><c> closed</c><00:08:59.040><c> graph</c>
+
+00:08:59.750 --> 00:08:59.760 align:start position:0%
+the correspondence has a closed graph
+ 
+
+00:08:59.760 --> 00:09:01.430 align:start position:0%
+the correspondence has a closed graph
+and<00:09:00.000><c> the</c><00:09:00.080><c> first</c><00:09:00.320><c> one</c><00:09:00.560><c> is</c><00:09:00.640><c> about</c><00:09:00.880><c> the</c><00:09:00.959><c> domain</c>
+
+00:09:01.430 --> 00:09:01.440 align:start position:0%
+and the first one is about the domain
+ 
+
+00:09:01.440 --> 00:09:03.750 align:start position:0%
+and the first one is about the domain
+which<00:09:01.680><c> is</c><00:09:01.839><c> similar</c><00:09:02.160><c> that</c><00:09:02.320><c> we</c><00:09:02.480><c> had</c><00:09:02.800><c> in</c>
+
+00:09:03.750 --> 00:09:03.760 align:start position:0%
+which is similar that we had in
+ 
+
+00:09:03.760 --> 00:09:06.070 align:start position:0%
+which is similar that we had in
+brower's<00:09:04.160><c> fixed</c><00:09:04.320><c> point</c><00:09:04.560><c> theorem</c><00:09:04.880><c> right</c><00:09:05.120><c> that</c>
+
+00:09:06.070 --> 00:09:06.080 align:start position:0%
+brower's fixed point theorem right that
+ 
+
+00:09:06.080 --> 00:09:08.310 align:start position:0%
+brower's fixed point theorem right that
+that<00:09:06.320><c> the</c><00:09:06.399><c> domain</c><00:09:06.880><c> is</c><00:09:07.040><c> non-empty</c><00:09:07.600><c> convex</c><00:09:08.080><c> and</c>
+
+00:09:08.310 --> 00:09:08.320 align:start position:0%
+that the domain is non-empty convex and
+ 
+
+00:09:08.320 --> 00:09:10.470 align:start position:0%
+that the domain is non-empty convex and
+compact<00:09:08.720><c> so</c><00:09:08.959><c> there</c><00:09:09.120><c> are</c><00:09:09.200><c> no</c><00:09:09.760><c> gaps</c><00:09:10.240><c> in</c><00:09:10.399><c> the</c>
+
+00:09:10.470 --> 00:09:10.480 align:start position:0%
+compact so there are no gaps in the
+ 
+
+00:09:10.480 --> 00:09:14.310 align:start position:0%
+compact so there are no gaps in the
+domain
+
+00:09:14.310 --> 00:09:14.320 align:start position:0%
+ 
+ 
+
+00:09:14.320 --> 00:09:16.870 align:start position:0%
+ 
+and<00:09:14.480><c> the</c><00:09:14.640><c> proof</c><00:09:15.120><c> of</c><00:09:15.760><c> nash</c><00:09:16.000><c> existence</c><00:09:16.560><c> theorem</c>
+
+00:09:16.870 --> 00:09:16.880 align:start position:0%
+and the proof of nash existence theorem
+ 
+
+00:09:16.880 --> 00:09:18.870 align:start position:0%
+and the proof of nash existence theorem
+will<00:09:17.040><c> now</c><00:09:17.200><c> be</c><00:09:17.360><c> verifying</c><00:09:18.240><c> these</c><00:09:18.640><c> three</c>
+
+00:09:18.870 --> 00:09:18.880 align:start position:0%
+will now be verifying these three
+ 
+
+00:09:18.880 --> 00:09:20.310 align:start position:0%
+will now be verifying these three
+conditions
+
+00:09:20.310 --> 00:09:20.320 align:start position:0%
+conditions
+ 
+
+00:09:20.320 --> 00:09:22.310 align:start position:0%
+conditions
+in<00:09:20.640><c> our</c><00:09:20.959><c> setting</c><00:09:21.360><c> and</c><00:09:21.440><c> then</c><00:09:21.600><c> we</c><00:09:21.760><c> can</c><00:09:22.000><c> use</c>
+
+00:09:22.310 --> 00:09:22.320 align:start position:0%
+in our setting and then we can use
+ 
+
+00:09:22.320 --> 00:09:24.310 align:start position:0%
+in our setting and then we can use
+cacutana's<00:09:22.959><c> fixed</c><00:09:23.200><c> point</c><00:09:23.440><c> theorem</c><00:09:24.160><c> to</c>
+
+00:09:24.310 --> 00:09:24.320 align:start position:0%
+cacutana's fixed point theorem to
+ 
+
+00:09:24.320 --> 00:09:26.870 align:start position:0%
+cacutana's fixed point theorem to
+establish<00:09:25.120><c> a</c><00:09:25.440><c> fixed</c><00:09:25.760><c> point</c><00:09:26.080><c> of</c><00:09:26.320><c> the</c><00:09:26.480><c> best</c>
+
+00:09:26.870 --> 00:09:26.880 align:start position:0%
+establish a fixed point of the best
+ 
+
+00:09:26.880 --> 00:09:29.190 align:start position:0%
+establish a fixed point of the best
+response<00:09:27.600><c> or</c><00:09:27.680><c> the</c><00:09:27.839><c> mutual</c><00:09:28.240><c> best</c><00:09:28.480><c> response</c>
+
+00:09:29.190 --> 00:09:29.200 align:start position:0%
+response or the mutual best response
+ 
+
+00:09:29.200 --> 00:09:33.829 align:start position:0%
+response or the mutual best response
+operator
+
+00:09:33.829 --> 00:09:33.839 align:start position:0%
+ 
+ 
+
+00:09:33.839 --> 00:09:36.230 align:start position:0%
+ 
+so<00:09:34.000><c> let's</c><00:09:34.320><c> first</c><00:09:34.800><c> verify</c><00:09:35.360><c> that</c><00:09:35.680><c> the</c><00:09:35.760><c> domain</c>
+
+00:09:36.230 --> 00:09:36.240 align:start position:0%
+so let's first verify that the domain
+ 
+
+00:09:36.240 --> 00:09:38.470 align:start position:0%
+so let's first verify that the domain
+satisfies<00:09:36.959><c> also</c><00:09:37.519><c> all</c><00:09:37.680><c> those</c><00:09:37.839><c> conditions</c><00:09:38.320><c> that</c>
+
+00:09:38.470 --> 00:09:38.480 align:start position:0%
+satisfies also all those conditions that
+ 
+
+00:09:38.480 --> 00:09:40.470 align:start position:0%
+satisfies also all those conditions that
+we<00:09:38.640><c> need</c>
+
+00:09:40.470 --> 00:09:40.480 align:start position:0%
+we need
+ 
+
+00:09:40.480 --> 00:09:42.150 align:start position:0%
+we need
+so<00:09:40.640><c> what</c><00:09:40.880><c> is</c><00:09:40.959><c> the</c><00:09:41.120><c> domain</c><00:09:41.360><c> well</c><00:09:41.519><c> the</c><00:09:41.680><c> domain</c><00:09:42.080><c> is</c>
+
+00:09:42.150 --> 00:09:42.160 align:start position:0%
+so what is the domain well the domain is
+ 
+
+00:09:42.160 --> 00:09:44.230 align:start position:0%
+so what is the domain well the domain is
+simply<00:09:42.399><c> the</c><00:09:42.560><c> set</c><00:09:42.800><c> of</c><00:09:42.959><c> all</c><00:09:43.519><c> mixed</c><00:09:43.760><c> strategy</c>
+
+00:09:44.230 --> 00:09:44.240 align:start position:0%
+simply the set of all mixed strategy
+ 
+
+00:09:44.240 --> 00:09:45.750 align:start position:0%
+simply the set of all mixed strategy
+profiles
+
+00:09:45.750 --> 00:09:45.760 align:start position:0%
+profiles
+ 
+
+00:09:45.760 --> 00:09:46.949 align:start position:0%
+profiles
+and
+
+00:09:46.949 --> 00:09:46.959 align:start position:0%
+and
+ 
+
+00:09:46.959 --> 00:09:48.070 align:start position:0%
+and
+because
+
+00:09:48.070 --> 00:09:48.080 align:start position:0%
+because
+ 
+
+00:09:48.080 --> 00:09:49.829 align:start position:0%
+because
+we<00:09:48.240><c> look</c><00:09:48.480><c> at</c><00:09:48.640><c> finite</c><00:09:49.040><c> games</c><00:09:49.279><c> here</c><00:09:49.519><c> it</c><00:09:49.600><c> means</c>
+
+00:09:49.829 --> 00:09:49.839 align:start position:0%
+we look at finite games here it means
+ 
+
+00:09:49.839 --> 00:09:52.470 align:start position:0%
+we look at finite games here it means
+that<00:09:50.000><c> the</c><00:09:50.160><c> set</c><00:09:50.399><c> of</c><00:09:50.560><c> all</c><00:09:50.720><c> mixed</c><00:09:51.040><c> strategies</c><00:09:52.080><c> by</c>
+
+00:09:52.470 --> 00:09:52.480 align:start position:0%
+that the set of all mixed strategies by
+ 
+
+00:09:52.480 --> 00:09:53.829 align:start position:0%
+that the set of all mixed strategies by
+player<00:09:52.880><c> i</c>
+
+00:09:53.829 --> 00:09:53.839 align:start position:0%
+player i
+ 
+
+00:09:53.839 --> 00:09:55.190 align:start position:0%
+player i
+is
+
+00:09:55.190 --> 00:09:55.200 align:start position:0%
+is
+ 
+
+00:09:55.200 --> 00:09:57.190 align:start position:0%
+is
+this<00:09:55.440><c> simplex</c><00:09:55.839><c> here</c><00:09:56.000><c> right</c><00:09:56.480><c> this</c><00:09:56.720><c> triangle</c>
+
+00:09:57.190 --> 00:09:57.200 align:start position:0%
+this simplex here right this triangle
+ 
+
+00:09:57.200 --> 00:10:00.070 align:start position:0%
+this simplex here right this triangle
+shaped<00:09:58.000><c> form</c><00:09:58.480><c> in</c><00:09:58.800><c> rd</c>
+
+00:10:00.070 --> 00:10:00.080 align:start position:0%
+shaped form in rd
+ 
+
+00:10:00.080 --> 00:10:02.870 align:start position:0%
+shaped form in rd
+so<00:10:00.399><c> in</c><00:10:00.560><c> particular</c><00:10:01.200><c> it's</c><00:10:01.760><c> on</c><00:10:02.000><c> empty</c><00:10:02.320><c> convex</c>
+
+00:10:02.870 --> 00:10:02.880 align:start position:0%
+so in particular it's on empty convex
+ 
+
+00:10:02.880 --> 00:10:04.630 align:start position:0%
+so in particular it's on empty convex
+and<00:10:03.200><c> compact</c>
+
+00:10:04.630 --> 00:10:04.640 align:start position:0%
+and compact
+ 
+
+00:10:04.640 --> 00:10:06.949 align:start position:0%
+and compact
+and<00:10:05.120><c> the</c><00:10:05.279><c> product</c><00:10:06.240><c> of</c>
+
+00:10:06.949 --> 00:10:06.959 align:start position:0%
+and the product of
+ 
+
+00:10:06.959 --> 00:10:08.790 align:start position:0%
+and the product of
+all<00:10:07.120><c> these</c><00:10:07.360><c> non-empty</c><00:10:07.839><c> convex</c><00:10:08.240><c> and</c><00:10:08.320><c> compact</c>
+
+00:10:08.790 --> 00:10:08.800 align:start position:0%
+all these non-empty convex and compact
+ 
+
+00:10:08.800 --> 00:10:11.750 align:start position:0%
+all these non-empty convex and compact
+sets<00:10:09.040><c> is</c><00:10:09.200><c> then</c><00:10:09.440><c> also</c><00:10:09.839><c> convex</c><00:10:10.320><c> and</c><00:10:10.399><c> compact</c>
+
+00:10:11.750 --> 00:10:11.760 align:start position:0%
+sets is then also convex and compact
+ 
+
+00:10:11.760 --> 00:10:13.750 align:start position:0%
+sets is then also convex and compact
+in<00:10:11.920><c> particular</c><00:10:12.640><c> because</c><00:10:12.959><c> we</c><00:10:13.120><c> take</c><00:10:13.279><c> the</c><00:10:13.360><c> finite</c>
+
+00:10:13.750 --> 00:10:13.760 align:start position:0%
+in particular because we take the finite
+ 
+
+00:10:13.760 --> 00:10:19.110 align:start position:0%
+in particular because we take the finite
+product<00:10:14.160><c> here</c><00:10:14.720><c> it</c><00:10:14.959><c> is</c><00:10:15.200><c> also</c><00:10:16.079><c> non-empty</c>
+
+00:10:19.110 --> 00:10:19.120 align:start position:0%
+ 
+ 
+
+00:10:19.120 --> 00:10:20.389 align:start position:0%
+ 
+all<00:10:19.279><c> right</c><00:10:19.440><c> this</c>
+
+00:10:20.389 --> 00:10:20.399 align:start position:0%
+all right this
+ 
+
+00:10:20.399 --> 00:10:22.389 align:start position:0%
+all right this
+tells<00:10:20.720><c> us</c><00:10:20.800><c> that</c><00:10:20.959><c> the</c><00:10:21.120><c> domain</c><00:10:21.600><c> satisfies</c><00:10:22.240><c> all</c>
+
+00:10:22.389 --> 00:10:22.399 align:start position:0%
+tells us that the domain satisfies all
+ 
+
+00:10:22.399 --> 00:10:25.190 align:start position:0%
+tells us that the domain satisfies all
+the<00:10:22.560><c> conditions</c><00:10:23.120><c> that</c><00:10:23.279><c> we</c><00:10:23.440><c> need</c>
+
+00:10:25.190 --> 00:10:25.200 align:start position:0%
+the conditions that we need
+ 
+
+00:10:25.200 --> 00:10:26.150 align:start position:0%
+the conditions that we need
+then
+
+00:10:26.150 --> 00:10:26.160 align:start position:0%
+then
+ 
+
+00:10:26.160 --> 00:10:28.870 align:start position:0%
+then
+let's<00:10:26.480><c> now</c><00:10:26.800><c> check</c><00:10:27.120><c> that</c><00:10:27.279><c> the</c><00:10:27.519><c> graph</c><00:10:28.240><c> of</c><00:10:28.720><c> the</c>
+
+00:10:28.870 --> 00:10:28.880 align:start position:0%
+let's now check that the graph of the
+ 
+
+00:10:28.880 --> 00:10:30.630 align:start position:0%
+let's now check that the graph of the
+best<00:10:29.120><c> response</c>
+
+00:10:30.630 --> 00:10:30.640 align:start position:0%
+best response
+ 
+
+00:10:30.640 --> 00:10:32.870 align:start position:0%
+best response
+are<00:10:30.800><c> the</c><00:10:30.880><c> mutual</c><00:10:31.200><c> best</c><00:10:31.360><c> response</c><00:10:32.079><c> operator</c><00:10:32.560><c> is</c>
+
+00:10:32.870 --> 00:10:32.880 align:start position:0%
+are the mutual best response operator is
+ 
+
+00:10:32.880 --> 00:10:34.630 align:start position:0%
+are the mutual best response operator is
+closed
+
+00:10:34.630 --> 00:10:34.640 align:start position:0%
+closed
+ 
+
+00:10:34.640 --> 00:10:36.310 align:start position:0%
+closed
+to<00:10:34.800><c> do</c><00:10:34.959><c> that</c><00:10:35.200><c> we</c><00:10:35.360><c> need</c><00:10:35.519><c> to</c>
+
+00:10:36.310 --> 00:10:36.320 align:start position:0%
+to do that we need to
+ 
+
+00:10:36.320 --> 00:10:38.710 align:start position:0%
+to do that we need to
+approximate
+
+00:10:38.710 --> 00:10:38.720 align:start position:0%
+approximate
+ 
+
+00:10:38.720 --> 00:10:39.430 align:start position:0%
+approximate
+a
+
+00:10:39.430 --> 00:10:39.440 align:start position:0%
+a
+ 
+
+00:10:39.440 --> 00:10:41.269 align:start position:0%
+a
+limit<00:10:39.839><c> point</c><00:10:40.079><c> and</c><00:10:40.160><c> then</c><00:10:40.399><c> show</c><00:10:40.640><c> that</c><00:10:40.800><c> the</c><00:10:40.959><c> limit</c>
+
+00:10:41.269 --> 00:10:41.279 align:start position:0%
+limit point and then show that the limit
+ 
+
+00:10:41.279 --> 00:10:43.590 align:start position:0%
+limit point and then show that the limit
+itself<00:10:41.839><c> is</c><00:10:42.079><c> a</c><00:10:42.240><c> best</c><00:10:42.480><c> response</c>
+
+00:10:43.590 --> 00:10:43.600 align:start position:0%
+itself is a best response
+ 
+
+00:10:43.600 --> 00:10:46.949 align:start position:0%
+itself is a best response
+so<00:10:43.760><c> to</c><00:10:43.920><c> set</c><00:10:44.160><c> up</c><00:10:44.399><c> the</c><00:10:44.560><c> proof</c>
+
+00:10:46.949 --> 00:10:46.959 align:start position:0%
+so to set up the proof
+ 
+
+00:10:46.959 --> 00:10:50.870 align:start position:0%
+so to set up the proof
+we<00:10:47.440><c> find</c>
+
+00:10:50.870 --> 00:10:50.880 align:start position:0%
+ 
+ 
+
+00:10:50.880 --> 00:10:53.269 align:start position:0%
+ 
+some<00:10:51.360><c> strategy</c><00:10:52.079><c> profile</c><00:10:52.480><c> sigma</c><00:10:53.040><c> we</c>
+
+00:10:53.269 --> 00:10:53.279 align:start position:0%
+some strategy profile sigma we
+ 
+
+00:10:53.279 --> 00:10:55.269 align:start position:0%
+some strategy profile sigma we
+approximate<00:10:54.000><c> it</c><00:10:54.320><c> with</c><00:10:54.560><c> a</c><00:10:54.640><c> sequence</c><00:10:55.200><c> of</c>
+
+00:10:55.269 --> 00:10:55.279 align:start position:0%
+approximate it with a sequence of
+ 
+
+00:10:55.279 --> 00:10:57.670 align:start position:0%
+approximate it with a sequence of
+strategy<00:10:55.760><c> profiles</c><00:10:56.800><c> such</c><00:10:57.040><c> that</c><00:10:57.279><c> along</c><00:10:57.519><c> the</c>
+
+00:10:57.670 --> 00:10:57.680 align:start position:0%
+strategy profiles such that along the
+ 
+
+00:10:57.680 --> 00:10:59.430 align:start position:0%
+strategy profiles such that along the
+sequence
+
+00:10:59.430 --> 00:10:59.440 align:start position:0%
+sequence
+ 
+
+00:10:59.440 --> 00:11:01.970 align:start position:0%
+sequence
+player<00:10:59.760><c> i</c><00:11:00.000><c> always</c><00:11:00.320><c> best</c><00:11:00.560><c> responds</c><00:11:01.600><c> to</c>
+
+00:11:01.970 --> 00:11:01.980 align:start position:0%
+player i always best responds to
+ 
+
+00:11:01.980 --> 00:11:03.990 align:start position:0%
+player i always best responds to
+[Music]
+
+00:11:03.990 --> 00:11:04.000 align:start position:0%
+[Music]
+ 
+
+00:11:04.000 --> 00:11:07.829 align:start position:0%
+[Music]
+the<00:11:04.160><c> strategic</c><00:11:04.480><c> profiles</c><00:11:05.120><c> of</c><00:11:05.760><c> his</c><00:11:06.000><c> opponents</c>
+
+00:11:07.829 --> 00:11:07.839 align:start position:0%
+the strategic profiles of his opponents
+ 
+
+00:11:07.839 --> 00:11:09.750 align:start position:0%
+the strategic profiles of his opponents
+and<00:11:07.920><c> then</c><00:11:08.079><c> we</c><00:11:08.480><c> to</c><00:11:08.640><c> show</c><00:11:08.880><c> that</c><00:11:09.040><c> it</c><00:11:09.120><c> has</c><00:11:09.360><c> a</c><00:11:09.440><c> close</c>
+
+00:11:09.750 --> 00:11:09.760 align:start position:0%
+and then we to show that it has a close
+ 
+
+00:11:09.760 --> 00:11:11.590 align:start position:0%
+and then we to show that it has a close
+graph<00:11:10.000><c> we</c><00:11:10.160><c> must</c><00:11:10.399><c> show</c><00:11:10.640><c> that</c>
+
+00:11:11.590 --> 00:11:11.600 align:start position:0%
+graph we must show that
+ 
+
+00:11:11.600 --> 00:11:12.630 align:start position:0%
+graph we must show that
+um
+
+00:11:12.630 --> 00:11:12.640 align:start position:0%
+um
+ 
+
+00:11:12.640 --> 00:11:14.710 align:start position:0%
+um
+in<00:11:12.800><c> the</c><00:11:12.959><c> limit</c>
+
+00:11:14.710 --> 00:11:14.720 align:start position:0%
+in the limit
+ 
+
+00:11:14.720 --> 00:11:18.470 align:start position:0%
+in the limit
+sigma<00:11:15.040><c> i</c><00:11:15.680><c> has</c><00:11:15.920><c> to</c><00:11:16.079><c> be</c><00:11:16.480><c> a</c><00:11:16.640><c> best</c><00:11:16.880><c> response</c><00:11:17.760><c> to</c><00:11:18.320><c> the</c>
+
+00:11:18.470 --> 00:11:18.480 align:start position:0%
+sigma i has to be a best response to the
+ 
+
+00:11:18.480 --> 00:11:20.949 align:start position:0%
+sigma i has to be a best response to the
+limit<00:11:18.959><c> profile</c><00:11:19.519><c> of</c><00:11:19.680><c> player</c><00:11:20.000><c> i's</c><00:11:20.240><c> opponents</c>
+
+00:11:20.949 --> 00:11:20.959 align:start position:0%
+limit profile of player i's opponents
+ 
+
+00:11:20.959 --> 00:11:22.949 align:start position:0%
+limit profile of player i's opponents
+and<00:11:21.120><c> if</c><00:11:21.200><c> we</c><00:11:21.360><c> show</c><00:11:21.600><c> this</c><00:11:21.760><c> for</c><00:11:21.920><c> every</c><00:11:22.079><c> player</c><00:11:22.480><c> i</c>
+
+00:11:22.949 --> 00:11:22.959 align:start position:0%
+and if we show this for every player i
+ 
+
+00:11:22.959 --> 00:11:25.269 align:start position:0%
+and if we show this for every player i
+then<00:11:23.120><c> it</c><00:11:23.279><c> will</c><00:11:23.519><c> also</c><00:11:23.760><c> be</c><00:11:23.920><c> true</c><00:11:24.399><c> for</c><00:11:24.560><c> the</c><00:11:24.640><c> mutual</c>
+
+00:11:25.269 --> 00:11:25.279 align:start position:0%
+then it will also be true for the mutual
+ 
+
+00:11:25.279 --> 00:11:28.310 align:start position:0%
+then it will also be true for the mutual
+best<00:11:25.519><c> response</c><00:11:26.079><c> operator</c>
+
+00:11:28.310 --> 00:11:28.320 align:start position:0%
+best response operator
+ 
+
+00:11:28.320 --> 00:11:30.230 align:start position:0%
+best response operator
+so
+
+00:11:30.230 --> 00:11:30.240 align:start position:0%
+so
+ 
+
+00:11:30.240 --> 00:11:32.069 align:start position:0%
+so
+we<00:11:30.399><c> show</c><00:11:30.640><c> this</c><00:11:30.880><c> by</c><00:11:31.040><c> a</c><00:11:31.120><c> contradiction</c><00:11:31.760><c> we</c>
+
+00:11:32.069 --> 00:11:32.079 align:start position:0%
+we show this by a contradiction we
+ 
+
+00:11:32.079 --> 00:11:33.990 align:start position:0%
+we show this by a contradiction we
+suppose<00:11:32.480><c> that</c><00:11:32.640><c> it's</c><00:11:32.800><c> not</c><00:11:32.959><c> true</c><00:11:33.519><c> right</c><00:11:33.760><c> that</c>
+
+00:11:33.990 --> 00:11:34.000 align:start position:0%
+suppose that it's not true right that
+ 
+
+00:11:34.000 --> 00:11:36.310 align:start position:0%
+suppose that it's not true right that
+all<00:11:34.160><c> of</c><00:11:34.240><c> those</c><00:11:34.480><c> are</c><00:11:34.640><c> satisfied</c>
+
+00:11:36.310 --> 00:11:36.320 align:start position:0%
+all of those are satisfied
+ 
+
+00:11:36.320 --> 00:11:38.470 align:start position:0%
+all of those are satisfied
+but<00:11:36.720><c> that</c><00:11:37.120><c> in</c><00:11:37.200><c> the</c><00:11:37.360><c> limit</c><00:11:37.839><c> we</c><00:11:38.000><c> don't</c><00:11:38.240><c> get</c><00:11:38.399><c> the</c>
+
+00:11:38.470 --> 00:11:38.480 align:start position:0%
+but that in the limit we don't get the
+ 
+
+00:11:38.480 --> 00:11:40.310 align:start position:0%
+but that in the limit we don't get the
+best<00:11:38.720><c> response</c>
+
+00:11:40.310 --> 00:11:40.320 align:start position:0%
+best response
+ 
+
+00:11:40.320 --> 00:11:41.670 align:start position:0%
+best response
+now<00:11:40.480><c> if</c><00:11:40.560><c> we</c><00:11:40.640><c> don't</c><00:11:40.800><c> get</c><00:11:40.959><c> the</c><00:11:41.040><c> best</c><00:11:41.279><c> response</c>
+
+00:11:41.670 --> 00:11:41.680 align:start position:0%
+now if we don't get the best response
+ 
+
+00:11:41.680 --> 00:11:43.910 align:start position:0%
+now if we don't get the best response
+this<00:11:41.920><c> means</c><00:11:42.160><c> that</c><00:11:42.240><c> there</c><00:11:42.480><c> must</c><00:11:42.800><c> be</c><00:11:43.120><c> some</c>
+
+00:11:43.910 --> 00:11:43.920 align:start position:0%
+this means that there must be some
+ 
+
+00:11:43.920 --> 00:11:46.150 align:start position:0%
+this means that there must be some
+better<00:11:44.240><c> response</c><00:11:44.800><c> so</c><00:11:45.200><c> in</c><00:11:45.360><c> particular</c><00:11:45.920><c> some</c>
+
+00:11:46.150 --> 00:11:46.160 align:start position:0%
+better response so in particular some
+ 
+
+00:11:46.160 --> 00:11:49.190 align:start position:0%
+better response so in particular some
+pure<00:11:46.399><c> strategy</c><00:11:47.440><c> that</c><00:11:47.600><c> gives</c><00:11:48.000><c> us</c><00:11:48.320><c> a</c><00:11:48.720><c> strictly</c>
+
+00:11:49.190 --> 00:11:49.200 align:start position:0%
+pure strategy that gives us a strictly
+ 
+
+00:11:49.200 --> 00:11:51.590 align:start position:0%
+pure strategy that gives us a strictly
+higher<00:11:49.519><c> payoff</c><00:11:50.240><c> and</c><00:11:50.399><c> let's</c><00:11:50.639><c> denote</c><00:11:51.360><c> the</c>
+
+00:11:51.590 --> 00:11:51.600 align:start position:0%
+higher payoff and let's denote the
+ 
+
+00:11:51.600 --> 00:11:53.350 align:start position:0%
+higher payoff and let's denote the
+increase<00:11:52.079><c> of</c><00:11:52.320><c> payoff</c><00:11:52.800><c> that</c><00:11:52.959><c> the</c><00:11:53.120><c> pure</c>
+
+00:11:53.350 --> 00:11:53.360 align:start position:0%
+increase of payoff that the pure
+ 
+
+00:11:53.360 --> 00:11:57.350 align:start position:0%
+increase of payoff that the pure
+strategy<00:11:53.760><c> gives</c><00:11:54.320><c> by</c><00:11:54.639><c> epsilon</c>
+
+00:11:57.350 --> 00:11:57.360 align:start position:0%
+strategy gives by epsilon
+ 
+
+00:11:57.360 --> 00:11:59.829 align:start position:0%
+strategy gives by epsilon
+now<00:11:57.519><c> because</c>
+
+00:11:59.829 --> 00:11:59.839 align:start position:0%
+now because
+ 
+
+00:11:59.839 --> 00:12:01.430 align:start position:0%
+now because
+the<00:12:00.000><c> approximating</c><00:12:00.560><c> sequence</c><00:12:00.959><c> of</c><00:12:01.120><c> strategy</c>
+
+00:12:01.430 --> 00:12:01.440 align:start position:0%
+the approximating sequence of strategy
+ 
+
+00:12:01.440 --> 00:12:04.230 align:start position:0%
+the approximating sequence of strategy
+profiles<00:12:01.920><c> converges</c>
+
+00:12:04.230 --> 00:12:04.240 align:start position:0%
+profiles converges
+ 
+
+00:12:04.240 --> 00:12:08.310 align:start position:0%
+profiles converges
+there<00:12:04.399><c> must</c><00:12:04.720><c> exist</c><00:12:05.360><c> some</c><00:12:05.600><c> index</c><00:12:06.399><c> k</c><00:12:06.720><c> naught</c>
+
+00:12:08.310 --> 00:12:08.320 align:start position:0%
+there must exist some index k naught
+ 
+
+00:12:08.320 --> 00:12:10.230 align:start position:0%
+there must exist some index k naught
+such<00:12:08.560><c> that</c><00:12:08.800><c> for</c><00:12:08.959><c> any</c><00:12:09.120><c> index</c><00:12:09.440><c> larger</c><00:12:09.839><c> than</c><00:12:10.000><c> that</c>
+
+00:12:10.230 --> 00:12:10.240 align:start position:0%
+such that for any index larger than that
+ 
+
+00:12:10.240 --> 00:12:12.870 align:start position:0%
+such that for any index larger than that
+for<00:12:10.320><c> any</c><00:12:10.560><c> k</c><00:12:10.720><c> larger</c><00:12:11.040><c> than</c><00:12:11.200><c> that</c>
+
+00:12:12.870 --> 00:12:12.880 align:start position:0%
+for any k larger than that
+ 
+
+00:12:12.880 --> 00:12:16.389 align:start position:0%
+for any k larger than that
+the<00:12:13.040><c> distance</c><00:12:13.760><c> in</c><00:12:14.399><c> utilities</c>
+
+00:12:16.389 --> 00:12:16.399 align:start position:0%
+the distance in utilities
+ 
+
+00:12:16.399 --> 00:12:18.310 align:start position:0%
+the distance in utilities
+or<00:12:16.639><c> the</c><00:12:16.720><c> difference</c><00:12:17.040><c> in</c><00:12:17.200><c> utilities</c><00:12:17.839><c> is</c><00:12:18.000><c> less</c>
+
+00:12:18.310 --> 00:12:18.320 align:start position:0%
+or the difference in utilities is less
+ 
+
+00:12:18.320 --> 00:12:21.110 align:start position:0%
+or the difference in utilities is less
+than<00:12:18.560><c> epsilon</c><00:12:19.200><c> half</c><00:12:19.920><c> and</c><00:12:20.079><c> right</c><00:12:20.320><c> this</c>
+
+00:12:21.110 --> 00:12:21.120 align:start position:0%
+than epsilon half and right this
+ 
+
+00:12:21.120 --> 00:12:22.870 align:start position:0%
+than epsilon half and right this
+happens<00:12:21.519><c> because</c><00:12:21.839><c> the</c><00:12:21.920><c> utilities</c><00:12:22.639><c> are</c>
+
+00:12:22.870 --> 00:12:22.880 align:start position:0%
+happens because the utilities are
+ 
+
+00:12:22.880 --> 00:12:25.590 align:start position:0%
+happens because the utilities are
+continuous<00:12:24.160><c> in</c><00:12:24.560><c> the</c><00:12:24.720><c> strategy</c><00:12:25.120><c> profile</c>
+
+00:12:25.590 --> 00:12:25.600 align:start position:0%
+continuous in the strategy profile
+ 
+
+00:12:25.600 --> 00:12:26.870 align:start position:0%
+continuous in the strategy profile
+because
+
+00:12:26.870 --> 00:12:26.880 align:start position:0%
+because
+ 
+
+00:12:26.880 --> 00:12:28.550 align:start position:0%
+because
+how<00:12:27.040><c> we</c><00:12:27.279><c> take</c><00:12:27.760><c> it's</c><00:12:27.920><c> essentially</c><00:12:28.399><c> an</c>
+
+00:12:28.550 --> 00:12:28.560 align:start position:0%
+how we take it's essentially an
+ 
+
+00:12:28.560 --> 00:12:31.430 align:start position:0%
+how we take it's essentially an
+expectation
+
+00:12:31.430 --> 00:12:31.440 align:start position:0%
+ 
+ 
+
+00:12:31.440 --> 00:12:34.069 align:start position:0%
+ 
+but<00:12:31.600><c> now</c><00:12:32.079><c> this</c><00:12:32.320><c> means</c><00:12:32.639><c> that</c>
+
+00:12:34.069 --> 00:12:34.079 align:start position:0%
+but now this means that
+ 
+
+00:12:34.079 --> 00:12:37.670 align:start position:0%
+but now this means that
+for<00:12:34.240><c> any</c><00:12:34.480><c> k</c><00:12:34.720><c> above</c><00:12:35.040><c> those</c>
+
+00:12:37.670 --> 00:12:37.680 align:start position:0%
+ 
+ 
+
+00:12:37.680 --> 00:12:41.110 align:start position:0%
+ 
+we<00:12:37.839><c> can't</c><00:12:38.240><c> have</c><00:12:38.959><c> a</c>
+
+00:12:41.110 --> 00:12:41.120 align:start position:0%
+we can't have a
+ 
+
+00:12:41.120 --> 00:12:44.150 align:start position:0%
+we can't have a
+so<00:12:41.360><c> sigma</c><00:12:42.000><c> ik</c><00:12:42.560><c> cannot</c><00:12:42.800><c> be</c><00:12:42.959><c> a</c><00:12:43.040><c> best</c><00:12:43.279><c> response</c>
+
+00:12:44.150 --> 00:12:44.160 align:start position:0%
+so sigma ik cannot be a best response
+ 
+
+00:12:44.160 --> 00:12:46.470 align:start position:0%
+so sigma ik cannot be a best response
+because<00:12:44.480><c> if</c><00:12:44.720><c> in</c><00:12:44.800><c> the</c><00:12:44.959><c> limit</c>
+
+00:12:46.470 --> 00:12:46.480 align:start position:0%
+because if in the limit
+ 
+
+00:12:46.480 --> 00:12:47.670 align:start position:0%
+because if in the limit
+it's
+
+00:12:47.670 --> 00:12:47.680 align:start position:0%
+it's
+ 
+
+00:12:47.680 --> 00:12:49.509 align:start position:0%
+it's
+worse<00:12:48.079><c> by</c><00:12:48.320><c> epsilon</c>
+
+00:12:49.509 --> 00:12:49.519 align:start position:0%
+worse by epsilon
+ 
+
+00:12:49.519 --> 00:12:53.110 align:start position:0%
+worse by epsilon
+and<00:12:50.240><c> along</c><00:12:50.480><c> the</c><00:12:50.639><c> approximating</c><00:12:51.360><c> sequence</c><00:12:52.240><c> we</c>
+
+00:12:53.110 --> 00:12:53.120 align:start position:0%
+and along the approximating sequence we
+ 
+
+00:12:53.120 --> 00:12:55.030 align:start position:0%
+and along the approximating sequence we
+lose<00:12:53.519><c> less</c><00:12:53.680><c> than</c><00:12:53.920><c> epsilon</c><00:12:54.320><c> half</c><00:12:54.639><c> then</c>
+
+00:12:55.030 --> 00:12:55.040 align:start position:0%
+lose less than epsilon half then
+ 
+
+00:12:55.040 --> 00:12:56.230 align:start position:0%
+lose less than epsilon half then
+somewhere
+
+00:12:56.230 --> 00:12:56.240 align:start position:0%
+somewhere
+ 
+
+00:12:56.240 --> 00:12:57.990 align:start position:0%
+somewhere
+along<00:12:56.560><c> the</c><00:12:56.639><c> approximating</c><00:12:57.200><c> sequence</c><00:12:57.680><c> it</c><00:12:57.760><c> must</c>
+
+00:12:57.990 --> 00:12:58.000 align:start position:0%
+along the approximating sequence it must
+ 
+
+00:12:58.000 --> 00:13:00.629 align:start position:0%
+along the approximating sequence it must
+already<00:12:58.320><c> happen</c><00:12:59.040><c> that</c>
+
+00:13:00.629 --> 00:13:00.639 align:start position:0%
+already happen that
+ 
+
+00:13:00.639 --> 00:13:03.110 align:start position:0%
+already happen that
+strategy<00:13:01.600><c> by</c><00:13:01.839><c> player</c><00:13:02.240><c> i</c>
+
+00:13:03.110 --> 00:13:03.120 align:start position:0%
+strategy by player i
+ 
+
+00:13:03.120 --> 00:13:06.870 align:start position:0%
+strategy by player i
+is<00:13:03.600><c> dominated</c><00:13:04.480><c> by</c><00:13:04.880><c> s</c><00:13:05.200><c> i</c><00:13:05.440><c> by</c><00:13:05.680><c> at</c><00:13:05.920><c> least</c><00:13:06.320><c> epsilon</c>
+
+00:13:06.870 --> 00:13:06.880 align:start position:0%
+is dominated by s i by at least epsilon
+ 
+
+00:13:06.880 --> 00:13:08.150 align:start position:0%
+is dominated by s i by at least epsilon
+half
+
+00:13:08.150 --> 00:13:08.160 align:start position:0%
+half
+ 
+
+00:13:08.160 --> 00:13:10.389 align:start position:0%
+half
+so<00:13:08.320><c> this</c><00:13:08.480><c> contradicts</c><00:13:09.040><c> the</c><00:13:09.200><c> assumption</c><00:13:10.079><c> that</c>
+
+00:13:10.389 --> 00:13:10.399 align:start position:0%
+so this contradicts the assumption that
+ 
+
+00:13:10.399 --> 00:13:13.110 align:start position:0%
+so this contradicts the assumption that
+along<00:13:10.720><c> the</c><00:13:10.880><c> sequence</c><00:13:11.920><c> player</c><00:13:12.320><c> i</c>
+
+00:13:13.110 --> 00:13:13.120 align:start position:0%
+along the sequence player i
+ 
+
+00:13:13.120 --> 00:13:16.069 align:start position:0%
+along the sequence player i
+plays<00:13:13.440><c> a</c><00:13:13.600><c> best</c><00:13:13.920><c> response</c>
+
+00:13:16.069 --> 00:13:16.079 align:start position:0%
+plays a best response
+ 
+
+00:13:16.079 --> 00:13:18.629 align:start position:0%
+plays a best response
+so<00:13:16.320><c> this</c><00:13:16.480><c> means</c><00:13:16.800><c> that</c><00:13:17.519><c> the</c><00:13:17.760><c> graph</c>
+
+00:13:18.629 --> 00:13:18.639 align:start position:0%
+so this means that the graph
+ 
+
+00:13:18.639 --> 00:13:23.030 align:start position:0%
+so this means that the graph
+has<00:13:18.880><c> to</c><00:13:19.040><c> be</c><00:13:19.200><c> closed</c><00:13:19.600><c> because</c><00:13:20.160><c> that's</c><00:13:20.480><c> the</c><00:13:20.639><c> only</c>
+
+00:13:23.030 --> 00:13:23.040 align:start position:0%
+ 
+ 
+
+00:13:23.040 --> 00:13:25.670 align:start position:0%
+ 
+the<00:13:23.200><c> only</c><00:13:23.440><c> other</c><00:13:23.680><c> option</c>
+
+00:13:25.670 --> 00:13:25.680 align:start position:0%
+the only other option
+ 
+
+00:13:25.680 --> 00:13:28.389 align:start position:0%
+the only other option
+then<00:13:25.920><c> lastly</c><00:13:26.399><c> the</c><00:13:26.480><c> last</c><00:13:27.279><c> thing</c><00:13:27.519><c> that</c><00:13:27.839><c> remains</c>
+
+00:13:28.389 --> 00:13:28.399 align:start position:0%
+then lastly the last thing that remains
+ 
+
+00:13:28.399 --> 00:13:30.550 align:start position:0%
+then lastly the last thing that remains
+is<00:13:28.639><c> to</c><00:13:28.800><c> show</c><00:13:29.519><c> that</c>
+
+00:13:30.550 --> 00:13:30.560 align:start position:0%
+is to show that
+ 
+
+00:13:30.560 --> 00:13:32.230 align:start position:0%
+is to show that
+the<00:13:30.720><c> best</c><00:13:30.880><c> response</c><00:13:31.279><c> correspondences</c><00:13:32.079><c> are</c>
+
+00:13:32.230 --> 00:13:32.240 align:start position:0%
+the best response correspondences are
+ 
+
+00:13:32.240 --> 00:13:36.230 align:start position:0%
+the best response correspondences are
+convex<00:13:32.800><c> and</c><00:13:33.040><c> non-empty</c><00:13:34.240><c> so</c><00:13:34.399><c> for</c><00:13:34.560><c> convexity</c>
+
+00:13:36.230 --> 00:13:36.240 align:start position:0%
+convex and non-empty so for convexity
+ 
+
+00:13:36.240 --> 00:13:39.670 align:start position:0%
+convex and non-empty so for convexity
+let<00:13:36.399><c> us</c><00:13:36.800><c> rewrite</c><00:13:37.519><c> the</c><00:13:37.680><c> set</c><00:13:37.920><c> of</c><00:13:38.079><c> best</c><00:13:38.399><c> responses</c>
+
+00:13:39.670 --> 00:13:39.680 align:start position:0%
+let us rewrite the set of best responses
+ 
+
+00:13:39.680 --> 00:13:41.269 align:start position:0%
+let us rewrite the set of best responses
+as
+
+00:13:41.269 --> 00:13:41.279 align:start position:0%
+as
+ 
+
+00:13:41.279 --> 00:13:42.710 align:start position:0%
+as
+all
+
+00:13:42.710 --> 00:13:42.720 align:start position:0%
+all
+ 
+
+00:13:42.720 --> 00:13:44.230 align:start position:0%
+all
+those
+
+00:13:44.230 --> 00:13:44.240 align:start position:0%
+those
+ 
+
+00:13:44.240 --> 00:13:46.710 align:start position:0%
+those
+strategies<00:13:44.880><c> by</c><00:13:45.040><c> player</c><00:13:45.360><c> i</c>
+
+00:13:46.710 --> 00:13:46.720 align:start position:0%
+strategies by player i
+ 
+
+00:13:46.720 --> 00:13:47.509 align:start position:0%
+strategies by player i
+that
+
+00:13:47.509 --> 00:13:47.519 align:start position:0%
+that
+ 
+
+00:13:47.519 --> 00:13:48.949 align:start position:0%
+that
+attain
+
+00:13:48.949 --> 00:13:48.959 align:start position:0%
+attain
+ 
+
+00:13:48.959 --> 00:13:50.550 align:start position:0%
+attain
+the<00:13:49.199><c> optimal</c>
+
+00:13:50.550 --> 00:13:50.560 align:start position:0%
+the optimal
+ 
+
+00:13:50.560 --> 00:13:53.110 align:start position:0%
+the optimal
+or<00:13:50.720><c> the</c><00:13:50.880><c> maximum</c><00:13:51.600><c> of</c><00:13:51.839><c> expected</c><00:13:52.240><c> utilities</c>
+
+00:13:53.110 --> 00:13:53.120 align:start position:0%
+or the maximum of expected utilities
+ 
+
+00:13:53.120 --> 00:13:54.389 align:start position:0%
+or the maximum of expected utilities
+overall
+
+00:13:54.389 --> 00:13:54.399 align:start position:0%
+overall
+ 
+
+00:13:54.399 --> 00:13:55.670 align:start position:0%
+overall
+um
+
+00:13:55.670 --> 00:13:55.680 align:start position:0%
+um
+ 
+
+00:13:55.680 --> 00:13:56.629 align:start position:0%
+um
+of
+
+00:13:56.629 --> 00:13:56.639 align:start position:0%
+of
+ 
+
+00:13:56.639 --> 00:13:59.110 align:start position:0%
+of
+player<00:13:56.959><c> i</c><00:13:57.199><c> strategies</c>
+
+00:13:59.110 --> 00:13:59.120 align:start position:0%
+player i strategies
+ 
+
+00:13:59.120 --> 00:14:01.430 align:start position:0%
+player i strategies
+this<00:13:59.360><c> means</c><00:13:59.600><c> for</c><00:13:59.760><c> any</c><00:14:00.000><c> two</c><00:14:00.720><c> best</c><00:14:00.959><c> responses</c>
+
+00:14:01.430 --> 00:14:01.440 align:start position:0%
+this means for any two best responses
+ 
+
+00:14:01.440 --> 00:14:03.350 align:start position:0%
+this means for any two best responses
+they<00:14:01.519><c> have</c><00:14:01.680><c> to</c><00:14:01.839><c> attain</c><00:14:02.399><c> exactly</c><00:14:02.959><c> the</c><00:14:03.120><c> same</c>
+
+00:14:03.350 --> 00:14:03.360 align:start position:0%
+they have to attain exactly the same
+ 
+
+00:14:03.360 --> 00:14:07.990 align:start position:0%
+they have to attain exactly the same
+utility<00:14:03.920><c> and</c><00:14:04.079><c> will</c><00:14:04.320><c> denote</c><00:14:04.720><c> that</c><00:14:04.959><c> by</c><00:14:05.199><c> v</c><00:14:05.519><c> i</c>
+
+00:14:07.990 --> 00:14:08.000 align:start position:0%
+ 
+ 
+
+00:14:08.000 --> 00:14:10.949 align:start position:0%
+ 
+now<00:14:08.240><c> to</c><00:14:08.399><c> show</c><00:14:08.560><c> convexity</c><00:14:09.440><c> we</c><00:14:09.600><c> take</c><00:14:10.079><c> the</c><00:14:10.560><c> convex</c>
+
+00:14:10.949 --> 00:14:10.959 align:start position:0%
+now to show convexity we take the convex
+ 
+
+00:14:10.959 --> 00:14:13.269 align:start position:0%
+now to show convexity we take the convex
+combination<00:14:11.600><c> of</c><00:14:11.760><c> any</c><00:14:12.000><c> two</c><00:14:12.399><c> strategy</c><00:14:12.880><c> profiles</c>
+
+00:14:13.269 --> 00:14:13.279 align:start position:0%
+combination of any two strategy profiles
+ 
+
+00:14:13.279 --> 00:14:16.230 align:start position:0%
+combination of any two strategy profiles
+which<00:14:14.000><c> defines</c><00:14:14.560><c> a</c><00:14:14.720><c> valid</c><00:14:15.040><c> strategy</c><00:14:15.440><c> profile</c>
+
+00:14:16.230 --> 00:14:16.240 align:start position:0%
+which defines a valid strategy profile
+ 
+
+00:14:16.240 --> 00:14:17.670 align:start position:0%
+which defines a valid strategy profile
+because
+
+00:14:17.670 --> 00:14:17.680 align:start position:0%
+because
+ 
+
+00:14:17.680 --> 00:14:21.750 align:start position:0%
+because
+all<00:14:17.920><c> of</c><00:14:18.000><c> those</c><00:14:18.800><c> so</c><00:14:19.040><c> each</c><00:14:19.600><c> strategy</c><00:14:20.079><c> profile</c>
+
+00:14:21.750 --> 00:14:21.760 align:start position:0%
+all of those so each strategy profile
+ 
+
+00:14:21.760 --> 00:14:23.350 align:start position:0%
+all of those so each strategy profile
+the<00:14:21.920><c> probabilities</c><00:14:22.480><c> attached</c><00:14:22.880><c> to</c><00:14:23.040><c> all</c><00:14:23.199><c> the</c>
+
+00:14:23.350 --> 00:14:23.360 align:start position:0%
+the probabilities attached to all the
+ 
+
+00:14:23.360 --> 00:14:25.910 align:start position:0%
+the probabilities attached to all the
+pure<00:14:23.680><c> strategies</c><00:14:24.160><c> they</c><00:14:24.399><c> sum</c><00:14:24.639><c> up</c><00:14:24.720><c> to</c><00:14:24.880><c> one</c>
+
+00:14:25.910 --> 00:14:25.920 align:start position:0%
+pure strategies they sum up to one
+ 
+
+00:14:25.920 --> 00:14:28.389 align:start position:0%
+pure strategies they sum up to one
+and<00:14:26.560><c> then</c><00:14:26.880><c> if</c><00:14:27.040><c> we</c><00:14:27.360><c> weight</c><00:14:27.680><c> them</c>
+
+00:14:28.389 --> 00:14:28.399 align:start position:0%
+and then if we weight them
+ 
+
+00:14:28.399 --> 00:14:30.150 align:start position:0%
+and then if we weight them
+with<00:14:28.800><c> these</c><00:14:28.959><c> weights</c><00:14:29.279><c> lambda</c><00:14:29.600><c> and</c><00:14:29.680><c> one</c><00:14:29.839><c> minus</c>
+
+00:14:30.150 --> 00:14:30.160 align:start position:0%
+with these weights lambda and one minus
+ 
+
+00:14:30.160 --> 00:14:31.990 align:start position:0%
+with these weights lambda and one minus
+lambda<00:14:30.480><c> then</c><00:14:30.639><c> the</c><00:14:30.800><c> sum</c><00:14:31.040><c> of</c><00:14:31.120><c> them</c><00:14:31.279><c> will</c><00:14:31.519><c> still</c>
+
+00:14:31.990 --> 00:14:32.000 align:start position:0%
+lambda then the sum of them will still
+ 
+
+00:14:32.000 --> 00:14:34.710 align:start position:0%
+lambda then the sum of them will still
+add<00:14:32.240><c> up</c><00:14:32.399><c> to</c><00:14:32.560><c> one</c>
+
+00:14:34.710 --> 00:14:34.720 align:start position:0%
+add up to one
+ 
+
+00:14:34.720 --> 00:14:37.910 align:start position:0%
+add up to one
+so<00:14:34.959><c> if</c><00:14:35.040><c> we</c><00:14:35.199><c> look</c><00:14:35.920><c> at</c><00:14:36.079><c> the</c><00:14:36.160><c> expected</c><00:14:36.560><c> utility</c>
+
+00:14:37.910 --> 00:14:37.920 align:start position:0%
+so if we look at the expected utility
+ 
+
+00:14:37.920 --> 00:14:39.590 align:start position:0%
+so if we look at the expected utility
+the<00:14:38.079><c> expression</c><00:14:38.480><c> that</c><00:14:38.639><c> we</c><00:14:38.720><c> will</c><00:14:38.880><c> get</c><00:14:39.120><c> is</c><00:14:39.279><c> this</c>
+
+00:14:39.590 --> 00:14:39.600 align:start position:0%
+the expression that we will get is this
+ 
+
+00:14:39.600 --> 00:14:40.949 align:start position:0%
+the expression that we will get is this
+and
+
+00:14:40.949 --> 00:14:40.959 align:start position:0%
+and
+ 
+
+00:14:40.959 --> 00:14:44.389 align:start position:0%
+and
+because<00:14:41.600><c> this</c><00:14:41.839><c> is</c><00:14:42.000><c> a</c><00:14:42.079><c> sum</c><00:14:42.320><c> of</c><00:14:42.480><c> a</c><00:14:42.560><c> sum</c><00:14:42.880><c> we</c><00:14:43.040><c> can</c>
+
+00:14:44.389 --> 00:14:44.399 align:start position:0%
+because this is a sum of a sum we can
+ 
+
+00:14:44.399 --> 00:14:48.310 align:start position:0%
+because this is a sum of a sum we can
+write<00:14:44.639><c> this</c><00:14:44.880><c> as</c><00:14:45.120><c> two</c><00:14:45.360><c> sums</c><00:14:46.079><c> so</c><00:14:46.320><c> lambda</c><00:14:46.800><c> times</c>
+
+00:14:48.310 --> 00:14:48.320 align:start position:0%
+write this as two sums so lambda times
+ 
+
+00:14:48.320 --> 00:14:51.430 align:start position:0%
+write this as two sums so lambda times
+the<00:14:48.959><c> the</c><00:14:49.120><c> sum</c><00:14:49.440><c> over</c><00:14:49.760><c> all</c><00:14:50.160><c> pure</c><00:14:50.399><c> strategies</c><00:14:51.279><c> of</c>
+
+00:14:51.430 --> 00:14:51.440 align:start position:0%
+the the sum over all pure strategies of
+ 
+
+00:14:51.440 --> 00:14:53.350 align:start position:0%
+the the sum over all pure strategies of
+these<00:14:51.680><c> two</c><00:14:51.839><c> terms</c><00:14:52.160><c> and</c><00:14:52.240><c> then</c><00:14:52.639><c> plus</c><00:14:52.959><c> one</c><00:14:53.120><c> minus</c>
+
+00:14:53.350 --> 00:14:53.360 align:start position:0%
+these two terms and then plus one minus
+ 
+
+00:14:53.360 --> 00:14:55.269 align:start position:0%
+these two terms and then plus one minus
+lambda<00:14:53.680><c> times</c><00:14:53.920><c> the</c><00:14:54.079><c> sum</c><00:14:54.720><c> over</c><00:14:54.959><c> all</c><00:14:55.040><c> pure</c>
+
+00:14:55.269 --> 00:14:55.279 align:start position:0%
+lambda times the sum over all pure
+ 
+
+00:14:55.279 --> 00:14:58.069 align:start position:0%
+lambda times the sum over all pure
+strategies<00:14:55.760><c> of</c><00:14:55.839><c> these</c><00:14:56.160><c> two</c><00:14:56.399><c> terms</c>
+
+00:14:58.069 --> 00:14:58.079 align:start position:0%
+strategies of these two terms
+ 
+
+00:14:58.079 --> 00:14:59.829 align:start position:0%
+strategies of these two terms
+and<00:14:58.320><c> what</c><00:14:58.480><c> we</c><00:14:58.639><c> obtain</c><00:14:58.959><c> is</c><00:14:59.040><c> then</c><00:14:59.279><c> okay</c><00:14:59.519><c> lambda</c>
+
+00:14:59.829 --> 00:14:59.839 align:start position:0%
+and what we obtain is then okay lambda
+ 
+
+00:14:59.839 --> 00:15:01.670 align:start position:0%
+and what we obtain is then okay lambda
+times<00:15:00.000><c> the</c><00:15:00.160><c> utility</c><00:15:00.560><c> and</c><00:15:00.639><c> sigma</c><00:15:00.959><c> i</c>
+
+00:15:01.670 --> 00:15:01.680 align:start position:0%
+times the utility and sigma i
+ 
+
+00:15:01.680 --> 00:15:04.069 align:start position:0%
+times the utility and sigma i
+plus<00:15:02.399><c> one</c><00:15:02.560><c> minus</c><00:15:02.880><c> lambda</c><00:15:03.279><c> utility</c><00:15:03.680><c> and</c><00:15:03.760><c> sigma</c>
+
+00:15:04.069 --> 00:15:04.079 align:start position:0%
+plus one minus lambda utility and sigma
+ 
+
+00:15:04.079 --> 00:15:06.310 align:start position:0%
+plus one minus lambda utility and sigma
+hat<00:15:04.399><c> i</c><00:15:04.720><c> and</c><00:15:04.800><c> because</c><00:15:05.279><c> both</c><00:15:05.600><c> of</c><00:15:05.680><c> those</c><00:15:06.000><c> attain</c>
+
+00:15:06.310 --> 00:15:06.320 align:start position:0%
+hat i and because both of those attain
+ 
+
+00:15:06.320 --> 00:15:08.069 align:start position:0%
+hat i and because both of those attain
+the<00:15:06.399><c> same</c><00:15:06.800><c> utility</c>
+
+00:15:08.069 --> 00:15:08.079 align:start position:0%
+the same utility
+ 
+
+00:15:08.079 --> 00:15:10.949 align:start position:0%
+the same utility
+we<00:15:08.320><c> get</c><00:15:08.560><c> vi</c><00:15:09.040><c> and</c><00:15:09.120><c> so</c><00:15:09.279><c> it</c><00:15:09.440><c> has</c><00:15:09.680><c> to</c><00:15:09.839><c> be</c><00:15:10.399><c> a</c><00:15:10.639><c> best</c>
+
+00:15:10.949 --> 00:15:10.959 align:start position:0%
+we get vi and so it has to be a best
+ 
+
+00:15:10.959 --> 00:15:14.389 align:start position:0%
+we get vi and so it has to be a best
+response
+
+00:15:14.389 --> 00:15:14.399 align:start position:0%
+ 
+ 
+
+00:15:14.399 --> 00:15:16.710 align:start position:0%
+ 
+this<00:15:14.639><c> shows</c><00:15:14.959><c> that</c><00:15:15.120><c> it</c><00:15:15.279><c> is</c><00:15:15.360><c> convex</c>
+
+00:15:16.710 --> 00:15:16.720 align:start position:0%
+this shows that it is convex
+ 
+
+00:15:16.720 --> 00:15:18.710 align:start position:0%
+this shows that it is convex
+and<00:15:17.120><c> again</c><00:15:17.440><c> because</c><00:15:17.680><c> there's</c><00:15:17.920><c> finitely</c><00:15:18.399><c> many</c>
+
+00:15:18.710 --> 00:15:18.720 align:start position:0%
+and again because there's finitely many
+ 
+
+00:15:18.720 --> 00:15:20.310 align:start position:0%
+and again because there's finitely many
+players<00:15:19.360><c> and</c><00:15:19.440><c> we've</c><00:15:19.680><c> shown</c><00:15:19.920><c> this</c><00:15:20.079><c> for</c><00:15:20.160><c> an</c>
+
+00:15:20.310 --> 00:15:20.320 align:start position:0%
+players and we've shown this for an
+ 
+
+00:15:20.320 --> 00:15:21.990 align:start position:0%
+players and we've shown this for an
+arbitrary<00:15:20.800><c> player</c><00:15:21.040><c> it</c><00:15:21.199><c> also</c><00:15:21.440><c> means</c><00:15:21.680><c> that</c><00:15:21.839><c> the</c>
+
+00:15:21.990 --> 00:15:22.000 align:start position:0%
+arbitrary player it also means that the
+ 
+
+00:15:22.000 --> 00:15:26.949 align:start position:0%
+arbitrary player it also means that the
+mutual<00:15:22.320><c> best</c><00:15:22.560><c> response</c><00:15:23.040><c> operator</c><00:15:23.920><c> is</c><00:15:24.399><c> convex</c>
+
+00:15:26.949 --> 00:15:26.959 align:start position:0%
+mutual best response operator is convex
+ 
+
+00:15:26.959 --> 00:15:29.110 align:start position:0%
+mutual best response operator is convex
+lastly<00:15:27.360><c> we</c><00:15:27.600><c> have</c><00:15:27.680><c> to</c><00:15:27.839><c> show</c><00:15:28.240><c> that</c>
+
+00:15:29.110 --> 00:15:29.120 align:start position:0%
+lastly we have to show that
+ 
+
+00:15:29.120 --> 00:15:31.110 align:start position:0%
+lastly we have to show that
+the<00:15:29.279><c> best</c><00:15:29.519><c> response</c><00:15:29.920><c> response</c><00:15:30.399><c> is</c><00:15:30.560><c> non-empty</c>
+
+00:15:31.110 --> 00:15:31.120 align:start position:0%
+the best response response is non-empty
+ 
+
+00:15:31.120 --> 00:15:34.949 align:start position:0%
+the best response response is non-empty
+again<00:15:31.440><c> we</c><00:15:31.600><c> show</c><00:15:31.839><c> it</c><00:15:31.920><c> by</c><00:15:32.240><c> player</c><00:15:32.800><c> by</c><00:15:33.199><c> player</c>
+
+00:15:34.949 --> 00:15:34.959 align:start position:0%
+again we show it by player by player
+ 
+
+00:15:34.959 --> 00:15:36.470 align:start position:0%
+again we show it by player by player
+now<00:15:35.199><c> because</c><00:15:35.519><c> there</c><00:15:35.680><c> are</c><00:15:35.759><c> finitely</c><00:15:36.240><c> many</c>
+
+00:15:36.470 --> 00:15:36.480 align:start position:0%
+now because there are finitely many
+ 
+
+00:15:36.480 --> 00:15:37.829 align:start position:0%
+now because there are finitely many
+strategies
+
+00:15:37.829 --> 00:15:37.839 align:start position:0%
+strategies
+ 
+
+00:15:37.839 --> 00:15:38.829 align:start position:0%
+strategies
+the
+
+00:15:38.829 --> 00:15:38.839 align:start position:0%
+the
+ 
+
+00:15:38.839 --> 00:15:41.430 align:start position:0%
+the
+maximum<00:15:40.079><c> of</c><00:15:40.320><c> player</c><00:15:40.560><c> is</c><00:15:40.720><c> utility</c><00:15:41.120><c> over</c><00:15:41.279><c> all</c>
+
+00:15:41.430 --> 00:15:41.440 align:start position:0%
+maximum of player is utility over all
+ 
+
+00:15:41.440 --> 00:15:43.590 align:start position:0%
+maximum of player is utility over all
+pure<00:15:41.680><c> strategies</c><00:15:42.160><c> is</c><00:15:42.320><c> certainly</c><00:15:42.639><c> attained</c><00:15:43.279><c> as</c>
+
+00:15:43.590 --> 00:15:43.600 align:start position:0%
+pure strategies is certainly attained as
+ 
+
+00:15:43.600 --> 00:15:46.790 align:start position:0%
+pure strategies is certainly attained as
+the<00:15:44.320><c> maximum</c><00:15:44.800><c> over</c><00:15:45.040><c> finitely</c><00:15:45.519><c> many</c><00:15:45.839><c> options</c>
+
+00:15:46.790 --> 00:15:46.800 align:start position:0%
+the maximum over finitely many options
+ 
+
+00:15:46.800 --> 00:15:48.710 align:start position:0%
+the maximum over finitely many options
+and<00:15:46.959><c> the</c><00:15:47.120><c> maximum</c><00:15:47.600><c> over</c><00:15:47.759><c> the</c><00:15:47.920><c> pure</c><00:15:48.160><c> strategies</c>
+
+00:15:48.710 --> 00:15:48.720 align:start position:0%
+and the maximum over the pure strategies
+ 
+
+00:15:48.720 --> 00:15:51.350 align:start position:0%
+and the maximum over the pure strategies
+has<00:15:48.880><c> to</c><00:15:49.040><c> be</c><00:15:49.680><c> a</c><00:15:49.839><c> best</c><00:15:50.079><c> response</c><00:15:50.720><c> because</c><00:15:51.040><c> by</c><00:15:51.199><c> the</c>
+
+00:15:51.350 --> 00:15:51.360 align:start position:0%
+has to be a best response because by the
+ 
+
+00:15:51.360 --> 00:15:53.829 align:start position:0%
+has to be a best response because by the
+indifference<00:15:51.759><c> principle</c>
+
+00:15:53.829 --> 00:15:53.839 align:start position:0%
+indifference principle
+ 
+
+00:15:53.839 --> 00:15:56.069 align:start position:0%
+indifference principle
+if<00:15:54.160><c> a</c><00:15:54.720><c> mixed</c><00:15:54.959><c> strategy</c><00:15:55.279><c> is</c><00:15:55.360><c> the</c><00:15:55.440><c> best</c><00:15:55.600><c> response</c>
+
+00:15:56.069 --> 00:15:56.079 align:start position:0%
+if a mixed strategy is the best response
+ 
+
+00:15:56.079 --> 00:15:57.670 align:start position:0%
+if a mixed strategy is the best response
+then<00:15:56.320><c> also</c><00:15:56.560><c> all</c><00:15:56.639><c> the</c><00:15:56.800><c> pure</c><00:15:57.040><c> strategies</c><00:15:57.519><c> in</c>
+
+00:15:57.670 --> 00:15:57.680 align:start position:0%
+then also all the pure strategies in
+ 
+
+00:15:57.680 --> 00:16:00.470 align:start position:0%
+then also all the pure strategies in
+support<00:15:58.399><c> are</c><00:15:58.560><c> a</c><00:15:58.720><c> best</c><00:15:58.959><c> response</c>
+
+00:16:00.470 --> 00:16:00.480 align:start position:0%
+support are a best response
+ 
+
+00:16:00.480 --> 00:16:02.470 align:start position:0%
+support are a best response
+so<00:16:00.639><c> this</c><00:16:00.800><c> means</c><00:16:01.120><c> that</c><00:16:01.680><c> at</c><00:16:01.839><c> least</c><00:16:02.079><c> one</c><00:16:02.240><c> pure</c>
+
+00:16:02.470 --> 00:16:02.480 align:start position:0%
+so this means that at least one pure
+ 
+
+00:16:02.480 --> 00:16:05.189 align:start position:0%
+so this means that at least one pure
+strategy<00:16:02.959><c> has</c><00:16:03.120><c> to</c><00:16:03.279><c> be</c><00:16:03.759><c> in</c><00:16:04.000><c> the</c><00:16:04.160><c> support</c><00:16:04.639><c> namely</c>
+
+00:16:05.189 --> 00:16:05.199 align:start position:0%
+strategy has to be in the support namely
+ 
+
+00:16:05.199 --> 00:16:06.790 align:start position:0%
+strategy has to be in the support namely
+the<00:16:05.360><c> pure</c><00:16:05.600><c> strategy</c>
+
+00:16:06.790 --> 00:16:06.800 align:start position:0%
+the pure strategy
+ 
+
+00:16:06.800 --> 00:16:08.389 align:start position:0%
+the pure strategy
+or<00:16:06.959><c> has</c><00:16:07.120><c> to</c><00:16:07.199><c> be</c><00:16:07.279><c> a</c><00:16:07.360><c> best</c><00:16:07.519><c> response</c><00:16:08.000><c> namely</c><00:16:08.320><c> the</c>
+
+00:16:08.389 --> 00:16:08.399 align:start position:0%
+or has to be a best response namely the
+ 
+
+00:16:08.399 --> 00:16:10.389 align:start position:0%
+or has to be a best response namely the
+pure<00:16:08.639><c> strategy</c><00:16:09.040><c> that</c><00:16:09.120><c> maximizes</c><00:16:09.839><c> player</c><00:16:10.160><c> i's</c>
+
+00:16:10.389 --> 00:16:10.399 align:start position:0%
+pure strategy that maximizes player i's
+ 
+
+00:16:10.399 --> 00:16:11.990 align:start position:0%
+pure strategy that maximizes player i's
+utility
+
+00:16:11.990 --> 00:16:12.000 align:start position:0%
+utility
+ 
+
+00:16:12.000 --> 00:16:13.509 align:start position:0%
+utility
+so<00:16:12.160><c> this</c><00:16:12.320><c> shows</c><00:16:12.639><c> that</c><00:16:12.800><c> the</c><00:16:12.880><c> best</c><00:16:13.120><c> response</c>
+
+00:16:13.509 --> 00:16:13.519 align:start position:0%
+so this shows that the best response
+ 
+
+00:16:13.519 --> 00:16:15.990 align:start position:0%
+so this shows that the best response
+correspondence<00:16:14.079><c> is</c><00:16:14.160><c> not</c><00:16:14.399><c> empty</c><00:16:15.040><c> and</c><00:16:15.360><c> we</c><00:16:15.759><c> can</c>
+
+00:16:15.990 --> 00:16:16.000 align:start position:0%
+correspondence is not empty and we can
+ 
+
+00:16:16.000 --> 00:16:17.910 align:start position:0%
+correspondence is not empty and we can
+apply
+
+00:16:17.910 --> 00:16:17.920 align:start position:0%
+apply
+ 
+
+00:16:17.920 --> 00:16:20.389 align:start position:0%
+apply
+the<00:16:18.639><c> calculations</c><00:16:19.199><c> fixed</c><00:16:19.440><c> point</c><00:16:19.680><c> theorem</c>
+
+00:16:20.389 --> 00:16:20.399 align:start position:0%
+the calculations fixed point theorem
+ 
+
+00:16:20.399 --> 00:16:22.710 align:start position:0%
+the calculations fixed point theorem
+which<00:16:20.880><c> tells</c><00:16:21.199><c> us</c><00:16:21.279><c> there</c><00:16:21.440><c> is</c><00:16:21.680><c> a</c><00:16:21.759><c> fixed</c><00:16:22.079><c> point</c>
+
+00:16:22.710 --> 00:16:22.720 align:start position:0%
+which tells us there is a fixed point
+ 
+
+00:16:22.720 --> 00:16:24.550 align:start position:0%
+which tells us there is a fixed point
+and<00:16:22.800><c> the</c><00:16:22.959><c> fixed</c><00:16:23.279><c> point</c><00:16:23.600><c> of</c><00:16:23.839><c> the</c><00:16:24.000><c> mutual</c><00:16:24.320><c> best</c>
+
+00:16:24.550 --> 00:16:24.560 align:start position:0%
+and the fixed point of the mutual best
+ 
+
+00:16:24.560 --> 00:16:26.870 align:start position:0%
+and the fixed point of the mutual best
+response<00:16:25.040><c> operator</c><00:16:25.519><c> is</c><00:16:25.759><c> precisely</c><00:16:26.399><c> a</c><00:16:26.560><c> nash</c>
+
+00:16:26.870 --> 00:16:26.880 align:start position:0%
+response operator is precisely a nash
+ 
+
+00:16:26.880 --> 00:16:28.710 align:start position:0%
+response operator is precisely a nash
+equilibrium
+
+00:16:28.710 --> 00:16:28.720 align:start position:0%
+equilibrium
+ 
+
+00:16:28.720 --> 00:16:30.870 align:start position:0%
+equilibrium
+and<00:16:28.800><c> this</c><00:16:29.120><c> concludes</c><00:16:29.920><c> the</c><00:16:30.079><c> proof</c><00:16:30.639><c> of</c>
+
+00:16:30.870 --> 00:16:30.880 align:start position:0%
+and this concludes the proof of
+ 
+
+00:16:30.880 --> 00:16:33.509 align:start position:0%
+and this concludes the proof of
+existence
+
+00:16:33.509 --> 00:16:33.519 align:start position:0%
+existence
+ 
+
+00:16:33.519 --> 00:16:34.829 align:start position:0%
+existence
+now<00:16:33.759><c> in</c><00:16:33.839><c> addition</c><00:16:34.240><c> to</c>
+
+00:16:34.829 --> 00:16:34.839 align:start position:0%
+now in addition to
+ 
+
+00:16:34.839 --> 00:16:37.509 align:start position:0%
+now in addition to
+existence<00:16:36.000><c> we</c><00:16:36.160><c> wondered</c><00:16:36.560><c> about</c><00:16:36.959><c> predictive</c>
+
+00:16:37.509 --> 00:16:37.519 align:start position:0%
+existence we wondered about predictive
+ 
+
+00:16:37.519 --> 00:16:38.470 align:start position:0%
+existence we wondered about predictive
+power
+
+00:16:38.470 --> 00:16:38.480 align:start position:0%
+power
+ 
+
+00:16:38.480 --> 00:16:40.870 align:start position:0%
+power
+are<00:16:38.639><c> nash</c><00:16:38.959><c> equilibria</c><00:16:39.680><c> unique</c><00:16:40.399><c> well</c><00:16:40.639><c> we've</c>
+
+00:16:40.870 --> 00:16:40.880 align:start position:0%
+are nash equilibria unique well we've
+ 
+
+00:16:40.880 --> 00:16:42.470 align:start position:0%
+are nash equilibria unique well we've
+already<00:16:41.120><c> seen</c><00:16:41.360><c> that</c><00:16:41.440><c> they</c><00:16:41.600><c> are</c><00:16:41.680><c> not</c><00:16:41.920><c> unique</c>
+
+00:16:42.470 --> 00:16:42.480 align:start position:0%
+already seen that they are not unique
+ 
+
+00:16:42.480 --> 00:16:44.470 align:start position:0%
+already seen that they are not unique
+crossing<00:16:42.800><c> the</c><00:16:42.880><c> intersection</c><00:16:43.519><c> had</c><00:16:43.839><c> three</c>
+
+00:16:44.470 --> 00:16:44.480 align:start position:0%
+crossing the intersection had three
+ 
+
+00:16:44.480 --> 00:16:46.790 align:start position:0%
+crossing the intersection had three
+possible<00:16:44.959><c> nash</c><00:16:45.279><c> equilibrium</c><00:16:46.320><c> but</c><00:16:46.480><c> i</c><00:16:46.560><c> wouldn't</c>
+
+00:16:46.790 --> 00:16:46.800 align:start position:0%
+possible nash equilibrium but i wouldn't
+ 
+
+00:16:46.800 --> 00:16:49.350 align:start position:0%
+possible nash equilibrium but i wouldn't
+necessarily<00:16:47.360><c> say</c><00:16:47.519><c> that</c><00:16:47.759><c> this</c><00:16:48.000><c> is</c>
+
+00:16:49.350 --> 00:16:49.360 align:start position:0%
+necessarily say that this is
+ 
+
+00:16:49.360 --> 00:16:51.670 align:start position:0%
+necessarily say that this is
+a<00:16:49.920><c> disadvantage</c>
+
+00:16:51.670 --> 00:16:51.680 align:start position:0%
+a disadvantage
+ 
+
+00:16:51.680 --> 00:16:53.910 align:start position:0%
+a disadvantage
+it<00:16:51.920><c> means</c><00:16:52.240><c> that</c><00:16:52.720><c> even</c><00:16:53.040><c> infinitely</c><00:16:53.519><c> rational</c>
+
+00:16:53.910 --> 00:16:53.920 align:start position:0%
+it means that even infinitely rational
+ 
+
+00:16:53.920 --> 00:16:57.030 align:start position:0%
+it means that even infinitely rational
+individuals<00:16:54.639><c> have</c><00:16:55.120><c> freedom</c><00:16:55.440><c> of</c><00:16:55.600><c> joints</c><00:16:56.079><c> and</c>
+
+00:16:57.030 --> 00:16:57.040 align:start position:0%
+individuals have freedom of joints and
+ 
+
+00:16:57.040 --> 00:16:59.269 align:start position:0%
+individuals have freedom of joints and
+several<00:16:57.360><c> possible</c><00:16:57.920><c> outcomes</c>
+
+00:16:59.269 --> 00:16:59.279 align:start position:0%
+several possible outcomes
+ 
+
+00:16:59.279 --> 00:17:01.350 align:start position:0%
+several possible outcomes
+are<00:16:59.440><c> consistent</c><00:16:59.920><c> with</c><00:17:00.160><c> rational</c><00:17:00.560><c> behavior</c>
+
+00:17:01.350 --> 00:17:01.360 align:start position:0%
+are consistent with rational behavior
+ 
+
+00:17:01.360 --> 00:17:03.189 align:start position:0%
+are consistent with rational behavior
+and
+
+00:17:03.189 --> 00:17:03.199 align:start position:0%
+and
+ 
+
+00:17:03.199 --> 00:17:05.029 align:start position:0%
+and
+and<00:17:03.440><c> correct</c><00:17:03.839><c> conjectures</c><00:17:04.400><c> about</c><00:17:04.720><c> the</c><00:17:04.880><c> other</c>
+
+00:17:05.029 --> 00:17:05.039 align:start position:0%
+and correct conjectures about the other
+ 
+
+00:17:05.039 --> 00:17:07.029 align:start position:0%
+and correct conjectures about the other
+players<00:17:05.760><c> strategies</c>
+
+00:17:07.029 --> 00:17:07.039 align:start position:0%
+players strategies
+ 
+
+00:17:07.039 --> 00:17:08.710 align:start position:0%
+players strategies
+the<00:17:07.199><c> only</c><00:17:07.439><c> thing</c><00:17:07.600><c> that</c><00:17:07.760><c> is</c><00:17:08.000><c> important</c><00:17:08.400><c> is</c><00:17:08.559><c> that</c>
+
+00:17:08.710 --> 00:17:08.720 align:start position:0%
+the only thing that is important is that
+ 
+
+00:17:08.720 --> 00:17:10.230 align:start position:0%
+the only thing that is important is that
+predictions<00:17:09.360><c> are</c>
+
+00:17:10.230 --> 00:17:10.240 align:start position:0%
+predictions are
+ 
+
+00:17:10.240 --> 00:17:12.150 align:start position:0%
+predictions are
+meaningful<00:17:10.720><c> so</c><00:17:10.880><c> this</c><00:17:11.039><c> means</c><00:17:11.280><c> that</c><00:17:12.000><c> the</c>
+
+00:17:12.150 --> 00:17:12.160 align:start position:0%
+meaningful so this means that the
+ 
+
+00:17:12.160 --> 00:17:14.789 align:start position:0%
+meaningful so this means that the
+solution<00:17:12.640><c> set</c><00:17:12.880><c> is</c><00:17:12.959><c> sufficiently</c><00:17:13.679><c> restrictive</c>
+
+00:17:14.789 --> 00:17:14.799 align:start position:0%
+solution set is sufficiently restrictive
+ 
+
+00:17:14.799 --> 00:17:16.870 align:start position:0%
+solution set is sufficiently restrictive
+and<00:17:14.880><c> we</c><00:17:15.039><c> have</c><00:17:15.199><c> seen</c><00:17:15.520><c> that</c>
+
+00:17:16.870 --> 00:17:16.880 align:start position:0%
+and we have seen that
+ 
+
+00:17:16.880 --> 00:17:19.829 align:start position:0%
+and we have seen that
+in<00:17:18.000><c> the</c><00:17:18.240><c> example</c><00:17:18.559><c> with</c><00:17:18.720><c> the</c><00:17:18.799><c> intersection</c><00:17:19.679><c> it</c>
+
+00:17:19.829 --> 00:17:19.839 align:start position:0%
+in the example with the intersection it
+ 
+
+00:17:19.839 --> 00:17:22.309 align:start position:0%
+in the example with the intersection it
+was<00:17:20.079><c> much</c><00:17:20.319><c> much</c><00:17:20.640><c> smaller</c><00:17:21.520><c> than</c><00:17:21.839><c> let's</c><00:17:22.000><c> say</c><00:17:22.240><c> the</c>
+
+00:17:22.309 --> 00:17:22.319 align:start position:0%
+was much much smaller than let's say the
+ 
+
+00:17:22.319 --> 00:17:24.549 align:start position:0%
+was much much smaller than let's say the
+rationalizable<00:17:23.199><c> strategies</c><00:17:24.079><c> for</c><00:17:24.240><c> which</c><00:17:24.480><c> we</c>
+
+00:17:24.549 --> 00:17:24.559 align:start position:0%
+rationalizable strategies for which we
+ 
+
+00:17:24.559 --> 00:17:26.390 align:start position:0%
+rationalizable strategies for which we
+obtained<00:17:25.039><c> all</c><00:17:25.360><c> the</c><00:17:25.520><c> possible</c><00:17:25.919><c> strategy</c>
+
+00:17:26.390 --> 00:17:26.400 align:start position:0%
+obtained all the possible strategy
+ 
+
+00:17:26.400 --> 00:17:27.750 align:start position:0%
+obtained all the possible strategy
+profiles
+
+00:17:27.750 --> 00:17:27.760 align:start position:0%
+profiles
+ 
+
+00:17:27.760 --> 00:17:29.350 align:start position:0%
+profiles
+in<00:17:27.919><c> particular</c><00:17:28.400><c> the</c><00:17:28.480><c> two</c><00:17:28.720><c> solutions</c><00:17:29.120><c> that</c><00:17:29.200><c> we</c>
+
+00:17:29.350 --> 00:17:29.360 align:start position:0%
+in particular the two solutions that we
+ 
+
+00:17:29.360 --> 00:17:31.430 align:start position:0%
+in particular the two solutions that we
+got<00:17:29.600><c> are</c><00:17:29.679><c> very</c><00:17:29.919><c> meaningful</c><00:17:30.720><c> it's</c><00:17:30.960><c> those</c><00:17:31.280><c> that</c>
+
+00:17:31.430 --> 00:17:31.440 align:start position:0%
+got are very meaningful it's those that
+ 
+
+00:17:31.440 --> 00:17:33.830 align:start position:0%
+got are very meaningful it's those that
+we<00:17:31.520><c> see</c><00:17:32.000><c> in</c><00:17:32.160><c> reality</c><00:17:32.799><c> where</c>
+
+00:17:33.830 --> 00:17:33.840 align:start position:0%
+we see in reality where
+ 
+
+00:17:33.840 --> 00:17:34.870 align:start position:0%
+we see in reality where
+one<00:17:34.080><c> of</c>
+
+00:17:34.870 --> 00:17:34.880 align:start position:0%
+one of
+ 
+
+00:17:34.880 --> 00:17:37.110 align:start position:0%
+one of
+the<00:17:35.360><c> two</c><00:17:35.600><c> crosses</c><00:17:36.080><c> intersection</c><00:17:36.799><c> and</c><00:17:36.960><c> the</c>
+
+00:17:37.110 --> 00:17:37.120 align:start position:0%
+the two crosses intersection and the
+ 
+
+00:17:37.120 --> 00:17:41.590 align:start position:0%
+the two crosses intersection and the
+other<00:17:37.360><c> one</c><00:17:37.520><c> waits</c>
+
+00:17:41.590 --> 00:17:41.600 align:start position:0%
+ 
+ 
+
+00:17:41.600 --> 00:17:44.070 align:start position:0%
+ 
+now<00:17:42.000><c> we</c><00:17:42.240><c> will</c><00:17:42.559><c> further</c><00:17:43.039><c> refine</c>
+
+00:17:44.070 --> 00:17:44.080 align:start position:0%
+now we will further refine
+ 
+
+00:17:44.080 --> 00:17:45.830 align:start position:0%
+now we will further refine
+nash<00:17:44.320><c> equilibrium</c>
+
+00:17:45.830 --> 00:17:45.840 align:start position:0%
+nash equilibrium
+ 
+
+00:17:45.840 --> 00:17:46.870 align:start position:0%
+nash equilibrium
+for
+
+00:17:46.870 --> 00:17:46.880 align:start position:0%
+for
+ 
+
+00:17:46.880 --> 00:17:48.549 align:start position:0%
+for
+the<00:17:47.039><c> remainder</c><00:17:47.440><c> of</c><00:17:47.520><c> the</c><00:17:47.679><c> class</c><00:17:48.000><c> essentially</c>
+
+00:17:48.549 --> 00:17:48.559 align:start position:0%
+the remainder of the class essentially
+ 
+
+00:17:48.559 --> 00:17:50.789 align:start position:0%
+the remainder of the class essentially
+starting<00:17:48.880><c> next</c><00:17:49.120><c> week</c><00:17:49.840><c> where</c><00:17:50.000><c> we</c>
+
+00:17:50.789 --> 00:17:50.799 align:start position:0%
+starting next week where we
+ 
+
+00:17:50.799 --> 00:17:52.230 align:start position:0%
+starting next week where we
+think<00:17:51.039><c> that</c><00:17:51.200><c> in</c><00:17:51.360><c> some</c><00:17:51.520><c> situations</c><00:17:52.000><c> certain</c>
+
+00:17:52.230 --> 00:17:52.240 align:start position:0%
+think that in some situations certain
+ 
+
+00:17:52.240 --> 00:17:54.310 align:start position:0%
+think that in some situations certain
+nash<00:17:52.480><c> equilibria</c><00:17:52.960><c> are</c><00:17:53.120><c> unreasonable</c>
+
+00:17:54.310 --> 00:17:54.320 align:start position:0%
+nash equilibria are unreasonable
+ 
+
+00:17:54.320 --> 00:17:57.029 align:start position:0%
+nash equilibria are unreasonable
+and<00:17:54.960><c> then</c><00:17:55.120><c> we</c><00:17:55.280><c> will</c><00:17:55.520><c> try</c><00:17:55.760><c> to</c><00:17:56.160><c> narrow</c><00:17:56.559><c> down</c><00:17:56.880><c> the</c>
+
+00:17:57.029 --> 00:17:57.039 align:start position:0%
+and then we will try to narrow down the
+ 
+
+00:17:57.039 --> 00:17:59.350 align:start position:0%
+and then we will try to narrow down the
+set<00:17:57.440><c> of</c><00:17:57.679><c> nash</c><00:17:57.919><c> equilibria</c><00:17:58.480><c> by</c><00:17:58.720><c> imposing</c>
+
+00:17:59.350 --> 00:17:59.360 align:start position:0%
+set of nash equilibria by imposing
+ 
+
+00:17:59.360 --> 00:18:01.430 align:start position:0%
+set of nash equilibria by imposing
+additional<00:18:00.000><c> restrictions</c><00:18:00.880><c> and</c><00:18:00.960><c> this</c><00:18:01.200><c> is</c><00:18:01.280><c> sort</c>
+
+00:18:01.430 --> 00:18:01.440 align:start position:0%
+additional restrictions and this is sort
+ 
+
+00:18:01.440 --> 00:18:06.950 align:start position:0%
+additional restrictions and this is sort
+of<00:18:01.600><c> the</c><00:18:01.679><c> plan</c><00:18:02.559><c> for</c><00:18:03.120><c> the</c><00:18:03.360><c> next</c><00:18:03.919><c> six</c><00:18:04.240><c> weeks</c>
+
+00:18:06.950 --> 00:18:06.960 align:start position:0%
+ 
+ 
+
+00:18:06.960 --> 00:18:09.990 align:start position:0%
+ 
+the<00:18:07.120><c> robustness</c><00:18:08.000><c> the</c><00:18:08.160><c> last</c><00:18:08.400><c> criteria</c>
+
+00:18:09.990 --> 00:18:10.000 align:start position:0%
+the robustness the last criteria
+ 
+
+00:18:10.000 --> 00:18:11.110 align:start position:0%
+the robustness the last criteria
+and
+
+00:18:11.110 --> 00:18:11.120 align:start position:0%
+and
+ 
+
+00:18:11.120 --> 00:18:13.029 align:start position:0%
+and
+we<00:18:11.280><c> will</c><00:18:11.440><c> find</c><00:18:11.760><c> that</c><00:18:12.160><c> nash</c><00:18:12.400><c> equivalent</c><00:18:12.960><c> are</c>
+
+00:18:13.029 --> 00:18:13.039 align:start position:0%
+we will find that nash equivalent are
+ 
+
+00:18:13.039 --> 00:18:16.549 align:start position:0%
+we will find that nash equivalent are
+not<00:18:13.280><c> robust</c><00:18:14.160><c> so</c>
+
+00:18:16.549 --> 00:18:16.559 align:start position:0%
+ 
+ 
+
+00:18:16.559 --> 00:18:18.070 align:start position:0%
+ 
+here
+
+00:18:18.070 --> 00:18:18.080 align:start position:0%
+here
+ 
+
+00:18:18.080 --> 00:18:21.190 align:start position:0%
+here
+is<00:18:18.320><c> the</c><00:18:18.400><c> example</c><00:18:18.880><c> of</c><00:18:19.039><c> a</c><00:18:19.200><c> game</c><00:18:19.600><c> where</c><00:18:19.840><c> there</c><00:18:20.080><c> are</c>
+
+00:18:21.190 --> 00:18:21.200 align:start position:0%
+is the example of a game where there are
+ 
+
+00:18:21.200 --> 00:18:24.150 align:start position:0%
+is the example of a game where there are
+two<00:18:21.600><c> pure</c><00:18:21.840><c> strategy</c><00:18:22.240><c> nash</c><00:18:22.559><c> equilibria</c><00:18:23.440><c> but</c>
+
+00:18:24.150 --> 00:18:24.160 align:start position:0%
+two pure strategy nash equilibria but
+ 
+
+00:18:24.160 --> 00:18:26.710 align:start position:0%
+two pure strategy nash equilibria but
+one<00:18:24.559><c> in</c><00:18:24.720><c> weekly</c><00:18:25.120><c> dominated</c><00:18:25.679><c> strategies</c>
+
+00:18:26.710 --> 00:18:26.720 align:start position:0%
+one in weekly dominated strategies
+ 
+
+00:18:26.720 --> 00:18:27.510 align:start position:0%
+one in weekly dominated strategies
+and
+
+00:18:27.510 --> 00:18:27.520 align:start position:0%
+and
+ 
+
+00:18:27.520 --> 00:18:30.070 align:start position:0%
+and
+weak<00:18:27.760><c> dominance</c><00:18:28.320><c> is</c><00:18:28.400><c> not</c><00:18:28.559><c> robust</c><00:18:29.039><c> so</c><00:18:29.200><c> if</c>
+
+00:18:30.070 --> 00:18:30.080 align:start position:0%
+weak dominance is not robust so if
+ 
+
+00:18:30.080 --> 00:18:31.669 align:start position:0%
+weak dominance is not robust so if
+we<00:18:30.320><c> look</c><00:18:30.640><c> at</c>
+
+00:18:31.669 --> 00:18:31.679 align:start position:0%
+we look at
+ 
+
+00:18:31.679 --> 00:18:34.470 align:start position:0%
+we look at
+a<00:18:32.240><c> very</c><00:18:32.480><c> small</c><00:18:32.799><c> perturbation</c><00:18:33.440><c> of</c><00:18:33.520><c> payoffs</c>
+
+00:18:34.470 --> 00:18:34.480 align:start position:0%
+a very small perturbation of payoffs
+ 
+
+00:18:34.480 --> 00:18:36.630 align:start position:0%
+a very small perturbation of payoffs
+here<00:18:34.880><c> if</c><00:18:35.039><c> we</c><00:18:35.120><c> subtract</c><00:18:35.600><c> epsilon</c><00:18:36.240><c> from</c><00:18:36.400><c> this</c>
+
+00:18:36.630 --> 00:18:36.640 align:start position:0%
+here if we subtract epsilon from this
+ 
+
+00:18:36.640 --> 00:18:37.909 align:start position:0%
+here if we subtract epsilon from this
+outcome<00:18:37.039><c> here</c>
+
+00:18:37.909 --> 00:18:37.919 align:start position:0%
+outcome here
+ 
+
+00:18:37.919 --> 00:18:40.630 align:start position:0%
+outcome here
+then<00:18:38.559><c> this</c><00:18:38.799><c> is</c><00:18:38.960><c> no</c><00:18:39.120><c> longer</c><00:18:39.440><c> a</c><00:18:39.679><c> best</c><00:18:40.000><c> response</c>
+
+00:18:40.630 --> 00:18:40.640 align:start position:0%
+then this is no longer a best response
+ 
+
+00:18:40.640 --> 00:18:44.310 align:start position:0%
+then this is no longer a best response
+for<00:18:40.960><c> player</c><00:18:41.360><c> 2</c><00:18:42.000><c> and</c><00:18:42.320><c> so</c>
+
+00:18:44.310 --> 00:18:44.320 align:start position:0%
+for player 2 and so
+ 
+
+00:18:44.320 --> 00:18:46.950 align:start position:0%
+for player 2 and so
+tr<00:18:45.039><c> is</c><00:18:45.200><c> not</c><00:18:45.440><c> a</c><00:18:45.520><c> nash</c><00:18:45.840><c> equilibrium</c><00:18:46.400><c> in</c><00:18:46.640><c> any</c>
+
+00:18:46.950 --> 00:18:46.960 align:start position:0%
+tr is not a nash equilibrium in any
+ 
+
+00:18:46.960 --> 00:18:49.830 align:start position:0%
+tr is not a nash equilibrium in any
+approximation<00:18:48.080><c> of</c><00:18:48.240><c> the</c><00:18:48.400><c> game</c><00:18:49.200><c> so</c><00:18:49.360><c> this</c><00:18:49.520><c> means</c>
+
+00:18:49.830 --> 00:18:49.840 align:start position:0%
+approximation of the game so this means
+ 
+
+00:18:49.840 --> 00:18:51.909 align:start position:0%
+approximation of the game so this means
+that<00:18:50.080><c> this</c><00:18:50.320><c> is</c><00:18:50.480><c> not</c><00:18:50.720><c> a</c><00:18:50.880><c> robust</c><00:18:51.679><c> nash</c>
+
+00:18:51.909 --> 00:18:51.919 align:start position:0%
+that this is not a robust nash
+ 
+
+00:18:51.919 --> 00:18:58.230 align:start position:0%
+that this is not a robust nash
+equilibrium
+
+00:18:58.230 --> 00:18:58.240 align:start position:0%
+ 
+ 
+
+00:18:58.240 --> 00:18:59.750 align:start position:0%
+ 
+now<00:18:58.400><c> that</c><00:18:58.559><c> we've</c><00:18:58.960><c> discussed</c><00:18:59.440><c> these</c>
+
+00:18:59.750 --> 00:18:59.760 align:start position:0%
+now that we've discussed these
+ 
+
+00:18:59.760 --> 00:19:02.070 align:start position:0%
+now that we've discussed these
+properties<00:19:00.799><c> how</c><00:19:01.039><c> does</c><00:19:01.360><c> nash</c><00:19:01.600><c> equilibrium</c>
+
+00:19:02.070 --> 00:19:02.080 align:start position:0%
+properties how does nash equilibrium
+ 
+
+00:19:02.080 --> 00:19:03.750 align:start position:0%
+properties how does nash equilibrium
+relate<00:19:02.400><c> to</c><00:19:02.559><c> the</c><00:19:02.640><c> solution</c><00:19:03.120><c> concepts</c><00:19:03.679><c> that</c>
+
+00:19:03.750 --> 00:19:03.760 align:start position:0%
+relate to the solution concepts that
+ 
+
+00:19:03.760 --> 00:19:04.870 align:start position:0%
+relate to the solution concepts that
+we've<00:19:04.000><c> seen</c>
+
+00:19:04.870 --> 00:19:04.880 align:start position:0%
+we've seen
+ 
+
+00:19:04.880 --> 00:19:05.909 align:start position:0%
+we've seen
+well
+
+00:19:05.909 --> 00:19:05.919 align:start position:0%
+well
+ 
+
+00:19:05.919 --> 00:19:08.230 align:start position:0%
+well
+it's<00:19:06.160><c> definitely</c><00:19:07.280><c> um</c>
+
+00:19:08.230 --> 00:19:08.240 align:start position:0%
+it's definitely um
+ 
+
+00:19:08.240 --> 00:19:10.789 align:start position:0%
+it's definitely um
+definitely<00:19:08.840><c> contains</c><00:19:09.919><c> strict</c><00:19:10.320><c> dominant</c>
+
+00:19:10.789 --> 00:19:10.799 align:start position:0%
+definitely contains strict dominant
+ 
+
+00:19:10.799 --> 00:19:13.430 align:start position:0%
+definitely contains strict dominant
+strategy<00:19:11.120><c> equilibria</c><00:19:11.679><c> because</c>
+
+00:19:13.430 --> 00:19:13.440 align:start position:0%
+strategy equilibria because
+ 
+
+00:19:13.440 --> 00:19:15.750 align:start position:0%
+strategy equilibria because
+yeah<00:19:13.679><c> if</c><00:19:14.320><c> every</c><00:19:14.559><c> player</c><00:19:14.880><c> has</c><00:19:15.200><c> a</c><00:19:15.360><c> strictly</c>
+
+00:19:15.750 --> 00:19:15.760 align:start position:0%
+yeah if every player has a strictly
+ 
+
+00:19:15.760 --> 00:19:17.590 align:start position:0%
+yeah if every player has a strictly
+dominant<00:19:16.080><c> strategy</c><00:19:16.960><c> then</c><00:19:17.120><c> this</c><00:19:17.280><c> is</c><00:19:17.440><c> the</c>
+
+00:19:17.590 --> 00:19:17.600 align:start position:0%
+dominant strategy then this is the
+ 
+
+00:19:17.600 --> 00:19:19.830 align:start position:0%
+dominant strategy then this is the
+unique<00:19:17.919><c> best</c><00:19:18.160><c> response</c><00:19:18.880><c> to</c><00:19:19.120><c> anything</c><00:19:19.679><c> the</c>
+
+00:19:19.830 --> 00:19:19.840 align:start position:0%
+unique best response to anything the
+ 
+
+00:19:19.840 --> 00:19:21.830 align:start position:0%
+unique best response to anything the
+other<00:19:20.080><c> players</c><00:19:20.400><c> could</c><00:19:20.559><c> play</c><00:19:21.200><c> so</c><00:19:21.360><c> this</c><00:19:21.520><c> is</c><00:19:21.600><c> the</c>
+
+00:19:21.830 --> 00:19:21.840 align:start position:0%
+other players could play so this is the
+ 
+
+00:19:21.840 --> 00:19:23.990 align:start position:0%
+other players could play so this is the
+only<00:19:22.160><c> possible</c><00:19:22.640><c> match</c><00:19:22.880><c> equilibrium</c><00:19:23.600><c> so</c><00:19:23.760><c> any</c>
+
+00:19:23.990 --> 00:19:24.000 align:start position:0%
+only possible match equilibrium so any
+ 
+
+00:19:24.000 --> 00:19:26.470 align:start position:0%
+only possible match equilibrium so any
+strict<00:19:24.240><c> dominance</c><00:19:24.640><c> equilibrium</c><00:19:25.679><c> is</c><00:19:26.000><c> a</c><00:19:26.160><c> nash</c>
+
+00:19:26.470 --> 00:19:26.480 align:start position:0%
+strict dominance equilibrium is a nash
+ 
+
+00:19:26.480 --> 00:19:28.230 align:start position:0%
+strict dominance equilibrium is a nash
+equilibrium
+
+00:19:28.230 --> 00:19:28.240 align:start position:0%
+equilibrium
+ 
+
+00:19:28.240 --> 00:19:30.710 align:start position:0%
+equilibrium
+and<00:19:28.400><c> also</c><00:19:28.960><c> a</c><00:19:29.120><c> nash</c><00:19:29.440><c> equilibrium</c><00:19:30.480><c> is</c>
+
+00:19:30.710 --> 00:19:30.720 align:start position:0%
+and also a nash equilibrium is
+ 
+
+00:19:30.720 --> 00:19:33.110 align:start position:0%
+and also a nash equilibrium is
+definitely<00:19:31.360><c> rationalizable</c>
+
+00:19:33.110 --> 00:19:33.120 align:start position:0%
+definitely rationalizable
+ 
+
+00:19:33.120 --> 00:19:34.150 align:start position:0%
+definitely rationalizable
+because
+
+00:19:34.150 --> 00:19:34.160 align:start position:0%
+because
+ 
+
+00:19:34.160 --> 00:19:36.150 align:start position:0%
+because
+in<00:19:34.320><c> the</c><00:19:34.400><c> nash</c><00:19:34.640><c> equilibrium</c><00:19:35.200><c> conjectures</c><00:19:35.760><c> are</c>
+
+00:19:36.150 --> 00:19:36.160 align:start position:0%
+in the nash equilibrium conjectures are
+ 
+
+00:19:36.160 --> 00:19:38.710 align:start position:0%
+in the nash equilibrium conjectures are
+correct<00:19:36.960><c> so</c><00:19:37.120><c> this</c><00:19:37.360><c> means</c><00:19:37.679><c> that</c>
+
+00:19:38.710 --> 00:19:38.720 align:start position:0%
+correct so this means that
+ 
+
+00:19:38.720 --> 00:19:42.150 align:start position:0%
+correct so this means that
+um
+
+00:19:42.150 --> 00:19:42.160 align:start position:0%
+ 
+ 
+
+00:19:42.160 --> 00:19:44.950 align:start position:0%
+ 
+that<00:19:42.400><c> yeah</c><00:19:42.559><c> it</c><00:19:42.720><c> is</c><00:19:42.880><c> the</c><00:19:42.960><c> best</c><00:19:43.200><c> response</c><00:19:43.840><c> to</c><00:19:44.320><c> a</c>
+
+00:19:44.950 --> 00:19:44.960 align:start position:0%
+that yeah it is the best response to a
+ 
+
+00:19:44.960 --> 00:19:47.669 align:start position:0%
+that yeah it is the best response to a
+rationalizable<00:19:46.320><c> conjecture</c><00:19:47.120><c> because</c><00:19:47.440><c> it</c><00:19:47.520><c> is</c>
+
+00:19:47.669 --> 00:19:47.679 align:start position:0%
+rationalizable conjecture because it is
+ 
+
+00:19:47.679 --> 00:19:49.510 align:start position:0%
+rationalizable conjecture because it is
+rationalized<00:19:48.640><c> again</c>
+
+00:19:49.510 --> 00:19:49.520 align:start position:0%
+rationalized again
+ 
+
+00:19:49.520 --> 00:19:50.789 align:start position:0%
+rationalized again
+by
+
+00:19:50.789 --> 00:19:50.799 align:start position:0%
+by
+ 
+
+00:19:50.799 --> 00:19:51.669 align:start position:0%
+by
+um
+
+00:19:51.669 --> 00:19:51.679 align:start position:0%
+um
+ 
+
+00:19:51.679 --> 00:19:56.390 align:start position:0%
+um
+the<00:19:51.840><c> nash</c><00:19:52.080><c> equilibrium</c><00:19:52.640><c> itself</c>
+
+00:19:56.390 --> 00:19:56.400 align:start position:0%
+ 
+ 
+
+00:19:56.400 --> 00:19:57.669 align:start position:0%
+ 
+yeah<00:19:56.799><c> so</c>
+
+00:19:57.669 --> 00:19:57.679 align:start position:0%
+yeah so
+ 
+
+00:19:57.679 --> 00:19:59.270 align:start position:0%
+yeah so
+and<00:19:57.760><c> this</c><00:19:58.160><c> i</c><00:19:58.240><c> guess</c><00:19:58.480><c> this</c>
+
+00:19:59.270 --> 00:19:59.280 align:start position:0%
+and this i guess this
+ 
+
+00:19:59.280 --> 00:20:01.190 align:start position:0%
+and this i guess this
+relation<00:19:59.760><c> here</c><00:19:59.919><c> of</c><00:20:00.000><c> the</c><00:20:00.080><c> solution</c><00:20:00.480><c> concepts</c>
+
+00:20:01.190 --> 00:20:01.200 align:start position:0%
+relation here of the solution concepts
+ 
+
+00:20:01.200 --> 00:20:02.710 align:start position:0%
+relation here of the solution concepts
+highlights<00:20:01.679><c> again</c>
+
+00:20:02.710 --> 00:20:02.720 align:start position:0%
+highlights again
+ 
+
+00:20:02.720 --> 00:20:05.430 align:start position:0%
+highlights again
+why<00:20:02.960><c> nash</c><00:20:03.280><c> equilibria</c><00:20:03.919><c> are</c><00:20:04.159><c> so</c><00:20:04.480><c> popular</c><00:20:05.280><c> we've</c>
+
+00:20:05.430 --> 00:20:05.440 align:start position:0%
+why nash equilibria are so popular we've
+ 
+
+00:20:05.440 --> 00:20:06.950 align:start position:0%
+why nash equilibria are so popular we've
+seen<00:20:05.679><c> that</c><00:20:05.760><c> strict</c><00:20:06.080><c> dominance</c><00:20:06.559><c> is</c><00:20:06.640><c> way</c><00:20:06.799><c> too</c>
+
+00:20:06.950 --> 00:20:06.960 align:start position:0%
+seen that strict dominance is way too
+ 
+
+00:20:06.960 --> 00:20:09.190 align:start position:0%
+seen that strict dominance is way too
+restrictive<00:20:07.760><c> doesn't</c><00:20:08.080><c> always</c><00:20:08.400><c> exist</c>
+
+00:20:09.190 --> 00:20:09.200 align:start position:0%
+restrictive doesn't always exist
+ 
+
+00:20:09.200 --> 00:20:11.590 align:start position:0%
+restrictive doesn't always exist
+rationalizability<00:20:10.240><c> is</c><00:20:10.400><c> very</c><00:20:10.640><c> permissive</c><00:20:11.520><c> and</c>
+
+00:20:11.590 --> 00:20:11.600 align:start position:0%
+rationalizability is very permissive and
+ 
+
+00:20:11.600 --> 00:20:13.510 align:start position:0%
+rationalizability is very permissive and
+then<00:20:12.080><c> nash</c><00:20:12.400><c> equilibrium</c><00:20:12.960><c> sort</c><00:20:13.120><c> of</c><00:20:13.200><c> hits</c><00:20:13.440><c> the</c>
+
+00:20:13.510 --> 00:20:13.520 align:start position:0%
+then nash equilibrium sort of hits the
+ 
+
+00:20:13.520 --> 00:20:16.070 align:start position:0%
+then nash equilibrium sort of hits the
+sweet<00:20:13.840><c> spot</c><00:20:14.240><c> in</c><00:20:14.320><c> between</c><00:20:15.200><c> where</c><00:20:15.679><c> it</c><00:20:15.840><c> always</c>
+
+00:20:16.070 --> 00:20:16.080 align:start position:0%
+sweet spot in between where it always
+ 
+
+00:20:16.080 --> 00:20:19.510 align:start position:0%
+sweet spot in between where it always
+exists<00:20:17.039><c> but</c><00:20:17.440><c> is</c><00:20:17.760><c> still</c><00:20:18.159><c> quite</c><00:20:18.400><c> restrictive</c><00:20:19.280><c> so</c>
+
+00:20:19.510 --> 00:20:19.520 align:start position:0%
+exists but is still quite restrictive so
+ 
+
+00:20:19.520 --> 00:20:21.430 align:start position:0%
+exists but is still quite restrictive so
+that<00:20:19.679><c> we</c><00:20:19.840><c> can</c><00:20:20.000><c> narrow</c><00:20:20.400><c> down</c><00:20:20.799><c> the</c><00:20:20.960><c> sort</c><00:20:21.120><c> of</c><00:20:21.280><c> all</c>
+
+00:20:21.430 --> 00:20:21.440 align:start position:0%
+that we can narrow down the sort of all
+ 
+
+00:20:21.440 --> 00:20:24.310 align:start position:0%
+that we can narrow down the sort of all
+strategy<00:20:21.919><c> profiles</c><00:20:22.640><c> to</c><00:20:22.960><c> a</c><00:20:23.200><c> reasonable</c><00:20:23.840><c> set</c>
+
+00:20:24.310 --> 00:20:24.320 align:start position:0%
+strategy profiles to a reasonable set
+ 
+
+00:20:24.320 --> 00:20:28.470 align:start position:0%
+strategy profiles to a reasonable set
+that<00:20:24.559><c> is</c><00:20:25.120><c> much</c><00:20:25.440><c> smaller</c>
+
+00:20:28.470 --> 00:20:28.480 align:start position:0%
+ 
+ 
+
+00:20:28.480 --> 00:20:29.990 align:start position:0%
+ 
+good
+
+00:20:29.990 --> 00:20:30.000 align:start position:0%
+good
+ 
+
+00:20:30.000 --> 00:20:32.470 align:start position:0%
+good
+the<00:20:30.159><c> proof</c><00:20:30.960><c> of</c><00:20:31.280><c> the</c><00:20:31.440><c> existence</c><00:20:31.919><c> theorem</c><00:20:32.320><c> is</c>
+
+00:20:32.470 --> 00:20:32.480 align:start position:0%
+the proof of the existence theorem is
+ 
+
+00:20:32.480 --> 00:20:34.549 align:start position:0%
+the proof of the existence theorem is
+again<00:20:32.880><c> in</c><00:20:33.039><c> all</c><00:20:33.200><c> the</c><00:20:33.280><c> game</c><00:20:33.520><c> theory</c><00:20:33.760><c> textbooks</c>
+
+00:20:34.549 --> 00:20:34.559 align:start position:0%
+again in all the game theory textbooks
+ 
+
+00:20:34.559 --> 00:20:36.870 align:start position:0%
+again in all the game theory textbooks
+and<00:20:34.799><c> of</c><00:20:34.880><c> course</c><00:20:35.200><c> again</c><00:20:35.919><c> in</c><00:20:36.159><c> nash's</c><00:20:36.480><c> original</c>
+
+00:20:36.870 --> 00:20:36.880 align:start position:0%
+and of course again in nash's original
+ 
+
+00:20:36.880 --> 00:20:38.630 align:start position:0%
+and of course again in nash's original
+paper<00:20:37.120><c> so</c><00:20:37.280><c> you</c><00:20:37.360><c> can</c><00:20:37.440><c> have</c><00:20:37.600><c> a</c><00:20:37.679><c> look</c><00:20:37.840><c> at</c><00:20:37.919><c> those</c><00:20:38.480><c> if</c>
+
+00:20:38.630 --> 00:20:38.640 align:start position:0%
+paper so you can have a look at those if
+ 
+
+00:20:38.640 --> 00:20:41.960 align:start position:0%
+paper so you can have a look at those if
+you<00:20:38.799><c> would</c><00:20:38.960><c> like</c>
+

@@ -1,0 +1,416 @@
+
+00:00
+in this video we're going to look at a special case of extensive form games
+that is often very useful in applications and it's the special case
+of multi-stage games now that we have introduced extensive
+form games it's time to take a step back and think about what are the advantages
+and what are the disadvantages of this model so
+the biggest advantage of the game of an extensive form game is that it's very
+general as long as the interaction is finite which means that it ends in
+finite time and players have finitely many actions available we can describe
+any interaction in an extensive form game and we have seen that the notion of
+information sets allows us to describe many different types of strategic
+situations um where players have imperfect information due to either strategic
+uncertainty if they play at the same time payoff uncertainty
+if they don't pay off relevant characteristic of each other or
+
+00:01
+imperfect observation if they only see a stochastic signal about each
+other's past actions and another very helpful advantage is
+that we can draw the game especially for
+small games and this helps us develop an idea for some of the more complicated
+concepts like we can draw the distribution that is induced for a
+certain strategy profile now some of the disadvantages of an
+extensive form game well the first one is that it is necessarily finite so
+some interactions between countries or companies we don't
+necessarily expect to be finite and another disadvantage is that notation
+can be quite cumbersome um because of the generality we have to
+keep track of the player's nodes we have a map from nodes to active player then
+we have to partition a player's nodes into their information sets and on each
+
+00:02
+information set there may be different actions that the players can take
+and this is all needed for the sake of generality
+but it can make the notation quite difficult
+and in addition to that it can also mean that analyzing a model
+can be quite complicated analyzing a model model in full generality
+now if we think about more application specific disadvantages
+then an extensive form gained because of its generality
+is prone to over specification we can model many moving parts and in terms of
+estimation there's lots of parameters we need to estimate
+and this means we need to have more and more data to reasonably well um
+estimate the model now do we really need such a general model well
+the reason why we introduced extensive form game was we wanted to be able to
+
+00:03
+describe dynamic interactions now if i think about dynamic
+interactions that we like to study in economics then i think that
+in many examples we don't really need that much generality for example very
+frequently we study oligopolies dual police between
+companies so competition entry returns and the nature of the interaction
+doesn't change too much um if we have oil companies
+that compete in the global market for oil then
+their strategic interaction from one quarter to the next doesn't really
+change all that much the same if we have business
+partnerships or climate agreements between countries
+the set of available actions that they have in one year does not change too
+much from the next and then other dynamic applications that
+we have seen there's bargaining um where also the
+the proposal that the players can make is identical in each period and so
+
+00:04
+the idea is that maybe we can simplify the framework to improve tractability
+and simplify the notation and in this video we will look at one
+way of how we can do this in what is known as multi-stage games in
+a multi-stage game players play a sequence of static games
+so here visually indicated by gt is the static game that players play at time t
+and so instead of branching out through a tree now we have a more more linear
+flow of the gate of the game where the players simply play a sequence of
+simultaneous move games in sequence now the simplest case of a multi-stage game
+is where players repeat the same simultaneous move game in each
+period and we call these games repeated games how does the notation
+
+00:05
+look like or how does a notation simplify compared to extensive form games well
+a set of available actions we can now describe
+simply as a function of time and they do not depend on the history at all
+and because um it's a simultaneous move game at each time um
+we can again go back to our notion of of action profiles that the players choose
+and go back to the notation that we used in static games
+now for the games that we look at in this video we will assume that at the
+end of each period the players observe all the
+actions that were taken in that period and so
+this the players all have the same set of histories available
+and again this simplifies um sort of histories um by quite a large amount
+so every player has the same set of histories and the available actions only
+
+00:06
+depend on time now what's a behavior strategy in this setting um
+well if we denote by h so by h t we denote the set of histories we serve all
+histories of length t and then by h we denote the set of all
+possible histories this should be an infinity here and this should be an n
+and then the behavior strategies are going to map from all possible histories to
+the set of mixed actions that are available at time t
+i guess should be capital t here not and it could be infinity so
+and a multi-stage game is still an extensive form game and
+we can still write it down as a game tree but the special property is now
+that the continuation game after each branch is um strategically identical so
+
+00:07
+if we solve for all the continuation equilibria after
+one node here then we now have at the same time solved
+the continuation of numerical continuation equilibrium after any of
+the other nodes that can be reached from the first period interaction now
+this week or in this class we'll only look at
+finitely repeated games but repeated games are particularly useful if we look
+at an infinitely repeated setting and in that case we can't rely on
+the assumption that payoffs are only earned at the end of the game
+at the terminal nodes so what we will do
+is we will say at the end of each period players receive
+the utility that they get from the interaction in the first period
+now having set up the game the last thing that we need is we need to know
+
+00:08
+the distribution that is induced um by the player's strategies and
+the distribution that is induced over the outcomes and here the outcomes are
+simply the realized action profile in each stage game
+so the entire sequence of it and then this is defined in the same way
+as an extensive form game and then the players aim to maximize the discounted
+expected future payoff where they discount future values by some discount factor
+delta and they simply maximize the discounted sum of their expected utilities
+over the entire course of the game and the discount factor um
+will have to be smaller than one if the game is infinite
+all right let's look at an example to make this notation
+
+00:09
+or this formalism more specific one frequent application of repeated
+games is the study of a climate agreement and in a climate agreement
+this is one of these public goods problems where
+the all countries would benefit if they all reduce greenhouse gases the problem
+is because air quality or the environment is a public good this means that
+we still benefit from a reduction of greenhouse gases by the other countries
+even if we don't contribute ourselves so this means that each country
+prefers that everybody else who do greenhouse gases without having to
+reduce their own greenhouse gases and so this is a strategy or a game where
+not reducing greenhouse gases is a strictly dominant strategies and in
+terms of climate agreement we can say that if the countries sign a climate
+agreement then if they adhere to it they all reduce
+greenhouse gases which is good for everybody
+
+00:10
+but it's always slightly better to not adhere the climate agreement and let the
+others reduce greenhouse gases and then the unique nash equilibrium of the stage
+game is where both countries violate the agreement
+now this is if we have a single interaction now
+one reason how we can motivate this static nash equilibrium is because
+countries don't have to worry about the future they don't have to worry that
+the others can the other countries will retaliate against them in the future now
+if we repeat this interaction for t periods then
+does there exist the sub-game perfect equilibrium in which the countries are
+willing to adhere to the climate agreement so let's see whether this is so so
+in this case we can solve it visually by drawing the game tree so
+
+00:11
+so here what i wrote down here are the terminal payoffs after two periods
+and so 4 4 is earned in the first period and then delta u of a2 is simply what
+the players earn in the second period and yeah so after
+any action profile that is chosen the countries already own their payoffs
+from the first period and so it doesn't really does not really matter what
+happened before um in the game so they only
+look forward in the future and try to maximize the utility from this point on
+but after one period there's only one period left so we're again back at the
+simultaneous move game in which we know that the unique nash equilibrium is vv
+where both countries violate the agreement
+now if both countries violate agreement then this means that no payoffs will be
+earned in the second period and the game essentially reduces to
+
+00:12
+a single stage game and in a single stage game we know that
+unique nash equilibrium is for both countries to violate the agreement and
+so the unique sub-game perfect equilibrium is where both countries violate
+the climate agreement now the reason why this is so is because
+no matter the history there's a unique nash equilibrium going forward and
+this destroys any incentives in previous periods because by subgame perfection
+there's only one continuation profile that can be played
+and this destroys incentives and this is true more generally we can
+convince ourselves that if we look at a finitely repeated game
+with a unique static nash equilibrium so when we say static nash equilibrium we
+refer to a nash equilibrium of the stage game then the unique sub-game perfect
+
+00:13
+equilibrium is repeated play of this static nash equilibrium and the idea is
+it proceeds by backward induction in the last period players have to play this
+nash equilibrium but then if this is played no matter what happens before
+then we can't support any non-trivial incentives
+because no matter what the players do the static nash equilibrium will be played
+so [Music] let's write this down formally so in the
+last period in any subject perfect equilibrium the static nash equilibrium
+has to be played and then we show inductively that
+the static nash equilibrium has to be played in any period if it has been played
+in all future periods and the proof is one line we write down
+
+00:14
+the expected utility that the players receive then so here the total weight
+of this should be t minus t of the last t periods is delta t minus t
+and in all those periods the static nash equilibrium is played by the inductive
+hypothesis and so they just earn ui alpha n in all future periods and
+this is independent of the history so this means that
+no matter what the players do they'll get zero in the continuation payoff and
+in that case they must play a static nash equilibrium in period t as well now
+if we look at the paris agreement um then the paris agreement has not just
+two options where you either adhere to the terms of the agreement or you're
+violated in the climate agreement the countries can actually set the goals
+
+00:15
+themselves so here it will be implemented to reflect equity
+and the principle of common but differentiated responsibilities and
+capabilities in the light of different national circumstances and yeah so they
+each country tries to set their own contributions that they try to achieve
+and then there will be some sanctions if they do not satisfy their own goals
+but so what we can say here now is we can modify our model and say that okay
+in addition to violating the agreement or not signing the agreement i guess
+players can set ambitious goals or moderate goals so moderate goals would
+be goals that are easy to accomplish and the country's you know safe face by
+setting moderate goals over flat out violating the agreement and now in this
+
+00:16
+modified version here um the the ambitious outcome is still the best um
+still has the highest social surplus [Music] then if players
+players would still like to deviate set moderate goals only or violate agreement
+because they can benefit in the same way as before
+now this stage game has two pure strategy nash equilibria so the previous
+argument doesn't work anymore and the question is does this difference
+here that there are two pure strategy nash equilibria does this have an impact
+on the outcomes that can be supported in a cycling perfect equilibrium or
+specifically in the twice repeating game can we support
+the beneficial outcome where both countries set ambitious goals well the idea is
+
+00:17
+that now there we have a choice in a self-imperfect equilibrium there
+could be two ways how the game can end the game can end in the more beneficial
+nash equilibrium will both set moderate gold or it could end in
+the poor static nash equilibrium where they both violate the agreement and the
+idea is that we can make the choice of which static nash
+equilibrium is played in the last period contingent
+on the history contingent on the actions that have been played in the first
+period so the idea is that if we want to support ambitious goals then we will
+reward the countries for playing a with the
+better of the two static nash equilibria in the last period
+and we use the worst nash equilibrium vv as a punishment if the players play
+anything else so here um formally if we write down the strategy
+
+00:18
+profile we were talking in the beginning in the first period we said ambitious
+goals then the second period we set moderate goals if and only if we have
+set ambitious goals in the first period and we violate the agreement otherwise
+let's see if this is a sub-game-perfect equilibrium well in the second period it
+is because players play aesthetic nash equilibrium
+so we only have to verify whether setting ambitious goals is incentive
+compatible in the first period now if we go back to the
+payoff table then we see that a country has two deviations but the
+most profitable deviation is to violate the agreement
+so for any deviation that the countries take the punishment will be vv
+regardless of the deviation so we will look at the more profitable deviation
+which is deviating to v so if they deviate to v they get five right now
+but then they get zero in the future because vb will be played
+
+00:19
+and if they follow the strategy profile sigma then they get
+4 right now and then they will get 2 in the next period which is worth 2 delta
+and so we see that as long as delta is sufficiently large
+this deviation is not profitable and so indeed we can support
+a subgame perfect equilibrium in which countries set ambitious goals
+as long as the discount factor is large or equal than one-half
+and this allows us to summarize what was necessary to support
+inter-temporal incentives so for players to play something that is not a static
+nash equilibrium we need two key ingredients so we need
+two continuation equilibria that have non-identical payoffs so we can use one
+of them as a reward equilibrium and the other one as a punishment equilibrium
+for deviating so this was one of the key ingredients
+that we need and the second key ingredient is that the discount factor
+
+00:20
+is sufficiently high so that the difference in these continuation payoffs
+matter for the countries if the discount factor is too low this means that the
+countries don't really value payoffs in the future and if they don't they don't
+care about a difference in the continuation equilibrium
+so if we have these two key ingredients then we can support non-trivial
+intertemporal incentives okay this was the case for
+two period games can we do the same for long or repeated games
+can countries support ambitious goals in a sub-game perfect equilibria
+and the answer is yes and we will analyze that in micro2 if you
+care to join me in that class what i would like to do in this class is
+i would like to use these key ingredients here to solve
+a multi-stage game that is not a repeated game
+
+00:21
+and we will see that we can use the same idea so every game theory class
+or most game theory classes starts with the prisoner's dilemma and for our class
+it will be the last example that we see for games with complete information
+and the other prisoners dilemma the story is that you interrogate to
+suspects separately from each other they have
+committed a heinous crime um where if you had evidence you could put them in
+jail for 10 years but currently you only have evidence for let's say
+tax fraud so you can only put them away for one year so you interrogate them
+separately and you ask them to testify against their partner in crime
+and if they do you will have enough evidence against them against their
+partner and whoever testified will get a sentence reduction of one year for
+cooperation so if they both testify then they both go to jail for nine years
+
+00:22
+now this is the prisoner's dilemma very famously has
+a strictly dominant strategy so testifying is always
+has always a punishment of one year lower than staying silent regardless of
+what your partner in crime does so the unique nash equilibrium is where
+they both testify now let's look at a variation of the
+game where we have the standard prisoner's dilemma in the first period
+and in the second period we will look at the aftermath what
+happens when the two come out of jail and once they come out of jail the
+prisoners can either let bygones be bygones which means that
+they let the past be the past or they can join a gang and go after the
+other inmate and hurt them now the stage two equilibrium or the
+stage two game has two pure strategy and ash equilibrium where they both let
+bygones be bygones or where they both join a gang
+
+00:23
+so one player's joining a gang is not an equilibrium because then the other one
+also needs to join a gang for protection now to make the announce simple suppose
+that the discount factor is one so the players simply care about the sum and
+the payoffs from the two periods and can we find now the pure strategy
+something perfect equilibria of the of this game
+by using these key ingredients that we have formulated where
+we need a difference in continuation payoffs so here between bb and gg and
+then the players are sufficiently patient so the first thing that we try to
+achieve is can we support silence in a sub-game perfect equilibrium
+and the idea from that we formulated previously is that we will reward
+silence with the good equilibrium where they both let bygones be bygones
+and we punish anything else with not the players joining again
+
+00:24
+okay is this in equilibrium well if they stay silent they both get minus one in
+the first period and then that's it bygones are bygones zero in
+the second period and if they testify then
+they'll get zero in the first period but they have to join a gang in the second
+period to protect against the retaliation of the other which will net
+the minus three and this is a sub-game perfect equilibrium
+can we support different behavior in the first period can we support
+silence and testify testifying by one player
+and indeed we can if we use the same reward scheme then
+following this strategy profile has exactly the same incentives forever who
+stay silent and whoever testifies well testifying is already a best response so
+they don't need incentives to testify in the first period
+
+00:25
+so we see that because the difference in continuation payoffs is three between
+the two static nash equilibria then we can prevent any deviation with immediate
+gain that is smaller or equal to three so specifically we can support silence by
+attaching the good equilibrium outcome and a unilateral deviation by player i
+to testify we can use the bad equilibrium and to support silence from one player
+it's only necessary that we attach the bad equilibrium outcome to when that
+player when that player testifies and well how can we support
+testifying well in any other case so in this way we can support
+silence and then anything else supports testifying because testifying is the
+
+00:26
+best response so unless testifying is punished and silence is
+rewarded players are willing to testify now let's see if we can find all subgame
+perfect equilibria all right we go back to supporting silence and
+what we need is silence is rewarded and unilateral deviation so
+deviations by only one players are punished but
+the continuation equilibrium after they both testify
+does not matter for supporting silence because it cannot be reached by a
+unilateral deviation right an equilibrium is only robust to changes by
+one player given that everybody else does the same
+so t t cannot be reached by such a deviation
+so the continuation equilibrium after tt is unrestricted
+except that it has to be a static nash equilibrium by the requirement of soft
+imperfection and so we see that there is two possible
+
+00:27
+fewer strategies of imperfect equilibria that support silence and they differ by
+the action that they prescribe on this outcome tt that cannot be
+reached by either the strategy or a deviation by only one player
+then supporting silence by only one player we see that we only need to reward
+silence reward the path with bb and then punish
+the unilateral deviation by the first player um with the bad outcome
+so the other two are unrestricted either because
+ts cannot be reached by deviation by one player or ss because
+player two does not need incentives so as long as
+t is rewarded it does not matter what happens if they deviate and so we get
+enough force of gain perfect equilibrium to support this outcome by symmetry ts
+is also supported by force of imperfect equilibria
+
+00:28
+and lastly testifying by both well if testifying is rewarded
+then it does not matter then we don't need any punishments
+because this is the best possible outcome for the players
+so we have eight possible subgame perfect equilibria so two to the power
+of three for all um the different possible choices of continuation equilibrium
+and then if we punish testifying then players have sufficient incentives to
+testify as long as a deviation to staying silent is not rewarded so if
+on the path we play gg then we also need to play gg for each of the unilateral
+deviations and this leaves us two possible choices for the
+continuation equilibrium after ss so in total we have 20
+pure strategy in ash equilibria and using this approach we have found them
+all in less than five minutes and just imagine how long it would have taken to
+
+00:29
+go backwards through the tree and finding 20 nash equilibria or 20
+sub-game perfect equilibrium so this approach of looking at
+what's the most what's the best reward equilibrium that we can use and what's
+the most severe punishment equilibrium that we can use
+it's very powerful to find something perfect equilibria quickly and will also
+help us actually if we look at sub-imperfect equilibria in
+extensive form games so in any subgame we only have to look at the
+the most rewarding equilibrium and the most punishing equilibrium for all the
+players to find the equilibrium behavior in the rest of the tree
+and so i decided to make this slide here
+the summary of this video really because
+this is the key concept that i wanted to get across
+all right some questions for you to fill out and the literature
+
+00:30
+well repeated games are discussed again in any other game theory books but there
+is one book that is super good in particular which is the one by milath
+and samuelson specifically about repeated games
+alright that's it for this video and i'll see you in the next one

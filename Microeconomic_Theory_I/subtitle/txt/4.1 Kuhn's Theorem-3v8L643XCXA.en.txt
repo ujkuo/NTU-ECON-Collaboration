@@ -1,0 +1,485 @@
+
+00:00
+hello and welcome back to micro one this week's class is going to be a
+little bit different in the sense that we don't have one large solution concept
+that we want to introduce but we have a few different topics that
+we want to cover and the first of those topics is going
+to be kuhn's theorem and related to kuhn's theorem existence of subgame
+perfect equilibria now the motivation for this video is
+summarized in this slide here which is a
+visual representation of how we find sub gain perfect equilibria
+as we have discussed last week we're going backwards through the tree and we
+start with the signals and information sets where we can find the solution by
+backward induction after we have done that we start with
+the smallest sub games in this game and we find the nash equilibria in all those
+sub games then knowing what the continuation equilibrium are once
+
+00:01
+these nodes are reached we look at the next larger subgames and try to find the
+equilibria there now the problem for existence of
+supplement perfect equilibria is that what we're guaranteed here in these sub
+games are nash equilibrium mixed strategies but a mixed strategy in one of those
+subgames is neither a mixed strategy nor a behavior strategy in the entire game
+right so here if we look at player 2 then in the sub game here
+in the nash equilibrium of the subgame all the mixing is
+realized here at this node this is not a mixed strategy an entire game where all
+of player 2's mixing is resolved at the beginning of the game and it's neither a
+behavior strategy where the mixing is resolved at each individual information
+set so what we would like to have is we would like to have a result that tells
+
+00:02
+us under which condition a nash equilibrium strategies has some
+kind of an equivalent nash equilibrium in behavior strategies because four
+behavior strategies mixing is done at each information set and this is
+consistent uh if we go backwards through the tree
+now the first thing we need to figure out is what
+what is the right notion here for equivalence between strategies so
+two things should be satisfied by in order for us to call strategy sigma i
+and strategy sigma hat i am equivalent i guess this should be an
+i here not a minus sign specifically it can only be equivalent if
+player i and all the other players earn the same payoff in both of those
+strategies and then if we want to find or apply this to equilibria then we want
+that incentives for the other players remain undisturbed
+
+00:03
+so that for every other player they're indifferent between
+player i playing two equivalent strategies and one way how we can get this
+is by imposing that for any strategy profile of eyes opponents
+the induced distribution over the tree is the same for sigma i and sigma hat i
+and indeed this is sufficient for the two conditions because
+every outcome of the game is equally likely every node in the game tree is
+reached with equal probability and so for all the other players it's exactly
+the same whether player i plays sigma i or sigma hat i so the second property
+here is satisfied but also for player i player i gets
+the same payoffs and the same incentives at all the intermediate points and so
+realization equivalent here is the notion that we are going with for
+
+00:04
+these extensive forum games and the intuition of how we find
+equivalent mixed and behavior strategy is the following
+so the intuition and i've mentioned last week that this intuition is somewhat
+wrong but the intuition is that every pure strategy
+leads to a unique terminal node and if that is the case then
+we can find for any behavior strategy profile we can find a mixed strategy
+profile that chooses the pure strategy that leads to that terminal node with
+the probability with which this terminal
+node is reached in the behavior strategy profile
+and for the converse if we start with a mixed strategy profile then
+then we have a mixture of pure strategies and in each of these pure
+strategies we know which action profile or which action is
+
+00:05
+played at which information set and then the mixture of the mixed strategy
+tells us essentially how frequently those actions are chosen at information
+set hi so we normalize this by the total probability with which the information
+set is reached so that overall we have a distribution
+over actions available at information set hi now
+the problem is there are two problems the first one is that a pure strategy
+profile does not lead to a unique terminal node and
+the second problem is here that we can't just define this for the entire
+strategy profile we have to do this player by player
+and this is what we're going to spend most of these videos on so
+first the most surprising property here is that
+
+00:06
+not every terminal node can be reached by a pure strategy
+and the following example illustrates that the idea is that
+i'm driving home late at night and it's a long highway a dark highway let's
+say you live somewhere in in ilan or something and
+it's like 3 a.m at night nobody else is on the road
+and kind of all the exits look the same and you're starting to forget whether
+you have passed and exit or not and you're driving on this highway and
+you optimally you would like to get home um and your home is at the second exit
+um if you go out to early there will be some hotel
+and you spend the night at the hotel and if you don't exit at all if you go all
+the way to the end and you'll end up in some bad neighborhood and
+the thing is here with no pure strategy can you actually get home
+
+00:07
+because you have only information only one information set um then
+yeah there's one information set here this means we cannot distinguish these
+two nodes which means we forget whether we have already passed an exit or not
+so as long as we're on the highway we forget what they've already passed and
+exit and a pure strategy has to choose the same action at both of
+these nodes so if we exit then we end up at the hotel and if we
+stay on the highway then we end up in the bad neighborhood but
+the behavior strategy where we choose to exit the probability x at each node
+and we continue with probability 1 minus
+x leaves home with probability 1 minus x times x
+and this behavior strategy has no realization equivalent mixed strategy because
+a mixed strategy is a mixture of pure strategies and no pure strategies can
+
+00:08
+get home now let's try to formalize this example here into a result
+and that's just the following here so if we have an extensive form game in which
+there are no non there are no trivial nodes so at all the nodes every player
+has at least two actions available then a behavior strategy
+of any player has a realization equivalent mixed strategy if and only if
+no two nodes in the same information set are
+or one node comes before the other in the same information set so this means
+no player forgets whether they have taken a move
+so if no player forgets or they have taken a move then
+each behavior strategy has a realization equivalent mixed strategy now this is
+an if and only if result so we have to prove both directions and
+
+00:09
+the easier direction is that that if it's not satisfied so if
+there are two such nodes then there cannot be a realization equivalent mixed
+strategy and this is just a generalization of the example that we've had so
+so we suppose that the condition does not hold that um
+there is an information set with two nodes in the same information set where
+one node comes before the other but then at the first node the first of
+those nodes there's one specific pure action that
+has to be taken at that node for play to reach x prime and
+this means that at this information set in order to reach x prime
+player i has to play some or this action a i star
+but then this means that they also have to play a i star at x prime
+
+00:10
+and so any other action played or the note that is reached after any
+other action is played at x prime cannot be reached by
+a realization equal mixed strategy because it cannot be reached by a pure
+strategy the other direction is more intricate and for the other direction
+suppose that the conditions are met then we want to define a
+so for each behavior strategy we want to find define a realization equivalent
+mixed strategy and the idea is basically we go through the tree and we see
+with which probability so for each pure strategy we look at
+with which probability at each information set is
+
+00:11
+the action chosen that is prescribed by that pure strategy then we multiply
+all of those probabilities together to get the weight that the mixed strategy
+should assign to this pure strategy so the first thing that we have to
+verify is that this is indeed a mixed strategy so we need to verify that the
+sum of weights adds up to one in order to do that we will
+represent a pure strategy as a vector where each component of the vector
+corresponds to one information set by player i so
+this is similar to how we abbreviated the notation of subject imperfection by
+simply listing the actions in the right sequence
+where each location in the sequence corresponds to one information set so here
+we enumerate all the information sets by player i in
+
+00:12
+any fashion so we have m different information sets and then this vector
+here means a i1 is played at hi1 ai2 is played at hi2 and so on
+and so all pure strategies can be represented in this way
+the entire set of pure strategies is then this set here and like we've
+mentioned this is a vector where each component um crumbs comes from the right
+set of actions now to see that all of these weights do
+sum up to one we use this representation here
+so if we sum over all pure strategies then this is the same as for each
+information set we sum over all the possible actions
+that can be taken at that information set and then
+for all of those pure strategies we have this product here of all the
+probabilities with which the right action is taken at the information set now
+
+00:13
+we notice here that only the last term only the information set m the action
+taken at information set m depends on the summation variable here
+so all the others we can move outside of the summation and
+this summation here the sum will be one because
+the probability that some action is taken
+at information set h i right because we sum over all possible actions
+this sum is one and then iteratively the entire product of these sums is one
+so indeed this strategy sigma hat is a mixed strategy
+and the next step will be to show that they are realization equivalent
+now realization equivalent means that they induce the same distribution over
+
+00:14
+the game tree and we need to make sure that this is true
+for every possible strategy profile of i's opponents
+so what we want to define here is we want to decompose this probability
+into a product of player specific probabilities so i want to say
+we want to define for each player i the probability rho i that
+player i takes all the right decisions in strategy sigma i for play to reach x
+and then because mixing is done independently
+across the players in either a behavior or a mixed strategy we then get that
+the probability p sigma is indeed the product of all those player specific
+probabilities with which they take the right actions for x to be reached and now
+
+00:15
+showing realization equivalent is identical to showing that row i
+for the behavior strategy and the mixed strategy are identical
+but before we can show this we need to think a bit a little bit about how those
+are defined so okay we need to figure out the probability
+that all the right decisions are taken to reach node x and so in a game tree we
+we know that a node x is reached only if play evolves along one specific path
+and so we list all the actions or i'm sorry all the nodes where player i is
+the active player on the path from the root to x by x i 1 up to x i m i so that
+
+00:16
+they are ordered in sequence and then we denote by a of x i k towards x
+so this indicates the action that has to be taken at this note here in order for
+play to reach x and this action is unique now we can express the probability
+with which player i takes all the right decisions
+for node x to be reached in the behavior strategy sigma i and it's the product
+along this entire sequence with which they choose the action that leads to the
+next node on the sequence now for a mixed strategy
+the probability that x is reached is simply the probability that a pure
+strategy is chosen that leads to x right each pure strategy leads to a
+deterministic path through the tree and so we simply sum up
+over all those pure strategies whose deterministic path leads to x
+so it means all the pure strategies in this set six
+
+00:17
+they're all they all agree up to x and they only differ in the continuation
+game after x okay having defined those two we need to show that they are
+equivalent for any behavior strategy sigma i if
+players don't forget whether they have taken an action good so
+what we'll have to distinguish here is the information sets
+that lie before x and those that lie after x because in order to reach x only
+those matter that are that contain nodes before x
+and yeah so we write h i of x i k here the information set to which
+
+00:18
+node x i k belongs now this probability here in the behavior strategy is
+the product of all the nodes all the information sets um
+with which the right action is taking out all the information sets before x and
+because all the x i's are distinct this is a potentially a non-zero
+non-zero product and it's precisely equal to the probability with which um
+i assay as i h i is chosen at h i so this is for any pure strategy
+that for which x is reached the behavior strategy reaches x with
+this probability here and it's the same as this one here because
+
+00:19
+no two nodes lie in the same information set then the second step is we
+look at the probabilities under the mixed strategy and show that
+this coincides with the behavior strategy
+so by definition we sum up over all pure strategies whose play leads through x
+and we plug in the definition of our mixed strategy which was the product of
+all the probabilities with which the behavior strategy chooses the right action
+for the pure strategy si now we can break up this product here
+into two components so the first component are
+the probability at all the notes taken before x
+
+00:20
+and the second product is all those taken not on the path from the root to x
+now the first one is precisely rho i x for the behavior strategy sigma i
+and we'll have to show that the remainder sums up to one
+so rho i x sigma i does not depend on the summation variable so we can pull it
+out of the summation and then the remaining term we have to show that
+this is equal to one and this works in the same way as before
+we can represent all the strategies that whose
+all the pure strategies whose path leads to x we can represent this again
+as a vector for over all the information sets
+that the right decisions are taking all the information sets outside
+those information sets that lead to x in the same way we can write this
+
+00:21
+sum over the pure strategies as the sum over all possible actions that are taken
+at those information sets and then we can split the product and
+each individual sum will sum up to one and so as a consequence rho i
+x is the same for the behavior strategy and to make strategy and this concludes
+the proof so this was the case when a behavior strategy has a realization
+equivalent mixed strategy now what about the converse when is the
+converse group when does a mixed strategy have a realization
+equivalent behavior strategy so here is another motivating example of when
+um there are more mixed strategies than behavior strategies
+so the example here is that the white house press secretary can
+
+00:22
+either state a fact or an alternative fact during their press briefings and
+a government may not always want to tell the truth to
+the citizens sometimes they want to keep certain facts hidden to make themselves
+appear better and the crucial component here is that the government
+doesn't lie too frequently if they lie too often then it might not be worth
+reporting anymore because there's no truth to the government
+so they must lie sufficiently rarely to maintain their credibility so this means
+that they will probably mix between um so it's
+some probability they will truthfully tell a story and some other probability
+they will just lie in the story now if they have
+two consecutive press brief press briefings then it's important that they either
+tell the truth or they lie in both press briefings if they
+
+00:23
+tell the truth once and lie the other time then it's going to be inconsistent
+and it's going to be clear to everybody that the government is lying
+and so in a mixed strategy we can accomplish that in a mixed strategy we can um
+choose to to lie to tell an alternative fact twice or we can choose to um
+tell the facts twice tell the truth and a behavior strategy
+is not possible to mix only between or cannot mix only between those two
+outcomes a behavior strategy will necessarily mix in also um
+an inconsistent line now the reason why this happens or what goes wrong here
+is that in this case player 1 forgets not whether they have taken an action
+
+00:24
+but which action they have taken and this brings us to the following
+definition of perfect recall so perfect recall means essentially perfect memory
+players don't forget anything in the game and we say that the game has perfect
+recall if they don't forget whether they have already
+taken an action so that was what we looked at before
+and then the second condition here um says that essentially the path
+from the root to any node x and any node x prime path from x 0 to x and x prime
+um or if we have two nodes from the same information set x and x prime then
+
+00:25
+the same information sets are traversed on the path from the root to this
+information set so in the same order and i have to choose the same actions along
+both paths so this means that they don't forget
+which actions that they have taken but they also don't forget
+any other actions that have been taken by other players such as
+their opponents but also nature's moves this means players don't forget the move
+any other player has made or they themselves have made
+and so another way to say it is that their information sets do not get
+coarser so they don't forget anything that have known at an earlier point in
+time and the main theorem of this video kuhn's theorem says that if
+player i has perfect or call in an extensive form game
+then every behavior strategy has the realization equivalent mixed strategy
+
+00:26
+and vice versa so this means yeah that we will be able
+to use this equivalence for the construction or the existence proof of
+sub-game imperfect equilibrium and it means that for all those games where
+players are not forgetful we can always choose the methodologically simpler
+behavior strategies so why are behavior strategies simpler well
+one of them are is that they're more in line with the dynamic
+game um players mix sequentially um whenever it's their decision rather than
+once at the beginning of the game and like i've mentioned um last week in class
+they're also computationally simpler because um
+we can parameterize them with much fewer strategies then we can make strategies
+and the reason here is that in mixed strategies we have to mix at the
+beginning of the game for all the possible information sets that we could have
+
+00:27
+of all the possible mixing that we need but in
+behavior standards we only need for each information set once essentially good
+let's see the proof of it i mean half of it we've already seen
+the case where for a behavior strategy there exists a realization equivalent
+mixed strategy now the other half of the proof is
+actually quite a bit simpler than the previous one so
+what we do here is we start with um with a mixed strategy and we try to
+define a realization call and behavior strategy so so we start with
+a mixture of pure strategies and perfect recall implies that the same
+
+00:28
+the set of strategies that lead to two nodes in the same information set
+the sets of pure strategies that lead to those nodes have to be the same
+because along the path from the root to these nodes they travel through the same
+information sets in the same order in that case the probability
+with which player i takes the right actions
+for the for play to reach x coincides with the right actions or the
+probability that the right actions are taken to reach x prime because it's the
+same actions that have to be taken so this means that the probability
+with which it informat which put any node in information that is reached does
+not depend on the node and we can use this to define our row ihi
+as the probability that the right actions are taken for play to reach
+information set h i and now we can define a behavior strategy by
+
+00:29
+dividing here by the probability with which information that h i is reached
+so as i've mentioned before here the mixed strategy captures the probabilities
+with which the different pure strategies choose action ai and all in all
+this is a distribution over um all possible actions that are
+available at i information set hi and so we can do this if
+information that hi has reached a positive probability and if it's not a
+reasonable positive probability we can let it be an arbitrary mixed action at
+that information set and then we have to show that they are
+realization equivalent again for node x we look at the sequence
+um at the path from the root to x and denoted by x i k to x i m i and
+
+00:30
+we denote by h i k the corresponding information sets now
+what we have to compare is or whether these player specific
+probabilities are the same for the mixed strategy and the behavior strategy now
+for the behavior strategy this was given by the product
+that all the right decisions are taken along the path
+so let's first see if we can simplify this the probability with which
+the right action is taken at some information set h i
+k so the first thing we note that the right decision taken at x i k to reach x
+is the same as the right decision taken to reach the next node in the sequence
+
+00:31
+now here we can plug in the definition of our behavior strategy and then
+we can use the fact that all the pure strategies um that take the right decision
+for node x i k plus one to be reached are precisely all those pure strategies
+for which x i k plus 1 leads on the path and
+if you remember this summation here for mixed strategies was precisely
+the probability with which all the right decisions are taken for play to reach x
+i k plus one and the denominator here this is the same as
+any x i k in information set h i k and then in order to
+re-express the probability with which all the right decisions are taken in the
+behavior strategy for play to reach x the definition here was it was this
+product now each term of this product is given
+
+00:32
+by this ratio here and we see that this is a telescopic product so for each term
+we will see that the numerator will cancel with the denominator of the next term
+so precisely two terms remain the very last one which is
+the probability with which node x is reached and
+divided by one which is the probability that player i takes the right decision
+for player i's first information set to be reached
+but since player i doesn't take any decisions before their first information
+set that probability is one so we see that indeed this definition
+gives us a realization equivalent behavior strategy good now that we know this
+that we know that in any game of perfect or call a
+mixed strategy has a realization equivalent behavior strategy
+
+00:33
+we can prove existence of game perfect equilibria in behavior strategies and
+precisely we do this in games with perfect recall now
+the logic of the proof is exactly how we find sub-game perfect equilibria
+backwards through the tree so we denote by gk all the
+all the proper sub games of the game that contain k strict subgames and
+this means that the smaller sub games are in g0
+um because they don't have any other strict subgames we can just find a mixed
+nash equilibrium in the subgame and then by coons theorem transform
+this into a nash equilibrium in behavior strategies now for the inductive step
+we assume that every sub-game in the set gk
+has a sub-imperfect equilibrium and then we want to show that any sub game in
+
+00:34
+this larger set also has a sub game perfect equilibrium
+so the way we do this is we start with any nash equilibrium in the game we know
+that it exists in make strategies and what we want to do here is we look at
+all nodes in the sub game so first so x x star here are all the nodes in
+the sub game that we look at x s are all the nodes
+that start strict subgames and then xs prime are all those notes
+that start maximal sub games off the path
+to this condition here means that there are maximal sub games not contained in
+any other sub game and the first condition is that they are off the path
+now from last week we know that we only need to refine sigma here off the path
+
+00:35
+now yeah we choose for all those maximal subgames off the path we choose
+a continuation sub imperfect equilibrium and everywhere else we keep the nash
+equilibrium and we want to verify that this is
+indeed sub-game perfect while on the path we already know that nash
+equilibrium is optimal and then the restriction to any subgame
+is also nash equilibrium either by the definition of a subgame perfect
+equilibrium right so on the continuation game in the maximal sub games
+we have a stop game perfect equilibrium which means that in any
+sub game of those sub games so in any non-maximal sub game
+it's a nash equilibrium by definition of a subgame perfect equilibrium
+and then on the path it's or the optimal because the nash equilibrium is optimal
+
+00:36
+and so sigma hat is indeed a subject in perfect equilibrium in the
+game that starts here and then um yeah that's that's already the proof good so
+yeah proof heavy video but um i hope it was instructed then
+what have we seen that well mixed and behavior strategies aren't always the
+same so if players forget that they've already taken an action then there are
+behavior strategies without realization equivalent mixed strategies
+and if players forget the information they have once had such as their own
+move opponents moves or nature's moves then there are mixed strategies without
+realization equivalent behavior strategies
+in the class we will look at an example of imperfect recall and see how we can
+
+00:37
+find mixed as well as um behavior nash equilibrium
+yeah so when do we actually use games with imperfect recall well there's
+two reasons why we might want to study this the first one is if we look at
+games with bounded rationality if we say okay we simply don't have the
+cognitive power to remember everything in an infinitely long game
+and then we can study bounded rationality by imposing that
+they have bounded recall another application is if we have
+repeated games with private information then
+perfect memory actually makes it more difficult to find equilibrium
+and in that case it might be we might want to simplify the model by imposing
+boundary recall on the players good that's it
+there's some questions for you to answer about
+
+00:38
+mixed behavior strategies and perfect recall and the literature
+again this topic is covered in any game theory textbook and the original paper
+that introduced it was by alright that's it for this video and
+i'll see you in the next one

@@ -1,0 +1,823 @@
+
+00:00
+so this week we've looked at something perfection and
+there weren't that many questions uh on paul everywhere
+so it seems like it was relatively easy enough to understand um
+so i guess maybe the main difficulty is the notation so i just want to go
+through the definition again and make sure that all the pieces of the
+extensive form game are clear and then we'll look at some
+typical examples that you could encounter in assignments and exams [Music] um
+
+00:01
+[Music] i always forget how to how to bring the comments
+the chat to a different screen hmm otherwise i won't be able to see your
+questions if i share [Music] chat excellent all right
+so an extensive form game the formal definition is relatively long and
+um but the intuition is that there's a game tree and that at each
+
+00:02
+non-terminal mode in the game tree some player decides where the game moves next
+and in in the same way as before we have n strategic players who care about the
+payoffs that they receive at the end of the game and that there's one
+non-strategic player nature who resolves exogenous random moves so this could be
+the cards that are distributed in poker it could be um [Music] it could be
+the weather it could be how honest the politician is um
+any type of uncertainty that we have in the model can be represented by a move
+of nature and i didn't specify it in the slides but n here stands for nature
+then at the terminal nodes the the strategic players receive a utility
+but nature doesn't and that's why we say nature is non-strategic because nature
+
+00:03
+doesn't care which outcome is reached and how do the players make decision
+well all the non-terminal nodes belong to some player
+but players might not necessarily be able to distinguish
+two nodes if they are in the same information set
+so this is what we use information s4 to capture that in this case here player
+one cannot distinguish whether nature has chosen left or right
+then i got a question on on paul everywhere what the difference is
+between x i and h i so x i are all the nodes where um where
+player i makes a decision but h i is sort of a partition of all those nodes into
+
+00:04
+nodes that they can distinguish so h is a partition on the set of all
+nodes where i takes a decision so for example here h i is just a single set for
+player 1 but x1 contains both nodes for player 3 here
+player 3 has two information sets and formally hi is the set of
+both of those sets whereas x i is the set of nodes um i guess if i'll
+write this down here then we would have um x 3 is um let's say
+
+00:05
+it's called the left one xl the right one xr whereas h3 is the set of sets
+is a partition of x so it contains these two information sets
+just a minor minor detail but um in general hi will be sets whereas though
+here we have individual nodes and the actions that the players take
+there's a bijection between um between the nodes
+that can be reached and the actions taken so in a sense we could instead of
+labeling the actions with l and r we could just
+label the actions with the nodes that will be reached from there um
+and in order to make sure that players really cannot distinguish nodes in the
+same information set we require that any two nodes in the same
+information sets at any such nodes the players have the same actions available
+
+00:06
+so here it would not be possible to draw this as an information set as a single
+information set of player three like this would not be possible because
+because player three can distinguish those two nodes simply
+because here they have three actions available whereas in the left node they
+only have two are any questions about the definition of an extensive forum game
+all right seems to be clear then we've seen two ways how we can solve it
+or i guess in general what we want to look at here is
+sub game perfection but we motivated sub game perfection through backward
+
+00:07
+induction so the concept of backward induction
+in a tree is that we start at the end of
+the tree and we solve the tree backwards um [Music]
+where we always look at the optimal decision of each player given that
+everybody else afterwards also acts optimally
+and we have to find this for games with perfect information which are games with
+um where all the information sets are singletons and
+nature does not have any moves now i'll come to an example just in a moment but
+if we look at this as a solution concept then it is a very desirable solution
+concept in extensive form games with perfect information
+because in that case there always exists a backward induction solution and
+if no two terminal nodes award the same payoffs to any player then at each node
+
+00:08
+in the tree nobody is indifferent between the the actions they can take
+because they are not indifferent for any two terminal nodes and because of that
+then at each node there will be a unique
+decision that every player is willing to make and if we go backwards 33 we can
+show that there'll be a unique outcome that is consistent with backward
+induction and this condition here that no two terminal nodes award the
+same payoff so any player this is what we say generically true so for almost
+all numbers that we can choose um that will be true
+so here i had one question paul everywhere why the solution is unique and
+yeah the the reason is really that generically here means
+that if we were to select uniformly at random the terminal payoffs the no two
+payoffs would be degree would would be the same with probability one and that's
+
+00:09
+what we call generic any questions about this property
+now generically if no two payoffs are the same for any player then
+it's also robust to perturbations of of payoff changes because if if not two
+are the same then also for slide perturbation no two are the same and
+the drawback of backward induction is that we don't it doesn't necessarily
+tell us what to do if there's a nonsense
+information set and that's where we then looked at sub imperfection
+but let's see backward induction in action so let's
+start with the simpler game the one to the right
+and if we solve it backwards then we simply check player three here
+at this top note or choose either between tau or beta
+
+00:10
+and we see that tau gives them two whereas beta gives them one so by
+backward induction they should choose tau now player 2 can anticipate this
+knowing that player 3 is irrational player 2 knows player 3 will choose top
+and that player 2 will get 1 if they choose top
+so player 2 will choose bottom where they get three
+and then player one we don't know yet we
+have to solve the other half of the tree
+first so player one here will choose top because they get three instead of one
+and then here player three will choose top because they get three instead of one
+and then finally um player one will get two for choosing pop and
+three for choosing bottom so it will choose bottom now the game to the left here
+on the left hand side player 2 will always choose left
+
+00:11
+but on the right hand side player two is indifferent between left and right
+and could they could take any decision and whether or not player one will
+choose left or right will depend on what player two chooses down here
+and if we were to write down those decisions then if
+so let's say um player 2 chooses here left with probability x whoops that was
+not the right here annotate all right if it chooses x and then one minus x right
+then if x is larger i guess one-third then this means that the expected payoff
+of player one will be larger than one so maybe if we go if we write down
+
+00:12
+the expected payoff of player 1 for choosing right so let's say u1
+uh choosing right player 2's decision let's call it 2
+so the expected payoff here is well 3x so this is larger equal or less than 1
+if and only if x is large or equal or less than one third
+so if x is larger than one third then or actually let's write down the sub
+imperfect equilibria so all the spe are okay let's call the left node of player
+2 h2l the left information set always l has to be chosen and then we have
+
+00:13
+for all x larger than one third we have player one choosing right and
+smaller than one third player one choosing left and if x is equal to one third
+then player one oops can't play anything so any mixed action
+this should be a calligraphic a but i think it's clear from context
+so there's a continuum of um sub imperfect equilibria here
+but only three outcomes are possible only this one this one and this one
+
+00:14
+let's see let's see paul everywhere maybe i'm explaining too
+much maybe this was clear to everybody so let's see what you have replied
+to the poll everywhere questions all right first
+definition i guess of extensive form game no two pure strategies lead to the
+same terminal note that is correct um because game trees can never merge again
+so the a property of a tree is that no two different branches can connect
+and we motivated this with the game of chess where
+the game is not the same if the piece is returned to the same position on the
+board because the history matters for the continuation game through various
+things through the drawing rule through um passing rights or whose turn it is
+and so a state or a node in the game tree describes the entire state of the game
+
+00:15
+not just let's say some physical state so no two pure strategies lead to the
+same thermal node every thermal node can be reached by a
+pure strategy this is false perhaps surprising to many um but
+there's no there's no way how you could have known this um
+we will talk about this next week and it'll precisely be
+the reason when a sub imperfect equilibrium always exists is when um
+any node can be reached by a pure strategy
+now we'll see we'll see an example next week
+if information is imperfect then it is incomplete that is um false
+so incomplete information means not knowing some payoff relevant quantity um
+let's say if we're playing poker and we don't know
+
+00:16
+the cards of our opponent then this is incomplete information um if
+if we are bidding in an auction we don't know what the other players will bid
+this is incomplete information because we don't know how much they value the
+good imperfect information is anything is any nonsense of an information set or
+if nature has moves then every extensive form game has a nash equilibrium
+this is correct um because extensive form gain by the definition is finite and
+so if we look at the reduced strategic form it will be some finite
+simultaneous move game and by nash's existence theorem it must have a nash
+equilibrium course this is no longer true if we have a continuum of actions
+
+00:17
+and the payoff functions are too ugly any single static game can be the
+reduced strategic form of many extensive form games that is true
+as an example we have seen in the maybe the bail-in bailout game that we
+have seen so two extensive form games with the same reduced strategic form
+maybe let me do this a bit larger so left right left right could be and
+a simultaneous move game they both have the same reduced strategic form
+
+00:18
+or i mean i guess the depending on the payoffs that we assign here uh when
+player 12 is left because both have only one information set and
+therefore they reduce the gg form will be the same then
+suppose a pure strategy is a book with instructions on what to do in any given
+situation so it's a strategy essentially and going to the library and picking a
+book at random is that a mixed store behavior strategy it is a mixed strategy
+because all the randomness resolved its results at the beginning
+and once you have a book then from then on it will be a pure
+
+00:19
+strategy because we follow exactly um the prescriptions by the book question
+does four and five also hold for countable actions um
+well uncountable i'm assuming is what you mean so uncountable like i
+mentioned in that case it does not necessarily exist
+and so extensive form by the definition is finite but if we look at
+an continuum of actions uncountable then
+it's not necessarily true that it has an equilibrium because not even um
+static gains have a nash equilibrium and here i mean we could um
+we could construct a similar example like we've had before where um
+or player where the second player only gets to take a move after one certain
+
+00:20
+action then they'll be you'll be the same have the same
+reduced strategic form as the simultaneous move game so five is is
+true but four is not any other questions about the answers
+we've gone through so far there were a few questions about mixing
+and behavior strategy so let me go over that again um so
+i think one nice way to think about it is if we play rock paper scissors and
+maybe it's easier if there's only two rounds of rock paper and scissors
+if we play a mixed strategy then at the beginning of the game we would
+
+00:21
+resolve randomness 10 times so mix um we would resolve randomness at the
+beginning so um realize let's call this a1 maybe for the first action and
+a two for each possible history for all histories and there are nine possible
+histories because people could each can take three decisions and so we
+have to resolve 10 um or choose randomize for 10 possible actions that
+we could take because after the beginning we have to follow pure
+strategy and the pure strategy will tell us for each possible outcome of the
+first game what do we do in the second game but for a mixed
+
+00:22
+and for behavior strategy we only resolve the randomness before we
+take an action and so in that case behavior we would only take randomized
+we would only realize our mixed distributions twice specifically a1 and then a2
+for whichever outcome we observed in the beginning
+did that make it a bit clearer what the difference is between mix and
+behavior let me get back to mixing behavior strategies when
+we discuss sub-game perfection maybe that will make it even more clear
+
+00:23
+how many outcomes are consistent with backward induction in the game to the
+left and we've seen that there were three outcomes that were consistent
+because three terminal nodes can be reached and solutions here are many strategy
+profiles we've seen that there are infinitely many because
+player two is willing to mix at the right node seven was seven the right answer
+i thought it was eight let me see um oh no seven yeah yeah seven is correct
+
+00:24
+yes seven is correct good then let's discuss something perfection um
+but are there any questions up to back induction how we solve these two games
+um can i ask why the left game the reachable solution is three why not two
+because player 2 is willing to mix at the right information set so
+all those outcomes are possible in some sub-imperfect equilibrium
+so you're right that for a given well actually there is even one top imperfect
+equilibrium in which all of them are possible which is if
+player two chooses left here with one third right with two thirds and player one
+
+00:25
+mixes in the first stage okay i see thank you then top imperfection um
+the answer of question six let me see the answer here is mixed it's a mixed
+strategy because all the randomness is resolved at the beginning
+in something perfect equilibria how do we find them so we start at the
+back of the tree and parts of this tree can be solved by backward induction so
+
+00:26
+for parts of it we can go backwards up until there's no
+singleton information sets anymore and then this is all we can say
+with backward induction because now here
+at this right information set player two does not know um
+whether they are in the left node or the right node so they don't know what to
+expect um happens after they take their move
+but the idea of soft perfection is that well we might not know um
+the room i don't know at which node they are but if we just look at
+the continuation game that starts from from here from this node then
+what we get is a a game where all the players know that they are
+playing the game because no information set connects both nodes from this
+set of nodes and somewhere else in the tree
+so if every player knows that they're playing this game
+
+00:27
+then we have seen a solution concept with which we can solve such a game nash
+equilibrium and the idea of subkin perfection is then that for all
+such subgames that can be common knowledge among the players
+we want the strategy profile to be a nash equilibrium in this subgame
+so if it is common knowledge that players are playing this game we called
+it a proper sub game and if we go through this tree then we solve
+the tree backwards um solving sub games increasing in size so after solving
+the parts we can solve for backward induction we would solve these two games
+here this one here and for all of them we would look at the set of all nash
+equilibria in this game then we go back a step
+and we solve the next larger sub games so now that we know what the solution is
+
+00:28
+to the right sub game here now we can analyze what player 2 will do at this node
+they know that still gets this outcome here so here this outcome
+if they choose left and for the right outcome they don't know
+exactly what outcome is reached but they know
+what their expected payoff would be for each continuation
+strategy profile that is in ash equilibrium
+so here player player 3 can compute or player 2 can compute the expected utility
+of some strategy profile some nash equilibrium displayed in this subject
+order to find all subgame perfect equilibria um we have to look at all possible
+combinations of subgame perfect equilibria in the sub games
+
+00:29
+so let's see here in the left one if both of these games have three
+nash equilibria then we need to look at all the nine combinations of
+continuation equilibria to find all the national equilibria of this larger
+sub-game is any question so far and this could be quite a tedious procedure
+so if you have to if you have nine combinations of
+equilibria here it's already a lot of work to find the equilibrium in the left
+sub game and then an entire game would be a lot of work
+luckily in the class you won't typically solve games that are this large
+
+00:30
+so let's see a typical example let's first go to the example and
+so here i noticed that in the example that i gave in the slides i flipped
+these these two payoffs accidentally so this is slightly different from the
+question that i asked but what we do what would we do in this game here we would
+first again solve the right hand side by backward induction as far as we can
+and then and then we would solve the sub game here by
+finding all nash equilibria so let's write this down as a strategic form game
+so we have lambda row and then left right four four then row left three one
+
+00:31
+one three two two and if we look at best responses four is
+definitely the best response by both players because they get the maximum payoff
+and then if player two chooses right player one can get one
+or two so two is the best response by symmetry
+right right is also a nash equilibrium and this game also has a mixed nash
+equilibrium you can verify this has mixed nash equilibrium which is
+50 where they mix 50 50. so let's say one half lambda with utilities
+
+00:32
+five half for each player so what does this mean for finding
+something perfect equilibria in the entire game we have to go through
+all possible continuation equilibria so let's call
+let's call this one here let's call this sigma one let's call this sigma two and
+let's call this sigma 3. so if sigma 1 is played
+let's call this sub game here g1 if sigma 1 is played in g1 then
+the player 1 knows that they will get left if they go into the sub game but they
+
+00:33
+will only get three if they choose right so player one chooses left
+if any of the other nash equilibrium is played then player one gets either two
+here or two and a half which is less than they get if they choose right
+because they get three if they choose right and so we have
+three sub imperfect equilibria in this case
+for each of the continuation equilibria there is a unique best reply by player 1
+
+00:34
+at the beginning of the game and this is a very typical example that
+you could encounter in assignment or exam are there any questions about how we
+solve this so what happens here is that player one's decision in the beginning
+of the game depends on what player one expects will happen if the sub game is
+reached so this is similar to the nuclear deterrence game that we have seen
+and if player 1 expect that any of the other nash equilibria will
+arise so sigma 2 or sigma 3 then player 1 will choose right and whether
+their beliefs were correct or incorrect um don't matter at this point um
+because it's off the path now in a subgame perfect equilibrium the
+
+00:35
+beliefs are correct and so um [Music] so player one is right in choosing right
+are any questions about this so let's see your replies in in poll everywhere
+i see some of you are still taking notes um
+it will also be available in the video um that i upload afterwards
+
+00:36
+so let me move on and sorry yes uh can you say again uh uh words in on the board
+it's not korea i'm not sure why or what it means which part um
+you you transform the the extensive game to the strategic game yes the the note
+a few few seconds ago yeah yes but yeah yes yes yes and oh wow
+what what what's that downwards mean uh wi uh under the sigma three
+
+00:37
+with utilities five five with utility okay okay thank you sorry
+both how many spes do we have we get three sub imperfect equilibria um
+how many outcomes are possible oh i guess outcomes was missing out comes two
+because if we go back here and we see that the only outcomes that
+are possible is this one or this one all right player one will only choose
+left if left left is chosen in the sub game
+two outcomes are possible but there are three sub-game perfect equilibria
+and we see that the number of outcomes could be larger or smaller than the
+
+00:38
+number of sub-imperfect equilibria then a nash equilibrium yes question
+sorry i'm a little bit confused can we go back to yeah this part
+so as you mentioned um player one can faces three strategy like
+uh he can sing that four four could be the answer and two two can be an answer
+also that makes strategy one so why it should not be
+also a september equally bro which one um that makes one
+oh there is a sub game perfect equilibrium for the mixed one um we see
+
+00:39
+here both sigma two or sigma three but both of them leads to a utility that
+is lower than player one gets ah so so it goes to the three one okay
+yeah sure thanks yes question sorry can you explain again what is the
+relationship between second perfect libra and the outcome like the amount of the
+situation you say one is three and one is two i i kind of missed yes yeah um
+so with outcome the outcome of an extensive form gain is the terminal node
+that is reached and is it clear how how we find us up in perfect equilibrium
+
+00:40
+yes i can understand it but i could not write i i cannot quite get the
+relationship between them once we once we know what the subgame
+perfect equilibria are we can simply see which
+which terminal nodes can be reached so for sigma 1
+or the sub imperfect equilibrium in which sigma 1 is played we get left left
+left so we get this outcome and for the subject perfect equilibrium
+sigma 2 we get right right and for sigma 3 we also get right right
+so we see that both subgame perfect equilibria lead to the same terminal node
+and that's why there's only two outcomes that are possible
+but there are three strategy profiles that rationalize this
+so we have to like if the question is asked about the subgame performance
+crypto we have to write down uh sigma 1 sigma 2 and sigma 3 with the uh
+
+00:41
+corresponding uh player 1 choice am i correct yes correct yeah okay formally
+formally if we write down now these strategy profiles we would write down a
+decision for all for all players so we could say
+i mean the way it was stated on the previous slide is acceptable but let's
+say if you want to be formal about it we can say kspe sigma [Music]
+let's call it sigma hat one it's called sigma hat i guess is defined by okay
+sigma hat one at their first information set l sigma hat one at their
+
+00:42
+second information set the left information set chooses left
+and at the right information set chooses raw or in a more compact form
+we could write this as l lambda l rho and then the other spe in the compact
+
+00:43
+form would be r [Music] r our row so that's when we get the
+this equilibrium here in the sub game and then the last one would be the mixed
+one um would write r maybe one half lambda plus one half row i guess this is row
+um and one half left plus one half right row
+so this would sort of be a way to write down all three subgame perfect
+equilibria in the end any questions how about the right hand side is still
+right hand side can be a sub can perfect equilibrium
+yeah so for the right hand side player 2 always has to choose row so this was
+
+00:44
+what i indicated here so the right information set
+player 2 always has to choose row no matter what's up in perfect equilibrium
+any other questions all right then let me sorry so we don't have to write the
+
+00:45
+small lower l and small r that the player two action i mean it's uh small l or
+or r is first here so this compact notation here this says the first action is
+let's say the the initial information set the second action is what do we do
+at the second information set this would be the left one
+and this is the right one it's just writing it down in this form here is always
+takes up a lot of space and so sometimes it's easier to just
+write in this compact form but you should be clear
+it should be clear from context which information set this is in which order
+
+00:46
+okay all right then let's talk about existence of it um
+i exist in this next week but i got some questions about the proof of
+proposition 3.9 so let me walk you through that again so
+one student asked whether i can summarize three point proposition 3.9
+without the math and so typically the description
+afterwards is the interpretation of the result without the math so here um
+proposition 3.9 is that the meaning really is that
+any nash equilibrium is something perfect on the equilibrium path and
+subclaim perfection refines only behavior of the path
+so how can we see this in the math notation so a node x
+has positive probability only on the path of the strategy profile sigma
+
+00:47
+and so this means here that the restriction to this sub game so on the path
+it's already sub game perfect because the definition of softkey imperfection
+says the restriction to any subgame is a nash equilibrium of the subgame
+and so if we start here with our original nash equilibrium then the
+restriction on the path already satisfies the condition that has to be
+satisfied by subgame perfection and the interpretation really is
+any nash equilibrium is already something perfect on the equilibrium path
+and this will be true for future refinements that we see as well so on the path
+nash equilibrium is already as optimal as it can get
+the consequence of this result is that we have
+a completely mixed strategy this means that every node in the tree
+
+00:48
+is on the path then such a nash equilibrium is sub imperfect
+for the proof of the result i figured we can do the proof visually
+so here in the tree we have the probability distribution by
+let's say some nash equilibrium some nash equilibrium sigma
+so this here is p sigma and we want to show that it has to be
+optimal in a subgame that is reached with positive probability and so this
+sub game here g of x is reached with positive probability and
+the way we prove it is we suppose that there is a profitable deviation in
+
+00:49
+this sub gain then there is a profitable deviation in the entire game
+okay so suppose that player one changes from
+from their original strategy to some different strategy sigma tilde in the
+sub game then if they now choose right here with probability one
+then we see that the probability distribution
+does not change outside the sub game so any terminal node outside the sub
+game is reached with identical probability and
+the sub game itself is also reached with the same probability because the
+probability with which we reach the sub game depends only on actions taken
+before so formally we can say that p sigma of of x here is identical to p
+
+00:50
+sigma tilde right so this is how we would write down
+that the sub game is reached with the same probability in the two strategies
+now if this deviation in the sub game if this deviation is profitable then
+then the expected utility after reaching the subgame
+has to be larger than in the original strategy profile
+so the way to understand this expected or this conditional expectation is okay
+the expected payoff given that we have reached the sub gain
+so now we arrive at a contradiction if this deviation is profitable then
+choosing sigma tilde in the subgame is already an improvement is also an
+
+00:51
+improvement in the entire game because it is reached with positive probability
+and we do strictly better in the deviation we see that it is necessary
+that it's on the path if this sub game here was reached with
+probability zero then it wouldn't matter that there is an improvement for the
+nash criterion so formally so here if we write this down formally with all the
+individual steps in between then the expected utility in the expected utility in
+the deviation here so this is the deviation then we can distinguish this
+so we condition on whether the subgame is reached or not
+
+00:52
+so this here is known as the law of total probability um
+where we can condition on two disjoint events and
+weigh each of those event with the probability that they arise
+now as illustrated on the previous slide
+the probability of reaching the sub game is the same as under the original
+strategy so those two are the same you expect the utility outside from
+terminal nodes outside the sub game is also the same
+because the distribution doesn't change and then in the sub game we have found
+that sigma tilde i is a profitable deviation so it's strictly larger
+this term here is strictly larger than this term here
+and so this way we arrive at a contradiction that
+
+00:53
+sigma can't have been a nash equilibrium so here p sigma x is really the
+probability with which the subgame is reached are any questions
+so i think the proof is quite instructive of what it means to be a
+nash equilibrium and why a nash equilibrium does not have to
+be perfect off the path because off the path everything happens
+
+00:54
+with probability zero and it has does not affect
+the expected utility at the beginning of the game
+but anything that is on the path matters already for the nash criterion and so a
+nash equilibrium is optimal on its path this brings me to the summary
+of this week's class the most important part is again not
+sucked in perfection but it's the fact that rational players look ahead
+and anticipate how others will respond to their behavior
+and so in any tree kind of structure that we have in any extensive form game
+we solve the game backwards through the tree and in
+these games that we've seen so far this meant that we look at subgame perfect
+equilibria now some of you have asked what is the
+difference between supply perfect equilibrium backward induction
+i mean supreme perfect equilibrium reduces to backward induction
+
+00:55
+in games with perfect information then another important conceptual property
+of this week's class is that nash equilibria are already optimal on the path
+so only off the path is where subgane perfection leads to any any improvement
+then we have seen backward induction and sub imperfection
+today with finitely many actions let me also show one example with infinitely
+many um so consider a situation where we have a current policy p0 that's the
+player's or that the government has implemented
+and they would like to change its policy you would like to suggest a different
+
+00:56
+policy p and suppose that we're in a direct democracy
+where any policy chains has any policy policy change has to be
+approved by the median voter and the median voter can either approve
+or reject this suggested policy now whether the median voter will
+approve or reject depends on whether they prefer new policy and
+their optimal policy their preferred policy is p star
+so the closer a policy is to pe star um the more likely the median voter is to
+accept it now for the government's preferences to
+make the game simple let's suppose that the government prefers
+strictly higher policies so policies here are represented on a real line and
+in taiwan there's always a discussion about the nuclear power should you keep
+
+00:57
+the nuclear power or should you not and so higher could mean um
+could be mean that we end nuclear power sooner um
+and lower policy could mean that we end it we keep it for a long period of time
+and so there's some kind of a continuum of policies how soon you can fade out
+nuclear power now how do we solve this game well backwards
+right so we start with the median voter or if we draw the game tree
+the government has a continuum of actions available and then for each
+the median voter can approve or reject and what
+the median voter will do depends on the suggested policy
+
+00:58
+so the utility function is quadratic around p star and
+if p0 is somewhere here let's say then we see that that
+the median motor is only willing to accept the policy change to any
+policy that is closer to b star so if p zero is smaller than p star
+actually i guess this is not this does not depend on on the relation
+
+00:59
+so in any case if p one minus p star is smaller or equal than p zero
+minus p star then a is the best response and and if it's
+we have the opposite inequality then um rejection is a unique best response
+and then we looked at the government's optimal decision
+so let's write this down formally using best response correspondences let me use
+
+01:00
+an empty screen here go here so what would the best response be
+so the best response oh that's a bit too bright um it's not sensitive enough
+all right let's well i guess let's return to zoom here all right um
+the best response by player two to any p1 is to accept if p one minus
+
+01:01
+p star so if this is closer to the preferred policy than the original one then
+any mixed action if we have a quality and rejecting if we have the opposite
+inequality now the government anticipates this response and knows that
+so here we can parametrize player two's best response i suppose with
+
+01:02
+probability y so let's write this as probability yeah so any strategy of off
+the median voter can be parametrized by by x
+and player 1's best response to x is well we choose we want to choose
+or get a higher policy to be accepted and so i guess the expected utility for
+
+01:03
+for the firm hey the government um a is on [Music] is p1 if condition 1 2 3
+in the case 1 is x p1 plus 1 minus x p0 f2 and p0 if 3. and so we see that if
+x is strictly smaller than than one then it'll be your best response if it will
+
+01:04
+be a better response to propose something that is strictly close
+strictly closer to p star than the current one so so if x equals one
+then the best response is p [Music] is the the point at which
+where we have equality here so um there's two points the larger point of it um
+i guess we could write this as the maximum where 2 is satisfied
+to keep notation short the maximum policy where two is satisfied so there's
+
+01:05
+two where it is satisfied with the quality and it's the larger one that the
+government will choose if x is smaller than one the best responses will be empty
+because we can always choose a policy slightly larger and
+
+01:06
+so let's say if x a smaller one and p so if we look again at at the graph of
+player two's preferences then if the original policy
+is already larger than p star then the government cannot improve
+so that's what we have down here so if p0 is larger or equal than p star then
+it does not matter what what the medians the median voter responds
+in that case p0 is optimal already then if it is smaller then the
+government can find an improvement but doing so only has the best response if
+the voters accept the equal policy with probability one
+and so we see that the unique nash equilibrium here is um government
+
+01:07
+well proposes p0 if p0 is smaller or equal than p star no large or equal
+larger equivalent p star and the other end point would be um
+so the idea is that if p0 is smaller then we want to add this distance here
+to the right hand side so we get p star plus
+
+01:08
+p star minus p0 so that's 2p star minus p0 and what's the response by
+the median voter what depends on the proposed policy
+let's add this over here in this segment so median voter
+i mean i guess we've already described it but um consistent
+in case two is only if x is equal to one so we will accept if p1 well
+
+01:09
+there's not enough space here for me but if one or two
+that's unique something perfect equilibrium are there any questions then
+if there are no questions let me maybe emphasize that it's important to
+
+01:10
+understand how to solve something perfect equilibrium conceptually because
+there are many possible combinations of questions that you could see so the
+first player could have a continuum of actions the second player finitely many
+or it could be the other way around both could have a continuum of actions both
+could have finitely many so there's lots of different combinations of of
+number of actions that i could ask in a question and
+there's not enough time to show all possible combinations in an example in
+the class and so it's important that you
+understand conceptually how do you solve those backwards through the tree and
+then um and then with consistency [Music] good um
+let me see if there were any other are there any other questions that we have
+not addressed well there are some paul everywhere questions that we have not
+
+01:11
+looked at yeah this is correct right so p sigma probability 0 means off the path
+and so a nash equilibrium is optimal on the path so
+it can only differ from a subtle imperfect equilibrium on a set of nodes
+with probability zero so here this is false
+so in an extensive form of the continuum of actions
+depending on the utility functions if the utility functions have
+discontinuities that aren't or that make sure that there is no best
+response then there won't be a nash equilibrium and hence also no subtly
+imperfect equilibrium right so for any game where there's no
+
+01:12
+nash equilibrium there also won't be any sub game perfect equilibrium
+so this is false are there any questions about any other part of of the class
+oh there was one question on paul everywhere about an example of a game with
+please give us an example of an extensive form game in which nature
+makes some move but all information sets are singletons all right so
+this could be suppose somebody offers you either a dollar okay let's say 100 ntd
+
+01:13
+or to flip a coin and you can get at either
+200 or zero depending on the outcome of the coin so you can um no
+so the tree in this case would be okay so we can choose to either um to either
+take the coin i guess take oh it's not a coin to take the 100 ntd or to gamble
+and if we gamble then nature here will take a move so here we are player one
+nature will have a move how the coin is resolved heads or tails
+let's say if it's heads then you get 200 and if it's tails you get zero now
+
+01:14
+this is equivalent to the game where nature gets the first move
+decides whether the outcome is going to be heads or tails
+but we haven't observed that yet then we choose to take the money or to gamble
+so if we take the money we get 100 and if we gamble then in this case we
+get 200. and so this is why we say that these
+games have imperfect information if nature has a move
+because we want the game to be independent of representation and
+
+01:15
+there exists an equivalent representation with non-singleton
+information sets and it should be we want the solution to be the same so we say
+the game has imperfect information [Music] then lastly the last question i think
+was about games with or single player decision problems
+
+01:16
+with with time on consistent preferences so here the example was one
+about procrastination where some players can either be
+inclined to procrastinate and defer the homework to the future but if they do so
+they will have to miss more and more fun events to solve their homeworks
+and we were able to solve this using hyperbolic discounting
+where sophie here has present bias and she discounts the future the entire
+future with one half everything except today um but
+constantine discounts nothing so everything has utility one and
+so for constantine we can solve it easily uh the game tree of
+
+01:17
+of writing the homework or procrastinating is
+utilities are strictly decreasing the longer you wait
+but this is not true if we have time and consistent preferences
+and with time and consistent preferences we essentially solve a game against our
+future selves and we can construct this tree from the back
+so in the very last decision only two outcomes are possible
+either we write homework which is -13 or we
+don't write the homework which is minus 20.
+so this is the decision at the last node then if we go back one period then now
+sophie at this point has the option of writing the homework right now which
+gives minus eight because sophie has time inconsistent
+preferences if she discounts the future by one half right now should use the
+
+01:18
+cost of solving it tomorrow as minus 6.5
+because it's half of what it actually is once she reaches tomorrow
+and minus 10 for not solving it at all so player 3 here or
+the third instance of sophie s2 will will anticipate that her future self
+will actually solve it so that's why she will choose right now
+p because she gets minus six rather than minus eight well
+if we go back one period further now there's another option so if we could
+already solve it on day one in that case she gets minus five right now and
+again she discounts the future um by discount factor one half so again
+
+01:19
+if she looks towards the very end of the game she will think okay solving it on
+the last day is minus 6.5 um solving it uh
+tomorrow would be would give minus four which is forward-looking enough to know
+that she has time commitment issues so she knows that her future self will
+procrastinate for one period before solving it
+so she knows if she chooses p right now she gets minus 6.5
+which is worse than -5 so that's why she chooses to solve it right now
+and then we perform the same step at the beginning of the game
+solving it right now the homework has minus three utility
+
+01:20
+and this is better than um and this is worse than procrastinating for one period
+because she knows her future self will solve it tomorrow from backward induction
+but any questions about about these time inconsistent preferences
+so if we have a delta like two half so what is it changed the
+game form in the last period um i mean so if we have so delta is also one half
+then um then we just have to make sure that we discount
+
+01:21
+everything properly through the game tree um let's see how it would look like so
+i guess what we would get here is that we would have to discount let me
+so in that case here we would have to add delta
+in addition to the one-half from beta here because this is the payoffs for
+sophie at time 1 we would have to multiply with delta square
+and then here with delta cube so here with delta delta square delta
+
+01:22
+and then we go backwards in the same way so again sophie at the
+very end would choose to work to write the homework if we go back
+then now we're comparing eight now we're comparing minus eight to
+minus six point five delta and so minus six point five delta is still better
+than minus a no matter what delta is so we'll also choose to procrastinate then
+at this point here we're comparing -5 to [Music] 6.5 delta square
+and now we see that it matters what delta is
+for some values of delta it's better to do it right now for other values it's
+better to procrastinate once more and in this way we just go backwards to
+
+01:23
+three depending on the value of delta good
+if there are no other questions then i mean if there are questions additional
+questions feel free to ask either now through zoom or you can also
+find me in in the office for the next one and a half hours
+if you have any additional questions all right good
+then this will be the end of today's class and next week we'll look at the
+existence result for sub imperfect equilibria and why some
+terminal nodes cannot be reached by pure strategies all right
+that's it for this week and i'll the videos will be up today or tomorrow

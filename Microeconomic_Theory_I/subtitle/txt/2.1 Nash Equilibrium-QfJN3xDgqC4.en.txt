@@ -1,0 +1,397 @@
+
+00:00
+hello everyone and welcome back to micro
+one this week's class will be about nash equilibria the most important solution
+concept in game theory now let's see what all the fuss is about
+so last week we have looked at this example where a pedestrian and a driver
+want to cross an intersection at the same time
+the pure strategies that the players have available are crossing the
+intersection or waiting we have used these payoff matrices to
+represent the player's utilities in each of the outcomes
+and we see we have two good outcomes where one of the player waits and the
+other one crosses then we have one particularly bad
+outcome where both try to cross at the same time and then there is an accident
+now last week we have introduced two solution concepts but neither is
+satisfactory to analyze this problem here
+the first one that we've looked at was a dominant strategy equilibrium but the
+
+00:01
+problem is that it doesn't exist in this example because the players don't have
+any dominant strategies the other solution concept that we have
+looked at was rationalizability and here we have kind of the opposite
+problem that every strategy profile is rationalizable even the bad outcome
+where both players try to cross the intersection at the same time
+now the reason why this is rationalizable is because it's justified
+by the conjectures that the other players will wait and we see here that
+in this strategy profile with these conjectures we have a case where
+the player's conjectures are completely wrong
+right we believe the other one will wait with certainty when in fact they will
+cross with certainty now this means that in this solution
+concept the players have what is known as exposed regret after the fact they
+both wish they would have deviated now from conceptual point of view
+
+00:02
+there's something unsettling about using a solution concept for these games
+where the players conjectures can be completely wrong right our players here
+are perfectly rational they are able to make
+infinitely many logical deductions but then we allow the players to be
+completely wrong with their beliefs and to fix this um
+we will look at nash equilibrium in a nash equilibrium what we additionally
+impose is that the player's conjectures are correct so sort of the other extreme
+and then we arrive at the following definition here so in a nash equilibrium
+no player has an incentive to deviate so a nash equilibrium is a strategy
+profile so that for every possible deviation that player i could consider
+the deviation will not make them better off so this means that
+
+00:03
+strategy sigma i is a best response given the correct conjecture that the other
+players play sigma minus i and so since this holds true for every
+player it means that nobody has an incentive to deviate now if you break this
+definition down there are two components to this one the first one is that
+compared to the best responses that we had last week the expectation operator
+here is missing because the beliefs about the opponent's
+strategies are correct right so this is the first
+assumption here in the nash equilibrium players correctly predict the behavior
+of the others and then the second condition is that players are rational
+which means that they best respond to their conjecture and this one is simply
+satisfied by the assumption of rationality the first requirement is a
+rather strong requirement and yeah i think that we can now appreciate
+
+00:04
+how strong this requirement is because we spend so much time to analyze
+rationalizable strategies right conjectures there could be so many
+conjectures and they could be relatively complicated
+but here we assume the players are correct in their conjectures with
+probability one and this is really a strong requirement a strong condition
+now why do we study nash equilibria if it relies on such a strong assumption
+well like i mentioned um it is sort of the the weakest solution
+concept does that does not allow exposed regret
+right and we can only get that if the player's beliefs are correct and
+from a more pragmatic perspective if the player's predictions are correct
+then we get a very tractable theory we don't have to
+think about conjectures at all because the conjecture is correct
+but it's important to keep in mind what we have assumed
+
+00:05
+right so rationalizable strategies is anything that we could expect to happen um
+of players with common knowledge of rationality we could
+potentially see a crash right we could see that two players cross the
+intersection at the same time it's not that this is not possible um but the
+nash equilibrium just means that it's a strategy profile where nobody
+would want to deviate if they knew the others
+the other players strategies and so in nash equilibrium this crash cannot
+happen anymore um but but it's sort of the other extreme right where where
+even if we knew our important strategies we would not want to deviate
+now whether or not this is a justifiable assumption depends really on
+yeah how easy it is for players to predict the opponent's strategy and only
+then should we interpret the nash equilibria as a prediction
+but at the end of this video i want to talk more about precisely when we can
+
+00:06
+consider nash equilibria to be a prediction
+for now let's first see how we find nash equilibria in these finite games
+so first we look at pure strategy nash equilibrium and
+those are relatively simple to find for each
+strategy profile of player ice opponent we find the best responses by player i
+so this means here if we find the best response for player 1 we first look at
+let's say a fixed strategy by player 2 so let's say cross
+and we see that the best response is to wait and if we fix
+player 2 strategy to be waiting then player 1's best respond is to cross and
+so those are our fewer strategy best responses now by symmetry
+the driver has the same best responses and then we have
+a two mutual best responses which are the pure strategy nash equilibrium
+
+00:07
+and we notice that both players correctly predict each
+other's behavior and they best respond to it
+now to find mixed nash equilibria there will be two ways how we can do it
+the first one relates back to what we've
+seen last week which is the indifference principle so
+last week already i think it was lemma 1.9 we've seen that
+if a player is willing to mix as a best response then they must be
+indifferent between all the pure strategies in the support
+if they were not they would be better off um
+not playing the worst strategy among those that they are playing with
+positive probability and so this is simply a special case
+from lemma 1.9 where now the conjectures are correct
+now it's important to keep in mind what the indifference principle says it says
+
+00:08
+that a player is indifferent between all pure strategies in the support so only
+between those that they choose with positive probability and so
+the indifference principle is only helpful to find equilibria if we know
+the support now there's one special case
+where we do know the support which is if there's two
+actions by the players and then we can find completely mixed equilibria using
+the indifference principle and a completely mixed equilibrium is one in
+which positive weight is assigned to every pure action so let's see this in
+the example of the intersection here so what we want to find is
+we're going to use the indifference principle of let's say player one if
+the opponent player two acts according to the nash equilibrium
+
+00:09
+and we don't know the nash equilibrium yet so we parametrize it with an
+arbitrary parameter y it could be anything between zero and one
+and now the indifference principle tells us that
+the pedestrian should be indifferent between crossing and walking if the
+driver crosses with probability y so let's compute the expected utilities
+so for for weighting it's always zero and for crossing it's minus four
+in the event that the driver crosses which happens with probability y so we
+get minus four y from the first year from this outcome
+and then we get plus one if the driver is waiting which happens with
+probability one minus y and so in total we get an expected utility of one minus
+five y now when are we indifferent precisely if y is one fifth
+because the game is symmetric we see that the driver is
+
+00:10
+only indifferent if also but the pedestrian crosses with probability
+one-fifth and for the driver to be willing to mix with
+one-fifth it is necessary that the pedestrian also mixes with one-fifth
+probability and so we have a unique completely mixed strategy nash equilibrium
+now let me provide a warning about using the indifference principle and
+we will see this in an example or an extension of the game where now we add
+one additional action to both players where they can wave hi
+to the other person in traffic and if the wave is not reciprocated then
+you feel a little bit worse that you wave them but they ignored you so you
+get minus epsilon and if they wave back at you we get plus epsilon now
+
+00:11
+we can see easily that the same nash equilibrium that we have found before
+where both players cross with one fifth probability this is still a nash
+equilibrium because if the opponent chooses only between c and w then responding
+h cannot be better than than waiting right because
+we get minus epsilon in both cases that happen in the nash equilibrium
+so because waving is not in the support of our
+opponent it cannot be a best response to choose to wave back
+let's see what happens if we analyze this game using the indifference principle
+so again we start by parametrizing the strategy of the opponent which we
+don't know at the moment but we know we can write it as
+choosing to cross with probability y choosing the weight with probability z
+and then the remaining probability has to be assigned to waiting and waving now
+
+00:12
+the expected utilities for each pure strategy by the pedestrian
+well if you wait this to zero because we always get zero for waiting
+then if we cross well so if the driver crosses
+with probability y we get minus four y but if the driver doesn't cross then we
+get one and this happens with probability one minus y and if we cross
+it doesn't matter whether the opponent is waving or not and so we get exactly
+the same expected utility as before and then the expected utility for waving
+high is well minus epsilon if they don't reciprocate and plus epsilon if they do
+well knowing difference between the two before is the same as previously so it's
+still with one fifth we should cross and the difference between waving high
+and weighting um means that y plus c has to be equal to one half so that both
+
+00:13
+the positive and the negative epsilon are weighted with the same probabilities
+and this means that z has be three over ten and we get a completely mixed nash
+equilibrium in which we cross the intersection with twenty percent
+likelihood we wait with thirty percent likelihood and we wave to the other
+person with fifty percent likelihood and we see that just by using this
+approach we did not get the other mixed equilibrium that we know exists
+and this is because we have assumed that players are
+indifferent between all three actions but yeah so this as a warning that the
+indifference principle only works if we know the support of the player's actions
+good now if the indifference principle only works if we know the support is
+there a way how we can find nash equilibria without first knowing the
+
+00:14
+support and the answer is yes and it works through best response correspondences
+the idea is that instead of just using indifference we
+first find the set of all possible best responses by player i to an arbitrary
+strategy profile of player eyes opponents
+so this is what this means here right is that
+the best response attains this utility and so any strategy that attains
+the maximal utility has to be a best response and we do that by
+parameterizing the strategy profile of every player
+and then we maximize the expected utility of player i with respect to i's
+choice variables which are the probabilities with which i chooses each
+pure action and then once you have found the best response correspondence for
+each player then we check the best response correspondences
+
+00:15
+against each other to see when we have a mutual best response and
+because a mutual best response is precisely nash equilibrium this
+guarantees us to find all nash equilibria okay
+this slide here makes it sound like it could be rather complicated to find
+best response correspondences for any for any possible strategy profile of the
+opponents but let's see how it looks like in the example of crossing the
+intersection so we need to parametrize the entire
+strategy profile so we have probability x the pedestrian crosses and the driver
+crosses with probability y and then you expect the utility of
+let's say the pedestrian is -4 in the outcome here which happens if
+the pedestrian crosses and the driver crosses with probability x times y and
+then the pedestrian gets one if they're the only one to cross and the driver
+
+00:16
+waits which happens with probability one minus y and then by symmetry
+the expected utility of player two is similar
+now how do we maximize this utility well
+we take the derivative with respect to x and we see that the derivative does not
+depend on x at all anymore and this is not a coincidence because
+this is the expected utility and x was the probability with which we choose a
+certain action so the expected utility will always be linear in x and after we
+take the derivative we will always get a function that does not depend on x at
+all so we can see that the best response will be well okay if y
+is equal to one fifth then the derivative is zero so this means we
+are indifferent and we already knew that from the difference principle
+if y is smaller than one-fifth this quantity will be positive
+
+00:17
+so this means that with each that additional probability of crossing
+increases our expected utility and so we get the best response at x
+equals to one so we cross with certainty and then if y is smaller
+no if y is larger than one-fifth then the derivative is negative and
+hence the expected utility will be maximized at x equal to zero where we
+wait with probability one now we can summarize this discussion by
+writing down the best response correspondences like this and i like to
+be rather explicit with these correspondences because it will help us verify
+when they are consistent with each other now let's try to verify consistency and
+it works by just going through those cases one by one and we can start with
+either player let's say we start with the best responses of player one if
+
+00:18
+we're in the first case if y is smaller than one-fifth then we see that the best
+response here is to cross with probability one
+but now we go to the other side and we see okay if we cross with probability
+one then we are in this case here which means player two best responds with
+waiting for sure and then we go back to where we started
+and we see okay y equals zero is consistent with what we started
+so this means we have found a nash equilibrium next case
+suppose y is equal to one fifth then we can't really say anything about what
+player one would do but we can say something about what player two has to do
+or we can say something about what player 1 does from player 2's best
+response because player 2 has to be willing to mix right this means we
+choose both actions with positive probability and this is the best
+response only if player one if the pedestrian crosses with also
+
+00:19
+probability one-fifth and then for the same reason
+y has to be equal to one-fifth and we see again it's consistent with what we
+started with last case if the driver crosses with probability more
+than 20 percent then the pedestrian will wait
+and this will imply that the driver will cross with royalty one and
+we get the last nash equilibrium and so this approach gave us all three
+nash equilibrium and we didn't have to worry that we were missing any
+now we can also represent this mutual best correspondence we can
+represent this graphically so in this graph here we have along the x axis
+player one's probability of crossing and on the y-axis the driver's probability
+
+00:20
+of crossing so we see here that if x if y is smaller than one-fifth then x is
+equal to one so that's here then if y is equal to one-fifth anything is a best
+response and if y is larger than one fifth then x equals zero is the best
+response and similarly we get the same for player two
+and then what's the mutual best response correspondence it's the intersection
+points of well the best response correspondences
+now graph this graphic approach really works well only if
+both players have two actions available but the analytical approach always works
+[Music] now in this example we have three nash
+equilibria and they attain the payoffs one zero zero one and zero zero and
+in general the problem with mixed actions in this example is that
+if both players mix then they have to attach positive weight to
+
+00:21
+an accident which leads to a very low expected utility now
+the two pure subdivision equilibria are pretty good in the sense that
+they maximize the sum of the utilities the only drawback is that they
+um give preference to one of the players and if we look at this graph here we
+might want to be able to select those with some probability is there a
+way how we can achieve an outcome that is symmetric is fair to both players but
+is also efficient and the answer is yes we can use what is
+known as a public correlation device so we can say
+we can install a traffic light and we can say well
+you should choose this nash equilibrium if the traffic light is red for the cars
+and the other nash equilibrium if the traffic light is green for the cars and
+
+00:22
+this is a nash equilibrium because the signal that we see
+is only a recommendation it's not binding if you see a red light
+at the intersection then you don't have to wait it's just in your
+best interest to wait because the cars will be driving through
+and so this means that even if we see the signal
+we can still both maximize our own actions right i i don't care about the
+driver i don't even know the driver in fact um i guess unless i waved high
+previously but um yeah i don't care i just maximized my
+own utility but nevertheless it's in my interest to follow the recommendation of
+the traffic light and let's say if the traffic light is
+red and green equally likely then we will get this nice symmetric payoff in
+which both players get one half expecting utility [Music] good to summarize
+this video i want to discuss again about
+
+00:23
+what is a nash equilibrium and what is a nash equilibrium not so
+i guess closest to the definition a nash
+equilibrium is a set of outcomes that is consistent with mutually rational
+behavior in which nobody's beliefs are exposed and validated so this means
+nobody is completely wrong within their beliefs and players don't have exposed
+regret and those are all outcomes that are consistent with these two
+conditions that the players are rational and that they
+they their conjectures are correct and so in a sense the set of all nash
+equilibria could be viewed as the solution to the game
+now could we use an individual nash equilibrium as a prediction and well
+since i mentioned that in this class we want to pay
+particular attention about what the underlying assumptions are we go back to
+
+00:24
+the underlying assumptions about nash equilibrium now the fact that
+players are rational i think we are very comfortable with that assumption
+but the other one is whether the conjecture whether the player is correctly
+conjecturing each other's behavior whether that is reasonable
+and only in that case should we use an individual nash equilibrium as a
+prediction now we have seen one example last week where this is justifiable and
+it's if a unique strategy profile survives rationalizability right in the corner
+example we have seen that even without assuming anything about the
+other players conjectures we can iteratively deduce their strategy and in
+that case clearly it's justified that the player's predictions are correct then
+today we've seen some other cases where correctly predicting each other's
+behavior is reasonable let's say the first one is if there's
+
+00:25
+explicit communication if you and i talk with each other before
+we play a game then we expect which nash equilibrium you will play
+so we have seen on the traffic light right is
+essentially explicit communication that tells who or which nash equilibrium
+should be played and once the players know they have no incentive to deviate
+now more broadly the law informs people how they are expected to behave and you
+don't have to follow the law you can go to prison if you want but
+it's not in your best interest to do so a contract
+is written precisely in a way such that following the contract is a nash
+equilibrium and this requires that the punishments
+are sufficiently strong for either side if they breach it so that nobody has an
+incentive to deviate [Music] another way how players predictions
+could be correct is through some kind of evolutionary process
+
+00:26
+let's say if players if you play poker with the same opponent over and over
+again then eventually you will learn with what probability they are bluffing
+and things like that so if you've played them often enough
+then you can adapt your strategy and they will adapt their strategy to
+yours and then eventually play will reach a nash equilibrium where nobody
+can improve their strategy anymore another example would be i
+suppose rock paper scissors um if you played enough against one opponent then
+you kind of can predict how they play i suppose also in biology here we have
+this evolutionary nash equilibria where where
+certain species adapt to to survive in a in a niche that other species don't use
+and things like that and then in general if there is a focal
+point for some reason so if there is some common expectation in society that
+
+00:27
+everybody behaves a certain way such as an example
+social norms are upheld because we are all following them let's say
+if you and i meet each other and we say hi then
+this is kind of a nash equilibrium because we're both happier that we both
+said hi than if we both don't say hi but this is just because of the social norm
+if the social norm was that we don't say hi then we would be happy to not say hi
+um yeah another example could be um if you are on the bike and you face somebody
+else on the bike and then there are two nash equilibria where one
+swerves left the other right no we're both swerve right or both swerve left
+and because in taiwan people drive on the right side of the road it could be a
+focal point to expect that people will swerve right [Music] good
+that's it for the first video for nash equilibria in finite games and here's a
+
+00:28
+few questions for you to check how much you've understood
+then the literature um well nash equilibrium is any gate is in any game
+theory book and it was first derived by nash in 1950 in a one page paper good
+that's it for this video and i'll see you in the next one

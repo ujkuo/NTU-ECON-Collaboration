@@ -1,0 +1,442 @@
+
+00:00
+finally we're getting to sub game perfection
+as a motivating example for this video we're considering the beginning of a
+financial crisis where one bank bank a has suffered large losses
+bank a is liable to bank b owes bank b 1 billion us dollars but a total worth of
+bank ace assets are only 800 million dollars
+now the typical procedure would be that bank a declares bankruptcy and then
+after bank a has been liquidated it repays whatever its assets are worth
+to bank b and the problem is that bankruptcy is a very costly proceeding and
+it will incur an additional losses of 200 million which means that in the end
+bank a can repay bank b only 600 million dollars this implies that bank b has an
+
+00:01
+incentive to bail in bank a and renegotiate the debt claim with bank a
+and say okay we're willing to accept the lower payment of 800 million dollars
+and this of course prevents bank a from having to file bankruptcy
+now this would be a very efficient liquidation of bank a and a very
+efficient resolution of a financial crisis unfortunately this hasn't happened in
+the global financial crisis 10 years ago 13 years ago wow it's been so long
+the reason why it didn't happen is because the government is present
+bank b would think well i'm not the only one interested in saving bank a
+now if bank a declares bankruptcy this will cause large losses to the economy
+and the government has an incentive to prevent that so the government has an
+incentive to also rescue bank a and we can formulate this as a an
+
+00:02
+extensive form game where first bank b decides should i
+rescue bank a with a bail in wait in which case it receives 800 million dollars
+or should i not bail in bank a and then the government gets to
+decide whether the government should bail out bank a or not
+if it does not bail out bank 8 and there will be large losses to the economy
+and if it does there will be some cost of the bailout and this is the
+preferred outcome of bank b because its debtor is protected
+now the reason why the government is modeled second here is because
+the government is typically considered as the lender of last resort and so is
+the the one who steps in at the end if nobody else has
+now we can analyze this game with nash equilibria we transform the game into
+
+00:03
+the reduced strategic form and we see that there are two nash equilibria um
+yeah i'm not sure why i didn't underline 0.8 here should also be
+a so here is the best response and there are two pure strategy nash equilibria
+where exactly one of the parties rescues bank a
+and the problem with this is that one of the equilibria is not
+consistent with backward induction it's the equilibrium in which bank b bails in
+bank a and the government threatens not to bail out um bank a
+problem is that this threat is not credible
+given that the government gets to act choosing not to bail out bank a is
+strictly suboptimal and we wanna we can rule this out already with backward
+induction now let's change the game a little bit
+
+00:04
+let's add another creditor of bank a so there's now two banks that are hurt by
+bank a's bankruptcy and bank b can decide to
+to enter a bail in and if they enter a billion bank b and bank c essentially
+play a matching pennies game for who pays for
+the bankruptcy so they both flip a penny if both comes up head then bank c will
+pay for it and if both come up tails as well and if they
+are different the two pennies then bank b will pay for it
+now as we mentioned here because we have this launching of an
+information set we cannot apply backward induction
+nevertheless we have an idea of what should happen because we know
+that the matching pennies game has a unique nash equilibrium in which both
+
+00:05
+players makes 50 50. so we know that here in this continuation game
+we should expect a nash equilibrium so we should expect
+the 50-50 outcome and then we should be able to solve the rest of the game
+and this is precisely the idea behind sub-game perfection
+now the one additional requirement that we need is that
+we only look at continuation games that are so called proper sub games and the
+sub game is proper if no information set contains note both
+nodes both from the sub game and its complement now this has two implications
+first of all it means that the beginning of the continuation game the node x
+is a singleton information set and it also means that if there is no nodes
+within the subgame and outside the subgame in the same information set then
+
+00:06
+it means that it is common knowledge among the players
+that they are playing the sub game and it seems a
+useful restriction right if we want if we predict the behavior in the subgame
+then it should not rely on anything outside the subgame
+and this is precisely given here by the condition that it's a proper subgame
+then a subgame perfect equilibrium is a strategy profile such that the
+restriction to any proper subgame is a nash equilibrium
+and it turns out that this is precisely the condition that we need to eliminate
+non-credible threats um [Music] if there are non-signaling information sets
+and we see if information is perfect then any node is in a singleton
+information set so then any sub game or any continuation game is a proper sub
+
+00:07
+game and in that case we can find the sub game perfect equilibrium through
+backward induction so indeed subcomperfection is an
+extension of backward induction moreover subgame perfection is a
+refinement of nash equilibrium because the entire game is a proper sub game
+any sub imperfect equilibrium is a nash equilibrium and so
+subpoena perfection is now the first time that we see um
+where we see how we use equilibrium refinements so we say
+that in these games that we have looked at there are too many nash equilibria
+there are unreasonable nash equilibria and we want to
+refine this prediction we want to make the set of predictions smaller by
+imposing additional conditions and the additional condition that we impose is
+that we don't want to have any non-credible threats those are threats of the
+equilibrium path that wouldn't be carried out
+
+00:08
+if that information set was reached now let's go back to this example and
+see how we can solve it with sub game perfection so we will see a useful
+technique here called the dynamic programming principle
+now if we want to solve this game then the right hand side is easy to
+solve the government prefers to bail out and in the subgame we've argued that
+there is a unique nash equilibrium in which both makes 50 50. now
+what remains is to find the optimal response by bank b in the beginning and
+to do that we can replace the entire sub game with the expected utility
+that the players receive into continuation equilibrium so if they mix
+
+00:09
+50 50 then both bank c and bank b get 0.8 and
+now that we have aggregated the payoffs it's clear that bank b prefers
+not to go into a bail in because the government will bail out so this is
+the expected outcome but now we have a solution concept that
+gives us the expected outcome now let's look at a whole different application
+subcamera affection was used to rationalize the behavior of the united
+states and the soviet union during the cold war in an application called
+nuclear returns so the idea is that the two superpowers are
+at well in a cold war with each other and
+if one country commits some provocative incident then
+the other country can either choose to ignore it or escalate the incident the
+problem is if they ignore it then they lose a little bit of face because
+
+00:10
+the other superpower has successfully committed some provocative incident
+if they choose to escalate it then the super power who
+committed the productive hint provocative incident they can either
+back down and lose a lot of faith or they can start a nuclear war
+and in the nuclear war the two countries can either retreat or attack
+and if at least one country attacks then the utility for all these three
+terminal payoffs here will be minus 99 for both country because the attack just
+annihilates the entire globe now let's see what kind of subgame perfect
+equilibria we can find in this game so we start at the end of the tree
+with this the smallest possible sub game and we have to find the nash equilibria
+
+00:11
+so we transform it into a reduced form strategic game after we do that we
+get two pure strategy nash equilibria where both retreat or both attack and it
+turns out these are the only nash equilibria because if the other if
+my opponent retreats with some positive probability then it's a strict best
+response to retreat so the only possible way how we can have
+in a war in equilibrium is if both attack with probability one so now
+in this case there is no unique continuation
+equilibrium in this game so what we have to do is we have to
+go through both continuation equilibria and then see what it implies for the
+behavior before the subgame so let's start with the
+
+00:12
+good continuation equilibrium where they both can't both countries retreat now
+the superpower who committed the provocative incident
+knows that if they start a nuclear war then they'll both retreat and this is
+better than losing so much face because they both retreat so they both
+lost a bit of phase so in that case it's better to go into the nuclear war
+now anticipating this the slighted superpower one has an
+incentive to not escalate the incident and just lose a tiny amount of phase
+rather than experience all those um mustering costs that
+going into a nuclear war and then retreating would entail so this happens if
+the countries believe that they will retreat if there's a nuclear war
+now what happens if in the nuclear war actually the two countries attack then
+
+00:13
+well then the continuation game of the war has such a low
+utility so that country two does not want to go into it and then set back downs
+backs down which means that the slightest superpower has an incentive to
+escalate it and i guess this was the outcome in the cuban missile crisis
+so how do the two equilibria differ well interesting is that
+the difference between the two is about the expectation of the countries what
+happens if a nuclear war was started even though the nuclear war is off the
+path for in both equilibria and yeah so this illustrates again how
+important it is that we require reasonable off-path beliefs or off-path
+behavior because it can affect the incentives on the path now what does it mean
+
+00:14
+if we now look at the cuban missile crisis it means that it means that they
+indeed expected that a nuclear war would start
+if russia doesn't back down and that's why it was optimal for the us to
+escalate it so let's try to write down a procedure
+for finding subgame perfect equilibrium we go backwards through the tree
+and we go through all the sub games starting with the smallest one then we
+look at large and larger sub games and so we look at a set of
+all nodes for which there is no um smaller subgame so we look at maximal
+sub games and then for all those sub games we look at all possible continuation
+equilibria in those subgames and then for each one of those we can replace the
+terminal node with the expected utility that the players get in the continuation
+equilibrium then we can transform the pruned version
+
+00:15
+of this game into its reduced strategic form find the national equilibrium as we
+did in the static games transform it back to the
+dynamic game find the equivalent behavior strategies
+so overall this could be quite a lot of work if the game is large
+but so in the games that we see typically in this class there'll be like
+one or two steps and it's doable then as i've mentioned existence of something
+perfect equilibria we'll look at next week but this week let's look at some
+properties of sub-game perfect equilibria and we'll start with
+the following property here that says when is a nash equilibrium necessarily
+sub game perfect and this is the case if if anything is um on the path so
+
+00:16
+on the path a nash equilibrium is already optimal
+and the reason is that there can't be any non-credible threats as long as the
+node is reached with some positive probability in a nash equilibrium
+players have to best respond already from that node on
+and so really sub-complexion is only a refinement of behavior of the path
+the consequence of this proposition here is that if we find
+a nash equilibrium in completely mixed strategies
+so that those are again mixed strategies where
+every pure strategy is selected with positive probability or each action is
+played with positive probability in that case everything is on the path and as a
+consequence the nash equilibrium is already subgame perfect see the proof
+
+00:17
+because i think it's quite instructive so typically we set up the proof by
+supposing that the contrary is true so we look at a nash equilibrium on
+and we suppose that the restriction to a subgame that happens with positive
+probability is not a nash equilibrium right so we look we suppose that there
+exists a profitable deviation in some sub game that starts at node x now
+what we have to do is we have to show this to a contradiction and the only
+thing we can show it to a contradiction to is to show that then the nash
+equilibrium or then sigma can't have been a nash equilibrium so what we need
+to do is we need to find a profitable deviation for some player i
+how can we find the deviation well we have a profitable deviation in a sub
+
+00:18
+game that happens with positive probability so the idea is that we use
+this deviation in the sub game and we use this strategy without a deviation in
+or outside of the sub game and this is precisely what we do we
+define sigma tilde here to be the strategy that plays sigma i outside the
+sub game and this profitable deviation in the sub game and the idea is because
+the sub game is reached with positive probability this deviation matters also
+in the entire game so how do sigma i and sigma tilde i differ
+in the distribution over the game tree first outside the sub game they agree
+because sigma tilde i and sigma i are the same
+this means two things this means that the sub game is reached with the same
+probability because all the actions leading to x are chosen
+
+00:19
+with the same probability under both strategies
+and it also means that in terminal node outside of the sub game is reached with
+the same probability because again the two strategies agree now let's show that
+this strategy sigma tilde i here is a profitable deviation so we look at the
+expected utility now because we only because we can only
+make a statement about probabilities outside the sub-game we condition
+whether or not we are in the sub-game and if it's outside we know
+all the utilities are the same we know the sub game is reached with the
+same probability here the only thing um that is not the same here is the
+expected utility from reaching the sub gain but here we know that sigma tilde i
+is identical to sigma hat so it leads to a higher expected utility
+
+00:20
+and so because the subgame is reached with positive probability
+this improvement here matters and we get a profitable deviation to sigma i which
+is a contradiction to the fact that sigma was a nash equilibrium okay
+that's it for the finite strategy spaces let's look quickly at
+what happens if we have a continuum of actions available
+and let's go back to the competition between our two oil producers but this
+time let's look at a stackelberg competition where let's say the opec countries
+produce first and then the russian federation observes the amount of oil
+that was produced and then they optimally respond so that we can compare
+the results as easily as possible i again chose exactly the same
+parameterization now what is different here is that
+
+00:21
+the second firm now gets to observe the quantity produced by the first firm and
+we can write down an extensive form game with a continuum of actions using these
+these arcs but this means here that there's
+essentially a continuum of information sets and for each quantity observed
+firm two can choose a different response okay we've already seen what the best
+response should be by firm two um if it's an interior point it's 90 minus
+q1 over two and if in if it's the boundary point then it's zero now if
+firm anticipates this firm one anticipates this then
+it will maximize the utility when we plug in q2 star here so if we recall in the
+corner game we had we first solved for both best response
+
+00:22
+functions and then looked for a mutual best response but here it's
+different right here first firm two or first we solve for firm two and then we
+plug in the entire best response of firm two into firm one because this means
+firm 1 anticipates the response all right we plug it in then we use the
+fact that minus the maximum is the same as plus the minimum of
+the negative quantity inside then we can move 90 minus q1 inside the
+minimum to both of them and then we see that the minimum here
+because this is q1 is chosen by firm 1 q1 will never choose something that is
+larger than 90. so those two terms will always be positive and so the minimum
+will always be 90 minus q1 over 2. and this means that the expected utility
+
+00:23
+for any quantity q1 given the optimal response by firm 2 is of this form here
+and we differentiated find the best response
+first order necessary condition tells us that it's 45 and
+if we take the second order derivative then we see that indeed it's
+strictly concave so 45 is indeed the maximum and
+firm 2 will then best respond to 45 by producing 22.5 now we may wonder
+how come that this outcome is different from the granola competition didn't we
+say that any subgame perfect equilibrium is also a nash equilibrium
+so how could we get anything other than the corner equilibrium
+if that was the only nash equilibrium well the important part to note here is
+
+00:24
+that those are not the same games because here firm 2 has
+many many more information sets right in the corner competition firm 2 can only
+choose one action has only one information set but here they have a continuum of
+information sets so 45 22.5 is not the equilibrium it's only the equilibrium
+outcome the equilibrium itself is a decision by firm two for each possible
+quantity that can be produced by firm one so this will be typical here in these
+dynamic games with the continuum of actions that the best response will be a
+function for all possible values that can be observed
+and so it's not correct to say that this is the sub-game perfect equilibrium but
+in fact this is the subgame perfect equilibrium
+and the supreme perfect equilibrium is unique
+a nash equilibrium however is not unique there are many nash equilibria actually
+
+00:25
+in the stackelberg game as an example we can get the corner
+equilibrium as a nash equilibrium if we say that okay firm 2 best response
+with 30 no matter what no matter what firm one does then
+this is a nash equilibrium because firm two best response to firm one right q2
+star the best response at 30 is 30. and given that firm 2 produces 30 firm
+1's best response is to produce 30 as well
+the problem is that the threat of always producing 30 is not credible
+firmon knows that if they produce more firm2 will best respond by producing
+less firm2 will not insist on selling 30 barrels of oil as well
+
+00:26
+yeah in fact we can sustain any rational outcome in a nash equilibrium
+here because we can punish off path behavior so suppose you want to
+support any quantity produced by firm1 then we can do that by saying okay firm2
+will best respond on the path but off the path firm 2 will just flood
+the market with oil so that it will yield to a negative utility for both firms
+well what does this mean well it means that
+firm two best response to firm one by construction but also firm one then best
+response to firm two because deviating would be extremely costly to both firms
+the problem again is that this threat here of completely flooding the market
+is not credible and if we insist that there are no
+non-credible threats then the unique equilibrium is
+
+00:27
+the subject and perfect equilibrium of the stockholder competition
+another example of a game with a continuum of actions is the english auction
+and i noticed that if i play videos that that are recorded
+then youtube will monetize my my lecture videos and you'll have to wait through
+ads i'm not actually going to play the video but if you click on it it'll take
+you to a the video on youtube i guess and yeah for those of you who don't have
+time to watch it it's an english auction
+in futurama where everybody bids on this can of old anchovies and the
+the last two bidding uh last two bids are 23 million by mom and then fry bids
+over her by saying he wants to buy it for one jillion dollars
+
+00:28
+and we can phrase this english auction as a dynamic game where
+the players alternate with bits and they can choose to either not bid anymore in
+which case the other player gets the item or they can choose to bid
+to make a strictly higher bid and then the utility at the end of the
+game is simply the difference between how much they value
+the item minus how much they bid if they win the auction
+now this english auction here has a problem it has a problem that if mom has
+made a bid then because fry has to choose a strictly larger bid it means that
+the set of possible responses is not compact anymore and we know that this
+can lead to little problems with existence of best responses
+
+00:29
+and this is exactly what we'll see here so suppose that mom bids some amount
+then fry's possible responses are to either over bid mom or to not bid at all
+so this should be yeah that's correct and well if mom bit higher than the
+evaluation than fry's valuation then then it's no problem because in that case
+fry is happy to not win the auction the problem is if she bids something smaller
+then fry has no best response because no matter what he bids he would always be
+slightly better off by under bidding or by bidding
+over bidding mong by slightly less so there's no sub game perfect
+equilibrium in this game and this should not come as a surprise because um
+yeah because action sets are open after mom's bid
+
+00:30
+now next week we'll see existence of soccer and perfect equilibria in finite
+games and this is one way how we could solve
+the english auction we could discretize the set of all allowable bits
+but this is somehow not a very not a very clean way because
+depending on how fine we make the grid the more intractable it will become to
+solve the auction what is much cleaner is that we say okay
+we want an auction where the set of strategies of one player is not affected by
+whatever the other player has chosen and one way to do it is to consider a
+rising clock auction so in the auctioneer instead of asking
+the bidders to bid themselves up they could simply have
+a bidding curve or a price that goes up and up and up and
+the bidders decide when to drop out of the auction if the price is too high
+
+00:31
+and in that case if they both drop out at the same time then there will be a
+lot drawn to designed the winner and in that case the set of available you know
+times to drop out does not depend on what the others do
+so in that case the sub game perfect equilibrium will exist lastly
+a perhaps surprising something perfect equilibrium in a
+finite extensive form game you have two subgame perfect equilibria and
+the surprising equilibrium is here the equilibrium to the left where we see that
+firm 2 all firm 2. player 2 chooses left even though given that the information
+set is reached right is strictly dominant the problem is that
+overall this is only choosing right is only weakly dominant because
+
+00:32
+if player 1 2 says l then player 2 is indifferent between left or right so
+this is a nash equilibrium and in this example here there's only one
+proper sub game because subgames cannot cut through information sets so
+if the entire game is the only sub game then all nash equilibria are necessarily
+sub-game perfect equilibria and in three weeks we'll see how we can resolve
+this issue yeah the reason why something perfection can't deal with it is
+we can't look at just the game starting at this note here or at this note here
+because here um player 2 knows player 1 chose right
+which is information they don't have in the entire game so using the prediction
+if player 2 has additional knowledge to trying to conclude what happens in
+
+00:33
+the entire game is not very useful and this is not a proper sub game because
+player 2 here has less information they don't know the relative probability
+between the two nodes which they do in the entire game depending on how
+frequently player one chooses middle or right now so
+this may be as a teaser for the future weeks why does stop imperfect some pecan
+perfection not always work and we will find out why this is the case yeah
+good so we have finally managed to combine backward
+induction with nash equilibria and we have gotten this very nice solution
+concept that is sub-game perfection and the way it refines nash equilibrium is
+that it eliminates non-credible threat of the equilibrium path and yeah that's
+
+00:34
+it um i forgot to include sort of the most
+important concept here and i would say it's that
+players act sequentially rational which is that they look forward and
+take into account what their opponents will do in the future so the most
+important concept here is that we solve games backwards through the tree good
+some more questions for you to practice sub game perfection and then
+actually don't do this one it's maybe a bit too difficult
+um well we'll deal with this next week i guess and
+the literature here um reinhardt salton was the one who introduced something
+perfection and won a nobel prize for it good that's it for this video i'll see
+you in class

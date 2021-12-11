@@ -1,0 +1,317 @@
+
+00:00
+all right let's now formalize the concept of backward induction
+we started this week's class with the example of the birthday party and we've
+seen that the solution that we obtained through backward induction nicely
+corresponds to higher order knowledge of rationality among the players
+if we're the last one to act in a game tree then we know what payoffs we're
+going to get and by rationality we have to choose whichever action maximizes our
+utility and if other players know that we are
+rational they can take that into account and then maximize their own utility
+given that we will act rationally behind them
+now let's see how we can formalize this concept
+so if we are given an arbitrary game tree then
+the way we would solve for the solution right is backwards through the tree
+um we look at all the last decisions that the players make
+
+00:01
+and here if a player is willing to choose either action this means they
+have to be indifferent between the two and then we can go backwards through the
+tree and you would obtain some solution given by backward induction now
+to define the concept formally it's actually better to not
+define it through an iterative procedure
+because that would be quite difficult to work with afterwards but well
+we can now say something about the solution that we obtained the solution
+that we obtained through backward induction well at any node in the tree
+the active player acts optimally by taking into account that
+the players after him or her also act optimally
+now in the background induction solution we know that the continuation strategy
+
+00:02
+profile after node xa is optimal so we denote by sigma and
+vertical bar xa we denote the continuation strategy profile after some
+node and in the solution this is already optimal now in order to
+describe optimality at some node x we need to be able to aggregate the
+utilities in this subset of nodes that can be reached from x
+and so we need to know what the distribution
+induced by the continuation strategy profile is now
+what i've shown here in the tree is sort of the possible support of all backward
+induction solution in this game and let's now pick um some
+distribution chosen by the players and then see how should we how should the
+
+00:03
+induced distribution be over this set of nodes that can be reached from x well
+given that that the play that play has already arrived at x we know that from x
+we cannot reach any node outside of this set here and we know that node x
+is reached with probability one because we see it right we are at x we observe
+that game has arrived here and so what we do is we essentially compute
+the conditional distribution given that x has been reached
+so it just means that everything that cannot be reached anymore will have
+probability 0 of being reached and node x has probability 1 and then
+starting from x we define um we multiply the probabilities of each edge again
+and this is formalized in this definition here
+
+00:04
+so we start at any node in a singleton information set
+and then we look at instead of all nodes that can be reached from x and
+we call this the continuation game starting at x and so here the actions the
+the information sets the utilities are simply restricted to this sub tree here
+the continuation strategy profile is also just the restriction of
+a strategy profile in the entire game to this subtree and it's
+all the decisions are exactly the same it's just the continuation strategy
+profile is only defined on the subtree then the induced probability measure is
+defined in the same way except that we start now at
+node x node x is probability one and then we multiply the edges and
+
+00:05
+this is how players can aggregate the payoffs at any node x in the tree
+so the idea is essentially we just restrict attention to a smaller part of
+the tree and then we define everything in the part in the same way that we did
+it for the entire game now two comments are in order about this definition here
+so the idea is yeah we we define it in the same way that we did
+in the entire game if this is a node that is on the path so
+a node that is reached with positive probability
+then this distribution defined here is identical to the conditional distribution
+but this conditional distribution would not be defined off the path right if
+the probability of reaching some node x is zero then we cannot
+
+00:06
+use bayes rule to define a conditional distribution but
+the definition on the previous slide is well defined also in this case
+and this is important because in many cases a best response is a pure
+strategy and in that case many many nodes are of the path and here is
+an example where all the nodes are off the path except the initial node and so
+we wouldn't be able to to [Music] use bayes rule on the rest of the tree here
+then on the previous slide we've restricted attention to
+two continuation games starting in a singleton information set and the reason
+why it's not at all straightforward to extend it to non-singleton information
+set is let's say if we look at the let's call the continuation game
+
+00:07
+starting at this node here then in the continuation game
+player 2 would know that this is the right note this is information that
+player 2 doesn't have if we want to start let's say the game
+at the entire information set then in the continuation game player 2 lacks
+information that they have in the entire game namely what are the relative
+probabilities of these two notes right in the entire game player 2 can deduce
+this from player one's strategy but if we were to look at a sub game starting
+from here then this information player two doesn't have
+and this is something that we will extend in two or three weeks from now
+all right now we can define the backward induction solution
+it's a strategy profile so that at every node the players choose the action that
+
+00:08
+maximizes their expected utility if they take into account how players act
+optimally in the future we say that the game is solvable by
+backward induction if there is a unique strategy profile that
+survives backward induction and the only assumptions that we need on
+the player's knowledge or conjectures are common
+knowledge of rationality because we've assumed that extensive form games are
+finite um common knowledge of rationality is enough
+um to get to the beginning of the tree what can we say about backward induction
+as a solution concept well it's actually a very nice solution concept
+because those extensive form games are finite
+
+00:09
+every tree has at least one backward induction solution and
+if no two terminal nodes award the same payoffs to any player
+then there's unique backward induction solution and the outcome is also robust
+and this condition here that no two terminal nodes award the same payoffs to any
+player this is satisfied generically so for almost every choice of terminal
+payoffs this is satisfied so it's a really very nice solution concept
+the drawback of it is that we cannot apply it if
+there is a non-singleton information set in the in the tree and they aren't
+really all that many applications where players have perfect information
+so what kind of applications do we have so the first application
+that where we see subgame perfect uh backward induction studied quite
+frequently is in a lab let's say if you go to joseph slab then i'm sure that
+there will be some experiments that test backward induction or sub game
+
+00:10
+perfection now one famous game studied in the lab is the centipede game where
+two players can choose iteratively whether they want to stop the game and
+collect the payoff or they can continue the game
+and the payoffs are chosen such that continuing the game
+leads to overall higher payoffs so at the very end the sum of payoffs is
+maximized but they are also chosen such that by backward induction
+there's always an incentive to stop earlier so at the last node player two
+should choose to stop so they can get one payoff unit more
+which implies that player one should stop
+at the second last node because they get one payoff in it more than here
+and so on and so the unique backward induction solution stops at every node
+the reason why this is famous our famous example is because
+
+00:11
+in the lab we see very different predictions in the lab we don't see that
+players choose the backward induction solution and this has led to
+the development of different areas in game theory
+one of them is behavioral game theory which
+studies departures from expected utility to kind of justify
+or rationalize the behavior of people in the lab
+and then reputation models were actually first first defined
+to precisely deal with this centipede game
+and they are able to replicate this kind of behavior by introducing uncertainty
+of players about each other and so this shows that for the backward
+induction common knowledge of rationality is
+even though this is sufficient and this is good compared to other equilibrium
+concepts it is still a very strong assumption that players
+
+00:12
+know everything about the game and each other and so if we relax this in in a
+certain way then we can get cooperative behavior up to a certain point
+another application of backward induction is battling procrastination um
+yeah if we procrastinate i'm not sure if you'd have that but if i
+procrastinate then that means that i value today's utility more than i
+value tomorrow's and this means that today i want to do
+something that is fun because i value it more than i would tomorrow
+and i want to defer all the costly activities into the future
+now if i'm aware that have that i have a procrastination problem then
+i will solve a a dynamic game against my future self
+and this is an application where information is indeed perfect because we
+
+00:13
+observe our own past behavior and it seems that backward induction
+solution is justified now let's see what kind of setting we should choose to
+capture these time inconsistent preferences so first we need to
+have a dynamic decision problem of a single decision maker there's
+t dates at which we choose an action for which we get an instantaneous payoff ut
+and what we're trying to maximize is the discounted expected future payoff and
+typically the standard rate to discount future
+payoffs is using exponential discounting and this means that we discount um
+we have a one period discount factor with which we multiply each future
+
+00:14
+periods to get the net present value of future um future cash flows
+so it is the net present value of this cash flow stream now a different way to
+discount the future is hyperbolic discounting and this is what introduces
+a present bias so hyperbolic discounting is almost like exponential discounting
+except that everything except today we discount additionally with a discount
+factor smaller than one so this means that we value today more than
+proportionally more than we did in exponential discounting to see
+why this means that we have time in consistent preferences let's try to
+think about what time consistent preferences are so discounting introduces a
+
+00:15
+time preference because it tells us how much we value payoffs in different
+periods and if preferences are consistent this means
+that the relative weights over future periods will be the same so in this
+graph here if we look at some future time s
+then if the relative weights stay the same this means that if we rescale
+the weights that we had in the beginning so that right now it's one then this is
+the same shifted by time s and so if those functions look exactly
+the same except that they are shifted then arm preferences are time consistent
+suppose that this discounting function f um
+or is given by f what condition does it have to satisfy to be time consistent
+
+00:16
+well let's see okay so here at time t we rescaled it um by
+f of s so that it's one and then what we wanted is that we get exactly the same
+except it's shifted by as states and this functional form is precisely
+what defines the exponential function so the only time consistent
+discounting or time of system preferences is exponential discounting
+and so any other weighting of future payoffs introduces some inconsistency
+and this is the case for the hyperbolic discounting
+let's look at an example a numeric example we have
+two students who both have an assignment due in four days
+now the problem is that on each of the days before that day before the
+assignment is due they have some event going on
+to which they could go and they get a positive utility for going to each event
+and they get a negative utility if they don't hand in the assignment at all
+
+00:17
+and so at each date they have to decide do they solve
+the assignment do they write the homework or do they procrastinate and go
+to these events i will assume that constantine has time consistent preferences
+and sophie has time inconsistent preferences
+but sophie is sophisticated in the sense
+that she knows she has time inconsistent preferences she knows that she has
+commitment problems she knows that she is prone to procrastination
+and and yeah so let's see how we can solve this using backward induction
+the first thing to note is that if we write the homework let's say on
+the first day then we can go to all the future events
+and we don't get the negative utility because we hand in the homework in time
+and so we see that no matter on which day we solve it we get the utility of all
+
+00:18
+the events except for the day on which we solve it and so we can just
+write utilities as the total utilities as -3 if we solve it
+on the first minus five if we solve on the second day and so on because those
+are simply the utilities that we're missing out so
+with time consistent preferences this is really easy um
+especially if we choose delta equal to one to make the to make the math
+somewhat simpler then well constantine knows
+that have time to system preferences so at any point in time they know okay here
+um i will lose three payoff units here five eight 13 for solving it and clearly
+backward induction tells us we should solve it immediately because the events
+get more valuable as we go on now for sophie it's a little bit different
+sophie's preferences over time change and we can write this as
+
+00:19
+a game of sophie with three of her future selves to understand how this tree was
+constructed let's start here in the beginning and in the beginning
+the cost of solving the assignment is three then the future the entire future is
+discounted by one half right beta is one half here and so sophie
+at the beginning will think that okay solving the assignment on the second day
+costs only two and a half payoff units but on the second day sophie will think
+it costs five so this is how the payoffs here are understood that
+the first one is the payoff for sophie perceived as from day one
+the second one as perceived from day two and so on
+now the reason why i write dots here is because sophie from time three cannot
+possibly get a payoff when the assignment is
+
+00:20
+solved on time one because then sophie at time three does not even play
+and so yeah we can fill in all these utilities here and
+we can solve it now through backward induction that
+the last sophie will choose to solve the assignment
+because -13 is better than minus 20. then second last sophie will see that okay
+she knows she will solve the assignment artists should be a minus eight here she
+knows she will solve the assignment next time so she can procrastinate now
+then you go back the previous sophie knows that okay if i procrastinate now i
+will procrastinate even more and that's too costly because minus 6.5 is worse
+than minus 2.5 so n minus 5. so she will choose to work and then
+
+00:21
+sophie in the beginning knows all i won't procrastinate for too long so
+she will procrastinate for one period and then future so if you will solve it
+so this is a nice somewhat non-standard application of backward induction
+another application of backward induction that is frequently studied is
+bargaining there are many situations in which two players bargain about um
+some outcome um negotiations of contracts if you
+negotiate a race with your employer or a labor union wants to renegotiate a
+better contract for their members we have political or legal negotiations but
+what all of these negotiations have in common all these bargaining situations
+is that the players negotiate how the division of some surplus
+or how the some surplus is divided amongst them and
+
+00:22
+a standard way to write down a marketing problem has to become that
+the players haggle over the share of a pie that they get and the pie represents
+the social surplus the thing is that pi doesn't stay here
+forever it deteriorates over time which is captured by the discounting by
+the players and here players are have time consistent preferences now how can we
+formulate this as an extensive form game well at each so
+the two players they can make alternating offers and player one will
+start making an offer and can propose how to split the pie which means that
+whoever makes the offer will get share x and then the other player will
+get share one minus x and the other player can respond to this
+offer and either accept it in which case the pie is split in the proposed way or
+they can reject the offer and then make a counter
+offer the problem is the counter offer will be in the next period when the
+
+00:23
+total pie is not worth as much anymore as it was in the previous period because
+players discount the future and yeah if this bargaining game is finite
+then we can solve it by backward induction and probably you will do it in
+one of the assignments git as a summary backward induction is a
+very very nice solution concept that expresses that players are forward looking
+and use knowledge of rationality to to take into account what other players
+will be doing the problem is that there aren't really that many applications
+in which we have perfect information and three of them we've seen in this video
+now only one question or i guess two solve those games with backward induction
+that's it for this video the literature hasn't changed much i
+
+00:24
+guess there's some bargaining um literature by stahl and rubenstein
+and it's also discussed in today's good that's it for this video and i'll
+see you in the next one

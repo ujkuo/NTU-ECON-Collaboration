@@ -1,0 +1,927 @@
+
+00:00
+all right this week we looked at nash equilibria and a nash equilibrium
+is a strategy profile in which every player best responds to the strategies
+of their opponents and in this definition there are two parts to this definition
+somewhat hidden in the definition is the fact that players correctly
+predict the behavior of their opponent so they essentially know
+what their opponents are gonna play and then the second part is if we know
+what our opponents are gonna play then we will best respond to it because we
+are rational now here the notation here let me maybe emphasize this
+so here if we only use sigma then this is the entire strategy profile of every
+
+00:01
+player so we could write it as sigma i and sigma
+minus i or as the profile of all players and then on the right hand side on this
+notation here means that well player i deviates from sigma i to s
+i but everybody else plays the same that they do on the left hand side
+so if we fix the behavior of all of i's opponents
+and player i knows what they will play then player i has no incentive to
+deviate from a nash equilibrium now how does this relate to the solution
+concepts that we looked at last week well precisely through
+the correct conjectures right so what sets nash equilibrium apart from
+rationalizability is that the conjectures of every player are correct
+
+00:02
+so here i tried to summarize this once again the relation between the solution
+concepts that we have seen and so crucially the players
+know in a nash equilibrium what their opponents will play
+whereas in rationalizability if fake strategy profile is
+rationalizable then somebody some player eye strategy may not be a best response
+to what the other players are playing but it is a best response to some
+conjecture that can be justified all right
+one question from the chat is why is it s i here and not sigma
+so similar here to what you've shown in assignment one is that if
+a player has a profitable deviation then they always have a profitable pure
+
+00:03
+strategy deviation so this condition is somehow easier to check for us because
+we only have to um check that they have no
+profitable deviations to pure strategies and this implies that they don't have
+any profitable deviations to mix strategies either so you would also be
+correct to write sigma tilde i here and then iests we have seen that
+that in the end we don't necessarily get the best
+response to the opponent's strategy profile but we it's not even a best response
+necessarily to some valid conjecture over the strategy profiles that remain
+i think the best way to visualize this the difference between rationalizability
+and nash equilibrium is the example that we have started on last week's class
+
+00:04
+with and there was this example where a pedestrian and the driver tried to
+cross the intersection and we have seen that every strategy
+profile here is rationalizable um we can justify crossing if we believe
+the other weights and we can justify waiting if we believe the other one crosses
+and any mixture of them can be justified as well but we see here that
+the profile where both players cross is rationalized by
+conjectures that are completely wrong right so if we if both players believe
+the other one will wait with certainty and they cross then this means that
+exposed their beliefs were invalidated so if we want to you know make kind of
+predictions of perfectly rational players it would be more satisfying if
+if they aren't completely wrong in their beliefs and this is what we do in nash
+
+00:05
+equilibria the conjectures are correct so even if
+so if the players knew what their opponents would play
+they have no incentive to deviate so given that we know
+the driver walks what will we do we will cross because one is higher than zero
+whereas cc here if we know that the other one is crossing then we're not
+going to cross as well in that case we're going to deviate and
+choose to wait which is also a nash equilibrium
+and then we add a third nash equilibrium where both players mix
+sorry can i ask why the contractions ww is wrong so because it's
+the opposite of what players actually do right so here the strategy profile is
+what they actually do they actually cross but the players crossed because they
+
+00:06
+believed their opponent would wait and because it's not the same the
+conjecture is wrong so if i guess a c and w but the x w and
+w is is it also a round conjecture yeah then one of the players had a wrong
+conjecture and the other player had the correct conjunction i see thank you
+and then i think conceptually one of the most important parts of the class will
+be when is it justified that we expect nash behavior so maybe first what is
+a nash equilibrium it's really just that it's a set of
+consistent outcomes where if the other if i knew what everybody else is playing
+i would have no incentive to deviate and as such these are all the possible
+
+00:07
+outcomes of the game where players are rational and their beliefs are correct
+so if we make these two impositions then the set of nash equilibria are all
+possible outcomes of the game now if there is more than one nash
+equilibrium we may wonder okay when does one happen and when the other
+because this is a static game players have no way to communicate with each
+other no way to coordinate and in that case indeed we should be
+we shouldn't necessarily choose a single nash equilibrium as a prediction
+yeah so we should use an individual nash equilibrium as a prediction only if
+the assumption that the player's conjectures are correct can reasonably
+be justified and we have seen some examples of this we have seen
+
+00:08
+that if a unique strategy profile survives to elimination of rationalizability
+then only using common knowledge of rationality the players can arrive at
+the correct conjecture this was the example in let's say the kuno
+game this is one way they can logically deduce it
+another way how they could correctly expect behavior is if there was explicit
+communication before the game and communication can take many forms um
+you and i could talk about it before we play a game
+um we have the example of the traffic lights that tell us who is supposed to
+walk and then once we know that this is everybody's
+beliefs so if we know that if the traffic light is red for the cars then
+then we know that we can walk and the cars they know that they they can't
+cross because we are going to be crossing then if we
+
+00:09
+for some kind of evolutionary process if there's learning going on about the
+opponent's strategy profile um then we could eventually arrive at the
+correct prediction let's say if we play rock paper scissors infinitely many
+times or many many times then maybe you'll start to see how i mix between
+between the actions and then you can correctly predict my behavior
+and best respond to it and then lastly um social norms or if a focal point where
+if there is some behavior that is expected by everybody like saying hi in
+the elevator or something like that then then that would be a nash equilibrium
+that or a behavior that is expected and and that's how we can justify correct
+conjectures as well okay that's sort of the big picture of
+
+00:10
+nash equilibria and they want to spend a decent amount of time this week on on
+examples are there any questions so far all right let's start with the simplest
+example that we could encounter and those were the two examples that
+you you answered in poll everywhere and let's look at the game to the left first
+and let's see how we could find nash equilibria here
+now we have seen a few ways how we could do that we could
+use indifference principle we could use um we could find the best response
+correspondences or what i typically suggest you do first is first we eliminate
+strictly dominated strategies because nash equilibrium can only place or
+nash equilibrium are rationalizable so anything that is not
+
+00:11
+rationalizable cannot be a nash equilibrium and this will simplify finding best
+response correspondences so in this game here let's see what strategies are
+dominated so we see if we look at it we see that right for player 2
+is dominated by a left so regardless of what player 1 does
+player 2 is better off choosing left and so we can eliminate right
+and given that right is eliminated we see that now
+choosing top is strictly better for player one than choosing down
+so we can eliminate down and then lastly the only player left with with a choice
+is player two and player two prefers n among the responses and
+this means that if there is a unique uniquely rationalizable strategy profile
+
+00:12
+this has to be the nash equilibrium because we know
+any such game has a nash equilibrium right that's it for the left one
+for the right one i would like to to show the two approaches um using
+the indifference principle and the best response correspondences and then see
+how do they differ let's first try to use the indifference principle and find
+nash equilibria this way so the first thing that we would do is we would look at
+pure strategy nash equilibria so if player 1 plays t player 2's best response is
+to choose left if player 1 plays d player 2's best response is r
+
+00:13
+then if we fix left by by player 2 then choosing top or down is the best
+response because player 1 isn't different and then lastly if player 2 chooses r
+then choosing down is a best response by player 1.
+and we see that we have two pure strategy nash equilibrium top left and
+down right now to find the mixed equilibrium let's
+try to use the indifference principle let me switch to my sketchbook for this
+alright so with the indifference principle we try to find
+a strategy for let's say player two that makes player one indifferent
+
+00:14
+so for player two we can write the strategy as let's say y times left plus
+with probability 1 minus y we choose right and then
+by the indifference principle player 1 should be indifferent so maybe let me
+write indifference principle so player 1 is indifferent we if top and down
+yield the same utility and if we go back to the utility
+function then we see that okay if player 2 chooses left then
+then player one will get two regardless of what player one plays
+and then they get one if downright is chosen alright so choosing
+
+00:15
+top it's two if player two plays left so two times y and for choosing down
+[Music] so for choosing down always gives at
+least one but it gives one additional payoff unit if player 2 plays left so we
+can write this as 1 plus y now when are those the same it's if y equals one
+okay then we can do the same for the other player are there any questions so far
+then for the other player we we're choosing left
+
+00:16
+choosing left does not matter what player one does so always be one and
+choosing right will give us three payoff units if player one cruises down
+and those are the same those are identical if x is two thirds
+and so we get a mixed a completely mixed nash equilibrium and left
+okay this is the approach using the indifference principle now i mentioned that
+the problem with the indifference principle is that we don't necessarily
+
+00:17
+get all the solutions because it's only a property that has to be
+satisfied in any nash equilibrium or any mixed nash equilibrium
+but it's not sufficient what is sufficient is a mutual best
+response so let's try to solve the same game using a
+using best response correspondences now for best response correspondences best
+response correspondences what we do is we parametrize
+an arbitrary strategy profile so this was just x choosing top
+
+00:18
+and then probability y choosing left and we compute
+let's say player one's utility in it and also here
+if player 2 chooses left we always get 2 regardless of what player 1 plays
+so that gives us 2 y and if player 2 chooses right then we get 1
+if we choose down which happens with probability 1 minus x
+and to find the best response we take the derivative with respect to
+player one's choice variable so that would be with respect to x and
+that's minus one minus y so this is y minus one and
+
+00:19
+we find the best response correspondence to strategy two pi player two
+which can be one of two things well it could either be
+well either we're indifferent if y is one or if y is less than one
+then choosing down is a unique best response okay that was it for
+for player one are there any questions how do we do that
+we do the same for player two so here if we look at the utility it's
+again one for choosing left regardless of what player one does but now it's
+
+00:20
+three for choosing if downright is realized so we have y plus three one minus y
+one minus x is three x minus two and we get players 2 player 2's best
+response correspondence so if x is sufficiently large
+this quantity will be positive which means that
+increasing the probability of choosing left will lead to a payoff increase so
+
+00:21
+it's maximized at y equals one if x is larger than
+two-thirds where player two is indifferent if x is equal to two-thirds and
+which was right if x is smaller than two-thirds
+and then to find all nash equilibria we check consistency
+and we go through these three cases so if oops if x is larger than two-thirds
+then well then y has to be one y is one and if y equals to one then here we have
+
+00:22
+that um anything by player one is a best response so this is consistent if
+x is equal to two-thirds that that means player player two
+uh player one has to be willing to mix right so in order for for player one to
+to be willing to mix it must be that y is equal to one otherwise mixing would
+not be a best response by by player one that means also y equals one
+
+00:23
+and that's again consistent and then lastly if x is smaller than two-thirds
+then y has to be zero as we see here y zero is the best
+response to x smaller than two thirds and then if y is zero then we have to
+have x is equal to zero as well and this is consistent so this gives us
+the nash equilibrium down right we've found this before and these give
+us the nash equilibria x top plus 1 minus x down left
+for x larger or equal than two-thirds and we see that we get infinitely many
+infinitely many nash equilibria that we did not get using the
+
+00:24
+indifference principle and the reason why we didn't get those
+with indifference principle is because in this nash equilibrium
+player 2 does not have to be indifferent right because player 2 does not mix
+whereas in the previous in the indifference principle we have
+assumed both players are indifferent but player two doesn't have to be
+indifferent and so even if player one chooses
+top with the probability larger than two-thirds then player two is willing to
+choose left and it's a strict best response in that case
+good any questions about how we solve finite games so first use
+
+00:25
+first eliminate some strategies and then use best response correspondences
+um i want to ask about the utility of the player one yes um
+can you say that again why we don't consider the down strategy
+uh can you repeat that um the player one play why don't
+the player one play down the strategy down i mean they play the strategy down if
+player 2 chooses right because it's a strict best response but
+in the other nash equilibrium where player 1 mixes
+player 1 has to choose top with probability at least two thirds for
+player two to be willing to choose left right if player
+one chooses both of them equally then left would not be a best response
+
+00:26
+by player 2 and then player 2 would choose r instead
+so here the reason why x has to be larger than 2 3 is so that it's the best
+response for player 2 to choose left no no yeah i'm i'm asking about the utility
+function in the second bullet here yeah right um we only consider that why is
+tl right 2y is from tl the table from tl oh 2y is the entire row
+so we could write this with an intermediate step we could write this as
+2 yx plus 2 y 1 minus x oh okay okay [Music]
+
+00:27
+yeah that's that's all about my question yeah okay then the next
+most important example that we're going to encounter is nash equilibria with
+or in games with a continuum of actions where we have
+nice concave differentiable utilities and and i want to show again sort of the
+the incorrect approach first of how we can solve it and then the correct
+approach how we get all the nash equilibrium so this one here is
+the same example that we have seen last week but the difference is now that
+there's we want to solve it for general parameters p0 which is the price
+when there is no no supply and general ci which is the caused by the two firms
+and we want to solve the nash equilibria for all of those parameterizations at
+
+00:28
+the same time so so maybe the first intuition is that we look at the best
+responses and we take the partial derivative of the two players so um
+we look for pure strategy equilibrium so ui of q was um see e0 minus c1
+
+00:29
+and we take the partial derivatives and we see this is
+our first guess might be okay let's set this equal to zero to find a maximum and
+then we find q i is p0 minus c i minus q minus i over two
+and a nash equilibrium would then be where they are equal to each other so
+q i is p 0 minus c i minus p 0 minus minus i so here we just plug in
+player minus i is best response for q minus i and then we can solve this for qi
+
+00:30
+and what we obtain here okay so we have p zero half and then
+minus p zero quarter so we have p zero quarter left minus c i half
+and here we get plus c minus i quarter and then plus q i over four
+now we can bring qi quarter to the other side so we get or subtract and
+divide by three quarters um now there is a problem with this
+
+00:31
+approach does anybody know what went wrong so let's try to choose specific
+parameters so previously we had let's say p0 was 100
+c1 was 10 and let's say firm 2 now has a very high cost let's say 70.
+so what is our prediction here okay for firm for firm 1 we have 100 minus
+20 plus 70 that's 150 divided by 3 so that's 50. and for firm 2
+we would get a 100 minus 140 plus 10 so that would be minus 10. exactly raymond
+replied in the chat we're only considering interior solutions and
+that's a problem because the maximum could be obtained at the boundary
+
+00:32
+and we see things especially the prediction here that does not make sense
+firm two would not produce a negative quantity
+and we can't now just say okay for improvement which is zero because that
+will change the response by firm one so how do how do we do this correctly um
+throughout the entire derivation so we need to notice here that this is only
+the best response if it's an interior solution but a best response could be
+at the boundary let me save this and then
+
+00:33
+so i guess starting from here we have to use a different approach [Music]
+this is an interior point interior a boundary point there's only one
+boundary point here q i is equal to zero is the best response when is this the
+best response well it's the best response if if the price is negative
+right if the other company produces so much that the price is negative without
+our participation then we shouldn't produce anything and so this is if the
+
+00:34
+other company just produces more than p0 minus ci and
+so if we put both of them together um we see that the actual best response
+correspondence is oops um if the switch for each firm
+okay so is what we have derived before so p0 minus c one minus q two half if
+
+00:35
+q two is smaller what is this more than or equal and it's zero otherwise and
+to verify consistency let me also write it down for for player 2.
+
+00:36
+and we again go through all the cases and the first so if
+i guess let's look at the cases first where one produces zero so if q2
+is larger than p0 minus c1 then q1 is zero and if q1 is zero this means
+q2 has to be equal to this ratio here so this means q2 is equal to minus c 2 2.
+so firm 2 produces the monopoly quantity now when is this consistent well let's
+see it has to be consistent with what we started with so it's consistent
+
+00:37
+if and only if so if p0 minus c2 over 2 is larger than p0 minus c1 so we can
+we can we express this identity as 2 c1 minus c2 is larger than p0 and we get
+the symmetric reply if um if we're in the other case here now this is one and
+
+00:38
+so if q1 is larger than p0 minus c2 we get symmetric
+symmetric equilibrium and then lastly if neither of those cases are satisfied
+then we do what we've done previously then we plug in the best responses to
+each other and we get what we had before which was q i is p0 minus
+was it 2 c i plus c minus i or 3. and we can check that this is consistent
+if and only if 2 c i minus c minus i is smaller equal then t zero
+
+00:39
+so in this way we get the nash equilibria for all possible cases of the
+parameters [Music] are there any questions so far
+so it's really important that in the best response correspondence we allow or
+we account for the boundary points and one thing that i should also mention is
+we have to check that this is a this is actually a best response
+by looking at the second order sufficient conditions
+so if we look at the second derivative and we see that this is strictly concave
+which means the utility function is something like this and
+in that case so wherever the first order condition is satisfied is indeed a
+
+00:40
+maximum which makes it a best response so at the beginning of the class i
+mentioned that the method somehow is more important in in graduate
+game theory than than the solution and so here i really want to emphasize it is
+important that you check that this is indeed a best response so that it's indeed
+a maximum of player i's utility and reject that with the second order
+condition and by checking when the boundary points might be best responses
+any questions okay so those are the two by far the two most
+important types of examples that you will encounter throughout the course
+there are finitely many actions and there are continuum of actions with a
+
+00:41
+very nice typically strictly concave utility function and
+and this is really the the most important part of this week's class so
+before i continue i just want to make sure everybody understands everything up
+to here actually i think this is a good point to go through the questions
+um that you answered on poll everywhere so how many nash equilibria are in
+against the left so this is was very good this there is one nash
+equilibrium that survives um rationalizability that was the left gain here
+now for those of you who are applied zero um
+we have the nash existence theorem which tells us that at least one of them must
+exist so zero cannot be the answer to any of those two games
+
+00:42
+so in the second game we've seen there are infinitely many and the reason
+why there are infinitely many is because we have this weak dominance of of
+strategies right so down is weakly dominant but player one
+is willing to play top given that player two plays left
+and we can find those infinitely many nash equilibria using
+the best response correspondences are any questions to those two
+oh sorry can you hear me yes also i have a question let's um
+when can we be sure that we don't have a mixed strategy naturally
+quickly but for example like if there will be the case that
+after computing uh best response my mixed strategy will detract my rate
+
+00:43
+to pure strategy would it be the case that i only have pure strategic national
+coding it could be so yeah the the best way to make sure
+that you have all nash equilibria is to use the mutual best responses
+because that's really the definition of a nash equilibrium and it means that we
+have found all of them yeah okay yeah thanks then
+no strictly dominated actions are in the support of any nash equilibrium that's
+correct um nash equilibria must be rationalizable and in particular
+no strategy and support can be strictly dominated
+right so this was the inclusion that we had of the solution concept that is
+
+00:44
+is a larger or produces more outcomes than than nash equilibrium
+then in every outcome of a mixed nash equilibrium every player best responds
+to the other player's outcome the answer's false so this is not correct and
+the reason is that mixing is done independently
+of the players uh let me go back to this example here so in
+the mixed equilibrium um the two players mix and given that the
+other strategy mixes then our then we are indifferent so we can choose
+anything as the best response but if both players mix
+then what's the probability that cc happens so cc happens with probability
+
+00:45
+well one-fifth times one-fifth so that's about four percent that's four percent
+oh because they mix independently the bad outcome will happen with with
+positive probability and now in this outcome the players don't best respond
+to each other and the reason here is that players
+really choose the distribution so there's no better distribution to respond to
+but this is only true you know ex-ante before we know what happens once we
+realize the outcome then then it must not be that they mutually
+best respond to each other are there any questions about this
+
+00:46
+sorry can you explain again that what do you mean like uh
+what what is this question like the uh every player best response to the other
+player's outcome i cannot quite understand this
+the question itself is the problem um oh maybe the question is not perfectly
+worded but the idea is that in a mixed nash equilibrium players choose
+you know a distribution over pure actions and only the distributions
+are best responses to each other but not everything
+in the support of those distributions so not every outcome that can happen
+is the best satisfies a mutual best response property so in this example
+the car crash can happen or will happen in the mixed equilibrium with four
+
+00:47
+percent and in this outcome neither player best response to the other
+so this is something to keep in mind when we work with mixed nash equilibria
+is that even though players best respond to each other
+there might both still be some very bad outcomes that happen with positive
+probability and since there was a question on on paul everywhere about
+the payoffs let me address this right now because it fits nicely
+so the the payoffs that can be attained in a
+mixed nash equilibrium in this example is here the yellow set and the reason
+
+00:48
+why it doesn't extend all the way to the to the convex hall here is because
+whenever both players attach positive probability to crossing
+then we will get the crash with positive probability which is a very negative
+utility for both and in general the set of mixed or the set of
+utilities that can be attained in a mixed strategy will be will be smaller
+than the comics hull and it'll be strictly smaller whenever the
+the pure strategy utilities differ by the strategy of more than one one player
+so here the entire boundary is contained because we can attain the entire
+boundary when player two crosses and player one mixes
+then we'll get anything on this boundary but we can't attain this here because
+
+00:49
+both players have to mix in order to get something in between but
+if both players mix we will also get this very negative utility
+uh excuse me can you hear me yes i i want to ask uh some questions about
+this graph yes if like uh both players have like more than three
+strategy then we have more points on this graph and how can we
+like draw this mixed action payoff uh my suggestion is to use a computer
+that's how i i drew this um so what can we say in general um in
+general we can say that maybe okay oops ah so if we have two extreme payoffs
+
+00:50
+then any payoff in between are part of the strategy payoffs if
+they differ only by the strategy of one player so if let's say this is s i
+s minus i and this is as tilde i as minus i then this
+boundary here can be or the entire line segment can be obtained by mixing by
+player one at player i but if this is not the case if we have something here and
+it involves a very different strategy profile let's
+say by all opponents and typically the boundary will look something like this
+now deriving this analytically is quite complicated um you would have to find
+the entire set and then take the supremum over the set and then the
+derivative to find the boundary so that's why i suggest um
+
+00:51
+just use a computer to find instead of all utilities that can be attained in a
+mixed strategy thank you sorry i want to ask a following question
+yes if i use a traffic light can i reach the right above triangle that is not in
+the graph exactly if we use a traffic light then what we can attain
+is we can attain any distribution over over outcomes
+which is larger than the set of mixed strategies so if we have the correlation
+the public correlation then we can attain the entire convex hall
+
+00:52
+so this was a traffic light example okay then
+we can find all nash equilibrium by applying the indifference principle to
+all possible possible combinations of the support and that's also false
+um as we have seen in in the example here there are infinitely many
+and with indifference principle we only get three of them
+then about continuum of actions if we have an interval
+of pure strategies available then any strategy satisfying the two conditions
+is a best response let's see the conditions
+
+00:53
+so we have first order necessary in the second order sufficient condition um
+this is not necessarily true because it could be a local maximum
+so what could happen is if we draw the utility of player i
+if this is sort of oops the interval oof ah this is not a very nice graph
+let's just look at this then this point here
+would satisfy the two properties which means it's a local maximum
+but it's not the global maximum we see here the global maximum is a boundary
+plan right so this only means local maximum now typically
+in the games you encounter we have strict concavity in which case
+
+00:54
+local maximum is a global maximum if it's in the domain
+so in general this is false then the converse is also false
+because a boundary point does not satisfy these conditions
+right so not every best response satisfies those two
+in fact here the boundary point um the derivative is positive strictly positive
+and that's why we choose the highest possible point that we can choose
+it's increasing all the way to the edge and then
+
+00:55
+the maximum is obtained at the edge of the domain then the next one
+about existence a if your strategy nash equilibrium does
+not exist if the utility function fails to be upper semi-continuous um
+this is false um it's not guaranteed to exist but it might exist
+right so one thing to keep in mind if we look at these
+at these existence results is that even if they are not satisfied there
+might be a pure strategy nash equilibrium we just don't have a general
+proof for it it's important to keep in mind those are sufficient conditions
+
+00:56
+not necessary conditions and we have seen quite a few examples where there was a
+pure strategy nash equilibrium even though the utility function is not upper
+semicontinuous like the beach vendors example or the
+or somber trunk competitions also have the pure strategy equilibrium last
+last question which condition of kaputani's fixed point theorem fails to
+hold with a continuous action set and all conditions are satisfied i see that
+the students generally think that i will try to ask a trick question but
+if all the conditions are satisfied this would mean that the proof would work
+in for infinite strategy sets so this would mean we always had existence
+so something cannot hold so it's not possible that it's the last answer
+
+00:57
+otherwise we would have existence for all those games and
+here we just there's two ways how we can how we can find the right answer one is
+okay when we looked at these examples where there might not be an equilibrium
+what went wrong and we have seen that the best response correspondence
+sometimes is empty so here we had sometimes it was empty
+so this is one way how we can find out about which one is violated by looking
+at the examples we've looked at the other one is we go go back to the
+proof and see where have we needed there are finitely many and it was here
+that there are finitely many strategies and we have indeed used it to show that
+well if there's finitely many the maximum over finitely many strategies is
+
+00:58
+attained if we have infinitely many then we would get a supremum here
+instead of a maximum which is what happens precisely if we
+have an increasing utility where the end point is not included so then
+there might be um not there might not be a best response
+excuse me yes how do you see that xxx is always compact i i'm like yes so
+there's a famous result from from topology which says that
+um it's called pikonov's theorem and it says that the product of any compact
+space is compact um but but but now like if you have a a
+
+00:59
+continuous action set then how do you know that the distribution of the uh
+like you have infinite uh even action so how how do you know that the
+the set of distribution is complex um it's a good question um so
+i'm sure there is a theorem that says it's compact um
+the idea is or when would it not be compact and sort of if limit points
+were not included but so a distribution um has
+
+01:00
+reasonable limit properties in the sense that um
+what really makes a distribution is that the total weight assigned is one and
+it's non-negative and can we like uh because uh um baby supporters should be
+uh the atom should be countable and like like like
+doing limit with those atoms and i i don't know i'm just
+i don't think it's it doesn't have anything to do with the atoms um it's simply
+i mean the best way to illustrate this is unfortunately not in an infinite
+strategy space but in in a two strategy space and the set of all distributions
+is then given by the probability with which we choose let's say action one
+question one action two and then we have here the probability x
+
+01:01
+with which we choose it and the defining conditions of a distribution
+would here be that x is smaller or larger than zero then
+one minus x which is the probability of the other action is also larger or equal
+than zero and we have that the sum of the two is equal to one um [Music]
+maybe actually a better way to to write it is
+the the the set is clearly compared when
+when we are doing with finite actions so
+i'm sure but what i'm trying to say here is that because all of those are weak
+inequalities essentially they are robust to taking limits okay
+even if we have an infinite strategy spec space yeah yeah
+
+01:02
+that makes sense thank you okay then those were all the questions that i
+asked you and i will now go through some of the the
+questions from that you asked on um on paul everywhere
+and quite a few questions were here about condition three so let me walk you
+through the steps of this proof again so we try to find here is we try to
+show that this best response or mutual best response correspondence has
+a closed graph what does a closed graph mean it means that
+if we have some some sequence of of strategy profiles oops
+sequence of strategy profiles but then the limit point is
+
+01:03
+included so here we have sort of strategy profiles by eye's opponent and
+here on this dimension we have um the best response by player i
+and so in a sense that if along an approximating sequence
+we always choose the best response by player i then in the limit
+we also have to obtain a best response so formally we start with the end point
+here and we approximate the strategy profile with a sequence in the graph
+right so player i best responds to i's opponents
+now here for this proof we can do this for a fixed player i oops
+for a fixed player i which means that the other players don't
+necessarily have to best respond to each other this is just player i best
+
+01:04
+respond to i's opponents and we try to see yes there's a question
+and i don't know if i'm correct but like to use triangle inequality i think the
+fourth bullet point we should have ui uh sigma i naught s i
+because that we want to help triangle triangular equality so i
+think we should rely on the not not involved uh
+one to hold to state the triangle in quality when i read this i cannot quite
+understand yeah i'll get there s i should be
+correct here but let me let me just walk you through all this okay until we get
+there um yeah so now we so first we set up the proof with with
+this statement we have this approximating sequence where player i
+
+01:05
+best responds all along the sequence and we want to show that in the limit it
+has to imply a best response by player i and the typical way to prove it is to
+suppose that this is not true suppose that in the limit player i does not best
+respond this means there is a better response
+some pure strategy si that yields a strictly larger utility now the thing is
+that because we have this convergence and the utility
+is continuous in mixing it means that u i sigma i k sigma minus i k converges to
+[Music] the i sigma and this means that for some k sufficiently large ui sigma i
+
+01:06
+k minus sigma i k differs from the limit here by
+a small amount let's say smaller than epsilon half
+and actually we should probably use epsilon third third now we know that s i is
+epsilon better than sigma i we know that sigma i k sigma i or the the uh
+the approximation is that most of silence are different and we can also get um
+
+01:07
+we can also get that u i s i and sigma minus i k differs by u i s i sigma
+minus i by at most epsilon third and if we put all of these together we
+see that okay s i was better than or epsilon better than sigma i
+so first we can use this inequality to ensure that okay si um
+exceeds this payoff here by at least two epsilon thirds and exceeds um
+oh i'm making a mess here this should be sigma okay so that you just said here
+
+01:08
+this differs only by a third epsilon this differs
+only by a third of silence on the left in the end we still get an improvement
+by one-third epsilon and so in the limit so i guess if we use
+these intermediate steps this should be epsilon third here and
+but it still means that that this here would be epsilon third [Music]
+um it still means that s i is a strictly better response than
+than sigma ik and it's a contradiction that
+that along the sequence player i best responded to the others excuse me yes
+
+01:09
+i think that uh you cannot write sigma k here you you can only write s i sigma
+sigma negative i um um utility is continuous in any players mixing yeah so so
+but but si is not converged to sigma i so
+oh yeah that's correct yeah yeah we have to we have to only you look at the
+difference here from sigma k to this one here um so that should the the the
+uh the area here is sigma okay and that's that that is the last
+so it should be like s i sigma k negative i and s i so you can compare
+uh uisi sigma negative i k to to the first term and and the rest the the
+
+01:10
+second term yes and you can yeah correct thank you so uh [Music]
+another question about about the main concept of this proof is um
+what we were trying to say that if there is a convergence sequence
+in the graph then the limit is also in the graph but um
+if we do so then we cannot actually if we pick a point
+in the graph we cannot assure that the sigma ik is in bi sigma k in negative i
+so yes because that's the graph of b i so yeah but
+uh so so i i think you need to pick some like sigma i prime or something
+
+01:11
+like you need to pick another strategy to to to to
+to construct another conversion sequence so you have two companies
+one one is the profile and one is the point you pick in bi
+oh but so here we have let's say a visualization right so here we only
+approximate so like if you pick if you pick it up
+so that the graph is closed right so we need to look at a sequence in the graph
+yes right so any such sequence or any sigma
+which has such an approximating sequence
+right this is the condition that we need it's not true that we can
+approximate any strategy profile like this we can only
+um what we need is we need really an approximating sequence you know so
+
+01:12
+the sigma ik here is not um let me let me check the sigma ik here is not the the
+entry in the strategy profile of sigma k it is yes it is but
+it's not true that this works for arbitrary sigma right we choose
+a sequence of strategy profiles essentially choose i don't know
+let me just clear this work again okay so here we start with um a sequence
+sigma minus i k that approximates sigma minus i
+and for each of those we choose um sigma i in p i sigma minus i k
+
+01:13
+and then we define sigma k as consisting of all of those you need a case
+if there are more questions i i i i said the trick here thank you sorry what
+i i i i i know i know what you're saying now thank you good okay then
+okay this class has lasted already for quite a while so let me go through or
+show an example about mixing as well before we conclude the class so
+so those that we started with are by far the most the most important
+examples that you'll encounter but then there are some examples in which the
+
+01:14
+utility functions aren't extremely nice in which case we have
+pure strategy equilibrium if we have quasi concavity and
+they may not exist if we have discontinuous utilities um
+so for all these games with discontinuous utilities if they do exist
+pure strategy nash equilibria then they typically have the property that
+the utility function of each player is continuous in their own strategy given
+the equilibrium action of the opponents so we have seen this in
+in the vendors on the beach example where the utility function was
+the only way how it could be continuous is precisely in the nash equilibrium
+where both players choose one half and so it precisely had this property here
+
+01:15
+now in most games that we encounter in economic applications typically
+if the utility is discontinuous then typically this happens because we have
+some discontinuous division of the social surplus
+and the social surplus itself is continuous
+and in that case we have existence of a mixed nash equilibrium by das gupta and
+maskin and somebody asked me in the paul everywhere
+questions to look at an example one more example of a bertrand competition and
+let's try to find a pure or mixed strategy nash equilibrium
+here in the bertrand competition so one example
+that i mentioned earlier in the course was if we sell financial derivatives then
+this is typically a bertrand competition where we quote a price to to the buyer
+
+01:16
+so typically financial derivatives are sold by investment banks and they
+they insure themselves against the risk by hedging and so the price or the cost
+at which they can provide this financial derivative
+is essentially the cost at which they can hedge this derivative
+and typically commercial banks like like juan and bank
+would go to an investment bank to buy some financial derivatives and then the
+commercial bank tries to sell them to end users like you and me and they ask
+different investment banks for a quote they say i want to have
+a lot of call options on on this company and
+each investment bank quotes a price and then typically the commercial bank will
+choose to buy from whoever quoted the lowest price
+
+01:17
+and this precisely fits into the model of bertrand competition um
+the investment bank that quotes the lower price can sell
+um can satisfy the entire demand and if they quote the same price they
+will share demand equally now let's first see at pure strategy
+nash equilibria here so let's draw the utility function um if we
+code so let's fix some price of our opponent and our cost then
+our utility function has slope one is strictly increasing
+if we quote a lower price because then we satisfy the entire demand right so
+this function here is p i minus c i then if we quote the same price we sell half
+of it so it's precisely in between here and then if we quote a higher price we
+don't sell anything and our profit is zero
+
+01:18
+now let's turn this into a best response correspondence so if
+the opponent quotes a price that is higher than our cost then we don't have
+a best response right because it's discontinuous here if our opponent
+quotes exactly our cost then we're indifferent between um
+between selling and not selling because our profit will be zero in that case we
+have a best response so in that case the utility function would be would be
+like this right so it's we don't want to quote the price lower but
+quoting a price above or the same price doesn't matter because we'll always get
+zero and then if they quote a price that is lower then we want to overbid
+
+01:19
+our opponent because we would make a negative return so if we formalize this
+if our opponents go to higher price then there's no best response because we
+always want to just under bid by a very small amount if they quote
+our cost then anything above our cost is the best response
+and finally if they underbid our costs then we don't want to compete
+then anything where we don't sell anything is the best response now
+if we look at the consistency here then um
+so it's clear to see that our opponent cannot quote anything larger than our
+our cost in an equilibrium because otherwise we don't have a best response
+but they also can't really quote anything that is lower because if they
+quoted anything that is lower they always have a better response to quote
+something slightly closer to our cost right they want to be as close to our
+
+01:20
+cost as possible but just below it and so the only way for there to be in
+equilibrium is if both companies have the same marginal costs and
+the price is at the marginal cost now let's see if we can use this intuition
+to find a mixed strategy nash equilibrium and let's look at a parametrization
+where there is no pure strategy nash equilibrium so let's say one of the
+firms has a lower cost and in the example i mentioned with the
+financial derivatives would be that um let's say one bank underestimates the
+risk that is involved in this financial derivative
+
+01:21
+then it believes it can hedge it at a lower cost than it actually can so you
+would have the lower cost than the other firm and
+what could our guess be for a nash equilibrium well okay
+the more competitive firm bank one so let's say bank two does not want to
+quote anything below c2 and bank one definitely wants to underbid bank two
+by a tiny amount so our guess could be that
+if the equilibrium was any any quantity larger than c2
+then the first company would underbid it so
+what we have to have in the end is that the first firm sells at the price
+at the cost of firm two and this would be a
+there's no pure study in ash equilibrium
+
+01:22
+because there's a discontinuity there so we must have that
+firm 2 does not sell at that price but it sells it starts mixing at that price
+so let's see if we can turn that into a mixed nash equilibrium look at my notes
+um okay so so if bank one sets the price at the cost of
+bank two then bank two gets zero anyway so anything that they do
+
+01:23
+so any distribution so any f on c2 infinity is a best response for firm 2.
+and for firm 1 we had to have that there is no atom
+otherwise it would have an incentive to underbid
+and so for one we can compute the expect the utility so
+so it's the probability with which firm one quotes a lower price
+then firm two in that case the cell to the entire they satisfy the entire demand
+and this is precisely one minus f p1 so if they quote any price
+
+01:24
+this is their expected utility well if they quote the equilibrium price
+so on the path or maybe in equilibrium okay the in equilibrium the price is
+c2 minus c1 and they satisfy the entire demand
+so the only conditions that we have for a nash equilibrium is that this is
+larger or equal than one minus f p p minus c one and we can solve it for f p
+and it means f p has to be larger or equal than p minus c 2 over p minus c 1.
+
+01:25
+and that's it that's a mixed nash equilibrium with two conditions so the
+mixing starts at c2 but assigns probability zero to c2
+itself and then it increases sufficiently fast so that firm one does not have an
+incentive to deviate to a higher price and so this function here p minus c2
+this takes something of a form like that and so anything um
+any probability distribution c two so anything above it is fine so let's say a
+
+01:26
+a uniform distribution on some interval works are there any questions
+so if i were to ask you in an assignment
+to find such a mixed equilibrium i would typically give you
+the boundary point of the support so you have a place to start [Music]
+now in this case the indifference condition for the mixing player was
+trivially satisfied because they get zero for all their actions
+but in the video you have seen an example where we can use the
+indifference condition to uniquely pin down the distribution with which the
+
+01:27
+players have to mix good any questions all right if not then i would like to
+conclude the class here um let me emphasize that the really the most important
+applications of this week are if there are finitely many actions or
+utility functions are really nice now this one here takes some practice but
+you will get to practice in one of the assignments
+if you have additional questions that i didn't address um
+i'll stick around here let's we can just add an office hour right here to answer
+all the other questions but sort of the new material that we discuss um
+we will we will conclude the class here uh sorry i have a question a general
+
+01:28
+question oh can you hear me yes i can hear you so
+so uh i i i guess in general uh using gas and verify only helps us find some
+some equilibrium out of equilibrium and is that true
+what helps us find some but not all right so so using case and verify in the
+setting of mixing on continuous guessing and verifying yes and
+in that case how about those equilibria that we do not find or maybe we cannot
+find um so um oops um in this example here actually with asymmetric costs
+
+01:29
+uh it is unknown what all the mixed nash equilibria are um so
+in that case so it will always be enough to find one
+because typically it's so complicated to find all of them
+that i mean nobody has done it so far so i'm not gonna ask you to do it um yeah
+but yes it's true that this will only give you one equilibrium um
+but we're gonna be satisfied with one equilibrium in these instances
+okay thanks so i i mean i mean in general people criticize that
+well in research what problem we only find part of equilibrium are not all
+equally good um i mean so all it depends on the context
+so what we're typically happy with is if we find a reasonable equilibrium um
+
+01:30
+or the optimal equilibrium right so if we have a specific
+specific research question and we're trying to find um
+let's say a a climate agreement between different countries then if we can find
+the equilibrium that attains and so it's the pareto efficient equilibrium
+then typically it's enough to find that one
+so finding all of them is is not usually required um because
+yeah it could be intractable in many moments so it actually depends on how
+insightful the equilibrium is it's not dependent thank you
